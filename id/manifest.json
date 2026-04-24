@@ -1,0 +1,45 @@
+{
+  "format_version": 1,
+  "generated_at_utc": "2026-04-24T14:42:17.810405+00:00",
+  "source_language": "zh",
+  "target_language": "id",
+  "target_language_label": "Indonesian",
+  "matching_mode": "strict_schema_a_namespace_guid_records",
+  "scope_note": "Includes zh records that are absent from Indonesian or whose Indonesian value is empty/still source text. Official usable Indonesian records are intentionally excluded.",
+  "model": "gemini-3.1-flash-lite-preview",
+  "rpm_limit": 15,
+  "input_limit_bytes": 20480,
+  "source_files": {
+    "zh": "D:\\Claude\\HoK-World-EngPatch\\game\\extracted\\zh_game.locres",
+    "id": "D:\\Claude\\HoK-World-EngPatch\\game\\extracted\\id_game.locres"
+  },
+  "output_dir": "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\id",
+  "record_count": 21048,
+  "reason_counts": {
+    "id_still_source": 3520,
+    "missing_in_id": 17528
+  },
+  "unique_source_count": 9486,
+  "resolved_without_gemini_count": 312,
+  "pending_source_count": 9174,
+  "batch_count": 108,
+  "dry_run": false,
+  "github": {
+    "enabled": true,
+    "owner": "Lani27",
+    "repo": "hokworld-additional-translations",
+    "branch": "main",
+    "base_path": "id"
+  },
+  "translated_record_count": 21048,
+  "passthrough_record_count": 0,
+  "pending_record_count": 0,
+  "empty_record_count": 0,
+  "additional_entries_validation": {
+    "valid": true,
+    "entry_count": 21048,
+    "usable_count": 21044,
+    "skipped_count": 0,
+    "errors": []
+  }
+}
