@@ -1,10 +1,10 @@
 {
   "format_version": 1,
-  "generated_at_utc": "2026-04-24T15:08:49.457720+00:00",
+  "generated_at_utc": "2026-04-24T15:52:56.120743+00:00",
   "source_language": "zh",
   "target_language": "ja",
   "target_language_label": "Japanese",
-  "matching_mode": "strict_schema_a_namespace_guid_records",
+  "matching_mode": "strict_schema_a_namespace_guid_source_hash_records",
   "scope_note": "Includes zh records that are absent from Japanese or whose Japanese value is empty/still source text. Official usable Japanese records are intentionally excluded.",
   "model": "gemini-3.1-flash-lite-preview",
   "rpm_limit": 15,
@@ -14,15 +14,15 @@
     "ja": "D:\\Claude\\HoK-World-EngPatch\\game\\extracted\\ja_game.locres"
   },
   "output_dir": "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\ja",
-  "record_count": 25661,
+  "record_count": 25692,
   "reason_counts": {
     "ja_still_source": 2091,
-    "missing_in_ja": 23570
+    "missing_in_ja": 23601
   },
-  "unique_source_count": 6097,
-  "resolved_without_gemini_count": 0,
-  "pending_source_count": 6097,
-  "batch_count": 54,
+  "unique_source_count": 6110,
+  "resolved_without_gemini_count": 6097,
+  "pending_source_count": 13,
+  "batch_count": 1,
   "dry_run": false,
   "github": {
     "enabled": true,
@@ -31,14 +31,14 @@
     "branch": "main",
     "base_path": "ja"
   },
-  "translated_record_count": 25661,
+  "translated_record_count": 25692,
   "passthrough_record_count": 0,
   "pending_record_count": 0,
   "empty_record_count": 0,
   "additional_entries_validation": {
     "valid": true,
-    "entry_count": 25661,
-    "usable_count": 25661,
+    "entry_count": 25692,
+    "usable_count": 25692,
     "skipped_count": 0,
     "errors": []
   }
