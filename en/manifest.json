@@ -1,6 +1,6 @@
 {
   "format_version": 1,
-  "generated_at_utc": "2026-04-24T13:12:25.786121+00:00",
+  "generated_at_utc": "2026-04-24T13:28:09.931870+00:00",
   "source_language": "zh",
   "target_language": "en",
   "matching_mode": "strict_schema_a_namespace_guid_records",
@@ -13,16 +13,16 @@
     "en": "D:\\Claude\\HoK-World-EngPatch\\game\\extracted\\en_game.locres"
   },
   "output_dir": "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\en",
-  "record_count": 3150,
+  "record_count": 1094,
   "reason_counts": {
     "en_empty": 4,
     "en_still_chinese": 81,
-    "missing_in_en": 3065
+    "missing_in_en": 1009
   },
-  "unique_source_count": 1133,
-  "resolved_without_gemini_count": 878,
-  "pending_source_count": 255,
-  "batch_count": 4,
+  "unique_source_count": 409,
+  "resolved_without_gemini_count": 409,
+  "pending_source_count": 0,
+  "batch_count": 0,
   "dry_run": false,
   "github": {
     "enabled": true,
@@ -32,7 +32,7 @@
     "base_path": "en"
   },
   "translated_record_count": 1094,
-  "passthrough_record_count": 2056,
+  "passthrough_record_count": 0,
   "pending_record_count": 0,
   "empty_record_count": 0
 }
