@@ -1,11 +1,12 @@
 {
   "format_version": 1,
-  "generated_at_utc": "2026-04-24T13:30:42.061211+00:00",
+  "generated_at_utc": "2026-04-24T15:54:17.194186+00:00",
   "source_language": "zh",
   "target_language": "en",
-  "matching_mode": "strict_schema_a_namespace_guid_records",
-  "scope_note": "Includes zh records that are absent from English or whose English value is empty/still Chinese. Official non-Chinese English records are intentionally excluded.",
-  "model": "gemini-2.5-flash-lite",
+  "target_language_label": "English",
+  "matching_mode": "strict_schema_a_namespace_guid_source_hash_records",
+  "scope_note": "Includes zh records that are absent from English or whose English value is empty/still source text. Official usable English records are intentionally excluded.",
+  "model": "gemini-3.1-flash-lite-preview",
   "rpm_limit": 15,
   "input_limit_bytes": 20480,
   "source_files": {
@@ -13,26 +14,33 @@
     "en": "D:\\Claude\\HoK-World-EngPatch\\game\\extracted\\en_game.locres"
   },
   "output_dir": "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\en",
-  "record_count": 517,
+  "record_count": 548,
   "reason_counts": {
     "en_empty": 4,
     "en_still_chinese": 81,
-    "missing_in_en": 432
+    "missing_in_en": 463
   },
-  "unique_source_count": 408,
+  "unique_source_count": 421,
   "resolved_without_gemini_count": 408,
-  "pending_source_count": 0,
-  "batch_count": 0,
-  "dry_run": true,
+  "pending_source_count": 13,
+  "batch_count": 1,
+  "dry_run": false,
   "github": {
-    "enabled": false,
-    "owner": "",
-    "repo": "",
+    "enabled": true,
+    "owner": "Lani27",
+    "repo": "hokworld-additional-translations",
     "branch": "main",
     "base_path": "en"
   },
-  "translated_record_count": 517,
+  "translated_record_count": 548,
   "passthrough_record_count": 0,
   "pending_record_count": 0,
-  "empty_record_count": 0
+  "empty_record_count": 0,
+  "additional_entries_validation": {
+    "valid": true,
+    "entry_count": 548,
+    "usable_count": 548,
+    "skipped_count": 0,
+    "errors": []
+  }
 }
