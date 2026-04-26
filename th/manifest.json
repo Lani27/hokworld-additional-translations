@@ -1,6 +1,6 @@
 {
   "format_version": 1,
-  "generated_at_utc": "2026-04-26T09:34:56.537941+00:00",
+  "generated_at_utc": "2026-04-26T09:51:46.730408+00:00",
   "source_language": "zh",
   "target_language": "th",
   "target_language_label": "Thai",
@@ -13,14 +13,180 @@
     "zh": "D:\\Claude\\HoK-World-EngPatch\\game\\extracted\\zh_game.locres",
     "th": "D:\\Claude\\HoK-World-EngPatch\\game\\extracted\\th_game.locres",
     "dialogue_route_manifest": "D:\\Claude\\HoK-World-EngPatch\\tool\\assets\\known_cooked_text_dialogue_expand_manifest.json.gz",
-    "dialogue_coverage_reports": []
+    "dialogue_coverage_reports": [
+      "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\th\\missing_dialogue_coverage_th.json"
+    ]
   },
-  "locres_refresh": null,
+  "locres_refresh": {
+    "generated_at_utc": "2026-04-26T09:51:10.663414+00:00",
+    "game_folder": "C:\\Program Files\\KingLauncher\\HOKWorld\\WindowsNoEditor\\NGR",
+    "package_one": "C:\\Program Files\\KingLauncher\\HOKWorld\\WindowsNoEditor\\NGR\\Content\\Paks\\1",
+    "paks_root": "C:\\Program Files\\KingLauncher\\HOKWorld\\WindowsNoEditor\\NGR\\Content\\Paks",
+    "out_dir": "D:\\Claude\\HoK-World-EngPatch\\game\\extracted",
+    "check_zh_vanilla": true,
+    "languages": {
+      "zh": {
+        "language": "zh",
+        "label": "Chinese (Simplified)",
+        "output": "D:\\Claude\\HoK-World-EngPatch\\game\\extracted\\zh_game.locres",
+        "package": "1",
+        "file_hash": "0x3DF5CB6E22EAE2DC",
+        "source": "known_hash",
+        "size": 57057533,
+        "sha256": "bfb1f672ae72c2a1380439107cf290cb46f3292010a59809ce114ff33ea65a00",
+        "namespace_count": 40517,
+        "record_count": 442356,
+        "scan_meta": {},
+        "zh_vanilla_check": {
+          "records": 442356,
+          "nonempty_records": 442356,
+          "records_with_cjk": 436758,
+          "records_with_cjk_ratio": 0.9873450343162521,
+          "records_with_cjk_pct": 98.73,
+          "records_with_latin": 15353,
+          "latin_no_cjk_records": 1564,
+          "english_word_no_cjk_records": 8,
+          "unstructured_namespaces": 0,
+          "englishish_no_cjk_samples": [
+            {
+              "namespace": "/Game/Data/DataTables/LocalText/DT_LocalizeText_Homestead",
+              "guid": "7E1096BC47B3889C2C01B8A2B0822B71",
+              "row": "Home_FurnitureOperate_Buy",
+              "text": "<img src=\"/Game/UI/Icons/Item/Icon_Money_CreationMoney.Icon_Money_CreationMoney\"/>{0}"
+            },
+            {
+              "namespace": "/Game/Data/DataTables/LocalText/DT_LocalizeText_Homestead",
+              "guid": "11E4A0FD4CBE61AF136877AB93014F40",
+              "row": "HomesteadDispatch_TopLogLevelUp",
+              "text": "<img src=\"/Game/UI/Icons/Item/Icon_Money_CreationMoney.Icon_Money_CreationMoney\"/>-{0}  <img src=\"/Game/UI/Icons/Item/Icon_Item_Exp_1.Icon_Item_Exp_1\"/>+{1}"
+            },
+            {
+              "namespace": "/Game/Data/DataTables/LocalText/DT_LocalizeText_Homestead",
+              "guid": "ED2A00614DD252C068B8E3A627822628",
+              "row": "HomesteadDispatch_TopLogLevelUpMaxLevel",
+              "text": "<img src=\"/Game/UI/Icons/Item/Icon_Item_Exp_1.Icon_Item_Exp_1\"/>-{0}"
+            },
+            {
+              "namespace": "/Game/Data/DataTables/CombatGrowth/SkillGrowth/DT_SkillGrowth_LengChun",
+              "guid": "2927A09B493D8CFE8A42389D49992D0E",
+              "row": "170300_1",
+              "text": "#damage#"
+            },
+            {
+              "namespace": "/Game/Data/DataTables/CombatGrowth/SkillGrowth/DT_SkillGrowth_WZJ",
+              "guid": "25C554D647B35803EBD503B5D5A7907F",
+              "row": "70401_1",
+              "text": "#damage#×10"
+            },
+            {
+              "namespace": "/Game/Data/DataTables/LocalText/DT_LocalizeText_MissionHandbook",
+              "guid": "1174EEC7478E91987BB57C949FC80997",
+              "row": "MissionHandAwakeningCountText",
+              "text": "<img src=\"/Game/UI/Icons/Item/T_UI_Icon_Item_Plateau_Awake\"/>{0}"
+            },
+            {
+              "namespace": "/Game/Data/DataTables/LocalText/DT_LocalizeText_Expo",
+              "guid": "121F938B4790DDE3F64BF283D8C31E36",
+              "row": "Expo_LimitedTimePopupTitleText",
+              "text": "This experience has now concluded,\r\nthank you for your participation."
+            },
+            {
+              "namespace": "/Game/UI/Widgets/Libraries/LibLittleTipsTitle_Widget",
+              "guid": "736598874C6003FC41CAE3A8AD941E99",
+              "row": "",
+              "text": "After completion, you can improve the resonance attribute."
+            }
+          ],
+          "minimum_cjk_ratio": 0.7,
+          "minimum_cjk_records": 100000,
+          "vanilla": true
+        }
+      },
+      "en": {
+        "language": "en",
+        "label": "English",
+        "output": "D:\\Claude\\HoK-World-EngPatch\\game\\extracted\\en_game.locres",
+        "package": "1058",
+        "file_hash": "0xB5CCB9D7FBFC0265",
+        "source": "known_hash",
+        "size": 63307430,
+        "sha256": "f9f96c38ab4eed0efde954737e696eede0c7cd201a3b68ba542f1a4a80be1076",
+        "namespace_count": 40380,
+        "record_count": 438750,
+        "scan_meta": {}
+      },
+      "id": {
+        "language": "id",
+        "label": "Indonesian",
+        "output": "D:\\Claude\\HoK-World-EngPatch\\game\\extracted\\id_game.locres",
+        "package": "1058",
+        "file_hash": "0xC1548CD1559E5463",
+        "source": "known_hash",
+        "size": 62336406,
+        "sha256": "a19d68bc6b2227c9bcee169cf209138c88255b32a55fca3d6bbb066c04e0d548",
+        "namespace_count": 39916,
+        "record_count": 417546,
+        "scan_meta": {}
+      },
+      "ja": {
+        "language": "ja",
+        "label": "Japanese",
+        "output": "D:\\Claude\\HoK-World-EngPatch\\game\\extracted\\ja_game.locres",
+        "package": "1058",
+        "file_hash": "0x8C3AEDB707F12505",
+        "source": "known_hash",
+        "size": 58448057,
+        "sha256": "324c25add94f28d893ac1a001fd3fe4575d5c515d0b05133f6303e78b94d4307",
+        "namespace_count": 39954,
+        "record_count": 411309,
+        "scan_meta": {}
+      },
+      "ko": {
+        "language": "ko",
+        "label": "Korean",
+        "output": "D:\\Claude\\HoK-World-EngPatch\\game\\extracted\\ko_game.locres",
+        "package": "1058",
+        "file_hash": "0xD1532B9883D3BE6A",
+        "source": "known_hash",
+        "size": 62683650,
+        "sha256": "7a65a3509e678fde1cb1cf2e292dc48cabe695d34371b44df6f645967d0139da",
+        "namespace_count": 40043,
+        "record_count": 427358,
+        "scan_meta": {}
+      },
+      "pt-BR": {
+        "language": "pt-BR",
+        "label": "Portuguese (Brazil)",
+        "output": "D:\\Claude\\HoK-World-EngPatch\\game\\extracted\\pt-BR_game.locres",
+        "package": "1058",
+        "file_hash": "0xC13EBCA53C4666D7",
+        "source": "known_hash",
+        "size": 78365076,
+        "sha256": "fff74097badc560a9466827322548a7902ffa9ca4807e2b84df9df82824f8578",
+        "namespace_count": 40017,
+        "record_count": 421836,
+        "scan_meta": {}
+      },
+      "th": {
+        "language": "th",
+        "label": "Thai",
+        "output": "D:\\Claude\\HoK-World-EngPatch\\game\\extracted\\th_game.locres",
+        "package": "1058",
+        "file_hash": "0x78F6432084D01C12",
+        "source": "known_hash",
+        "size": 79907275,
+        "sha256": "5b7a4d94e839c8b22d698d736e920103830500ef7ef04556109e6b5c232f84fd",
+        "namespace_count": 40411,
+        "record_count": 434466,
+        "scan_meta": {}
+      }
+    },
+    "manifest_path": "D:\\Claude\\HoK-World-EngPatch\\game\\extracted\\current_locres_manifest.json"
+  },
   "output_dir": "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\th",
-  "record_count": 557,
+  "record_count": 2,
   "reason_counts": {
-    "missing_in_th": 507,
-    "th_still_source": 50
+    "th_still_source": 2
   },
   "dialogue_route_coverage": {
     "enabled": true,
@@ -36,9 +202,11 @@
     "include_hidden_placeholders": false
   },
   "dialogue_coverage_report": {
-    "enabled": false,
-    "reports": [],
-    "report_count": 0,
+    "enabled": true,
+    "reports": [
+      "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\th\\missing_dialogue_coverage_th.json"
+    ],
+    "report_count": 1,
     "row_count": 0,
     "selected_language_row_count": 0,
     "added_record_count": 0,
@@ -53,16 +221,16 @@
     "force": false
   },
   "existing_additional_entries": {
-    "loaded_count": 1899,
-    "usable_skipped_candidate_count": 1656,
+    "loaded_count": 2399,
+    "usable_skipped_candidate_count": 2211,
     "force": false
   },
-  "unique_source_count": 408,
-  "resolved_without_gemini_count": 119,
-  "pending_source_count": 289,
-  "batch_count": 5,
+  "unique_source_count": 2,
+  "resolved_without_gemini_count": 0,
+  "pending_source_count": 2,
+  "batch_count": 1,
   "max_translation_passes": 3,
-  "invalid_cached_source_count": 57,
+  "invalid_cached_source_count": 0,
   "dry_run": false,
   "github": {
     "enabled": true,
@@ -75,17 +243,17 @@
   "passthrough_record_count": 0,
   "pending_record_count": 2,
   "empty_record_count": 0,
-  "invalid_translation_output_count": 31,
+  "invalid_translation_output_count": 6,
   "skipped_translation_output_count": 0,
-  "translation_request_batch_count": 7,
+  "translation_request_batch_count": 3,
   "unresolved_source_count": 2,
   "additional_entries_merge": {
-    "existing_input_count": 1899,
-    "generated_input_count": 557,
-    "existing_preserved_count": 1842,
+    "existing_input_count": 2399,
+    "generated_input_count": 2,
+    "existing_preserved_count": 2397,
     "existing_kept_over_generated_count": 0,
-    "generated_replaced_existing_count": 57,
-    "generated_added_count": 500
+    "generated_replaced_existing_count": 2,
+    "generated_added_count": 0
   },
   "additional_entries_validation": {
     "valid": true,
@@ -95,10 +263,12 @@
     "errors": []
   },
   "dialogue_coverage_validation": {
-    "enabled": false,
-    "report_count": 0,
+    "enabled": true,
+    "report_count": 1,
     "row_count": 0,
     "selected_language_row_count": 0,
+    "candidate_row_count": 0,
+    "filtered_source_count": 0,
     "covered_count": 0,
     "additional_entries_covered_count": 0,
     "final_pool_covered_count": 0,
