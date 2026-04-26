@@ -1,28 +1,68 @@
 {
   "format_version": 1,
-  "generated_at_utc": "2026-04-24T15:52:31.421459+00:00",
+  "generated_at_utc": "2026-04-26T09:30:16.752937+00:00",
   "source_language": "zh",
   "target_language": "ko",
   "target_language_label": "Korean",
-  "matching_mode": "strict_schema_a_namespace_guid_source_hash_records",
-  "scope_note": "Includes zh records that are absent from Korean or whose Korean value is empty/still source text. Official usable Korean records are intentionally excluded.",
+  "matching_mode": "strict_schema_a_namespace_guid_source_hash_records_plus_dialogue_coverage",
+  "scope_note": "Includes zh records that are absent from Korean, whose Korean value is empty/still source text, or that are required by dialogue coverage inputs and lack usable Korean coverage. Official usable Korean records are intentionally excluded.",
   "model": "gemini-3.1-flash-lite-preview",
   "rpm_limit": 15,
   "input_limit_bytes": 20480,
   "source_files": {
     "zh": "D:\\Claude\\HoK-World-EngPatch\\game\\extracted\\zh_game.locres",
-    "ko": "D:\\Claude\\HoK-World-EngPatch\\game\\extracted\\ko_game.locres"
+    "ko": "D:\\Claude\\HoK-World-EngPatch\\game\\extracted\\ko_game.locres",
+    "dialogue_route_manifest": "D:\\Claude\\HoK-World-EngPatch\\tool\\assets\\known_cooked_text_dialogue_expand_manifest.json.gz",
+    "dialogue_coverage_reports": []
   },
+  "locres_refresh": null,
   "output_dir": "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\ko",
-  "record_count": 8303,
+  "record_count": 556,
   "reason_counts": {
-    "ko_still_source": 456,
-    "missing_in_ko": 7847
+    "ko_still_source": 17,
+    "missing_in_ko": 539
   },
-  "unique_source_count": 2147,
-  "resolved_without_gemini_count": 2147,
-  "pending_source_count": 0,
-  "batch_count": 0,
+  "dialogue_route_coverage": {
+    "enabled": true,
+    "manifest": "D:\\Claude\\HoK-World-EngPatch\\tool\\assets\\known_cooked_text_dialogue_expand_manifest.json.gz",
+    "required_unique_key_count": 201357,
+    "required_occurrence_count": 201490,
+    "already_covered_key_count": 199554,
+    "already_candidate_key_count": 1210,
+    "missing_zh_source_key_count": 0,
+    "filtered_source_key_count": 593,
+    "added_key_count": 0,
+    "added_record_count": 0,
+    "include_hidden_placeholders": false
+  },
+  "dialogue_coverage_report": {
+    "enabled": false,
+    "reports": [],
+    "report_count": 0,
+    "row_count": 0,
+    "selected_language_row_count": 0,
+    "added_record_count": 0,
+    "duplicate_record_count": 0,
+    "existing_usable_record_count": 0,
+    "filtered_source_count": 0,
+    "missing_required_field_count": 0,
+    "missing_source_text_count": 0,
+    "missing_report_count": 0,
+    "skipped_other_language_count": 0,
+    "unresolved_zh_record_count": 0,
+    "force": false
+  },
+  "existing_additional_entries": {
+    "loaded_count": 8303,
+    "usable_skipped_candidate_count": 8083,
+    "force": false
+  },
+  "unique_source_count": 417,
+  "resolved_without_gemini_count": 97,
+  "pending_source_count": 320,
+  "batch_count": 5,
+  "max_translation_passes": 3,
+  "invalid_cached_source_count": 0,
   "dry_run": false,
   "github": {
     "enabled": true,
@@ -31,15 +71,37 @@
     "branch": "main",
     "base_path": "ko"
   },
-  "translated_record_count": 8303,
+  "translated_record_count": 8758,
   "passthrough_record_count": 0,
-  "pending_record_count": 0,
+  "pending_record_count": 45,
   "empty_record_count": 0,
+  "invalid_translation_output_count": 134,
+  "skipped_translation_output_count": 0,
+  "translation_request_batch_count": 9,
+  "unresolved_source_count": 37,
+  "additional_entries_merge": {
+    "existing_input_count": 8303,
+    "generated_input_count": 556,
+    "existing_preserved_count": 8247,
+    "existing_kept_over_generated_count": 0,
+    "generated_replaced_existing_count": 56,
+    "generated_added_count": 500
+  },
   "additional_entries_validation": {
     "valid": true,
-    "entry_count": 8303,
-    "usable_count": 8234,
-    "skipped_count": 0,
+    "entry_count": 8803,
+    "usable_count": 8745,
+    "skipped_count": 45,
     "errors": []
+  },
+  "dialogue_coverage_validation": {
+    "enabled": false,
+    "report_count": 0,
+    "row_count": 0,
+    "selected_language_row_count": 0,
+    "covered_count": 0,
+    "missing_count": 0,
+    "remaining_missing": [],
+    "validated_against": "final_merged_pool"
   }
 }
