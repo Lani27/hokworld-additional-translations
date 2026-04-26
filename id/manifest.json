@@ -1,28 +1,45 @@
 {
   "format_version": 1,
-  "generated_at_utc": "2026-04-24T15:51:53.389300+00:00",
+  "generated_at_utc": "2026-04-26T09:12:50.894171+00:00",
   "source_language": "zh",
   "target_language": "id",
   "target_language_label": "Indonesian",
-  "matching_mode": "strict_schema_a_namespace_guid_source_hash_records",
-  "scope_note": "Includes zh records that are absent from Indonesian or whose Indonesian value is empty/still source text. Official usable Indonesian records are intentionally excluded.",
+  "matching_mode": "strict_schema_a_namespace_guid_source_hash_records_plus_dialogue_route_keys",
+  "scope_note": "Includes zh records that are absent from Indonesian, whose Indonesian value is empty/still source text, or that are required by the dialogue route manifest and lack usable Indonesian coverage. Official usable Indonesian records are intentionally excluded.",
   "model": "gemini-3.1-flash-lite-preview",
   "rpm_limit": 15,
   "input_limit_bytes": 20480,
   "source_files": {
     "zh": "D:\\Claude\\HoK-World-EngPatch\\game\\extracted\\zh_game.locres",
-    "id": "D:\\Claude\\HoK-World-EngPatch\\game\\extracted\\id_game.locres"
+    "id": "D:\\Claude\\HoK-World-EngPatch\\game\\extracted\\id_game.locres",
+    "dialogue_route_manifest": "D:\\Claude\\HoK-World-EngPatch\\tool\\assets\\known_cooked_text_dialogue_expand_manifest.json.gz"
   },
+  "locres_refresh": null,
   "output_dir": "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\id",
-  "record_count": 21079,
+  "record_count": 21381,
   "reason_counts": {
     "id_still_source": 3520,
-    "missing_in_id": 17559
+    "missing_in_id": 17861
   },
-  "unique_source_count": 9499,
-  "resolved_without_gemini_count": 9486,
-  "pending_source_count": 13,
+  "dialogue_route_coverage": {
+    "enabled": true,
+    "manifest": "D:\\Claude\\HoK-World-EngPatch\\tool\\assets\\known_cooked_text_dialogue_expand_manifest.json.gz",
+    "required_unique_key_count": 201357,
+    "required_occurrence_count": 201490,
+    "already_covered_key_count": 197361,
+    "already_candidate_key_count": 3403,
+    "missing_zh_source_key_count": 0,
+    "filtered_source_key_count": 593,
+    "added_key_count": 0,
+    "added_record_count": 0,
+    "include_hidden_placeholders": false
+  },
+  "unique_source_count": 9697,
+  "resolved_without_gemini_count": 9696,
+  "pending_source_count": 1,
   "batch_count": 1,
+  "max_translation_passes": 3,
+  "invalid_cached_source_count": 0,
   "dry_run": false,
   "github": {
     "enabled": true,
@@ -31,15 +48,19 @@
     "branch": "main",
     "base_path": "id"
   },
-  "translated_record_count": 21079,
+  "translated_record_count": 21380,
   "passthrough_record_count": 0,
-  "pending_record_count": 0,
+  "pending_record_count": 1,
   "empty_record_count": 0,
+  "invalid_translation_output_count": 3,
+  "skipped_translation_output_count": 0,
+  "translation_request_batch_count": 3,
+  "unresolved_source_count": 1,
   "additional_entries_validation": {
     "valid": true,
-    "entry_count": 21079,
-    "usable_count": 21075,
-    "skipped_count": 0,
+    "entry_count": 21381,
+    "usable_count": 21380,
+    "skipped_count": 1,
     "errors": []
   }
 }
