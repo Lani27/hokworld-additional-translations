@@ -5,7 +5,7 @@
   "target_language_label": "English",
   "matching_mode": "strict_schema_a_namespace_guid_source_hash_records_plus_dialogue_coverage",
   "model": "gemini-3.1-flash-lite-preview",
-  "generated_at_utc": "2026-04-27T13:21:46.641661+00:00",
+  "generated_at_utc": "2026-04-27T13:42:09.747767+00:00",
   "entries": [
     {
       "namespace": "/Game/Data/DataTables/Appearance/AppearanceClothing/DT_Appearance_Clothing_Hair",
