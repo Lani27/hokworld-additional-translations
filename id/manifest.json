@@ -1,6 +1,6 @@
 {
   "format_version": 1,
-  "generated_at_utc": "2026-04-27T13:22:21.611599+00:00",
+  "generated_at_utc": "2026-04-27T13:42:34.623057+00:00",
   "source_language": "zh",
   "target_language": "id",
   "target_language_label": "Indonesian",
@@ -19,9 +19,9 @@
   },
   "locres_refresh": null,
   "output_dir": "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\id",
-  "record_count": 164,
+  "record_count": 1,
   "reason_counts": {
-    "missing_in_id": 164
+    "missing_in_id": 1
   },
   "dialogue_route_coverage": {
     "enabled": true,
@@ -56,13 +56,13 @@
     "force": false
   },
   "existing_additional_entries": {
-    "loaded_count": 21381,
-    "usable_skipped_candidate_count": 21215,
+    "loaded_count": 21544,
+    "usable_skipped_candidate_count": 21378,
     "force": false
   },
-  "unique_source_count": 132,
-  "resolved_without_gemini_count": 130,
-  "pending_source_count": 2,
+  "unique_source_count": 1,
+  "resolved_without_gemini_count": 0,
+  "pending_source_count": 1,
   "batch_count": 1,
   "max_translation_passes": 3,
   "invalid_cached_source_count": 0,
@@ -83,12 +83,12 @@
   "translation_request_batch_count": 3,
   "unresolved_source_count": 1,
   "additional_entries_merge": {
-    "existing_input_count": 21381,
-    "generated_input_count": 164,
-    "existing_preserved_count": 21380,
+    "existing_input_count": 21544,
+    "generated_input_count": 1,
+    "existing_preserved_count": 21543,
     "existing_kept_over_generated_count": 0,
     "generated_replaced_existing_count": 1,
-    "generated_added_count": 163
+    "generated_added_count": 0
   },
   "additional_entries_validation": {
     "valid": true,
