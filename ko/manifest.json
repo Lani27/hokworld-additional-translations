@@ -1,6 +1,6 @@
 {
   "format_version": 1,
-  "generated_at_utc": "2026-04-26T09:54:08.028611+00:00",
+  "generated_at_utc": "2026-04-27T13:26:18.885905+00:00",
   "source_language": "zh",
   "target_language": "ko",
   "target_language_label": "Korean",
@@ -19,20 +19,20 @@
   },
   "locres_refresh": null,
   "output_dir": "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\ko",
-  "record_count": 46,
+  "record_count": 184,
   "reason_counts": {
     "ko_still_source": 10,
-    "missing_in_ko": 36
+    "missing_in_ko": 174
   },
   "dialogue_route_coverage": {
     "enabled": true,
     "manifest": "D:\\Claude\\HoK-World-EngPatch\\tool\\assets\\known_cooked_text_dialogue_expand_manifest.json.gz",
-    "required_unique_key_count": 201357,
-    "required_occurrence_count": 201490,
+    "required_unique_key_count": 201491,
+    "required_occurrence_count": 201627,
     "already_covered_key_count": 199554,
-    "already_candidate_key_count": 1210,
+    "already_candidate_key_count": 1343,
     "missing_zh_source_key_count": 0,
-    "filtered_source_key_count": 593,
+    "filtered_source_key_count": 594,
     "added_key_count": 0,
     "added_record_count": 0,
     "include_hidden_placeholders": false
@@ -43,10 +43,10 @@
       "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\ko\\missing_dialogue_coverage_ko.json"
     ],
     "report_count": 1,
-    "row_count": 4,
-    "selected_language_row_count": 4,
+    "row_count": 11,
+    "selected_language_row_count": 11,
     "added_record_count": 0,
-    "duplicate_record_count": 4,
+    "duplicate_record_count": 11,
     "existing_usable_record_count": 0,
     "filtered_source_count": 0,
     "missing_required_field_count": 0,
@@ -58,13 +58,13 @@
   },
   "existing_additional_entries": {
     "loaded_count": 8639,
-    "usable_skipped_candidate_count": 8593,
+    "usable_skipped_candidate_count": 8455,
     "force": false
   },
-  "unique_source_count": 39,
-  "resolved_without_gemini_count": 0,
-  "pending_source_count": 39,
-  "batch_count": 1,
+  "unique_source_count": 151,
+  "resolved_without_gemini_count": 111,
+  "pending_source_count": 40,
+  "batch_count": 2,
   "max_translation_passes": 3,
   "invalid_cached_source_count": 0,
   "dry_run": false,
@@ -75,41 +75,51 @@
     "branch": "main",
     "base_path": "ko"
   },
-  "translated_record_count": 8593,
+  "translated_record_count": 8731,
   "passthrough_record_count": 0,
-  "pending_record_count": 46,
+  "pending_record_count": 71,
   "empty_record_count": 0,
-  "invalid_translation_output_count": 117,
-  "skipped_translation_output_count": 0,
-  "translation_request_batch_count": 3,
+  "invalid_translation_output_count": 116,
+  "skipped_translation_output_count": 1,
+  "translation_request_batch_count": 4,
   "unresolved_source_count": 39,
   "additional_entries_merge": {
     "existing_input_count": 8639,
-    "generated_input_count": 46,
-    "existing_preserved_count": 8593,
+    "generated_input_count": 184,
+    "existing_preserved_count": 8618,
     "existing_kept_over_generated_count": 0,
-    "generated_replaced_existing_count": 46,
-    "generated_added_count": 0
+    "generated_replaced_existing_count": 21,
+    "generated_added_count": 163
   },
   "additional_entries_validation": {
     "valid": true,
-    "entry_count": 8639,
-    "usable_count": 8593,
-    "skipped_count": 46,
+    "entry_count": 8802,
+    "usable_count": 8731,
+    "skipped_count": 71,
     "errors": []
   },
   "dialogue_coverage_validation": {
     "enabled": true,
     "report_count": 1,
-    "row_count": 4,
+    "row_count": 11,
     "selected_language_row_count": 0,
-    "candidate_row_count": 4,
+    "candidate_row_count": 11,
     "filtered_source_count": 0,
     "covered_count": 0,
     "additional_entries_covered_count": 0,
     "final_pool_covered_count": 0,
-    "missing_count": 4,
+    "missing_count": 11,
     "remaining_missing": [
+      {
+        "namespace": "/Game/Data/ExportDialogues/BigWorldBl01L1/BigWorldBl01L1_SSR/ShuoShuChangZhuTest/DT_DialogueInfo_BigWorldBl01L1_SSR_ShuoShuChangZhuTest",
+        "guid": "BigWorldBl01L1_SSR_ShuoShuChangZhuTest_11_ShuoShuRenAnYu_DialogueText",
+        "source_text": "嗬，墙上字画虽粗陋，题着“快意恩仇”四字，笔力遒劲，倒也不俗。"
+      },
+      {
+        "namespace": "/Game/Data/ExportDialogues/BigWorldCl02/BigWorldCl02_XZFWNPC/WanShangKanShuMoDaoNan/DT_DialogueInfo_BigWorldCl02_XZFWNPC_WanShangKanShuMoDaoNan",
+        "guid": "BigWorldCl02_XZFWNPC_WanShangKanShuMoDaoNan_03_HuZhiXue_DialogueText",
+        "source_text": "是本记载术印范例的参考书……"
+      },
       {
         "namespace": "/Game/Data/ExportDialogues/CQu/CQu_C171/FuJieXunLiu/DT_DialogueInfo_CQu_C171_FuJieXunLiu",
         "guid": "CQu_C171_FuJieXunLiu_05_ZhuGeLiang_DialogueText",
@@ -119,6 +129,31 @@
         "namespace": "/Game/Data/ExportDialogues/CQu/CQu_C89LYYYX/Di4Duan/DT_DialogueInfo_CQu_C89LYYYX_Di4Duan",
         "guid": "CQu_C89LYYYX_Di4Duan_47_DialogueText",
         "source_text": "物趣。"
+      },
+      {
+        "namespace": "/Game/Data/ExportDialogues/CQu/CQu_GOHOME4/XianZhiDuiHua/DT_DialogueInfo_CQu_GOHOME4_XianZhiDuiHua",
+        "guid": "CQu_GOHOME4_XianZhiDuiHua_01_QiZai_DialogueText",
+        "source_text": "轻轻软软的萤公丁，摸起来一定很舒服……"
+      },
+      {
+        "namespace": "/Game/Data/ExportDialogues/B/B_B121LGKX/MuQinYuXiaoNvHai2/DT_DialogueInfo_B_B121LGKX_MuQinYuXiaoNvHai2",
+        "guid": "DT_DialogueInfo_B_B121LGKX_MuQinYuXiaoNvHai2_DialogueSummary_DialogueText",
+        "source_text": "重新亮起的灯光帮助了来往的行人，也打动了刚晨。他决定加入修灯的行列，并建议你去善生庭那边看看。"
+      },
+      {
+        "namespace": "/Game/Data/ExportDialogues/BigworldSq/BigworldSq_GC/CKunYouXiongXiaoSan/DT_DialogueInfo_BigworldSq_GC_CKunYouXiongXiaoSan",
+        "guid": "DT_DialogueInfo_BigworldSq_GC_CKunYouXiongXiaoSan_DialogueSummary_DialogueText",
+        "source_text": "躁动的丁午亥归于平静，展示出一片瑰丽的画面——魔道变化出的漫天极光之下，诸葛亮与司马懿并肩而立——若眼前的世界只剩黑白，你我变当凭双手，造自己的光。"
+      },
+      {
+        "namespace": "/Game/Data/ExportDialogues/SunBinYaoYue/SunBinYaoYue_SBYY/DuiHua2/DT_DialogueInfo_SunBinYaoYue_SBYY_DuiHua2",
+        "guid": "DT_DialogueInfo_SunBinYaoYue_SBYY_DuiHua2_DialogueSummary_DialogueText",
+        "source_text": "跟着喵帅，你们在屋顶上发现那只躲起来的猫，去把它抱下来吧。"
+      },
+      {
+        "namespace": "/Game/Data/ExportDialogues/ReactionPetTth/ReactionPetTth_DDFK/WanJiaKaoJinPengRenTai1/DT_DialogueInfo_ReactionPetTth_DDFK_WanJiaKaoJinPengRenTai1",
+        "guid": "ReactionPetTth_DDFK_WanJiaKaoJinPengRenTai1_00_Character11_DialogueText",
+        "source_text": "美食的秘诀是要敢下料！主人，来试试以毒攻毒！"
       },
       {
         "namespace": "/Game/Data/ExportDialogues/S7Test/S7Test_DJZCSTC/HuiHe/DT_DialogueInfo_S7Test_DJZCSTC_HuiHe",
