@@ -1,6 +1,6 @@
 {
   "format_version": 1,
-  "generated_at_utc": "2026-04-27T13:26:18.885905+00:00",
+  "generated_at_utc": "2026-04-27T13:45:45.070726+00:00",
   "source_language": "zh",
   "target_language": "ko",
   "target_language_label": "Korean",
@@ -19,10 +19,10 @@
   },
   "locres_refresh": null,
   "output_dir": "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\ko",
-  "record_count": 184,
+  "record_count": 46,
   "reason_counts": {
     "ko_still_source": 10,
-    "missing_in_ko": 174
+    "missing_in_ko": 36
   },
   "dialogue_route_coverage": {
     "enabled": true,
@@ -57,14 +57,14 @@
     "force": false
   },
   "existing_additional_entries": {
-    "loaded_count": 8639,
-    "usable_skipped_candidate_count": 8455,
+    "loaded_count": 8802,
+    "usable_skipped_candidate_count": 8593,
     "force": false
   },
-  "unique_source_count": 151,
-  "resolved_without_gemini_count": 111,
-  "pending_source_count": 40,
-  "batch_count": 2,
+  "unique_source_count": 39,
+  "resolved_without_gemini_count": 0,
+  "pending_source_count": 39,
+  "batch_count": 1,
   "max_translation_passes": 3,
   "invalid_cached_source_count": 0,
   "dry_run": false,
@@ -79,17 +79,17 @@
   "passthrough_record_count": 0,
   "pending_record_count": 71,
   "empty_record_count": 0,
-  "invalid_translation_output_count": 116,
-  "skipped_translation_output_count": 1,
-  "translation_request_batch_count": 4,
+  "invalid_translation_output_count": 117,
+  "skipped_translation_output_count": 0,
+  "translation_request_batch_count": 3,
   "unresolved_source_count": 39,
   "additional_entries_merge": {
-    "existing_input_count": 8639,
-    "generated_input_count": 184,
-    "existing_preserved_count": 8618,
+    "existing_input_count": 8802,
+    "generated_input_count": 46,
+    "existing_preserved_count": 8756,
     "existing_kept_over_generated_count": 0,
-    "generated_replaced_existing_count": 21,
-    "generated_added_count": 163
+    "generated_replaced_existing_count": 46,
+    "generated_added_count": 0
   },
   "additional_entries_validation": {
     "valid": true,
