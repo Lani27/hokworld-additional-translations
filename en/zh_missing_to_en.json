@@ -8,6 +8,22 @@
   "generated_at_utc": "2026-04-27T13:42:09.747767+00:00",
   "entries": [
     {
+      "namespace": "/Game/Data/DataTables/LocalText/DT_LocalizeText_Homestead",
+      "guid": "269BEA2844A527AE9FE94685B3C79C9F",
+      "source_hash": 1910187559,
+      "source_hash_hex": "0x71DB2627",
+      "source": "missing_hidden_localtext_gemini",
+      "text": "<e97432>High-value</> crops can be sold for many Versatile Coins, but planting them <ff0000>grants no EXP</>. Continue? (The Homestead merchant buys high-value crops at a premium, but <ff0000>weekly purchases are limited</>, so mind how many you plant.)",
+      "zh_text": "<e97432>高售价</>作物可以卖出高额百工币，但种植<ff0000>无法获得经验</>，是否继续？（居所商人高倍收购高售价作物，但<ff0000>每周限次数</>，注意种植数量哦）",
+      "row": "Home_HighValueCropNoExpConfirm",
+      "reason": "missing_hidden_localtext",
+      "official_target_text": "",
+      "official_en_text": "",
+      "status": "translated",
+      "model": "manual-review",
+      "shared_source_count": 1
+    },
+    {
       "namespace": "/Game/Data/DataTables/Appearance/AppearanceClothing/DT_Appearance_Clothing_Hair",
       "guid": "3AB75DD448D0286CFAB96EB55E4869CC",
       "source_hash": 3302272014,

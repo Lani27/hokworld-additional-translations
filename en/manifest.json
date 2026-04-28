@@ -54,7 +54,7 @@
     "force": false
   },
   "existing_additional_entries": {
-    "loaded_count": 1048,
+    "loaded_count": 1049,
     "usable_skipped_candidate_count": 885,
     "force": false
   },
@@ -72,7 +72,7 @@
     "branch": "main",
     "base_path": "en"
   },
-  "translated_record_count": 1048,
+  "translated_record_count": 1049,
   "passthrough_record_count": 0,
   "pending_record_count": 0,
   "empty_record_count": 0,
@@ -81,17 +81,17 @@
   "translation_request_batch_count": 0,
   "unresolved_source_count": 0,
   "additional_entries_merge": {
-    "existing_input_count": 1048,
+    "existing_input_count": 1049,
     "generated_input_count": 0,
-    "existing_preserved_count": 1048,
+    "existing_preserved_count": 1049,
     "existing_kept_over_generated_count": 0,
     "generated_replaced_existing_count": 0,
     "generated_added_count": 0
   },
   "additional_entries_validation": {
     "valid": true,
-    "entry_count": 1048,
-    "usable_count": 1048,
+    "entry_count": 1049,
+    "usable_count": 1049,
     "skipped_count": 0,
     "errors": []
   },
