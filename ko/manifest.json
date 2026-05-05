@@ -1,40 +1,44 @@
 {
   "format_version": 1,
-  "generated_at_utc": "2026-04-30T12:56:01.999338+00:00",
+  "generated_at_utc": "2026-05-05T17:52:33.249168+00:00",
   "source_language": "zh",
   "target_language": "ko",
   "target_language_label": "Korean",
-  "matching_mode": "strict_schema_a_namespace_guid_source_hash_records_plus_dialogue_coverage",
-  "scope_note": "Includes zh records that are absent from Korean, whose Korean value is empty/still source text, or that are required by dialogue/cooked LocalText coverage inputs and lack usable Korean coverage. Official usable Korean records are intentionally excluded.",
+  "matching_mode": "strict_schema_a_namespace_guid_source_hash_records_plus_cooked_coverage",
+  "scope_note": "Includes zh records that are absent from Korean, whose Korean value is empty/still source text, or that are required by dialogue/cooked coverage inputs and lack usable Korean coverage. Official usable Korean records are intentionally excluded.",
   "model": "gemini-3.1-flash-lite-preview",
   "rpm_limit": 15,
   "input_limit_bytes": 20480,
   "source_files": {
-    "zh": "D:\\Claude\\HoK-World-EngPatch\\_tmp\\fresh_20260430_locres\\zh_game.locres",
-    "ko": "D:\\Claude\\HoK-World-EngPatch\\_tmp\\fresh_20260430_locres\\ko_game.locres",
+    "zh": "D:\\Claude\\HoK-World-EngPatch\\game\\extracted\\zh_game.locres",
+    "ko": "D:\\Claude\\HoK-World-EngPatch\\game\\extracted\\ko_game.locres",
     "dialogue_route_manifest": "D:\\Claude\\HoK-World-EngPatch\\tool\\assets\\known_cooked_text_dialogue_expand_manifest.json.gz",
     "dialogue_coverage_reports": [
       "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\ko\\missing_dialogue_coverage_ko.json"
     ],
     "cooked_localtext_coverage_reports": [
       "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\ko\\missing_cooked_localtext_coverage_ko.json"
+    ],
+    "cooked_ftext_coverage_reports": [
+      "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\ko\\missing_cooked_ftext_coverage_ko.json"
     ]
   },
   "locres_refresh": null,
   "output_dir": "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\ko",
-  "record_count": 175,
+  "record_count": 70144,
   "reason_counts": {
+    "cooked_ftext_coverage_missing_in_ko": 70100,
     "ko_still_source": 9,
-    "missing_in_ko": 166
+    "missing_in_ko": 35
   },
   "dialogue_route_coverage": {
     "enabled": true,
     "manifest": "D:\\Claude\\HoK-World-EngPatch\\tool\\assets\\known_cooked_text_dialogue_expand_manifest.json.gz",
     "required_unique_key_count": 201491,
     "required_occurrence_count": 201627,
-    "already_covered_key_count": 199126,
+    "already_covered_key_count": 199554,
     "already_candidate_key_count": 1343,
-    "missing_zh_source_key_count": 428,
+    "missing_zh_source_key_count": 0,
     "filtered_source_key_count": 594,
     "added_key_count": 0,
     "added_record_count": 0,
@@ -49,8 +53,8 @@
     "row_count": 11,
     "selected_language_row_count": 11,
     "added_record_count": 0,
-    "duplicate_record_count": 11,
-    "existing_usable_record_count": 0,
+    "duplicate_record_count": 10,
+    "existing_usable_record_count": 1,
     "filtered_source_count": 0,
     "missing_required_field_count": 0,
     "missing_source_text_count": 0,
@@ -76,22 +80,42 @@
     "missing_source_text_count": 0,
     "missing_report_count": 0,
     "skipped_other_language_count": 0,
-    "unresolved_zh_record_count": 12761,
+    "unresolved_zh_record_count": 12762,
     "report_supplied_target_count": 12760,
     "force": false
   },
-  "existing_additional_entries": {
-    "loaded_count": 21564,
-    "usable_skipped_candidate_count": 7837,
+  "cooked_ftext_coverage_report": {
+    "enabled": true,
+    "reports": [
+      "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\ko\\missing_cooked_ftext_coverage_ko.json"
+    ],
+    "report_count": 1,
+    "row_count": 70107,
+    "selected_language_row_count": 70107,
+    "added_record_count": 70100,
+    "duplicate_record_count": 7,
+    "existing_usable_record_count": 0,
+    "filtered_source_count": 0,
+    "missing_required_field_count": 0,
+    "missing_source_text_count": 0,
+    "missing_report_count": 0,
+    "skipped_other_language_count": 0,
+    "unresolved_zh_record_count": 70100,
+    "report_supplied_target_count": 69855,
     "force": false
   },
-  "unique_source_count": 126,
-  "resolved_without_gemini_count": 0,
-  "report_supplied_target_reused_source_count": 0,
-  "report_supplied_target_reused_record_count": 0,
-  "report_supplied_target_conflict_source_count": 0,
-  "pending_source_count": 126,
-  "batch_count": 2,
+  "existing_additional_entries": {
+    "loaded_count": 21720,
+    "usable_skipped_candidate_count": 8595,
+    "force": false
+  },
+  "unique_source_count": 40264,
+  "resolved_without_gemini_count": 39210,
+  "report_supplied_target_reused_source_count": 39078,
+  "report_supplied_target_reused_record_count": 64511,
+  "report_supplied_target_conflict_source_count": 986,
+  "pending_source_count": 1054,
+  "batch_count": 15,
   "max_translation_passes": 3,
   "invalid_cached_source_count": 0,
   "dry_run": false,
@@ -102,27 +126,27 @@
     "branch": "main",
     "base_path": "ko"
   },
-  "translated_record_count": 21651,
+  "translated_record_count": 91739,
   "passthrough_record_count": 0,
-  "pending_record_count": 69,
+  "pending_record_count": 81,
   "empty_record_count": 0,
-  "invalid_translation_output_count": 54,
-  "skipped_translation_output_count": 0,
-  "translation_request_batch_count": 4,
-  "unresolved_source_count": 18,
+  "invalid_translation_output_count": 90,
+  "skipped_translation_output_count": 1,
+  "translation_request_batch_count": 17,
+  "unresolved_source_count": 29,
   "additional_entries_merge": {
-    "existing_input_count": 21564,
-    "generated_input_count": 175,
-    "existing_preserved_count": 21545,
+    "existing_input_count": 21720,
+    "generated_input_count": 70144,
+    "existing_preserved_count": 21676,
     "existing_kept_over_generated_count": 0,
-    "generated_replaced_existing_count": 19,
-    "generated_added_count": 156
+    "generated_replaced_existing_count": 44,
+    "generated_added_count": 70100
   },
   "additional_entries_validation": {
     "valid": true,
-    "entry_count": 21720,
-    "usable_count": 21651,
-    "skipped_count": 69,
+    "entry_count": 91820,
+    "usable_count": 91739,
+    "skipped_count": 81,
     "errors": []
   },
   "dialogue_coverage_validation": {
@@ -132,10 +156,10 @@
     "selected_language_row_count": 0,
     "candidate_row_count": 11,
     "filtered_source_count": 0,
-    "covered_count": 1,
-    "additional_entries_covered_count": 1,
-    "final_pool_covered_count": 1,
-    "missing_count": 10,
+    "covered_count": 4,
+    "additional_entries_covered_count": 4,
+    "final_pool_covered_count": 4,
+    "missing_count": 7,
     "remaining_missing": [
       {
         "namespace": "/Game/Data/ExportDialogues/BigWorldBl01L1/BigWorldBl01L1_SSR/ShuoShuChangZhuTest/DT_DialogueInfo_BigWorldBl01L1_SSR_ShuoShuChangZhuTest",
@@ -151,21 +175,6 @@
         "namespace": "/Game/Data/ExportDialogues/CQu/CQu_C89LYYYX/Di4Duan/DT_DialogueInfo_CQu_C89LYYYX_Di4Duan",
         "guid": "CQu_C89LYYYX_Di4Duan_47_DialogueText",
         "source_text": "物趣。"
-      },
-      {
-        "namespace": "/Game/Data/ExportDialogues/CQu/CQu_GOHOME4/XianZhiDuiHua/DT_DialogueInfo_CQu_GOHOME4_XianZhiDuiHua",
-        "guid": "CQu_GOHOME4_XianZhiDuiHua_01_QiZai_DialogueText",
-        "source_text": "轻轻软软的萤公丁，摸起来一定很舒服……"
-      },
-      {
-        "namespace": "/Game/Data/ExportDialogues/B/B_B121LGKX/MuQinYuXiaoNvHai2/DT_DialogueInfo_B_B121LGKX_MuQinYuXiaoNvHai2",
-        "guid": "DT_DialogueInfo_B_B121LGKX_MuQinYuXiaoNvHai2_DialogueSummary_DialogueText",
-        "source_text": "重新亮起的灯光帮助了来往的行人，也打动了刚晨。他决定加入修灯的行列，并建议你去善生庭那边看看。"
-      },
-      {
-        "namespace": "/Game/Data/ExportDialogues/BigworldSq/BigworldSq_GC/CKunYouXiongXiaoSan/DT_DialogueInfo_BigworldSq_GC_CKunYouXiongXiaoSan",
-        "guid": "DT_DialogueInfo_BigworldSq_GC_CKunYouXiongXiaoSan_DialogueSummary_DialogueText",
-        "source_text": "躁动的丁午亥归于平静，展示出一片瑰丽的画面——魔道变化出的漫天极光之下，诸葛亮与司马懿并肩而立——若眼前的世界只剩黑白，你我变当凭双手，造自己的光。"
       },
       {
         "namespace": "/Game/Data/ExportDialogues/SunBinYaoYue/SunBinYaoYue_SBYY/DuiHua2/DT_DialogueInfo_SunBinYaoYue_SBYY_DuiHua2",
@@ -202,6 +211,146 @@
     "final_pool_covered_count": 12762,
     "missing_count": 0,
     "remaining_missing": [],
+    "validated_against": "final_merged_pool"
+  },
+  "cooked_ftext_coverage_validation": {
+    "enabled": true,
+    "report_count": 1,
+    "row_count": 70107,
+    "selected_language_row_count": 0,
+    "candidate_row_count": 70107,
+    "filtered_source_count": 0,
+    "covered_count": 70078,
+    "additional_entries_covered_count": 70078,
+    "final_pool_covered_count": 70082,
+    "missing_count": 29,
+    "remaining_missing": [
+      {
+        "namespace": "/Game/Data/DataTables/FieldGuide/DT_FieldGuideExtraInfo_Composite",
+        "guid": "7CEDA23B4F3EE809B39BB0B309911E22",
+        "source_text": "梦境中的冷峻猎手。\r\n体态飘然，翼色瑰丽，尾至末梢展作屏。\r\n手握长柄羽扇，善施法发射索敌的魔力弹丸，也会牵引虚空裂缝中的能量，化为光束进行大范围横扫。\r\n\r\n传说这些持扇的伯屠曾是痴心魔道的学者，为了追求极致，窥探呓境，不慎走火入魔，在这烂柯之梦中，所召出的虚幻也不过是莫须有的泡影。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/FieldGuide/DT_FieldGuideExtraInfo_Composite",
+        "guid": "90775B8649B6550F0AB4239A3528101C",
+        "source_text": "梦境中的冷峻猎手。\r\n体态飘然，翼色瑰丽，尾至末梢展作屏。\r\n手握长柄羽扇，善施法发射索敌的魔力弹丸，也会牵引虚空裂缝中的能量，化为光束进行大范围横扫。\r\n\r\n传说这些持扇的伯屠曾是痴心魔道的学者，为了追求极致，窥探呓境，不慎走火入魔，在这烂柯之梦中，所召出的虚幻也不过是莫须有的泡影。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/FieldGuide/FieldGuideBoxInfo/DT_FieldGuideStoryBox_Notputin",
+        "guid": "81AB97874CD1BA935932D0ABE56B4CB4",
+        "source_text": "梦境中的冷峻猎手。\r\n体态飘然，翼色瑰丽，尾至末梢展作屏。\r\n手握长柄羽扇，善施法发射索敌的魔力弹丸，也会牵引虚空裂缝中的能量，化为光束进行大范围横扫。\r\n\r\n传说这些持扇的伯屠曾是痴心魔道的学者，为了追求极致，窥探呓境，不慎走火入魔，在这烂柯之梦中，所召出的虚幻也不过是莫须有的泡影。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuideEnemyInfo",
+        "guid": "7CEDA23B4F3EE809B39BB0B309911E22",
+        "source_text": "梦境中的冷峻猎手。\r\n体态飘然，翼色瑰丽，尾至末梢展作屏。\r\n手握长柄羽扇，善施法发射索敌的魔力弹丸，也会牵引虚空裂缝中的能量，化为光束进行大范围横扫。\r\n\r\n传说这些持扇的伯屠曾是痴心魔道的学者，为了追求极致，窥探呓境，不慎走火入魔，在这烂柯之梦中，所召出的虚幻也不过是莫须有的泡影。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Item/DT_ItemBaseData",
+        "guid": "0AF554E1492593D7478759802899FB13",
+        "source_text": "效果：震元素抗性提升<Gold_Basic>15%</>，持续<Gold_Basic>20</>分钟。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Item/DT_ItemBaseData",
+        "guid": "184128CC45511886BFB2EBA89F45C972",
+        "source_text": "药效：即刻恢复<Gold_Basic>2500</>点生命值，并降低<Gold_Basic>60%</>受到的灼元素伤害，持续<Gold_Basic>30</>秒。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Item/DT_ItemBaseData",
+        "guid": "3CED4A5F469A2EEC4D20BAAF6487BDCE",
+        "source_text": "药效：在<Gold_Basic>15</>秒内，持续恢复<Gold_Basic>50%</>生命值，并降低<Gold_Basic>80%</>受到的疾元素伤害，持续<Gold_Basic>10</>秒。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Item/DT_ItemBaseData",
+        "guid": "460279F94B7114DECFDECCBC6DC3F5B4",
+        "source_text": "效果：贯元素抗性提升<Gold_Basic>15%</>，持续<Gold_Basic>20</>分钟。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Item/DT_ItemBaseData",
+        "guid": "4998725647C33CD3035A0D8F0C4E7D20",
+        "source_text": "效果：震元素抗性提升<Gold_Basic>15%</>，持续<Gold_Basic>20</>分钟。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Item/DT_ItemBaseData",
+        "guid": "5EB87CDD430F4982437490BDD2B7C06B",
+        "source_text": "药效：在<Gold_Basic>15</>秒内，持续恢复<Gold_Basic>50%</>生命值，并降低<Gold_Basic>80%</>受到的念元素伤害，持续<Gold_Basic>10</>秒。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Item/DT_ItemBaseData",
+        "guid": "743DB0FD4C94EFE888B0C79ABC0906E0",
+        "source_text": "药效：在<Gold_Basic>15</>秒内，持续恢复<Gold_Basic>40%</>生命值，并降低<Gold_Basic>80%</>受到的凝元素伤害，持续<Gold_Basic>8</>秒。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Item/DT_ItemBaseData",
+        "guid": "8AED89534F003EF7B2112E8E8F0370B4",
+        "source_text": "药效：在<Gold_Basic>15</>秒内，持续恢复<Gold_Basic>40%</>生命值，并降低<Gold_Basic>80%</>受到的念元素伤害，持续<Gold_Basic>8</>秒。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Item/DT_ItemBaseData",
+        "guid": "8C16A58F42BB744D4F5F57A1B18B64EF",
+        "source_text": "药效：在<Gold_Basic>15</>秒内，持续恢复<Gold_Basic>40%</>生命值，并降低<Gold_Basic>80%</>受到的贯元素伤害，持续<Gold_Basic>8</>秒。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Item/DT_ItemBaseData",
+        "guid": "8F3109CD4F82ECFDB70C8B86C79437CE",
+        "source_text": "完整的兽骨。上面的细微裂痕是野兽挣扎的证明。经过洗涤，抛光，静置等处理后，坚实耐用。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Item/DT_ItemBaseData",
+        "guid": "A518AEC8425C0C12F874919F82516860",
+        "source_text": "药效：在<Gold_Basic>15</>秒内，持续恢复<Gold_Basic>50%</>生命值，并降低<Gold_Basic>80%</>受到的灼元素伤害，持续<Gold_Basic>10</>秒。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Item/DT_ItemBaseData",
+        "guid": "D2D6A6834374FC2E81DE4FB0B8320A48",
+        "source_text": "药效：在<Gold_Basic>15</>秒内，持续恢复<Gold_Basic>50%</>生命值，并降低<Gold_Basic>80%</>受到的凝元素伤害，持续<Gold_Basic>10</>秒。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Item/DT_ItemBaseData",
+        "guid": "D33CD2894B2834FA8F556C8820E0A887",
+        "source_text": "药效：在<Gold_Basic>15</>秒内，持续恢复<Gold_Basic>50%</>生命值，并降低<Gold_Basic>80%</>受到的贯元素伤害，持续<Gold_Basic>10</>秒。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Item/DT_ItemBaseData",
+        "guid": "D3C753B44E690C18A0F4FCBBAA27CADD",
+        "source_text": "药效：在<Gold_Basic>15</>秒内，持续恢复<Gold_Basic>40%</>生命值，并降低<Gold_Basic>80%</>受到的灼元素伤害，持续<Gold_Basic>8</>秒。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Item/DT_ItemBaseData",
+        "guid": "DDDDF04248612CF3E30D70B73DA8ACF5",
+        "source_text": "效果：贯元素抗性提升<Gold_Basic>15%</>，持续<Gold_Basic>20</>分钟。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Item/DT_ItemBaseData",
+        "guid": "E61051FE4C90E69B1966A3BD6ACFBFBD",
+        "source_text": "药效：在<Gold_Basic>15</>秒内，持续恢复<Gold_Basic>50%</>生命值，并降低<Gold_Basic>80%</>受到的震元素伤害，持续<Gold_Basic>10</>秒。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Item/DT_ItemBaseData",
+        "guid": "E6A2E92B4E7D018D98BE858A2320BF54",
+        "source_text": "药效：在<Gold_Basic>15</>秒内，持续恢复<Gold_Basic>40%</>生命值，并降低<Gold_Basic>80%</>受到的疾元素伤害，持续<Gold_Basic>8</>秒。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Item/DT_ItemBaseData",
+        "guid": "F540FE43480B153ED607B5994FB11017",
+        "source_text": "药效：在<Gold_Basic>15</>秒内，持续恢复<Gold_Basic>40%</>生命值，并降低<Gold_Basic>80%</>受到的震元素伤害，持续<Gold_Basic>8</>秒。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Item/DT_Itemstrengthen",
+        "guid": "8F3109CD4F82ECFDB70C8B86C79437CE",
+        "source_text": "完整的兽骨。上面的细微裂痕是野兽挣扎的证明。经过洗涤，抛光，静置等处理后，坚实耐用。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/SceneItem/DT_SceneItem_Composite",
+        "guid": "C361E6A948CBD521C77B6CA77F07D646",
+        "source_text": "词曲之思"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/SceneItem/StoryCrumbs/DT_StoryCrumbs_Content_Composite",
+        "guid": "26EC901C4F4BDFEF474BFFA13EAEBBFB",
+        "source_text": "编者按：本册为这一系列书籍的最后一册，记载了宫羽家莫离在云根镇的演讲，他详细阐述了乐曲完成后，对音乐的赏析与鉴赏。音乐，不仅仅是一种冰冷的艺术，更是人们内心情感的表达。通过赏析与鉴赏，我们可以更加深入地理解音乐作品背后的故事与情感，感受作曲家们的创作初衷与追求。\r\n\r\n以下为莫离大师演讲正文。 \r\n\r\n云根镇的各位大家"
+      }
+    ],
     "validated_against": "final_merged_pool"
   }
 }

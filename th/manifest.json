@@ -1,30 +1,33 @@
 {
   "format_version": 1,
-  "generated_at_utc": "2026-04-30T13:06:47.045964+00:00",
+  "generated_at_utc": "2026-05-05T18:10:53.562400+00:00",
   "source_language": "zh",
   "target_language": "th",
   "target_language_label": "Thai",
-  "matching_mode": "strict_schema_a_namespace_guid_source_hash_records_plus_dialogue_coverage",
-  "scope_note": "Includes zh records that are absent from Thai, whose Thai value is empty/still source text, or that are required by dialogue/cooked LocalText coverage inputs and lack usable Thai coverage. Official usable Thai records are intentionally excluded.",
+  "matching_mode": "strict_schema_a_namespace_guid_source_hash_records_plus_cooked_coverage",
+  "scope_note": "Includes zh records that are absent from Thai, whose Thai value is empty/still source text, or that are required by dialogue/cooked coverage inputs and lack usable Thai coverage. Official usable Thai records are intentionally excluded.",
   "model": "gemini-3.1-flash-lite-preview",
   "rpm_limit": 15,
   "input_limit_bytes": 20480,
   "source_files": {
-    "zh": "D:\\Claude\\HoK-World-EngPatch\\_tmp\\fresh_20260430_locres\\zh_game.locres",
-    "th": "D:\\Claude\\HoK-World-EngPatch\\_tmp\\fresh_20260430_locres\\th_game.locres",
+    "zh": "D:\\Claude\\HoK-World-EngPatch\\game\\extracted\\zh_game.locres",
+    "th": "D:\\Claude\\HoK-World-EngPatch\\game\\extracted\\th_game.locres",
     "dialogue_route_manifest": "D:\\Claude\\HoK-World-EngPatch\\tool\\assets\\known_cooked_text_dialogue_expand_manifest.json.gz",
     "dialogue_coverage_reports": [
       "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\th\\missing_dialogue_coverage_th.json"
     ],
     "cooked_localtext_coverage_reports": [
       "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\th\\missing_cooked_localtext_coverage_th.json"
+    ],
+    "cooked_ftext_coverage_reports": [
+      "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\th\\missing_cooked_ftext_coverage_th.json"
     ]
   },
   "locres_refresh": null,
   "output_dir": "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\th",
-  "record_count": 160,
+  "record_count": 70104,
   "reason_counts": {
-    "missing_in_th": 156,
+    "cooked_ftext_coverage_missing_in_th": 70100,
     "th_still_source": 4
   },
   "dialogue_route_coverage": {
@@ -32,9 +35,9 @@
     "manifest": "D:\\Claude\\HoK-World-EngPatch\\tool\\assets\\known_cooked_text_dialogue_expand_manifest.json.gz",
     "required_unique_key_count": 201491,
     "required_occurrence_count": 201627,
-    "already_covered_key_count": 199954,
+    "already_covered_key_count": 200382,
     "already_candidate_key_count": 515,
-    "missing_zh_source_key_count": 428,
+    "missing_zh_source_key_count": 0,
     "filtered_source_key_count": 594,
     "added_key_count": 0,
     "added_record_count": 0,
@@ -76,22 +79,42 @@
     "missing_source_text_count": 0,
     "missing_report_count": 0,
     "skipped_other_language_count": 0,
-    "unresolved_zh_record_count": 12761,
+    "unresolved_zh_record_count": 12762,
     "report_supplied_target_count": 12760,
     "force": false
   },
-  "existing_additional_entries": {
-    "loaded_count": 15324,
-    "usable_skipped_candidate_count": 1435,
+  "cooked_ftext_coverage_report": {
+    "enabled": true,
+    "reports": [
+      "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\th\\missing_cooked_ftext_coverage_th.json"
+    ],
+    "report_count": 1,
+    "row_count": 70104,
+    "selected_language_row_count": 70104,
+    "added_record_count": 70100,
+    "duplicate_record_count": 4,
+    "existing_usable_record_count": 0,
+    "filtered_source_count": 0,
+    "missing_required_field_count": 0,
+    "missing_source_text_count": 0,
+    "missing_report_count": 0,
+    "skipped_other_language_count": 0,
+    "unresolved_zh_record_count": 70100,
+    "report_supplied_target_count": 69857,
     "force": false
   },
-  "unique_source_count": 111,
-  "resolved_without_gemini_count": 1,
-  "report_supplied_target_reused_source_count": 0,
-  "report_supplied_target_reused_record_count": 0,
-  "report_supplied_target_conflict_source_count": 0,
-  "pending_source_count": 110,
-  "batch_count": 1,
+  "existing_additional_entries": {
+    "loaded_count": 15480,
+    "usable_skipped_candidate_count": 2209,
+    "force": false
+  },
+  "unique_source_count": 40253,
+  "resolved_without_gemini_count": 38084,
+  "report_supplied_target_reused_source_count": 37908,
+  "report_supplied_target_reused_record_count": 59314,
+  "report_supplied_target_conflict_source_count": 2156,
+  "pending_source_count": 2169,
+  "batch_count": 29,
   "max_translation_passes": 3,
   "invalid_cached_source_count": 0,
   "dry_run": false,
@@ -102,27 +125,27 @@
     "branch": "main",
     "base_path": "th"
   },
-  "translated_record_count": 15476,
+  "translated_record_count": 85239,
   "passthrough_record_count": 0,
-  "pending_record_count": 4,
+  "pending_record_count": 341,
   "empty_record_count": 0,
-  "invalid_translation_output_count": 12,
-  "skipped_translation_output_count": 0,
-  "translation_request_batch_count": 3,
-  "unresolved_source_count": 4,
+  "invalid_translation_output_count": 94,
+  "skipped_translation_output_count": 3,
+  "translation_request_batch_count": 32,
+  "unresolved_source_count": 30,
   "additional_entries_merge": {
-    "existing_input_count": 15324,
-    "generated_input_count": 160,
-    "existing_preserved_count": 15320,
+    "existing_input_count": 15480,
+    "generated_input_count": 70104,
+    "existing_preserved_count": 15476,
     "existing_kept_over_generated_count": 0,
     "generated_replaced_existing_count": 4,
-    "generated_added_count": 156
+    "generated_added_count": 70100
   },
   "additional_entries_validation": {
     "valid": true,
-    "entry_count": 15480,
-    "usable_count": 15463,
-    "skipped_count": 4,
+    "entry_count": 85580,
+    "usable_count": 85226,
+    "skipped_count": 341,
     "errors": []
   },
   "dialogue_coverage_validation": {
@@ -151,6 +174,146 @@
     "final_pool_covered_count": 12762,
     "missing_count": 0,
     "remaining_missing": [],
+    "validated_against": "final_merged_pool"
+  },
+  "cooked_ftext_coverage_validation": {
+    "enabled": true,
+    "report_count": 1,
+    "row_count": 70104,
+    "selected_language_row_count": 0,
+    "candidate_row_count": 70104,
+    "filtered_source_count": 0,
+    "covered_count": 69763,
+    "additional_entries_covered_count": 69763,
+    "final_pool_covered_count": 70096,
+    "missing_count": 341,
+    "remaining_missing": [
+      {
+        "namespace": "/Game/Data/DataTables/CombatGrowth/BuffGrowth/DT_BuffGrowth_DreamArea",
+        "guid": "2BFA17994159AB47190B1EBE9193A0FF",
+        "source_text": "强化普攻附加<#FS1005_D_6>，<#FS1005_D_7>后使敌人进入#Time#秒的<#FS1005_D_8>状态，每2秒受到#Damage#<#攻击力>的<#伤害>。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/CombatGrowth/BuffGrowth/DT_BuffGrowth_DreamArea",
+        "guid": "4C524AE84EDB11E57986CE9E1409D593",
+        "source_text": "强化普攻附加<#FS1005_D_6>，<#FS1005_D_7>后使敌人进入#Time#秒的<#FS1005_D_8>状态，每2秒受到#Damage#<#攻击力>的<#伤害>。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/CombatGrowth/BuffGrowth/DT_BuffGrowth_DreamArea",
+        "guid": "54EA3E51432ABA5B58BCAF8F1D72A726",
+        "source_text": "<#FS1005_D_5>状态下的敌人每#Time#秒受到#Damage#<#攻击力>的<#伤害>。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/CombatGrowth/BuffGrowth/DT_BuffGrowth_DreamArea",
+        "guid": "77C98470453E74461FBBFAAFD3CCF9EB",
+        "source_text": "<#FS1005_D_5>状态下的敌人每#Time#秒受到#Damage#<#攻击力>的<#伤害>。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/CombatGrowth/SkillGrowth/DT_SkillGrowthComposite",
+        "guid": "004B48B74B3946BFF85EBA871B81424C",
+        "source_text": "造成<#伤害>"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/CombatGrowth/SkillGrowth/DT_SkillGrowthComposite",
+        "guid": "021026CE44272E45A3B58BBF47A6BB38",
+        "source_text": "<#绝技><#伤害>"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/CombatGrowth/SkillGrowth/DT_SkillGrowthComposite",
+        "guid": "0369E78948FC6D922093C3B4EB3557B5",
+        "source_text": "<#完美闪避>反击"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/CombatGrowth/SkillGrowth/DT_SkillGrowthComposite",
+        "guid": "04C9AA2B48728675ACE1E0B269DED32A",
+        "source_text": "造成<#伤害>"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/CombatGrowth/SkillGrowth/DT_SkillGrowthComposite",
+        "guid": "052B34B8479FD394D5CC44896A761590",
+        "source_text": "触发<#完美闪避>后，短时间内<#普攻><#强化>为<#二技能><#FS1017_S_3>，造成<#流技伤害>。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/CombatGrowth/SkillGrowth/DT_SkillGrowthComposite",
+        "guid": "05AF7B304F8CD5056ADFE9AFAF330890",
+        "source_text": "造成<#伤害>"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/CombatGrowth/SkillGrowth/DT_SkillGrowthComposite",
+        "guid": "0663858D415D37D3FD4CFFA42B82A380",
+        "source_text": "触发<#完美闪避>后，短时间内<#普攻><#强化>为<#二技能><#FS1017_S_3>，造成<#流技伤害>。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/CombatGrowth/SkillGrowth/DT_SkillGrowthComposite",
+        "guid": "0684C5454AD836D9B49BAABB476CD443",
+        "source_text": "施放<#FS1002_S_5>，对目标及其周围敌人造成#power0#<#攻击力>的<#伤害>。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/CombatGrowth/SkillGrowth/DT_SkillGrowthComposite",
+        "guid": "079B071143D37289BDA3C3AE46623D2B",
+        "source_text": "造成<#伤害>"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/CombatGrowth/SkillGrowth/DT_SkillGrowthComposite",
+        "guid": "07A72408450E3C0FFD2AF8B390481778",
+        "source_text": "造成<#伤害>"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/CombatGrowth/SkillGrowth/DT_SkillGrowthComposite",
+        "guid": "08071F5D4372D7C4A95380B151C447EB",
+        "source_text": "<#普攻>第六段命中或<#完美闪避>后，下一次<#普攻><#强化>为<#FS1017_D_2>。\n发动高速打击，期间连续点按<#普攻>会增加攻击次数。在结束时施放血刺攻击敌人，造成<#普攻伤害>。可以反制敌人<#红光技>。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/CombatGrowth/SkillGrowth/DT_SkillGrowthComposite",
+        "guid": "09698502406A0AB7AED8869E8049B13B",
+        "source_text": "当前没有刺入<#FS1017_D_3>的敌人时，将<#投掷><#FS1017_D_3>，刺入敌人后可将自身拉向敌人身前，并造成<#普攻伤害>。\n已有刺入<#FS1017_D_3>的敌人时，对其攻击将使<#FS1017_D_3>获得能量，能量充盈时可再次施放。施放时拔出<#FS1017_D_3>，造成<#普攻><#伤害>"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/CombatGrowth/SkillGrowth/DT_SkillGrowthComposite",
+        "guid": "09699D6542D2C4A19A37F881DFB18DBA",
+        "source_text": "施放<#FS1002_S_5>，对目标及其周围敌人造成#power0#<#攻击力>的<#伤害>。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/CombatGrowth/SkillGrowth/DT_SkillGrowthComposite",
+        "guid": "099EDB4C4941A0C6C63FD3B63F6780EE",
+        "source_text": "进行<Skill_Value>6</>段快速穿梭，每段造成#power0#<#攻击力>的<#伤害>。返回时造成#power1#<#攻击力>的<#伤害>。可以反制怪物红<#光>招式。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/CombatGrowth/SkillGrowth/DT_SkillGrowthComposite",
+        "guid": "0B83CE854C3B74356DABEA95E6477511",
+        "source_text": "持续发射储备在肩部机关的<#FS1006_D_8>，朝指定方向进行定向轰炸。每发<#FS1006_D_8>对范围内敌人造成#power0#<#攻击力>的范围<#伤害>，共<Skill_Value>24</>发。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/CombatGrowth/SkillGrowth/DT_SkillGrowthComposite",
+        "guid": "0BABC2B342F94725BE25DD9AB111CB91",
+        "source_text": "造成<#伤害>"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/CombatGrowth/SkillGrowth/DT_SkillGrowthComposite",
+        "guid": "0CD7F82846DE699B522586A5873282BE",
+        "source_text": "触发<#完美闪避>后，短时间内<#普攻><#强化>为<#二技能><#FS1017_S_3>，造成<#流技伤害>。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/CombatGrowth/SkillGrowth/DT_SkillGrowthComposite",
+        "guid": "0F8C30B640B04EE86E94858D55B6B26C",
+        "source_text": "造成<#伤害>"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/CombatGrowth/SkillGrowth/DT_SkillGrowthComposite",
+        "guid": "10F3DB1C4303D3EDEB8CB0AF3DE893F0",
+        "source_text": "汇聚<#魔道>之力，于目标位置召唤<#FS1011_D_2>。随后召唤莲花法器，莲瓣绽开对拉取范围内敌人造成<#绝技><#伤害>，可以反制敌人<#红光技>。充沛的<#魔道>之力随莲花绽放而被彻底引爆，造成<#绝技><#伤害>，立即将<#FS1011_D_2>持续时间重置为20秒。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/CombatGrowth/SkillGrowth/DT_SkillGrowthComposite",
+        "guid": "12087E144ABD270F479F8590BAAE27C8",
+        "source_text": "连续打击附近敌人<Skill_Value>4</>次，每次造成#damage1#<#攻击力>的<#伤害>。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/CombatGrowth/SkillGrowth/DT_SkillGrowthComposite",
+        "guid": "1255F1374635B02D1ADB11B0DE0A6662",
+        "source_text": "造成<#伤害>"
+      }
+    ],
     "validated_against": "final_merged_pool"
   }
 }
