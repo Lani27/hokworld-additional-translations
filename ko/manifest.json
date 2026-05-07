@@ -1,6 +1,6 @@
 {
   "format_version": 1,
-  "generated_at_utc": "2026-05-05T17:52:33.249168+00:00",
+  "generated_at_utc": "2026-05-07T00:54:31.862129+00:00",
   "source_language": "zh",
   "target_language": "ko",
   "target_language_label": "Korean",
@@ -8,7 +8,7 @@
   "scope_note": "Includes zh records that are absent from Korean, whose Korean value is empty/still source text, or that are required by dialogue/cooked coverage inputs and lack usable Korean coverage. Official usable Korean records are intentionally excluded.",
   "model": "gemini-3.1-flash-lite-preview",
   "rpm_limit": 15,
-  "input_limit_bytes": 20480,
+  "input_limit_bytes": 4096,
   "source_files": {
     "zh": "D:\\Claude\\HoK-World-EngPatch\\game\\extracted\\zh_game.locres",
     "ko": "D:\\Claude\\HoK-World-EngPatch\\game\\extracted\\ko_game.locres",
@@ -25,19 +25,19 @@
   },
   "locres_refresh": null,
   "output_dir": "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\ko",
-  "record_count": 70144,
+  "record_count": 54,
   "reason_counts": {
-    "cooked_ftext_coverage_missing_in_ko": 70100,
+    "cooked_ftext_coverage_missing_in_ko": 25,
     "ko_still_source": 9,
-    "missing_in_ko": 35
+    "missing_in_ko": 20
   },
   "dialogue_route_coverage": {
     "enabled": true,
     "manifest": "D:\\Claude\\HoK-World-EngPatch\\tool\\assets\\known_cooked_text_dialogue_expand_manifest.json.gz",
-    "required_unique_key_count": 201491,
-    "required_occurrence_count": 201627,
-    "already_covered_key_count": 199554,
-    "already_candidate_key_count": 1343,
+    "required_unique_key_count": 201423,
+    "required_occurrence_count": 201559,
+    "already_covered_key_count": 199484,
+    "already_candidate_key_count": 1345,
     "missing_zh_source_key_count": 0,
     "filtered_source_key_count": 594,
     "added_key_count": 0,
@@ -50,11 +50,11 @@
       "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\ko\\missing_dialogue_coverage_ko.json"
     ],
     "report_count": 1,
-    "row_count": 11,
-    "selected_language_row_count": 11,
+    "row_count": 9,
+    "selected_language_row_count": 9,
     "added_record_count": 0,
-    "duplicate_record_count": 10,
-    "existing_usable_record_count": 1,
+    "duplicate_record_count": 5,
+    "existing_usable_record_count": 4,
     "filtered_source_count": 0,
     "missing_required_field_count": 0,
     "missing_source_text_count": 0,
@@ -80,7 +80,7 @@
     "missing_source_text_count": 0,
     "missing_report_count": 0,
     "skipped_other_language_count": 0,
-    "unresolved_zh_record_count": 12762,
+    "unresolved_zh_record_count": 12761,
     "report_supplied_target_count": 12760,
     "force": false
   },
@@ -92,9 +92,9 @@
     "report_count": 1,
     "row_count": 70107,
     "selected_language_row_count": 70107,
-    "added_record_count": 70100,
-    "duplicate_record_count": 7,
-    "existing_usable_record_count": 0,
+    "added_record_count": 25,
+    "duplicate_record_count": 4,
+    "existing_usable_record_count": 70078,
     "filtered_source_count": 0,
     "missing_required_field_count": 0,
     "missing_source_text_count": 0,
@@ -105,17 +105,17 @@
     "force": false
   },
   "existing_additional_entries": {
-    "loaded_count": 21720,
-    "usable_skipped_candidate_count": 8595,
+    "loaded_count": 92094,
+    "usable_skipped_candidate_count": 8880,
     "force": false
   },
-  "unique_source_count": 40264,
-  "resolved_without_gemini_count": 39210,
-  "report_supplied_target_reused_source_count": 39078,
-  "report_supplied_target_reused_record_count": 64511,
-  "report_supplied_target_conflict_source_count": 986,
-  "pending_source_count": 1054,
-  "batch_count": 15,
+  "unique_source_count": 27,
+  "resolved_without_gemini_count": 0,
+  "report_supplied_target_reused_source_count": 0,
+  "report_supplied_target_reused_record_count": 0,
+  "report_supplied_target_conflict_source_count": 2,
+  "pending_source_count": 27,
+  "batch_count": 4,
   "max_translation_passes": 3,
   "invalid_cached_source_count": 0,
   "dry_run": false,
@@ -126,40 +126,40 @@
     "branch": "main",
     "base_path": "ko"
   },
-  "translated_record_count": 91739,
+  "translated_record_count": 92011,
   "passthrough_record_count": 0,
-  "pending_record_count": 81,
+  "pending_record_count": 83,
   "empty_record_count": 0,
-  "invalid_translation_output_count": 90,
-  "skipped_translation_output_count": 1,
-  "translation_request_batch_count": 17,
-  "unresolved_source_count": 29,
+  "invalid_translation_output_count": 66,
+  "skipped_translation_output_count": 0,
+  "translation_request_batch_count": 12,
+  "unresolved_source_count": 22,
   "additional_entries_merge": {
-    "existing_input_count": 21720,
-    "generated_input_count": 70144,
-    "existing_preserved_count": 21676,
+    "existing_input_count": 92094,
+    "generated_input_count": 54,
+    "existing_preserved_count": 92040,
     "existing_kept_over_generated_count": 0,
-    "generated_replaced_existing_count": 44,
-    "generated_added_count": 70100
+    "generated_replaced_existing_count": 54,
+    "generated_added_count": 0
   },
   "additional_entries_validation": {
     "valid": true,
-    "entry_count": 91820,
-    "usable_count": 91739,
-    "skipped_count": 81,
+    "entry_count": 92094,
+    "usable_count": 92011,
+    "skipped_count": 83,
     "errors": []
   },
   "dialogue_coverage_validation": {
     "enabled": true,
     "report_count": 1,
-    "row_count": 11,
+    "row_count": 9,
     "selected_language_row_count": 0,
-    "candidate_row_count": 11,
+    "candidate_row_count": 9,
     "filtered_source_count": 0,
-    "covered_count": 4,
-    "additional_entries_covered_count": 4,
-    "final_pool_covered_count": 4,
-    "missing_count": 7,
+    "covered_count": 5,
+    "additional_entries_covered_count": 5,
+    "final_pool_covered_count": 5,
+    "missing_count": 4,
     "remaining_missing": [
       {
         "namespace": "/Game/Data/ExportDialogues/BigWorldBl01L1/BigWorldBl01L1_SSR/ShuoShuChangZhuTest/DT_DialogueInfo_BigWorldBl01L1_SSR_ShuoShuChangZhuTest",
@@ -170,21 +170,6 @@
         "namespace": "/Game/Data/ExportDialogues/CQu/CQu_C171/FuJieXunLiu/DT_DialogueInfo_CQu_C171_FuJieXunLiu",
         "guid": "CQu_C171_FuJieXunLiu_05_ZhuGeLiang_DialogueText",
         "source_text": "我们应该将其流向玄雍之事告知给汪某，让他无法辩驳，动摇他内心防御底线。"
-      },
-      {
-        "namespace": "/Game/Data/ExportDialogues/CQu/CQu_C89LYYYX/Di4Duan/DT_DialogueInfo_CQu_C89LYYYX_Di4Duan",
-        "guid": "CQu_C89LYYYX_Di4Duan_47_DialogueText",
-        "source_text": "物趣。"
-      },
-      {
-        "namespace": "/Game/Data/ExportDialogues/SunBinYaoYue/SunBinYaoYue_SBYY/DuiHua2/DT_DialogueInfo_SunBinYaoYue_SBYY_DuiHua2",
-        "guid": "DT_DialogueInfo_SunBinYaoYue_SBYY_DuiHua2_DialogueSummary_DialogueText",
-        "source_text": "跟着喵帅，你们在屋顶上发现那只躲起来的猫，去把它抱下来吧。"
-      },
-      {
-        "namespace": "/Game/Data/ExportDialogues/ReactionPetTth/ReactionPetTth_DDFK/WanJiaKaoJinPengRenTai1/DT_DialogueInfo_ReactionPetTth_DDFK_WanJiaKaoJinPengRenTai1",
-        "guid": "ReactionPetTth_DDFK_WanJiaKaoJinPengRenTai1_00_Character11_DialogueText",
-        "source_text": "美食的秘诀是要敢下料！主人，来试试以毒攻毒！"
       },
       {
         "namespace": "/Game/Data/ExportDialogues/S7Test/S7Test_DJZCSTC/HuiHe/DT_DialogueInfo_S7Test_DJZCSTC_HuiHe",
@@ -220,10 +205,10 @@
     "selected_language_row_count": 0,
     "candidate_row_count": 70107,
     "filtered_source_count": 0,
-    "covered_count": 70078,
-    "additional_entries_covered_count": 70078,
-    "final_pool_covered_count": 70082,
-    "missing_count": 29,
+    "covered_count": 70086,
+    "additional_entries_covered_count": 70086,
+    "final_pool_covered_count": 70088,
+    "missing_count": 21,
     "remaining_missing": [
       {
         "namespace": "/Game/Data/DataTables/FieldGuide/DT_FieldGuideExtraInfo_Composite",
@@ -247,11 +232,6 @@
       },
       {
         "namespace": "/Game/Data/DataTables/Item/DT_ItemBaseData",
-        "guid": "0AF554E1492593D7478759802899FB13",
-        "source_text": "效果：震元素抗性提升<Gold_Basic>15%</>，持续<Gold_Basic>20</>分钟。"
-      },
-      {
-        "namespace": "/Game/Data/DataTables/Item/DT_ItemBaseData",
         "guid": "184128CC45511886BFB2EBA89F45C972",
         "source_text": "药效：即刻恢复<Gold_Basic>2500</>点生命值，并降低<Gold_Basic>60%</>受到的灼元素伤害，持续<Gold_Basic>30</>秒。"
       },
@@ -259,16 +239,6 @@
         "namespace": "/Game/Data/DataTables/Item/DT_ItemBaseData",
         "guid": "3CED4A5F469A2EEC4D20BAAF6487BDCE",
         "source_text": "药效：在<Gold_Basic>15</>秒内，持续恢复<Gold_Basic>50%</>生命值，并降低<Gold_Basic>80%</>受到的疾元素伤害，持续<Gold_Basic>10</>秒。"
-      },
-      {
-        "namespace": "/Game/Data/DataTables/Item/DT_ItemBaseData",
-        "guid": "460279F94B7114DECFDECCBC6DC3F5B4",
-        "source_text": "效果：贯元素抗性提升<Gold_Basic>15%</>，持续<Gold_Basic>20</>分钟。"
-      },
-      {
-        "namespace": "/Game/Data/DataTables/Item/DT_ItemBaseData",
-        "guid": "4998725647C33CD3035A0D8F0C4E7D20",
-        "source_text": "效果：震元素抗性提升<Gold_Basic>15%</>，持续<Gold_Basic>20</>分钟。"
       },
       {
         "namespace": "/Game/Data/DataTables/Item/DT_ItemBaseData",
@@ -292,11 +262,6 @@
       },
       {
         "namespace": "/Game/Data/DataTables/Item/DT_ItemBaseData",
-        "guid": "8F3109CD4F82ECFDB70C8B86C79437CE",
-        "source_text": "完整的兽骨。上面的细微裂痕是野兽挣扎的证明。经过洗涤，抛光，静置等处理后，坚实耐用。"
-      },
-      {
-        "namespace": "/Game/Data/DataTables/Item/DT_ItemBaseData",
         "guid": "A518AEC8425C0C12F874919F82516860",
         "source_text": "药效：在<Gold_Basic>15</>秒内，持续恢复<Gold_Basic>50%</>生命值，并降低<Gold_Basic>80%</>受到的灼元素伤害，持续<Gold_Basic>10</>秒。"
       },
@@ -317,11 +282,6 @@
       },
       {
         "namespace": "/Game/Data/DataTables/Item/DT_ItemBaseData",
-        "guid": "DDDDF04248612CF3E30D70B73DA8ACF5",
-        "source_text": "效果：贯元素抗性提升<Gold_Basic>15%</>，持续<Gold_Basic>20</>分钟。"
-      },
-      {
-        "namespace": "/Game/Data/DataTables/Item/DT_ItemBaseData",
         "guid": "E61051FE4C90E69B1966A3BD6ACFBFBD",
         "source_text": "药效：在<Gold_Basic>15</>秒内，持续恢复<Gold_Basic>50%</>生命值，并降低<Gold_Basic>80%</>受到的震元素伤害，持续<Gold_Basic>10</>秒。"
       },
@@ -336,19 +296,24 @@
         "source_text": "药效：在<Gold_Basic>15</>秒内，持续恢复<Gold_Basic>40%</>生命值，并降低<Gold_Basic>80%</>受到的震元素伤害，持续<Gold_Basic>8</>秒。"
       },
       {
-        "namespace": "/Game/Data/DataTables/Item/DT_Itemstrengthen",
-        "guid": "8F3109CD4F82ECFDB70C8B86C79437CE",
-        "source_text": "完整的兽骨。上面的细微裂痕是野兽挣扎的证明。经过洗涤，抛光，静置等处理后，坚实耐用。"
-      },
-      {
-        "namespace": "/Game/Data/DataTables/SceneItem/DT_SceneItem_Composite",
-        "guid": "C361E6A948CBD521C77B6CA77F07D646",
-        "source_text": "词曲之思"
-      },
-      {
         "namespace": "/Game/Data/DataTables/SceneItem/StoryCrumbs/DT_StoryCrumbs_Content_Composite",
         "guid": "26EC901C4F4BDFEF474BFFA13EAEBBFB",
         "source_text": "编者按：本册为这一系列书籍的最后一册，记载了宫羽家莫离在云根镇的演讲，他详细阐述了乐曲完成后，对音乐的赏析与鉴赏。音乐，不仅仅是一种冰冷的艺术，更是人们内心情感的表达。通过赏析与鉴赏，我们可以更加深入地理解音乐作品背后的故事与情感，感受作曲家们的创作初衷与追求。\r\n\r\n以下为莫离大师演讲正文。 \r\n\r\n云根镇的各位大家"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/SceneItem/StoryCrumbs/DT_StoryCrumbs_Content_Composite",
+        "guid": "2888D55A4F6897BEE7F0E48B28F72AAA",
+        "source_text": "在野外陌生的环境下，如果缺少司南等指示方向的工具，很容易迷失方向。不过不必担心，我们有很多方法可以帮助你重新找回方向。不过要注意，在寻找方向的过程中请用石子、树枝等物品做好路标，防止原地打转。\r\n\r\n方法一：观察天体。白天可以通过观察太阳的位置来辨别方位，太阳在东方升起在西方落下，根据季节的变化可能会有轻微偏移。夜晚则"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/SceneItem/StoryCrumbs/DT_StoryCrumbs_Content_Composite",
+        "guid": "54B05ADC4378B7E9C8EFD7B37541FCCE",
+        "source_text": "本作的第二单元，接下来聊聊生长于天空的奇迹游猎家——隼与蝙蝠。\r\n\r\n曾有人捡到一根绮丽华美的靛蓝羽毛，将其视作珍宝，四处求问是出自哪种神奇生物，携着行至悬崖边，却遭到鹰隼的接连围攻，仓皇逃离后羽毛从此不知所踪。实际上，这种羽毛出自闪翎隼的扇状羽冠，它通身靛蓝，向前飞掠时，如同凌寒剑光割裂天空，顷刻间登临而至。\r\n\r\n"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/SceneItem/StoryCrumbs/StroyCrumbs_Avatar/DT_StoryCrumbs_Content_CoverPlot_EastWorld_C",
+        "guid": "2888D55A4F6897BEE7F0E48B28F72AAA",
+        "source_text": "在野外陌生的环境下，如果缺少司南等指示方向的工具，很容易迷失方向。不过不必担心，我们有很多方法可以帮助你重新找回方向。不过要注意，在寻找方向的过程中请用石子、树枝等物品做好路标，防止原地打转。\r\n\r\n方法一：观察天体。白天可以通过观察太阳的位置来辨别方位，太阳在东方升起在西方落下，根据季节的变化可能会有轻微偏移。夜晚则"
       }
     ],
     "validated_against": "final_merged_pool"
