@@ -1,6 +1,6 @@
 {
   "format_version": 1,
-  "generated_at_utc": "2026-05-09T23:19:55.531586+00:00",
+  "generated_at_utc": "2026-05-14T05:05:06.708748+00:00",
   "source_language": "zh",
   "target_language": "ko",
   "target_language_label": "Korean",
@@ -25,21 +25,21 @@
   },
   "locres_refresh": null,
   "output_dir": "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\ko",
-  "record_count": 44,
+  "record_count": 28,
   "reason_counts": {
     "cooked_ftext_coverage_missing_in_ko": 19,
-    "ko_still_source": 5,
-    "missing_in_ko": 20
+    "ko_still_source": 6,
+    "missing_in_ko": 3
   },
   "dialogue_route_coverage": {
     "enabled": true,
     "manifest": "D:\\Claude\\HoK-World-EngPatch\\tool\\assets\\known_cooked_text_dialogue_expand_manifest.json.gz",
-    "required_unique_key_count": 197191,
-    "required_occurrence_count": 197327,
-    "already_covered_key_count": 195271,
-    "already_candidate_key_count": 1336,
+    "required_unique_key_count": 200540,
+    "required_occurrence_count": 200676,
+    "already_covered_key_count": 198604,
+    "already_candidate_key_count": 1342,
     "missing_zh_source_key_count": 0,
-    "filtered_source_key_count": 584,
+    "filtered_source_key_count": 594,
     "added_key_count": 0,
     "added_record_count": 0,
     "include_hidden_placeholders": false
@@ -50,10 +50,10 @@
       "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\ko\\missing_dialogue_coverage_ko.json"
     ],
     "report_count": 1,
-    "row_count": 3,
-    "selected_language_row_count": 3,
+    "row_count": 4,
+    "selected_language_row_count": 4,
     "added_record_count": 0,
-    "duplicate_record_count": 3,
+    "duplicate_record_count": 4,
     "existing_usable_record_count": 0,
     "filtered_source_count": 0,
     "missing_required_field_count": 0,
@@ -105,16 +105,16 @@
     "force": false
   },
   "existing_additional_entries": {
-    "loaded_count": 92094,
-    "usable_skipped_candidate_count": 8353,
+    "loaded_count": 92139,
+    "usable_skipped_candidate_count": 8148,
     "force": false
   },
-  "unique_source_count": 38,
+  "unique_source_count": 22,
   "resolved_without_gemini_count": 0,
   "report_supplied_target_reused_source_count": 0,
   "report_supplied_target_reused_record_count": 0,
   "report_supplied_target_conflict_source_count": 1,
-  "pending_source_count": 38,
+  "pending_source_count": 22,
   "batch_count": 1,
   "max_translation_passes": 3,
   "invalid_cached_source_count": 0,
@@ -126,40 +126,40 @@
     "branch": "main",
     "base_path": "ko"
   },
-  "translated_record_count": 92028,
+  "translated_record_count": 92056,
   "passthrough_record_count": 0,
   "pending_record_count": 83,
   "empty_record_count": 0,
-  "invalid_translation_output_count": 63,
+  "invalid_translation_output_count": 66,
   "skipped_translation_output_count": 0,
   "translation_request_batch_count": 3,
-  "unresolved_source_count": 21,
+  "unresolved_source_count": 22,
   "additional_entries_merge": {
-    "existing_input_count": 92094,
-    "generated_input_count": 44,
-    "existing_preserved_count": 92067,
+    "existing_input_count": 92139,
+    "generated_input_count": 28,
+    "existing_preserved_count": 92111,
     "existing_kept_over_generated_count": 0,
-    "generated_replaced_existing_count": 27,
-    "generated_added_count": 17
+    "generated_replaced_existing_count": 28,
+    "generated_added_count": 0
   },
   "additional_entries_validation": {
     "valid": true,
-    "entry_count": 92111,
-    "usable_count": 92028,
+    "entry_count": 92139,
+    "usable_count": 92056,
     "skipped_count": 83,
     "errors": []
   },
   "dialogue_coverage_validation": {
     "enabled": true,
     "report_count": 1,
-    "row_count": 3,
+    "row_count": 4,
     "selected_language_row_count": 0,
-    "candidate_row_count": 3,
+    "candidate_row_count": 4,
     "filtered_source_count": 0,
     "covered_count": 0,
     "additional_entries_covered_count": 0,
     "final_pool_covered_count": 0,
-    "missing_count": 3,
+    "missing_count": 4,
     "remaining_missing": [
       {
         "namespace": "/Game/Data/ExportDialogues/BigWorldBl01L1/BigWorldBl01L1_SSR/ShuoShuChangZhuTest/DT_DialogueInfo_BigWorldBl01L1_SSR_ShuoShuChangZhuTest",
@@ -175,6 +175,11 @@
         "namespace": "/Game/Data/ExportDialogues/S7Test/S7Test_DJZCSTC/HuiHe/DT_DialogueInfo_S7Test_DJZCSTC_HuiHe",
         "guid": "S7Test_DJZCSTC_HuiHe_13_PlayerF_DialogueText",
         "source_text": "庄周老师说在我身上看到一个圆。"
+      },
+      {
+        "namespace": "/Game/Data/ExportDialogues/XuanShang/XuanShang_583002/JieQuDuiHua/DT_DialogueInfo_XuanShang_583002_JieQuDuiHua",
+        "guid": "XuanShang_583002_JieQuDuiHua_05_FanYi1_DialogueText",
+        "source_text": "至于如何观察……云丝传像能帮助我们观察到活物的骨骼、经络、肌肉构造等。"
       }
     ],
     "validated_against": "final_merged_pool"

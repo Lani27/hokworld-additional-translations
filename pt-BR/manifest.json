@@ -1,6 +1,6 @@
 {
   "format_version": 1,
-  "generated_at_utc": "2026-05-09T23:22:14.341439+00:00",
+  "generated_at_utc": "2026-05-14T05:06:52.403236+00:00",
   "source_language": "zh",
   "target_language": "pt-BR",
   "target_language_label": "Portuguese (Brazil)",
@@ -25,19 +25,19 @@
   },
   "locres_refresh": null,
   "output_dir": "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\pt-BR",
-  "record_count": 17,
+  "record_count": 28,
   "reason_counts": {
-    "missing_in_pt-BR": 17
+    "missing_in_pt-BR": 28
   },
   "dialogue_route_coverage": {
     "enabled": true,
     "manifest": "D:\\Claude\\HoK-World-EngPatch\\tool\\assets\\known_cooked_text_dialogue_expand_manifest.json.gz",
-    "required_unique_key_count": 197191,
-    "required_occurrence_count": 197327,
-    "already_covered_key_count": 195082,
-    "already_candidate_key_count": 1525,
+    "required_unique_key_count": 200540,
+    "required_occurrence_count": 200676,
+    "already_covered_key_count": 198415,
+    "already_candidate_key_count": 1531,
     "missing_zh_source_key_count": 0,
-    "filtered_source_key_count": 584,
+    "filtered_source_key_count": 594,
     "added_key_count": 0,
     "added_record_count": 0,
     "include_hidden_placeholders": false
@@ -103,16 +103,16 @@
     "force": false
   },
   "existing_additional_entries": {
-    "loaded_count": 100790,
-    "usable_skipped_candidate_count": 13823,
+    "loaded_count": 100807,
+    "usable_skipped_candidate_count": 13587,
     "force": false
   },
-  "unique_source_count": 17,
-  "resolved_without_gemini_count": 0,
+  "unique_source_count": 27,
+  "resolved_without_gemini_count": 1,
   "report_supplied_target_reused_source_count": 0,
   "report_supplied_target_reused_record_count": 0,
   "report_supplied_target_conflict_source_count": 0,
-  "pending_source_count": 17,
+  "pending_source_count": 26,
   "batch_count": 1,
   "max_translation_passes": 3,
   "invalid_cached_source_count": 0,
@@ -124,7 +124,7 @@
     "branch": "main",
     "base_path": "pt-BR"
   },
-  "translated_record_count": 100807,
+  "translated_record_count": 100835,
   "passthrough_record_count": 0,
   "pending_record_count": 0,
   "empty_record_count": 0,
@@ -133,17 +133,17 @@
   "translation_request_batch_count": 1,
   "unresolved_source_count": 0,
   "additional_entries_merge": {
-    "existing_input_count": 100790,
-    "generated_input_count": 17,
-    "existing_preserved_count": 100790,
+    "existing_input_count": 100807,
+    "generated_input_count": 28,
+    "existing_preserved_count": 100807,
     "existing_kept_over_generated_count": 0,
     "generated_replaced_existing_count": 0,
-    "generated_added_count": 17
+    "generated_added_count": 28
   },
   "additional_entries_validation": {
     "valid": true,
-    "entry_count": 100807,
-    "usable_count": 100806,
+    "entry_count": 100835,
+    "usable_count": 100834,
     "skipped_count": 0,
     "errors": []
   },
