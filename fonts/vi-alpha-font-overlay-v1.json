@@ -1,0 +1,112 @@
+{
+  "output": "_tmp\\alpha_font_overlay\\vi-alpha-font-overlay-v1.zip",
+  "size": 25318,
+  "sha256": "281C98A4B4641FDAC04055A132EF905D9FA5D6B70AC14DC660FDA7A90CC7C5D4",
+  "manifest": {
+    "kind": "vi_alpha_font_overlay",
+    "version": 1,
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\HONOR OF KINGS WORLD Playtest\\NGR",
+    "entry_count": 11,
+    "entries": [
+      {
+        "name": "HYQiHei-50S.uasset",
+        "logical_path": "/NGR/Content/UI/Fonts/HYQiHei-50S.uasset",
+        "source_package": "1",
+        "archive_name": "files/1FB3C6BB2871F489.bin",
+        "file_hash": "0x1FB3C6BB2871F489",
+        "raw_size": 1875,
+        "sha256": "C11FFD15877BFAD9CA36C46F70D7E3B78FF28587D00A4781AC9388B8FB6ED0FA"
+      },
+      {
+        "name": "HYQiHei-65S.uasset",
+        "logical_path": "/NGR/Content/UI/Fonts/HYQiHei-65S.uasset",
+        "source_package": "1",
+        "archive_name": "files/FDF76B5DE8DD77EF.bin",
+        "file_hash": "0xFDF76B5DE8DD77EF",
+        "raw_size": 1867,
+        "sha256": "A7B15ED6F1852634333A8A0BB72BAD8A7B316024C5A9304C27E23E608C1B7FAF"
+      },
+      {
+        "name": "HYWenHei-65W.uasset",
+        "logical_path": "/NGR/Content/UI/Fonts/HYWenHei-65W.uasset",
+        "source_package": "1",
+        "archive_name": "files/FC03DD1DC18D42AF.bin",
+        "file_hash": "0xFC03DD1DC18D42AF",
+        "raw_size": 1869,
+        "sha256": "8D9302B6BA8DD4013BC699B852A5DF7F75E3C84DB68701F30A2B8E841E7AEBB5"
+      },
+      {
+        "name": "NGR_FONT_Regular_Font.uasset",
+        "logical_path": "/NGR/Content/UI/Fonts/NGR_FONT_Regular_Font.uasset",
+        "source_package": "1",
+        "archive_name": "files/55C116135804E761.bin",
+        "file_hash": "0x55C116135804E761",
+        "raw_size": 2034,
+        "sha256": "271CF7A6F29D9AC5F0DEE233EC4447ED492FA5ECBC9DD0A53F0AA9EE71D65530"
+      },
+      {
+        "name": "NGR_FONT_Medium_Font.uasset",
+        "logical_path": "/NGR/Content/UI/Fonts/NGR_FONT_Medium_Font.uasset",
+        "source_package": "1",
+        "archive_name": "files/1288D1547529DAE6.bin",
+        "file_hash": "0x1288D1547529DAE6",
+        "raw_size": 2022,
+        "sha256": "D6D2C832A5740FCE50770BDF6DE17C4DAA1D078A445C591F0391EABB507B9C5E"
+      },
+      {
+        "name": "NGR_FONT_Regular_Tai.uasset",
+        "logical_path": "/NGR/Content/UI/Fonts/NGR_FONT_Regular_Tai.uasset",
+        "source_package": "1",
+        "archive_name": "files/58D2665C4025462E.bin",
+        "file_hash": "0x58D2665C4025462E",
+        "raw_size": 654,
+        "sha256": "A72ED09A3F2C357915C7E910F7E32242C35F38024A61654F37DEF6C9B60F9FC1"
+      },
+      {
+        "name": "NGR_FONT_Regular_Tai.uexp",
+        "logical_path": "/NGR/Content/UI/Fonts/NGR_FONT_Regular_Tai.uexp",
+        "source_package": "1",
+        "archive_name": "files/CA9D910129AADE33.bin",
+        "file_hash": "0xCA9D910129AADE33",
+        "raw_size": 119,
+        "sha256": "76A6E078B4FA3D93769AEC4B18ABA202027F728B6FC52AC69043B1B0CE3504F0"
+      },
+      {
+        "name": "NGR_FONT_Medium_Tai.uasset",
+        "logical_path": "/NGR/Content/UI/Fonts/NGR_FONT_Medium_Tai.uasset",
+        "source_package": "1",
+        "archive_name": "files/C209E97BD5D84309.bin",
+        "file_hash": "0xC209E97BD5D84309",
+        "raw_size": 652,
+        "sha256": "17297AB241BCEF6FAC35D215FFB054374F2BEA21E9F731010F027B523229D7F9"
+      },
+      {
+        "name": "NGR_FONT_Medium_Tai.uexp",
+        "logical_path": "/NGR/Content/UI/Fonts/NGR_FONT_Medium_Tai.uexp",
+        "source_package": "1",
+        "archive_name": "files/562A3306FEC94014.bin",
+        "file_hash": "0x562A3306FEC94014",
+        "raw_size": 117,
+        "sha256": "7C2D32E2510EFBE5CC8FE20C434FA323109C7BB4307DB2CAD00D894104819C3E"
+      },
+      {
+        "name": "NGR_FONT_Regular_Tai.ufont",
+        "logical_path": "/NGR/Content/UI/Fonts/NGR_FONT_Regular_Tai.ufont",
+        "source_package": "1157",
+        "archive_name": "files/797CEBFF5F04570D.bin",
+        "file_hash": "0x797CEBFF5F04570D",
+        "raw_size": 14272,
+        "sha256": "C799F456F6372262EB40CE272E76A8140A87068058F12D1F3F1203B009CD9272"
+      },
+      {
+        "name": "NGR_FONT_Medium_Tai.ufont",
+        "logical_path": "/NGR/Content/UI/Fonts/NGR_FONT_Medium_Tai.ufont",
+        "source_package": "1157",
+        "archive_name": "files/CCF5F3F8D7EFF5CA.bin",
+        "file_hash": "0xCCF5F3F8D7EFF5CA",
+        "raw_size": 14324,
+        "sha256": "99490FB6D8F631221CCBEAA6E98AC3C713ABA59D0A9581A1BCE128F6F9E3B216"
+      }
+    ]
+  }
+}
