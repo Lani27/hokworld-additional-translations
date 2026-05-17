@@ -1,0 +1,18 @@
+{
+  "format_version": 1,
+  "kind": "official_locres",
+  "generated_at_utc": "2026-05-17T07:52:26.307791+00:00",
+  "source_client": "Steam Global Alpha Playtest",
+  "source_root": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\HONOR OF KINGS WORLD Playtest\\NGR",
+  "target_language": "vi",
+  "target_language_label": "Vietnamese",
+  "file_hash": "0xC0733B23642D5591",
+  "source_package": "1058",
+  "file": "official_game.locres.gz",
+  "size": 87827989,
+  "sha256": "185085E92CD495506F1EA260F7016D01FD23E98B31CA69C26D1B2358025120CB",
+  "compressed_size": 21324744,
+  "compressed_sha256": "10DD300FF4EA2FCB7EA43D7CFE1C991901C24DA5B1D94EE89E1BC217E5F6D01B",
+  "namespace_count": 40031,
+  "row_count": 438489
+}
