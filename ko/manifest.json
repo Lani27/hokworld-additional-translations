@@ -1,6 +1,6 @@
 {
   "format_version": 1,
-  "generated_at_utc": "2026-05-14T05:05:06.708748+00:00",
+  "generated_at_utc": "2026-05-18T06:42:28.140565+00:00",
   "source_language": "zh",
   "target_language": "ko",
   "target_language_label": "Korean",
@@ -25,21 +25,21 @@
   },
   "locres_refresh": null,
   "output_dir": "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\ko",
-  "record_count": 28,
+  "record_count": 65,
   "reason_counts": {
     "cooked_ftext_coverage_missing_in_ko": 19,
     "ko_still_source": 6,
-    "missing_in_ko": 3
+    "missing_in_ko": 40
   },
   "dialogue_route_coverage": {
     "enabled": true,
     "manifest": "D:\\Claude\\HoK-World-EngPatch\\tool\\assets\\known_cooked_text_dialogue_expand_manifest.json.gz",
-    "required_unique_key_count": 200540,
-    "required_occurrence_count": 200676,
-    "already_covered_key_count": 198604,
-    "already_candidate_key_count": 1342,
+    "required_unique_key_count": 200085,
+    "required_occurrence_count": 200221,
+    "already_covered_key_count": 198165,
+    "already_candidate_key_count": 1328,
     "missing_zh_source_key_count": 0,
-    "filtered_source_key_count": 594,
+    "filtered_source_key_count": 592,
     "added_key_count": 0,
     "added_record_count": 0,
     "include_hidden_placeholders": false
@@ -80,7 +80,7 @@
     "missing_source_text_count": 0,
     "missing_report_count": 0,
     "skipped_other_language_count": 0,
-    "unresolved_zh_record_count": 12761,
+    "unresolved_zh_record_count": 12762,
     "report_supplied_target_count": 12760,
     "force": false
   },
@@ -106,16 +106,16 @@
   },
   "existing_additional_entries": {
     "loaded_count": 92139,
-    "usable_skipped_candidate_count": 8148,
+    "usable_skipped_candidate_count": 8361,
     "force": false
   },
-  "unique_source_count": 22,
+  "unique_source_count": 47,
   "resolved_without_gemini_count": 0,
   "report_supplied_target_reused_source_count": 0,
   "report_supplied_target_reused_record_count": 0,
   "report_supplied_target_conflict_source_count": 1,
-  "pending_source_count": 22,
-  "batch_count": 1,
+  "pending_source_count": 47,
+  "batch_count": 2,
   "max_translation_passes": 3,
   "invalid_cached_source_count": 0,
   "dry_run": false,
@@ -126,26 +126,26 @@
     "branch": "main",
     "base_path": "ko"
   },
-  "translated_record_count": 92056,
+  "translated_record_count": 92093,
   "passthrough_record_count": 0,
   "pending_record_count": 83,
   "empty_record_count": 0,
   "invalid_translation_output_count": 66,
   "skipped_translation_output_count": 0,
-  "translation_request_batch_count": 3,
+  "translation_request_batch_count": 4,
   "unresolved_source_count": 22,
   "additional_entries_merge": {
     "existing_input_count": 92139,
-    "generated_input_count": 28,
+    "generated_input_count": 65,
     "existing_preserved_count": 92111,
     "existing_kept_over_generated_count": 0,
     "generated_replaced_existing_count": 28,
-    "generated_added_count": 0
+    "generated_added_count": 37
   },
   "additional_entries_validation": {
     "valid": true,
-    "entry_count": 92139,
-    "usable_count": 92056,
+    "entry_count": 92176,
+    "usable_count": 92093,
     "skipped_count": 83,
     "errors": []
   },
