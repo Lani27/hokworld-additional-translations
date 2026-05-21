@@ -1,6 +1,6 @@
 {
   "format_version": 1,
-  "generated_at_utc": "2026-05-18T06:42:28.140565+00:00",
+  "generated_at_utc": "2026-05-21T06:33:05.095699+00:00",
   "source_language": "zh",
   "target_language": "ko",
   "target_language_label": "Korean",
@@ -25,21 +25,21 @@
   },
   "locres_refresh": null,
   "output_dir": "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\ko",
-  "record_count": 65,
+  "record_count": 198,
   "reason_counts": {
     "cooked_ftext_coverage_missing_in_ko": 19,
     "ko_still_source": 6,
-    "missing_in_ko": 40
+    "missing_in_ko": 173
   },
   "dialogue_route_coverage": {
     "enabled": true,
     "manifest": "D:\\Claude\\HoK-World-EngPatch\\tool\\assets\\known_cooked_text_dialogue_expand_manifest.json.gz",
-    "required_unique_key_count": 200085,
-    "required_occurrence_count": 200221,
-    "already_covered_key_count": 198165,
-    "already_candidate_key_count": 1328,
+    "required_unique_key_count": 197442,
+    "required_occurrence_count": 197442,
+    "already_covered_key_count": 195545,
+    "already_candidate_key_count": 1316,
     "missing_zh_source_key_count": 0,
-    "filtered_source_key_count": 592,
+    "filtered_source_key_count": 581,
     "added_key_count": 0,
     "added_record_count": 0,
     "include_hidden_placeholders": false
@@ -80,7 +80,7 @@
     "missing_source_text_count": 0,
     "missing_report_count": 0,
     "skipped_other_language_count": 0,
-    "unresolved_zh_record_count": 12762,
+    "unresolved_zh_record_count": 12761,
     "report_supplied_target_count": 12760,
     "force": false
   },
@@ -100,21 +100,21 @@
     "missing_source_text_count": 0,
     "missing_report_count": 0,
     "skipped_other_language_count": 0,
-    "unresolved_zh_record_count": 70101,
+    "unresolved_zh_record_count": 70100,
     "report_supplied_target_count": 69855,
     "force": false
   },
   "existing_additional_entries": {
-    "loaded_count": 92139,
-    "usable_skipped_candidate_count": 8361,
+    "loaded_count": 92176,
+    "usable_skipped_candidate_count": 2647,
     "force": false
   },
-  "unique_source_count": 47,
-  "resolved_without_gemini_count": 0,
+  "unique_source_count": 148,
+  "resolved_without_gemini_count": 4,
   "report_supplied_target_reused_source_count": 0,
   "report_supplied_target_reused_record_count": 0,
   "report_supplied_target_conflict_source_count": 1,
-  "pending_source_count": 47,
+  "pending_source_count": 144,
   "batch_count": 2,
   "max_translation_passes": 3,
   "invalid_cached_source_count": 0,
@@ -126,27 +126,27 @@
     "branch": "main",
     "base_path": "ko"
   },
-  "translated_record_count": 92093,
+  "translated_record_count": 92228,
   "passthrough_record_count": 0,
-  "pending_record_count": 83,
+  "pending_record_count": 118,
   "empty_record_count": 0,
-  "invalid_translation_output_count": 66,
+  "invalid_translation_output_count": 121,
   "skipped_translation_output_count": 0,
   "translation_request_batch_count": 4,
-  "unresolved_source_count": 22,
+  "unresolved_source_count": 39,
   "additional_entries_merge": {
-    "existing_input_count": 92139,
-    "generated_input_count": 65,
-    "existing_preserved_count": 92111,
+    "existing_input_count": 92176,
+    "generated_input_count": 198,
+    "existing_preserved_count": 92148,
     "existing_kept_over_generated_count": 0,
     "generated_replaced_existing_count": 28,
-    "generated_added_count": 37
+    "generated_added_count": 170
   },
   "additional_entries_validation": {
     "valid": true,
-    "entry_count": 92176,
-    "usable_count": 92093,
-    "skipped_count": 83,
+    "entry_count": 92346,
+    "usable_count": 92228,
+    "skipped_count": 118,
     "errors": []
   },
   "dialogue_coverage_validation": {
@@ -205,10 +205,10 @@
     "selected_language_row_count": 0,
     "candidate_row_count": 70107,
     "filtered_source_count": 0,
-    "covered_count": 70086,
-    "additional_entries_covered_count": 70086,
-    "final_pool_covered_count": 70088,
-    "missing_count": 21,
+    "covered_count": 70087,
+    "additional_entries_covered_count": 70087,
+    "final_pool_covered_count": 70089,
+    "missing_count": 20,
     "remaining_missing": [
       {
         "namespace": "/Game/Data/DataTables/FieldGuide/DT_FieldGuideExtraInfo_Composite",
@@ -294,11 +294,6 @@
         "namespace": "/Game/Data/DataTables/Item/DT_ItemBaseData",
         "guid": "F540FE43480B153ED607B5994FB11017",
         "source_text": "药效：在<Gold_Basic>15</>秒内，持续恢复<Gold_Basic>40%</>生命值，并降低<Gold_Basic>80%</>受到的震元素伤害，持续<Gold_Basic>8</>秒。"
-      },
-      {
-        "namespace": "/Game/Data/DataTables/SceneItem/StoryCrumbs/DT_StoryCrumbs_Content_Composite",
-        "guid": "26EC901C4F4BDFEF474BFFA13EAEBBFB",
-        "source_text": "编者按：本册为这一系列书籍的最后一册，记载了宫羽家莫离在云根镇的演讲，他详细阐述了乐曲完成后，对音乐的赏析与鉴赏。音乐，不仅仅是一种冰冷的艺术，更是人们内心情感的表达。通过赏析与鉴赏，我们可以更加深入地理解音乐作品背后的故事与情感，感受作曲家们的创作初衷与追求。\r\n\r\n以下为莫离大师演讲正文。 \r\n\r\n云根镇的各位大家"
       },
       {
         "namespace": "/Game/Data/DataTables/SceneItem/StoryCrumbs/DT_StoryCrumbs_Content_Composite",
