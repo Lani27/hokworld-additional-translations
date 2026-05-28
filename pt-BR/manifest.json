@@ -1,6 +1,6 @@
 {
   "format_version": 1,
-  "generated_at_utc": "2026-05-21T06:35:28.900024+00:00",
+  "generated_at_utc": "2026-05-28T14:49:57+00:00",
   "source_language": "zh",
   "target_language": "pt-BR",
   "target_language_label": "Portuguese (Brazil)",
@@ -142,8 +142,8 @@
   },
   "additional_entries_validation": {
     "valid": true,
-    "entry_count": 101042,
-    "usable_count": 101041,
+    "entry_count": 146392,
+    "usable_count": 146391,
     "skipped_count": 0,
     "errors": []
   },
@@ -188,5 +188,18 @@
     "missing_count": 0,
     "remaining_missing": [],
     "validated_against": "final_merged_pool"
+  },
+  "season1_predownload_merge": {
+    "merged_at_utc": "2026-05-28T14:49:57+00:00",
+    "source_artifact": "D:\\Claude\\HoK-World-EngPatch\\artifacts\\season1_predownload_translation_prep\\pt-BR\\additional_entries_translated_only.json",
+    "source_generated_at_utc": "2026-05-28T11:52:20+00:00",
+    "source_scope": "predownload_new_or_changed_zh_records_only",
+    "translated_record_count": 45350,
+    "pending_record_count": 0,
+    "added_entry_count": 45350,
+    "replaced_entry_count": 0,
+    "duplicate_source_entry_count": 0,
+    "base_entry_count": 101042,
+    "merged_entry_count": 146392
   }
 }
