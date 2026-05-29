@@ -1,0 +1,18 @@
+{
+  "format_version": 1,
+  "kind": "official_locres",
+  "generated_at_utc": "2026-05-29T00:37:10.323742+00:00",
+  "source_client": "Live official locres baseline before Season 1 sparse package merge",
+  "source_root": "D:\\Claude\\HoK-World-EngPatch\\game\\extracted",
+  "target_language": "en",
+  "target_language_label": "English",
+  "file_hash": "0x6502FCFBD7B9CCB5",
+  "source_package": "1058",
+  "file": "official_game.locres.gz",
+  "size": 63307430,
+  "sha256": "F9F96C38AB4EED0EFDE954737E696EEDE0C7CD201A3B68BA542F1A4A80BE1076",
+  "compressed_size": 18799282,
+  "compressed_sha256": "A9A47A51B7B47AA43215B2522018D6C213D2F982DD76FFFB896A1C869EAEAAD6",
+  "namespace_count": 40380,
+  "row_count": 438750
+}
