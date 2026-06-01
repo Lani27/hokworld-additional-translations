@@ -1,6 +1,6 @@
 {
   "format_version": 1,
-  "generated_at_utc": "2026-06-01T08:35:22.176154+00:00",
+  "generated_at_utc": "2026-06-01T09:25:44.857907+00:00",
   "source_language": "zh",
   "target_language": "en",
   "target_language_label": "English",
@@ -8,7 +8,7 @@
   "scope_note": "Includes zh records that are absent from English, whose English value is empty/still source text, or that are required by dialogue/cooked coverage inputs and lack usable English coverage. Official usable English records are intentionally excluded.",
   "model": "gemini-3.1-flash-lite",
   "rpm_limit": 15,
-  "input_limit_bytes": 5000,
+  "input_limit_bytes": 20480,
   "source_files": {
     "zh": "D:\\Claude\\HoK-World-EngPatch\\tool\\_tmp\\vanilla_cn_locres_20260601\\zh_game.locres",
     "en": "D:\\Claude\\HoK-World-EngPatch\\game\\extracted\\en_game.locres",
@@ -25,11 +25,8 @@
   },
   "locres_refresh": null,
   "output_dir": "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\en",
-  "record_count": 52,
-  "reason_counts": {
-    "cooked_ftext_coverage_missing_in_en": 23,
-    "missing_in_en": 29
-  },
+  "record_count": 0,
+  "reason_counts": {},
   "dialogue_route_coverage": {
     "enabled": true,
     "manifest": "D:\\Claude\\HoK-World-EngPatch\\tool\\assets\\known_cooked_text_dialogue_expand_manifest.json.gz",
@@ -91,9 +88,9 @@
     "report_count": 1,
     "row_count": 169247,
     "selected_language_row_count": 169247,
-    "added_record_count": 23,
-    "duplicate_record_count": 29,
-    "existing_usable_record_count": 169193,
+    "added_record_count": 0,
+    "duplicate_record_count": 0,
+    "existing_usable_record_count": 169245,
     "filtered_source_count": 2,
     "missing_required_field_count": 0,
     "missing_source_text_count": 0,
@@ -104,11 +101,21 @@
     "force": false
   },
   "existing_additional_entries": {
-    "loaded_count": 275297,
-    "usable_skipped_candidate_count": 57003,
-    "force": false
+    "loaded_count": 275349,
+    "usable_skipped_candidate_count": 57032,
+    "force": false,
+    "glossary_reconciliation": {
+      "enabled": true,
+      "entry_count": 275349,
+      "glossary_entry_count": 9594,
+      "source_resolved_count": 193160,
+      "canonical_match_count": 21732,
+      "rewritten_count": 83,
+      "unusable_canonical_count": 0,
+      "report_count": 3
+    }
   },
-  "unique_source_count": 22,
+  "unique_source_count": 0,
   "translation_values_glossary": {
     "enabled": true,
     "source": "D:\\Claude\\HoK-World-EngPatch\\tool\\assets\\translation_values_glossary.json",
@@ -117,10 +124,10 @@
     "seeded_source_count": 0,
     "seeded_record_count": 0
   },
-  "resolved_without_gemini_count": 22,
+  "resolved_without_gemini_count": 0,
   "report_supplied_target_reused_source_count": 0,
   "report_supplied_target_reused_record_count": 0,
-  "report_supplied_target_conflict_source_count": 6,
+  "report_supplied_target_conflict_source_count": 0,
   "pending_source_count": 0,
   "batch_count": 0,
   "max_translation_passes": 3,
@@ -142,12 +149,12 @@
   "translation_request_batch_count": 0,
   "unresolved_source_count": 0,
   "additional_entries_merge": {
-    "existing_input_count": 275297,
-    "generated_input_count": 52,
-    "existing_preserved_count": 275297,
+    "existing_input_count": 275349,
+    "generated_input_count": 0,
+    "existing_preserved_count": 275349,
     "existing_kept_over_generated_count": 0,
     "generated_replaced_existing_count": 0,
-    "generated_added_count": 52
+    "generated_added_count": 0
   },
   "additional_entries_full_validation": {
     "valid": true,
