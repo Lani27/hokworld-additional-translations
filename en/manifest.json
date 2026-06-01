@@ -1,6 +1,6 @@
 {
   "format_version": 1,
-  "generated_at_utc": "2026-06-01T09:25:44.857907+00:00",
+  "generated_at_utc": "2026-06-01T11:13:09.259795+00:00",
   "source_language": "zh",
   "target_language": "en",
   "target_language_label": "English",
@@ -110,7 +110,7 @@
       "glossary_entry_count": 9594,
       "source_resolved_count": 193160,
       "canonical_match_count": 21732,
-      "rewritten_count": 83,
+      "rewritten_count": 0,
       "unusable_canonical_count": 0,
       "report_count": 3
     }
@@ -134,7 +134,7 @@
   "invalid_cached_source_count": 0,
   "dry_run": false,
   "github": {
-    "enabled": false,
+    "enabled": true,
     "owner": "Lani27",
     "repo": "hokworld-additional-translations",
     "branch": "main",
@@ -155,6 +155,41 @@
     "existing_kept_over_generated_count": 0,
     "generated_replaced_existing_count": 0,
     "generated_added_count": 0
+  },
+  "fuzzy_glossary": {
+    "enabled": true,
+    "repair_enabled": true,
+    "dry_run": false,
+    "entry_count": 275349,
+    "checked_count": 275349,
+    "source_resolved_count": 193160,
+    "term_hit_entry_count": 24161,
+    "term_hit_count": 28035,
+    "mismatch_count": 9755,
+    "repair_candidate_count": 500,
+    "repair_candidate_unique_count": 311,
+    "repair_attempted_count": 500,
+    "repair_rewritten_count": 305,
+    "repair_failed_count": 195,
+    "repair_skipped_dry_run_count": 0,
+    "repair_skipped_limit_count": 9255,
+    "term_glossary": {
+      "enabled": true,
+      "source_files": [
+        "D:\\Claude\\HoK-World-EngPatch\\docs\\generated\\official_gear_glossary\\official_gear_names.csv",
+        "D:\\Claude\\HoK-World-EngPatch\\docs\\generated\\hero_glossary\\hero_name_glossary.csv",
+        "D:\\Claude\\HoK-World-EngPatch\\docs\\generated\\hero_glossary\\hero_skill_glossary.csv",
+        "D:\\Claude\\HoK-World-EngPatch\\docs\\generated\\location_glossary\\location_glossary.csv",
+        "D:\\Claude\\HoK-World-EngPatch\\docs\\generated\\content_glossary\\content_glossary_all.csv",
+        "D:\\Claude\\HoK-World-EngPatch\\docs\\generated\\currency_event_glossary\\currency_event_glossary_all.csv",
+        "D:\\Claude\\HoK-World-EngPatch\\docs\\generated\\summon_combat_glossary\\summon_combat_glossary.csv",
+        "D:\\Claude\\HoK-World-EngPatch\\docs\\generated\\manual_glossary\\manual_glossary.csv"
+      ],
+      "raw_pair_count": 1815,
+      "term_count": 1298,
+      "conflict_count": 19,
+      "filtered_count": 296
+    }
   },
   "additional_entries_full_validation": {
     "valid": true,
