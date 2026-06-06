@@ -1,6 +1,6 @@
 {
   "format_version": 1,
-  "generated_at_utc": "2026-06-01T11:13:09.259795+00:00",
+  "generated_at_utc": "2026-06-06T11:40:16.811766+00:00",
   "source_language": "zh",
   "target_language": "en",
   "target_language_label": "English",
@@ -10,7 +10,7 @@
   "rpm_limit": 15,
   "input_limit_bytes": 20480,
   "source_files": {
-    "zh": "D:\\Claude\\HoK-World-EngPatch\\tool\\_tmp\\vanilla_cn_locres_20260601\\zh_game.locres",
+    "zh": "D:\\Claude\\HoK-World-EngPatch\\tool\\_tmp\\locres_cn_zh_20260606_193238\\zh_game.locres",
     "en": "D:\\Claude\\HoK-World-EngPatch\\game\\extracted\\en_game.locres",
     "dialogue_route_manifest": "D:\\Claude\\HoK-World-EngPatch\\tool\\assets\\known_cooked_text_dialogue_expand_manifest.json.gz",
     "dialogue_coverage_reports": [
@@ -25,8 +25,11 @@
   },
   "locres_refresh": null,
   "output_dir": "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\en",
-  "record_count": 0,
-  "reason_counts": {},
+  "record_count": 299,
+  "reason_counts": {
+    "en_still_chinese": 38,
+    "missing_in_en": 261
+  },
   "dialogue_route_coverage": {
     "enabled": true,
     "manifest": "D:\\Claude\\HoK-World-EngPatch\\tool\\assets\\known_cooked_text_dialogue_expand_manifest.json.gz",
@@ -96,83 +99,83 @@
     "missing_source_text_count": 0,
     "missing_report_count": 0,
     "skipped_other_language_count": 0,
-    "unresolved_zh_record_count": 134682,
+    "unresolved_zh_record_count": 138285,
     "report_supplied_target_count": 121628,
     "force": false
   },
   "existing_additional_entries": {
     "loaded_count": 275349,
-    "usable_skipped_candidate_count": 57032,
+    "usable_skipped_candidate_count": 51719,
     "force": false,
     "glossary_reconciliation": {
       "enabled": true,
       "entry_count": 275349,
-      "glossary_entry_count": 9594,
-      "source_resolved_count": 193160,
-      "canonical_match_count": 21732,
-      "rewritten_count": 0,
+      "glossary_entry_count": 7200,
+      "source_resolved_count": 191521,
+      "canonical_match_count": 13745,
+      "rewritten_count": 461,
       "unusable_canonical_count": 0,
       "report_count": 3
     }
   },
-  "unique_source_count": 0,
+  "unique_source_count": 214,
   "translation_values_glossary": {
     "enabled": true,
     "source": "D:\\Claude\\HoK-World-EngPatch\\tool\\assets\\translation_values_glossary.json",
-    "entry_count": 9594,
-    "conflict_count": 0,
-    "seeded_source_count": 0,
-    "seeded_record_count": 0
+    "entry_count": 7200,
+    "conflict_count": 523,
+    "seeded_source_count": 2,
+    "seeded_record_count": 5
   },
-  "resolved_without_gemini_count": 0,
+  "resolved_without_gemini_count": 45,
   "report_supplied_target_reused_source_count": 0,
   "report_supplied_target_reused_record_count": 0,
   "report_supplied_target_conflict_source_count": 0,
-  "pending_source_count": 0,
-  "batch_count": 0,
+  "pending_source_count": 169,
+  "batch_count": 2,
   "max_translation_passes": 3,
   "invalid_cached_source_count": 0,
   "dry_run": false,
   "github": {
-    "enabled": true,
+    "enabled": false,
     "owner": "Lani27",
     "repo": "hokworld-additional-translations",
     "branch": "main",
     "base_path": "en"
   },
-  "translated_record_count": 275349,
+  "translated_record_count": 275610,
   "passthrough_record_count": 0,
   "pending_record_count": 0,
   "empty_record_count": 0,
   "invalid_translation_output_count": 0,
   "skipped_translation_output_count": 0,
-  "translation_request_batch_count": 0,
+  "translation_request_batch_count": 2,
   "unresolved_source_count": 0,
   "additional_entries_merge": {
     "existing_input_count": 275349,
-    "generated_input_count": 0,
-    "existing_preserved_count": 275349,
+    "generated_input_count": 299,
+    "existing_preserved_count": 275311,
     "existing_kept_over_generated_count": 0,
-    "generated_replaced_existing_count": 0,
-    "generated_added_count": 0
+    "generated_replaced_existing_count": 38,
+    "generated_added_count": 261
   },
   "fuzzy_glossary": {
     "enabled": true,
-    "repair_enabled": true,
+    "repair_enabled": false,
     "dry_run": false,
-    "entry_count": 275349,
-    "checked_count": 275349,
-    "source_resolved_count": 193160,
-    "term_hit_entry_count": 24161,
-    "term_hit_count": 28035,
-    "mismatch_count": 9755,
-    "repair_candidate_count": 500,
-    "repair_candidate_unique_count": 311,
-    "repair_attempted_count": 500,
-    "repair_rewritten_count": 305,
-    "repair_failed_count": 195,
+    "entry_count": 275610,
+    "checked_count": 275610,
+    "source_resolved_count": 191782,
+    "term_hit_entry_count": 24206,
+    "term_hit_count": 28049,
+    "mismatch_count": 8494,
+    "repair_candidate_count": 0,
+    "repair_candidate_unique_count": 0,
+    "repair_attempted_count": 0,
+    "repair_rewritten_count": 0,
+    "repair_failed_count": 0,
     "repair_skipped_dry_run_count": 0,
-    "repair_skipped_limit_count": 9255,
+    "repair_skipped_limit_count": 0,
     "term_glossary": {
       "enabled": true,
       "source_files": [
@@ -185,30 +188,30 @@
         "D:\\Claude\\HoK-World-EngPatch\\docs\\generated\\summon_combat_glossary\\summon_combat_glossary.csv",
         "D:\\Claude\\HoK-World-EngPatch\\docs\\generated\\manual_glossary\\manual_glossary.csv"
       ],
-      "raw_pair_count": 1815,
-      "term_count": 1298,
-      "conflict_count": 19,
-      "filtered_count": 296
+      "raw_pair_count": 1833,
+      "term_count": 1315,
+      "conflict_count": 14,
+      "filtered_count": 302
     }
   },
   "additional_entries_full_validation": {
     "valid": true,
-    "entry_count": 275349,
-    "usable_count": 275349,
+    "entry_count": 275610,
+    "usable_count": 275568,
     "skipped_count": 0,
     "errors": []
   },
   "additional_entries_validation": {
     "valid": true,
-    "entry_count": 275349,
-    "usable_count": 275349,
+    "entry_count": 275568,
+    "usable_count": 275568,
     "skipped_count": 0,
     "errors": []
   },
   "additional_entries_runtime_compaction": {
-    "input_entry_count": 275349,
-    "written_entry_count": 275349,
-    "omitted_unusable_count": 0
+    "input_entry_count": 275610,
+    "written_entry_count": 275568,
+    "omitted_unusable_count": 42
   },
   "dialogue_coverage_validation": {
     "enabled": true,
