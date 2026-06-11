@@ -1,6 +1,6 @@
 {
   "format_version": 1,
-  "generated_at_utc": "2026-06-11T08:38:29.382040+00:00",
+  "generated_at_utc": "2026-06-11T09:39:00.855158+00:00",
   "source_language": "zh",
   "target_language": "en",
   "target_language_label": "English",
@@ -10,7 +10,7 @@
   "rpm_limit": 15,
   "input_limit_bytes": 20480,
   "source_files": {
-    "zh": "D:\\Claude\\HoK-World-EngPatch\\tool\\_tmp\\locres_cn_zh_20260611_162721\\zh_game.locres",
+    "zh": "D:\\Claude\\HoK-World-EngPatch\\game\\extracted\\zh_game.locres",
     "en": "D:\\Claude\\HoK-World-EngPatch\\game\\extracted\\en_game.locres",
     "dialogue_route_manifest": "D:\\Claude\\HoK-World-EngPatch\\tool\\assets\\known_cooked_text_dialogue_expand_manifest.json.gz",
     "dialogue_coverage_reports": [
@@ -32,10 +32,10 @@
     "manifest": "D:\\Claude\\HoK-World-EngPatch\\tool\\assets\\known_cooked_text_dialogue_expand_manifest.json.gz",
     "required_unique_key_count": 197848,
     "required_occurrence_count": 197848,
-    "already_covered_key_count": 195111,
-    "already_candidate_key_count": 702,
-    "missing_zh_source_key_count": 1453,
-    "filtered_source_key_count": 582,
+    "already_covered_key_count": 196566,
+    "already_candidate_key_count": 295,
+    "missing_zh_source_key_count": 406,
+    "filtered_source_key_count": 581,
     "added_key_count": 0,
     "added_record_count": 0,
     "include_hidden_placeholders": false
@@ -76,7 +76,7 @@
     "missing_source_text_count": 0,
     "missing_report_count": 0,
     "skipped_other_language_count": 0,
-    "unresolved_zh_record_count": 1633,
+    "unresolved_zh_record_count": 2096,
     "report_supplied_target_count": 433,
     "force": false
   },
@@ -96,21 +96,22 @@
     "missing_source_text_count": 0,
     "missing_report_count": 0,
     "skipped_other_language_count": 0,
-    "unresolved_zh_record_count": 134696,
+    "unresolved_zh_record_count": 165679,
     "report_supplied_target_count": 121628,
     "force": false
   },
   "existing_additional_entries": {
-    "loaded_count": 275658,
-    "usable_skipped_candidate_count": 57278,
+    "loaded_count": 275680,
+    "usable_skipped_candidate_count": 1201,
     "force": false,
     "glossary_reconciliation": {
       "enabled": true,
-      "entry_count": 275658,
-      "glossary_entry_count": 7200,
-      "source_resolved_count": 193486,
-      "canonical_match_count": 13831,
+      "entry_count": 275680,
+      "glossary_entry_count": 7229,
+      "source_resolved_count": 172917,
+      "canonical_match_count": 13764,
       "rewritten_count": 0,
+      "flow_term_rewritten_count": 0,
       "unusable_canonical_count": 0,
       "report_count": 3
     }
@@ -119,7 +120,7 @@
   "translation_values_glossary": {
     "enabled": true,
     "source": "D:\\Claude\\HoK-World-EngPatch\\tool\\assets\\translation_values_glossary.json",
-    "entry_count": 7200,
+    "entry_count": 7229,
     "conflict_count": 523,
     "seeded_source_count": 0,
     "seeded_record_count": 0
@@ -132,15 +133,16 @@
   "batch_count": 0,
   "max_translation_passes": 3,
   "invalid_cached_source_count": 0,
+  "normalized_cached_source_count": 0,
   "dry_run": false,
   "github": {
-    "enabled": false,
+    "enabled": true,
     "owner": "Lani27",
     "repo": "hokworld-additional-translations",
     "branch": "main",
     "base_path": "en"
   },
-  "translated_record_count": 275658,
+  "translated_record_count": 275680,
   "passthrough_record_count": 0,
   "pending_record_count": 0,
   "empty_record_count": 0,
@@ -149,65 +151,48 @@
   "translation_request_batch_count": 0,
   "unresolved_source_count": 0,
   "additional_entries_merge": {
-    "existing_input_count": 275658,
+    "existing_input_count": 275680,
     "generated_input_count": 0,
-    "existing_preserved_count": 275658,
+    "existing_preserved_count": 275680,
     "existing_kept_over_generated_count": 0,
     "generated_replaced_existing_count": 0,
     "generated_added_count": 0
   },
   "fuzzy_glossary": {
-    "enabled": true,
+    "enabled": false,
     "repair_enabled": false,
     "dry_run": false,
-    "entry_count": 275658,
-    "checked_count": 275658,
-    "source_resolved_count": 193486,
-    "term_hit_entry_count": 24433,
-    "term_hit_count": 28358,
-    "mismatch_count": 8607,
+    "entry_count": 275680,
+    "checked_count": 0,
+    "source_resolved_count": 0,
+    "term_hit_entry_count": 0,
+    "term_hit_count": 0,
+    "mismatch_count": 0,
     "repair_candidate_count": 0,
     "repair_candidate_unique_count": 0,
     "repair_attempted_count": 0,
     "repair_rewritten_count": 0,
     "repair_failed_count": 0,
     "repair_skipped_dry_run_count": 0,
-    "repair_skipped_limit_count": 0,
-    "term_glossary": {
-      "enabled": true,
-      "source_files": [
-        "D:\\Claude\\HoK-World-EngPatch\\docs\\generated\\official_gear_glossary\\official_gear_names.csv",
-        "D:\\Claude\\HoK-World-EngPatch\\docs\\generated\\hero_glossary\\hero_name_glossary.csv",
-        "D:\\Claude\\HoK-World-EngPatch\\docs\\generated\\hero_glossary\\hero_skill_glossary.csv",
-        "D:\\Claude\\HoK-World-EngPatch\\docs\\generated\\location_glossary\\location_glossary.csv",
-        "D:\\Claude\\HoK-World-EngPatch\\docs\\generated\\content_glossary\\content_glossary_all.csv",
-        "D:\\Claude\\HoK-World-EngPatch\\docs\\generated\\currency_event_glossary\\currency_event_glossary_all.csv",
-        "D:\\Claude\\HoK-World-EngPatch\\docs\\generated\\summon_combat_glossary\\summon_combat_glossary.csv",
-        "D:\\Claude\\HoK-World-EngPatch\\docs\\generated\\manual_glossary\\manual_glossary.csv"
-      ],
-      "raw_pair_count": 1833,
-      "term_count": 1315,
-      "conflict_count": 14,
-      "filtered_count": 302
-    }
+    "repair_skipped_limit_count": 0
   },
   "additional_entries_full_validation": {
     "valid": true,
-    "entry_count": 275658,
-    "usable_count": 275658,
+    "entry_count": 275680,
+    "usable_count": 275680,
     "skipped_count": 0,
     "errors": []
   },
   "additional_entries_validation": {
     "valid": true,
-    "entry_count": 275658,
-    "usable_count": 275658,
+    "entry_count": 275680,
+    "usable_count": 275680,
     "skipped_count": 0,
     "errors": []
   },
   "additional_entries_runtime_compaction": {
-    "input_entry_count": 275658,
-    "written_entry_count": 275658,
+    "input_entry_count": 275680,
+    "written_entry_count": 275680,
     "omitted_unusable_count": 0
   },
   "dialogue_coverage_validation": {
@@ -245,11 +230,137 @@
     "selected_language_row_count": 0,
     "candidate_row_count": 169245,
     "filtered_source_count": 2,
-    "covered_count": 169245,
+    "covered_count": 156191,
     "additional_entries_covered_count": 169245,
-    "final_pool_covered_count": 169245,
-    "missing_count": 0,
-    "remaining_missing": [],
+    "final_pool_covered_count": 156191,
+    "missing_count": 13054,
+    "remaining_missing": [
+      {
+        "namespace": "/Game/Data/DataTables/Achievement/DT_Achievement/DT_AchievementBattle",
+        "guid": "0027D77444C174D5A0D236B4C5605575",
+        "source_text": "在梦行奇谭·瑞火社戏中成功绊倒铠鼠大王3次"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Achievement/DT_Achievement/DT_AchievementBattle",
+        "guid": "0685B5F741621B99942397BF3EC082F7",
+        "source_text": "无伤完成宗师难度的鹤鸣论武"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Achievement/DT_Achievement/DT_AchievementBattle",
+        "guid": "07B8EC6840F637A3742BE79E23CE973B",
+        "source_text": "队伍使用5次机关的情况下通关灾兽共斗菁英以上难度-废弃"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Achievement/DT_Achievement/DT_AchievementBattle",
+        "guid": "09AC6C64487CDF53CA2477B6BC73D280",
+        "source_text": "使用破魔之箭在单场梦行奇谭中打出100次渡灵之箭"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Achievement/DT_Achievement/DT_AchievementBattle",
+        "guid": "0CCE713942AC87B276171C8D668F76AA",
+        "source_text": "在梦行奇谭·林地篱影中不受到灼绒的地面火焰伤害"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Achievement/DT_Achievement/DT_AchievementBattle",
+        "guid": "0D221A8F4298526CE437708A7DB3CC35",
+        "source_text": "在队伍内没有玩家流陨的情况下通关第3层以上的梦行奇谭·瑞火社戏"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Achievement/DT_Achievement/DT_AchievementBattle",
+        "guid": "0EF12A4446BC1EC5AC768780EAFDB1A1",
+        "source_text": "奇境·燃山回响中，玩家每次被冻住的时间小于10秒"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Achievement/DT_Achievement/DT_AchievementBattle",
+        "guid": "159EE7D64A3876399B4AF98D9039EF87",
+        "source_text": "在梦行奇谭·林地篱影中使用炸弹攻击木篱王5次"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Achievement/DT_Achievement/DT_AchievementBattle",
+        "guid": "18C8D71641775CBA18D8FC8010436590",
+        "source_text": "15秒内连续使用钩锁5次"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Achievement/DT_Achievement/DT_AchievementBattle",
+        "guid": "1ACF4DBF40EDBF5FBF0A248CE3AF7C3C",
+        "source_text": "队伍使用5次机关的情况下通关灾兽共斗菁英以上难度-废弃"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Achievement/DT_Achievement/DT_AchievementBattle",
+        "guid": "23E9A1054E7E07FCE9D09D9532F45E30",
+        "source_text": "在绝境·神炼之遗中躲过遗落火烈甲的全部攻击"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Achievement/DT_Achievement/DT_AchievementBattle",
+        "guid": "2D9C26B94B2272C75361559F0F08D2FA",
+        "source_text": "使用原初之流在梦行奇谭中30秒内打出2次命流处决"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Achievement/DT_Achievement/DT_AchievementBattle",
+        "guid": "2E7455904E181F47B05B3CBCA6A45633",
+        "source_text": "使用传说之刃在单场梦行奇谭中化解10次攻击"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Achievement/DT_Achievement/DT_AchievementBattle",
+        "guid": "31D0D9C0479B91335A7BCEAF2B2B149E",
+        "source_text": "在梦行奇谭·三院争锋中躲过蛮虎的全部攻击"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Achievement/DT_Achievement/DT_AchievementBattle",
+        "guid": "335C7E1841331F8265B804AEA492A96A",
+        "source_text": "无伤完成资深以上难度的虎啸论武"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Achievement/DT_Achievement/DT_AchievementBattle",
+        "guid": "37CED5574120552B6321F59DC8981E92",
+        "source_text": "无伤完成资深以上难度的墨焰论武"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Achievement/DT_Achievement/DT_AchievementBattle",
+        "guid": "381D61484E3707F72CE0FC850892AEB1",
+        "source_text": "在梦行奇谭·三院争锋中持盾阻挡万枢重锤3次攻击"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Achievement/DT_Achievement/DT_AchievementBattle",
+        "guid": "3B1DD6654F4412D6673A158929F6BB9A",
+        "source_text": "使用龙击炮打断Boss红光技的情况下通关灾兽菁英以上难度-废弃"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Achievement/DT_Achievement/DT_AchievementBattle",
+        "guid": "3CDF39C7471BCF4BF8CB50B15FCAA42C",
+        "source_text": "队伍使用5次机关的情况下通关灾兽共斗菁英以上难度-废弃"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Achievement/DT_Achievement/DT_AchievementBattle",
+        "guid": "3CFC4CDF4AE98158E5D71B94BAB0BF89",
+        "source_text": "在菁英以上难度的神炼之遗中利用落剑阻挡5次炎雷神刃将的剑气攻击"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Achievement/DT_Achievement/DT_AchievementBattle",
+        "guid": "4508981F45E804D703041B8E1A10D130",
+        "source_text": "在不触发温度异常的情况下通关灾兽共斗·双影"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Achievement/DT_Achievement/DT_AchievementBattle",
+        "guid": "48E082384A6F5FA80E091CA221FA694D",
+        "source_text": "在梦行奇谭·瑞火社戏中引导小萝卜割断绳子3次"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Achievement/DT_Achievement/DT_AchievementBattle",
+        "guid": "4BF005AB462BD791BC17BEB13D351D94",
+        "source_text": "妃寒在单场梦行奇谭中反弹雪灵螺旋40次"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Achievement/DT_Achievement/DT_AchievementBattle",
+        "guid": "4F3EC4A14D3C92480B6C1CB6CCD4A02D",
+        "source_text": "在空中自由落体8秒"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Achievement/DT_Achievement/DT_AchievementBattle",
+        "guid": "4F98017B46ED1561ABB19193F604E04A",
+        "source_text": "使用幻纱之灵在单场梦行奇谭中融合100枚法球"
+      }
+    ],
     "validated_against": "final_merged_pool"
   }
 }
