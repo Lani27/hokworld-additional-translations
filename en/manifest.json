@@ -1,6 +1,6 @@
 {
   "format_version": 1,
-  "generated_at_utc": "2026-06-12T19:06:40.876642+00:00",
+  "generated_at_utc": "2026-06-12T19:16:45.555893+00:00",
   "source_language": "zh",
   "target_language": "en",
   "target_language_label": "English",
@@ -29,9 +29,8 @@
   },
   "locres_refresh": null,
   "output_dir": "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\en",
-  "record_count": 89,
+  "record_count": 29,
   "reason_counts": {
-    "cooked_ftext_coverage_missing_in_en": 60,
     "missing_in_en": 29
   },
   "zh_changed_key_backup": {
@@ -96,6 +95,7 @@
     "skipped_other_language_count": 0,
     "unresolved_zh_record_count": 0,
     "report_supplied_target_count": 0,
+    "report_supplied_target_hash_mismatch_count": 0,
     "force": false
   },
   "cooked_localtext_coverage_report": {
@@ -116,6 +116,7 @@
     "skipped_other_language_count": 0,
     "unresolved_zh_record_count": 1633,
     "report_supplied_target_count": 433,
+    "report_supplied_target_hash_mismatch_count": 0,
     "force": false
   },
   "cooked_ftext_coverage_report": {
@@ -126,16 +127,17 @@
     "report_count": 1,
     "row_count": 169247,
     "selected_language_row_count": 169247,
-    "added_record_count": 60,
-    "duplicate_record_count": 0,
-    "existing_usable_record_count": 169185,
+    "added_record_count": 0,
+    "duplicate_record_count": 23,
+    "existing_usable_record_count": 169222,
     "filtered_source_count": 2,
     "missing_required_field_count": 0,
     "missing_source_text_count": 0,
     "missing_report_count": 0,
     "skipped_other_language_count": 0,
     "unresolved_zh_record_count": 134696,
-    "report_supplied_target_count": 121630,
+    "report_supplied_target_count": 121622,
+    "report_supplied_target_hash_mismatch_count": 8,
     "force": false
   },
   "existing_additional_entries": {
@@ -167,18 +169,18 @@
       "report_count": 3
     }
   },
-  "unique_source_count": 72,
+  "unique_source_count": 25,
   "translation_values_glossary": {
     "enabled": true,
     "source": "D:\\Claude\\HoK-World-EngPatch\\tool\\assets\\translation_values_glossary.json",
     "entry_count": 7229,
     "conflict_count": 523,
-    "seeded_source_count": 6,
-    "seeded_record_count": 12
+    "seeded_source_count": 3,
+    "seeded_record_count": 6
   },
-  "resolved_without_gemini_count": 72,
-  "report_supplied_target_reused_source_count": 8,
-  "report_supplied_target_reused_record_count": 9,
+  "resolved_without_gemini_count": 25,
+  "report_supplied_target_reused_source_count": 0,
+  "report_supplied_target_reused_record_count": 0,
   "report_supplied_target_conflict_source_count": 0,
   "pending_source_count": 0,
   "batch_count": 0,
@@ -193,7 +195,7 @@
     "branch": "main",
     "base_path": "en"
   },
-  "translated_record_count": 275619,
+  "translated_record_count": 275559,
   "passthrough_record_count": 0,
   "pending_record_count": 0,
   "empty_record_count": 0,
@@ -203,17 +205,17 @@
   "unresolved_source_count": 0,
   "additional_entries_merge": {
     "existing_input_count": 275530,
-    "generated_input_count": 89,
+    "generated_input_count": 29,
     "existing_preserved_count": 275530,
     "existing_kept_over_generated_count": 0,
     "generated_replaced_existing_count": 0,
-    "generated_added_count": 89
+    "generated_added_count": 29
   },
   "fuzzy_glossary": {
     "enabled": false,
     "repair_enabled": false,
     "dry_run": false,
-    "entry_count": 275619,
+    "entry_count": 275559,
     "checked_count": 0,
     "source_resolved_count": 0,
     "term_hit_entry_count": 0,
@@ -229,21 +231,21 @@
   },
   "additional_entries_full_validation": {
     "valid": true,
-    "entry_count": 275619,
-    "usable_count": 275619,
+    "entry_count": 275559,
+    "usable_count": 275559,
     "skipped_count": 0,
     "errors": []
   },
   "additional_entries_validation": {
     "valid": true,
-    "entry_count": 275619,
-    "usable_count": 275619,
+    "entry_count": 275559,
+    "usable_count": 275559,
     "skipped_count": 0,
     "errors": []
   },
   "additional_entries_runtime_compaction": {
-    "input_entry_count": 275619,
-    "written_entry_count": 275619,
+    "input_entry_count": 275559,
+    "written_entry_count": 275559,
     "omitted_unusable_count": 0
   },
   "dialogue_coverage_validation": {
