@@ -1,6 +1,6 @@
 {
   "format_version": 1,
-  "generated_at_utc": "2026-06-12T19:16:45.555893+00:00",
+  "generated_at_utc": "2026-06-18T06:48:36.641996+00:00",
   "source_language": "zh",
   "target_language": "en",
   "target_language_label": "English",
@@ -10,28 +10,24 @@
   "rpm_limit": 15,
   "input_limit_bytes": 20480,
   "source_files": {
-    "zh": "D:\\Claude\\HoK-World-EngPatch\\game\\extracted\\zh_game.locres",
+    "zh": "D:\\Claude\\HoK-World-EngPatch\\version_history\\deployment\\2026-06-18_post_update_live\\locres\\zh_game.locres",
     "previous_zh": "",
     "zh_diff_reports": [
-      "D:\\Claude\\HoK-World-EngPatch\\version_history\\deployment\\diffs\\2026-06-05_post_update_live_to_2026-06-11_post_update_live\\locres_diffs\\zh.json"
+      "D:\\Claude\\HoK-World-EngPatch\\version_history\\deployment\\diffs\\2026-06-11_post_update_live_to_2026-06-18_post_update_live\\locres_diffs\\zh.json"
     ],
     "en": "D:\\Claude\\HoK-World-EngPatch\\game\\extracted\\en_game.locres",
     "dialogue_route_manifest": "D:\\Claude\\HoK-World-EngPatch\\tool\\assets\\known_cooked_text_dialogue_expand_manifest.json.gz",
     "dialogue_coverage_reports": [
       "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\en\\missing_dialogue_coverage_en.json"
     ],
-    "cooked_localtext_coverage_reports": [
-      "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\en\\missing_cooked_localtext_coverage_en.json"
-    ],
-    "cooked_ftext_coverage_reports": [
-      "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\en\\missing_cooked_ftext_coverage_en.json"
-    ]
+    "cooked_localtext_coverage_reports": [],
+    "cooked_ftext_coverage_reports": []
   },
   "locres_refresh": null,
   "output_dir": "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\en",
-  "record_count": 29,
+  "record_count": 105,
   "reason_counts": {
-    "missing_in_en": 29
+    "missing_in_en": 105
   },
   "zh_changed_key_backup": {
     "enabled": true,
@@ -43,24 +39,24 @@
     },
     "diff_reports": [
       {
-        "path": "D:\\Claude\\HoK-World-EngPatch\\version_history\\deployment\\diffs\\2026-06-05_post_update_live_to_2026-06-11_post_update_live\\locres_diffs\\zh.json",
+        "path": "D:\\Claude\\HoK-World-EngPatch\\version_history\\deployment\\diffs\\2026-06-11_post_update_live_to_2026-06-18_post_update_live\\locres_diffs\\zh.json",
         "status": "ok",
-        "changed_count": 29,
-        "parsed_changed_key_count": 29,
-        "old_path": "D:\\Claude\\HoK-World-EngPatch\\version_history\\deployment\\2026-06-05_post_update_live\\locres\\zh_game.locres",
-        "new_path": "D:\\Claude\\HoK-World-EngPatch\\version_history\\deployment\\2026-06-11_post_update_live\\locres\\zh_game.locres"
+        "changed_count": 41,
+        "parsed_changed_key_count": 41,
+        "old_path": "D:\\Claude\\HoK-World-EngPatch\\version_history\\deployment\\2026-06-11_post_update_live\\locres\\zh_game.locres",
+        "new_path": "D:\\Claude\\HoK-World-EngPatch\\version_history\\deployment\\2026-06-18_post_update_live\\locres\\zh_game.locres"
       }
     ],
-    "changed_key_count": 29,
-    "current_key_count": 29,
+    "changed_key_count": 41,
+    "current_key_count": 41,
     "missing_current_key_count": 0
   },
   "zh_changed_key_forced_candidates": {
     "enabled": true,
-    "changed_key_count": 29,
-    "current_record_count": 29,
+    "changed_key_count": 41,
+    "current_record_count": 41,
     "added_record_count": 0,
-    "duplicate_record_count": 29,
+    "duplicate_record_count": 41,
     "filtered_source_count": 0,
     "missing_current_key_count": 0
   },
@@ -99,123 +95,119 @@
     "force": false
   },
   "cooked_localtext_coverage_report": {
-    "enabled": true,
-    "reports": [
-      "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\en\\missing_cooked_localtext_coverage_en.json"
-    ],
-    "report_count": 1,
-    "row_count": 2188,
-    "selected_language_row_count": 2188,
+    "enabled": false,
+    "reports": [],
+    "report_count": 0,
+    "row_count": 0,
+    "selected_language_row_count": 0,
     "added_record_count": 0,
     "duplicate_record_count": 0,
-    "existing_usable_record_count": 2188,
+    "existing_usable_record_count": 0,
     "filtered_source_count": 0,
     "missing_required_field_count": 0,
     "missing_source_text_count": 0,
     "missing_report_count": 0,
     "skipped_other_language_count": 0,
-    "unresolved_zh_record_count": 1633,
-    "report_supplied_target_count": 433,
+    "unresolved_zh_record_count": 0,
+    "report_supplied_target_count": 0,
     "report_supplied_target_hash_mismatch_count": 0,
     "force": false
   },
   "cooked_ftext_coverage_report": {
-    "enabled": true,
-    "reports": [
-      "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\en\\missing_cooked_ftext_coverage_en.json"
-    ],
-    "report_count": 1,
-    "row_count": 169247,
-    "selected_language_row_count": 169247,
+    "enabled": false,
+    "reports": [],
+    "report_count": 0,
+    "row_count": 0,
+    "selected_language_row_count": 0,
     "added_record_count": 0,
-    "duplicate_record_count": 23,
-    "existing_usable_record_count": 169222,
-    "filtered_source_count": 2,
+    "duplicate_record_count": 0,
+    "existing_usable_record_count": 0,
+    "filtered_source_count": 0,
     "missing_required_field_count": 0,
     "missing_source_text_count": 0,
     "missing_report_count": 0,
     "skipped_other_language_count": 0,
-    "unresolved_zh_record_count": 134696,
-    "report_supplied_target_count": 121622,
-    "report_supplied_target_hash_mismatch_count": 8,
+    "unresolved_zh_record_count": 0,
+    "report_supplied_target_count": 0,
+    "report_supplied_target_hash_mismatch_count": 0,
     "force": false
   },
   "existing_additional_entries": {
-    "loaded_count": 275619,
-    "post_prune_count": 275530,
-    "usable_skipped_candidate_count": 57249,
+    "loaded_count": 275559,
+    "post_prune_count": 275531,
+    "usable_skipped_candidate_count": 57238,
     "force": false,
     "stale_prune": {
-      "input_count": 275619,
-      "preserved_count": 275530,
-      "pruned_hash_mismatch_count": 37,
+      "input_count": 275559,
+      "preserved_count": 275531,
+      "pruned_hash_mismatch_count": 1,
       "pruned_legacy_locres_pair_count": 0,
-      "pruned_forced_zh_change_count": 52,
+      "pruned_forced_zh_change_count": 27,
       "enabled": true
     },
     "glossary_reconciliation": {
       "enabled": true,
-      "entry_count": 275530,
+      "entry_count": 275531,
       "glossary_entry_count": 7229,
-      "source_resolved_count": 193336,
-      "canonical_match_count": 14571,
+      "source_resolved_count": 57238,
+      "canonical_match_count": 1765,
       "rewritten_count": 0,
       "flow_term_rewritten_count": 0,
-      "cache_match_count": 75076,
+      "cache_match_count": 46216,
       "cache_rewritten_count": 0,
-      "stale_format_token_count": 1013,
-      "missing_source_format_token_count": 2016,
+      "stale_format_token_count": 71,
+      "missing_source_format_token_count": 130,
       "unusable_canonical_count": 0,
-      "report_count": 3
+      "report_count": 1
     }
   },
-  "unique_source_count": 25,
+  "unique_source_count": 73,
   "translation_values_glossary": {
     "enabled": true,
     "source": "D:\\Claude\\HoK-World-EngPatch\\tool\\assets\\translation_values_glossary.json",
     "entry_count": 7229,
     "conflict_count": 523,
-    "seeded_source_count": 3,
-    "seeded_record_count": 6
+    "seeded_source_count": 21,
+    "seeded_record_count": 40
   },
-  "resolved_without_gemini_count": 25,
+  "resolved_without_gemini_count": 27,
   "report_supplied_target_reused_source_count": 0,
   "report_supplied_target_reused_record_count": 0,
   "report_supplied_target_conflict_source_count": 0,
-  "pending_source_count": 0,
-  "batch_count": 0,
+  "pending_source_count": 46,
+  "batch_count": 1,
   "max_translation_passes": 3,
   "invalid_cached_source_count": 0,
   "normalized_cached_source_count": 0,
   "dry_run": false,
   "github": {
-    "enabled": true,
+    "enabled": false,
     "owner": "Lani27",
     "repo": "hokworld-additional-translations",
     "branch": "main",
     "base_path": "en"
   },
-  "translated_record_count": 275559,
+  "translated_record_count": 275636,
   "passthrough_record_count": 0,
   "pending_record_count": 0,
   "empty_record_count": 0,
   "invalid_translation_output_count": 0,
   "skipped_translation_output_count": 0,
-  "translation_request_batch_count": 0,
+  "translation_request_batch_count": 1,
   "unresolved_source_count": 0,
   "additional_entries_merge": {
-    "existing_input_count": 275530,
-    "generated_input_count": 29,
-    "existing_preserved_count": 275530,
+    "existing_input_count": 275531,
+    "generated_input_count": 105,
+    "existing_preserved_count": 275531,
     "existing_kept_over_generated_count": 0,
     "generated_replaced_existing_count": 0,
-    "generated_added_count": 29
+    "generated_added_count": 105
   },
   "fuzzy_glossary": {
     "enabled": false,
     "repair_enabled": false,
     "dry_run": false,
-    "entry_count": 275559,
+    "entry_count": 275636,
     "checked_count": 0,
     "source_resolved_count": 0,
     "term_hit_entry_count": 0,
@@ -231,21 +223,21 @@
   },
   "additional_entries_full_validation": {
     "valid": true,
-    "entry_count": 275559,
-    "usable_count": 275559,
+    "entry_count": 275636,
+    "usable_count": 275636,
     "skipped_count": 0,
     "errors": []
   },
   "additional_entries_validation": {
     "valid": true,
-    "entry_count": 275559,
-    "usable_count": 275559,
+    "entry_count": 275636,
+    "usable_count": 275636,
     "skipped_count": 0,
     "errors": []
   },
   "additional_entries_runtime_compaction": {
-    "input_entry_count": 275559,
-    "written_entry_count": 275559,
+    "input_entry_count": 275636,
+    "written_entry_count": 275636,
     "omitted_unusable_count": 0
   },
   "dialogue_coverage_validation": {
@@ -263,29 +255,29 @@
     "validated_against": "final_merged_pool"
   },
   "cooked_localtext_coverage_validation": {
-    "enabled": true,
-    "report_count": 1,
-    "row_count": 2188,
+    "enabled": false,
+    "report_count": 0,
+    "row_count": 0,
     "selected_language_row_count": 0,
-    "candidate_row_count": 2188,
+    "candidate_row_count": 0,
     "filtered_source_count": 0,
-    "covered_count": 2188,
-    "additional_entries_covered_count": 2188,
-    "final_pool_covered_count": 2188,
+    "covered_count": 0,
+    "additional_entries_covered_count": 0,
+    "final_pool_covered_count": 0,
     "missing_count": 0,
     "remaining_missing": [],
     "validated_against": "final_merged_pool"
   },
   "cooked_ftext_coverage_validation": {
-    "enabled": true,
-    "report_count": 1,
-    "row_count": 169247,
+    "enabled": false,
+    "report_count": 0,
+    "row_count": 0,
     "selected_language_row_count": 0,
-    "candidate_row_count": 169245,
-    "filtered_source_count": 2,
-    "covered_count": 169245,
-    "additional_entries_covered_count": 169245,
-    "final_pool_covered_count": 169245,
+    "candidate_row_count": 0,
+    "filtered_source_count": 0,
+    "covered_count": 0,
+    "additional_entries_covered_count": 0,
+    "final_pool_covered_count": 0,
     "missing_count": 0,
     "remaining_missing": [],
     "validated_against": "final_merged_pool"
