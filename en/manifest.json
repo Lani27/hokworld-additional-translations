@@ -1,6 +1,6 @@
 {
   "format_version": 1,
-  "generated_at_utc": "2026-06-18T06:48:36.641996+00:00",
+  "generated_at_utc": "2026-06-25T05:08:12.344556+00:00",
   "source_language": "zh",
   "target_language": "en",
   "target_language_label": "English",
@@ -10,10 +10,10 @@
   "rpm_limit": 15,
   "input_limit_bytes": 20480,
   "source_files": {
-    "zh": "D:\\Claude\\HoK-World-EngPatch\\version_history\\deployment\\2026-06-18_post_update_live\\locres\\zh_game.locres",
+    "zh": "D:\\Claude\\HoK-World-EngPatch\\version_history\\deployment\\2026-06-25_post_update_live\\locres\\zh_game.locres",
     "previous_zh": "",
     "zh_diff_reports": [
-      "D:\\Claude\\HoK-World-EngPatch\\version_history\\deployment\\diffs\\2026-06-11_post_update_live_to_2026-06-18_post_update_live\\locres_diffs\\zh.json"
+      "D:\\Claude\\HoK-World-EngPatch\\version_history\\deployment\\diffs\\2026-06-18_post_update_live_to_2026-06-25_post_update_live\\locres_diffs\\zh.json"
     ],
     "en": "D:\\Claude\\HoK-World-EngPatch\\game\\extracted\\en_game.locres",
     "dialogue_route_manifest": "D:\\Claude\\HoK-World-EngPatch\\tool\\assets\\known_cooked_text_dialogue_expand_manifest.json.gz",
@@ -25,9 +25,9 @@
   },
   "locres_refresh": null,
   "output_dir": "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\en",
-  "record_count": 105,
+  "record_count": 332,
   "reason_counts": {
-    "missing_in_en": 105
+    "missing_in_en": 332
   },
   "zh_changed_key_backup": {
     "enabled": true,
@@ -39,24 +39,24 @@
     },
     "diff_reports": [
       {
-        "path": "D:\\Claude\\HoK-World-EngPatch\\version_history\\deployment\\diffs\\2026-06-11_post_update_live_to_2026-06-18_post_update_live\\locres_diffs\\zh.json",
+        "path": "D:\\Claude\\HoK-World-EngPatch\\version_history\\deployment\\diffs\\2026-06-18_post_update_live_to_2026-06-25_post_update_live\\locres_diffs\\zh.json",
         "status": "ok",
-        "changed_count": 41,
-        "parsed_changed_key_count": 41,
-        "old_path": "D:\\Claude\\HoK-World-EngPatch\\version_history\\deployment\\2026-06-11_post_update_live\\locres\\zh_game.locres",
-        "new_path": "D:\\Claude\\HoK-World-EngPatch\\version_history\\deployment\\2026-06-18_post_update_live\\locres\\zh_game.locres"
+        "changed_count": 60,
+        "parsed_changed_key_count": 60,
+        "old_path": "D:\\Claude\\HoK-World-EngPatch\\version_history\\deployment\\2026-06-18_post_update_live\\locres\\zh_game.locres",
+        "new_path": "D:\\Claude\\HoK-World-EngPatch\\version_history\\deployment\\2026-06-25_post_update_live\\locres\\zh_game.locres"
       }
     ],
-    "changed_key_count": 41,
-    "current_key_count": 41,
+    "changed_key_count": 60,
+    "current_key_count": 60,
     "missing_current_key_count": 0
   },
   "zh_changed_key_forced_candidates": {
     "enabled": true,
-    "changed_key_count": 41,
-    "current_record_count": 41,
+    "changed_key_count": 60,
+    "current_record_count": 60,
     "added_record_count": 0,
-    "duplicate_record_count": 41,
+    "duplicate_record_count": 60,
     "filtered_source_count": 0,
     "missing_current_key_count": 0
   },
@@ -65,10 +65,10 @@
     "manifest": "D:\\Claude\\HoK-World-EngPatch\\tool\\assets\\known_cooked_text_dialogue_expand_manifest.json.gz",
     "required_unique_key_count": 197848,
     "required_occurrence_count": 197848,
-    "already_covered_key_count": 195111,
-    "already_candidate_key_count": 702,
-    "missing_zh_source_key_count": 1453,
-    "filtered_source_key_count": 582,
+    "already_covered_key_count": 192800,
+    "already_candidate_key_count": 701,
+    "missing_zh_source_key_count": 3773,
+    "filtered_source_key_count": 574,
     "added_key_count": 0,
     "added_record_count": 0,
     "include_hidden_placeholders": false
@@ -133,27 +133,27 @@
     "force": false
   },
   "existing_additional_entries": {
-    "loaded_count": 275559,
-    "post_prune_count": 275531,
-    "usable_skipped_candidate_count": 57238,
+    "loaded_count": 275636,
+    "post_prune_count": 275590,
+    "usable_skipped_candidate_count": 51688,
     "force": false,
     "stale_prune": {
-      "input_count": 275559,
-      "preserved_count": 275531,
-      "pruned_hash_mismatch_count": 1,
+      "input_count": 275636,
+      "preserved_count": 275590,
+      "pruned_hash_mismatch_count": 0,
       "pruned_legacy_locres_pair_count": 0,
-      "pruned_forced_zh_change_count": 27,
+      "pruned_forced_zh_change_count": 46,
       "enabled": true
     },
     "glossary_reconciliation": {
       "enabled": true,
-      "entry_count": 275531,
-      "glossary_entry_count": 7229,
-      "source_resolved_count": 57238,
-      "canonical_match_count": 1765,
-      "rewritten_count": 0,
+      "entry_count": 275590,
+      "glossary_entry_count": 7239,
+      "source_resolved_count": 51688,
+      "canonical_match_count": 1412,
+      "rewritten_count": 4,
       "flow_term_rewritten_count": 0,
-      "cache_match_count": 46216,
+      "cache_match_count": 42485,
       "cache_rewritten_count": 0,
       "stale_format_token_count": 71,
       "missing_source_format_token_count": 130,
@@ -161,21 +161,21 @@
       "report_count": 1
     }
   },
-  "unique_source_count": 73,
+  "unique_source_count": 246,
   "translation_values_glossary": {
     "enabled": true,
     "source": "D:\\Claude\\HoK-World-EngPatch\\tool\\assets\\translation_values_glossary.json",
-    "entry_count": 7229,
+    "entry_count": 7239,
     "conflict_count": 523,
-    "seeded_source_count": 21,
-    "seeded_record_count": 40
+    "seeded_source_count": 11,
+    "seeded_record_count": 23
   },
-  "resolved_without_gemini_count": 27,
+  "resolved_without_gemini_count": 31,
   "report_supplied_target_reused_source_count": 0,
   "report_supplied_target_reused_record_count": 0,
   "report_supplied_target_conflict_source_count": 0,
-  "pending_source_count": 46,
-  "batch_count": 1,
+  "pending_source_count": 215,
+  "batch_count": 3,
   "max_translation_passes": 3,
   "invalid_cached_source_count": 0,
   "normalized_cached_source_count": 0,
@@ -187,57 +187,74 @@
     "branch": "main",
     "base_path": "en"
   },
-  "translated_record_count": 275636,
+  "translated_record_count": 275922,
   "passthrough_record_count": 0,
   "pending_record_count": 0,
   "empty_record_count": 0,
   "invalid_translation_output_count": 0,
   "skipped_translation_output_count": 0,
-  "translation_request_batch_count": 1,
+  "translation_request_batch_count": 3,
   "unresolved_source_count": 0,
   "additional_entries_merge": {
-    "existing_input_count": 275531,
-    "generated_input_count": 105,
-    "existing_preserved_count": 275531,
+    "existing_input_count": 275590,
+    "generated_input_count": 332,
+    "existing_preserved_count": 275590,
     "existing_kept_over_generated_count": 0,
     "generated_replaced_existing_count": 0,
-    "generated_added_count": 105
+    "generated_added_count": 332
   },
   "fuzzy_glossary": {
-    "enabled": false,
+    "enabled": true,
     "repair_enabled": false,
     "dry_run": false,
-    "entry_count": 275636,
-    "checked_count": 0,
-    "source_resolved_count": 0,
-    "term_hit_entry_count": 0,
-    "term_hit_count": 0,
-    "mismatch_count": 0,
+    "entry_count": 275922,
+    "checked_count": 275922,
+    "source_resolved_count": 52020,
+    "term_hit_entry_count": 6804,
+    "term_hit_count": 8160,
+    "mismatch_count": 3619,
     "repair_candidate_count": 0,
     "repair_candidate_unique_count": 0,
     "repair_attempted_count": 0,
     "repair_rewritten_count": 0,
     "repair_failed_count": 0,
     "repair_skipped_dry_run_count": 0,
-    "repair_skipped_limit_count": 0
+    "repair_skipped_limit_count": 0,
+    "term_glossary": {
+      "enabled": true,
+      "source_files": [
+        "D:\\Claude\\HoK-World-EngPatch\\docs\\generated\\official_gear_glossary\\official_gear_names.csv",
+        "D:\\Claude\\HoK-World-EngPatch\\docs\\generated\\hero_glossary\\hero_name_glossary.csv",
+        "D:\\Claude\\HoK-World-EngPatch\\docs\\generated\\hero_glossary\\hero_skill_glossary.csv",
+        "D:\\Claude\\HoK-World-EngPatch\\docs\\generated\\location_glossary\\location_glossary.csv",
+        "D:\\Claude\\HoK-World-EngPatch\\docs\\generated\\content_glossary\\content_glossary_all.csv",
+        "D:\\Claude\\HoK-World-EngPatch\\docs\\generated\\currency_event_glossary\\currency_event_glossary_all.csv",
+        "D:\\Claude\\HoK-World-EngPatch\\docs\\generated\\summon_combat_glossary\\summon_combat_glossary.csv",
+        "D:\\Claude\\HoK-World-EngPatch\\docs\\generated\\manual_glossary\\manual_glossary.csv"
+      ],
+      "raw_pair_count": 1872,
+      "term_count": 1354,
+      "conflict_count": 14,
+      "filtered_count": 302
+    }
   },
   "additional_entries_full_validation": {
     "valid": true,
-    "entry_count": 275636,
-    "usable_count": 275636,
+    "entry_count": 275922,
+    "usable_count": 275922,
     "skipped_count": 0,
     "errors": []
   },
   "additional_entries_validation": {
     "valid": true,
-    "entry_count": 275636,
-    "usable_count": 275636,
+    "entry_count": 275922,
+    "usable_count": 275922,
     "skipped_count": 0,
     "errors": []
   },
   "additional_entries_runtime_compaction": {
-    "input_entry_count": 275636,
-    "written_entry_count": 275636,
+    "input_entry_count": 275922,
+    "written_entry_count": 275922,
     "omitted_unusable_count": 0
   },
   "dialogue_coverage_validation": {
