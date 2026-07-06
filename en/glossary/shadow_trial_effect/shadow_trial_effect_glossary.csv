@@ -1,0 +1,117 @@
+﻿category,namespace,row,guid,source_hash,zh_text,en_text,source_count,source_priority,target_source
+shadow_trial_effect_name,/Game/Data/DataTables/Plateau/PlateauBuff/DT_ShadowTrialBuff,12810130,E3406E7B45B1D7818663619FA9AA1579,1759549521,暗影渐袭,Shadow Approaches,1,0,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/Plateau/PlateauBuff/DT_ShadowTrialBuff,12810210,E21C63A0468AF2B9F348BDB36B052C91,1294841607,阴谋Ⅰ,Conspiracy I,1,0,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/Plateau/PlateauBuff/DT_ShadowTrialBuff,12810220,90D291324953370E3B15CFBFC831208E,4119973986,阴谋Ⅱ,Conspiracy II,1,0,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/Plateau/PlateauBuff/DT_ShadowTrialBuff,12810230,70BFAF1A4333ADC89E7BD9A9B4855981,3877928844,阴谋Ⅲ,Conspiracy III,1,0,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/Plateau/PlateauBuff/DT_ShadowTrialBuff,12810310,2A06FBDA4C2E5686A2DF849A6DEBB765,834914564,抗争Ⅰ,Resistance I,1,0,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/Plateau/PlateauBuff/DT_ShadowTrialBuff,12810320,5D49CA1747E8629CBDB79E8E878671BD,2306846305,抗争Ⅱ,Resistance II,1,0,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/Plateau/PlateauBuff/DT_ShadowTrialBuff,12810330,6C0A25D749C227B812F3378CC96CA719,2613707151,抗争Ⅲ,Resistance III,1,0,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/Plateau/PlateauBuff/DT_ShadowTrialBuff,12810420,27F7F40C47B38B333AAE7B9DBE448E7D,3246126071,魔爪,Demon Claw,1,0,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/Plateau/PlateauBuff/DT_ShadowTrialBuff,12810510,FD86D00244D4B300EC923397726B4B43,3885123624,凶戾Ⅰ,Ferocity I,1,0,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/Plateau/PlateauBuff/DT_ShadowTrialBuff,12810520,ED0B1B7A43E05700018962BC44A50085,1596862285,凶戾Ⅱ,Ferocity II,1,0,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/Plateau/PlateauBuff/DT_ShadowTrialBuff,12810530,756751154C7A8A139EC01CB6BFF61A07,1302036643,凶戾Ⅲ,Ferocity III,1,0,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/Plateau/PlateauBuff/DT_ShadowTrialBuff,12810630,B77504904898A7293A9224B2FD750138,1880422487,扼命,Life-Grip,1,0,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/Plateau/PlateauBuff/DT_ShadowTrialBuff,12810730,C4432A3B4E4CB12F5C8AE59CADFBA2F6,1210247854,潜舞,Shadow Dance,1,0,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/Plateau/PlateauBuff/DT_ShadowTrialBuff,12820130,BA304F37495A06AF5C4C02BB20952B5B,3887613341,虚空破碎,Void Shatter,1,0,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/Plateau/PlateauBuff/DT_ShadowTrialBuff,12820210,8A02D4654260CFF8E413948E9814160B,277583773,迫近Ⅰ,Approaching I,1,0,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/Plateau/PlateauBuff/DT_ShadowTrialBuff,12820220,BF41959A4B23E7143CBA61974AA713C0,2822238456,迫近Ⅱ,Approaching II,1,0,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/Plateau/PlateauBuff/DT_ShadowTrialBuff,12820230,6010D25C4A28F9C2CB76569E25F9F711,3129106198,迫近Ⅲ,Approaching III,1,0,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/Plateau/PlateauBuff/DT_ShadowTrialBuff,12820320,18970CB6408CC42905A3DA896B7A6828,758306862,热寂,Heat Death,1,0,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/Plateau/PlateauBuff/DT_ShadowTrialBuff,12820410,40AA4FA04BC110AA011B42978E34A4CD,618685104,噬命Ⅰ,Life-Eater I,1,0,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/Plateau/PlateauBuff/DT_ShadowTrialBuff,12820420,C8EA026B4BF3A3498014789D4B70A32D,2623276501,噬命Ⅱ,Life-Eater II,1,0,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/Plateau/PlateauBuff/DT_ShadowTrialBuff,12820430,CCDF6F8C43225401A987849913ACB0B9,2397678139,噬命Ⅲ,Life-Eater III,1,0,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/Plateau/PlateauBuff/DT_ShadowTrialBuff,12820510,F374716744631C092B7D3E8AEA542CDE,1484210345,震荡Ⅰ,Shock I,1,0,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/Plateau/PlateauBuff/DT_ShadowTrialBuff,12820520,F7768B744D1AC7E5D9C5B5BCB04BBCD1,3771410380,震荡Ⅱ,Shock II,1,0,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/Plateau/PlateauBuff/DT_ShadowTrialBuff,12820530,1D9AAE9D448E9C569643B786A77F2AC8,4068378658,震荡Ⅲ,Shock III,1,0,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/Plateau/PlateauBuff/DT_ShadowTrialBuff,12820610,968D11334773ECBD06C40F9221CC0143,1734931901,窒息Ⅰ,Suffocation I,1,0,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/Plateau/PlateauBuff/DT_ShadowTrialBuff,12820620,BB71DC3D407ED23974F78CA135C7C729,3755250392,窒息Ⅱ,Suffocation II,1,0,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/Plateau/PlateauBuff/DT_ShadowTrialBuff,12820630,B3B31B414A6D70257ECF3C84608E4042,3445701942,窒息Ⅲ,Suffocation III,1,0,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/Plateau/PlateauBuff/DT_ShadowTrialBuff,12820730,787D14BD439BD772E9683EB29FB9B175,1267678242,连锁,Chain,1,0,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/Plateau/PlateauBuff/DT_ShadowTrialBuff,12830130,AE68EB4B4290D861E4258A955B17C334,708809686,梦魇梦隙,Nightmare Dream Rift,1,0,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/Plateau/PlateauBuff/DT_ShadowTrialBuff,12830230,18E3ADA748E4505999BD999973641C10,311105762,蝶袭,Butterfly Raid,1,0,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/Plateau/PlateauBuff/DT_ShadowTrialBuff,12830330,10F861C143FFF4E773EB119F7580AA0E,2557077766,群居,Gregarious,1,0,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/Plateau/PlateauBuff/DT_ShadowTrialBuff,12830420,D788E236414E092958BF99BE07D42833,1085098545,噩蝶,Omen Butterfly,1,0,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/Plateau/PlateauBuff/DT_ShadowTrialBuff,12830510,5EF5D2444AAC70E1E88BA29D72678393,403889996,初梦,First Dream,1,0,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/Plateau/PlateauBuff/DT_ShadowTrialBuff,12830520,2732100546C07FF89F437982A766E5CC,2454076121,深梦,Deep Dream,2,0,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/Plateau/PlateauBuff/DT_ShadowTrialBuff,12830610,B0EC25B54A26FDF153B29A993E632A87,1745737492,无觉Ⅰ,Awakeningless I,1,0,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/Plateau/PlateauBuff/DT_ShadowTrialBuff,12830620,D0FD3EB9407D89F99E850D845F2C1C6E,3501305969,无觉Ⅱ,Awakeningless II,1,0,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/Plateau/PlateauBuff/DT_ShadowTrialBuff,12830630,5CDEB34D44A41C6CEBDBF59D1A0F235C,3255050143,无觉Ⅲ,Awakeningless III,1,0,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/Plateau/PlateauBuff/DT_ShadowTrialBuff,12830710,66CA266B4FE137764AB301A68670C81E,2594928411,混沌Ⅰ,Chaos I,1,0,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/Plateau/PlateauBuff/DT_ShadowTrialBuff,12830720,66EB8F784F0292389FA8A58780AFD501,571936894,混沌Ⅱ,Chaos II,1,0,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/Plateau/PlateauBuff/DT_ShadowTrialBuff,12830730,4016A250412543715F0A0386C54E3EDF,815972240,混沌Ⅲ,Chaos III,1,0,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/Plateau/PlateauBuff/DT_ShadowTrialBuff,12840130,A2C8CD4541BE37DFAC46CC88B3B6C00F,72565881,噩兆微明,Omen Twilight,1,0,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/Plateau/PlateauBuff/DT_ShadowTrialBuff,12840230,C7D8C36144E54D72402EFB9D67EB68AB,1735308725,访客,Visitor,1,0,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/Plateau/PlateauBuff/DT_ShadowTrialBuff,12840330,6BDFC99F46145C9D7DCC4A9B7F5B58B7,377756896,腐蚀,Corrosion,1,0,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/Plateau/PlateauBuff/DT_ShadowTrialBuff,12840420,6FF0778449D694CA82631B8BBCC4AD12,2482592235,无明,Ignorance,1,0,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/Plateau/PlateauBuff/DT_ShadowTrialBuff,12840510,321F55C54ED590F99346A4B112A0D15F,3116643397,异变Ⅰ,Mutation I,1,0,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/Plateau/PlateauBuff/DT_ShadowTrialBuff,12840520,B642079F4540761E81A6819CBC47DF7F,24662816,异变Ⅱ,Mutation II,2,0,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/Plateau/PlateauBuff/DT_ShadowTrialBuff,12840610,59E8725F401BC5216C24ABB9B875792D,357325988,惊魂Ⅰ,Terror I,1,0,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/Plateau/PlateauBuff/DT_ShadowTrialBuff,12840620,95B00030457CDCC7486596B5A2ADC3C3,2918202305,惊魂Ⅱ,Terror II,1,0,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/Plateau/PlateauBuff/DT_ShadowTrialBuff,12840630,1BF98F46459CA8F902180C9F76EA8DC1,3209008175,惊魂Ⅲ,Terror III,1,0,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/Plateau/PlateauBuff/DT_ShadowTrialBuff,12840710,01B3C4CC41518F418DFA21B568FAA014,4000836050,撕裂Ⅰ,Laceration I,1,0,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/Plateau/PlateauBuff/DT_ShadowTrialBuff,12840720,F6F8B49646689F024AC4698C82D84B82,1456180919,撕裂Ⅱ,Laceration II,1,0,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/Plateau/PlateauBuff/DT_ShadowTrialBuff,12840730,DF7911C942A20DBC1EE8378EDF9C923A,1149116761,撕裂Ⅲ,Laceration III,1,0,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/CombatGrowth/BuffGrowth/DT_BuffGrowth_ShadowTrial,12810130_1,5D895F7B442FD395C134259A52213B35,3481960199,暗影·渐袭,Shadow · Gradual Assault,1,1,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/CombatGrowth/BuffGrowth/DT_BuffGrowth_ShadowTrial,12810210_1,24D7262A4486757E805DCF9E8780CE5D,1691415138,暗影·阴谋·一,Shadow · Conspiracy · I,1,1,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/CombatGrowth/BuffGrowth/DT_BuffGrowth_ShadowTrial,12810220_1,CBE79E994718DACEC6536CB71AD71C7D,3277847521,暗影·阴谋·二,Shadow · Conspiracy · II,1,1,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/CombatGrowth/BuffGrowth/DT_BuffGrowth_ShadowTrial,12810230_1,01C2E2E749988ED8C9F97EB37858F6A4,433634792,暗影·阴谋·三,Shadow · Conspiracy · III,1,1,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/CombatGrowth/BuffGrowth/DT_BuffGrowth_ShadowTrial,12810310_1,72F3DC6441E65C353194BFBED264CF20,2974088099,暗影·抗争·一,Shadow · Resistance · I,1,1,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/CombatGrowth/BuffGrowth/DT_BuffGrowth_ShadowTrial,12810320_1,987A63884E70BF336E260B979A3E076B,382464544,暗影·抗争·二,Shadow · Resistance · II,1,1,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/CombatGrowth/BuffGrowth/DT_BuffGrowth_ShadowTrial,12810330_1,4669ABAC4A3818BEFF65EF8A5180B19D,3427578921,暗影·抗争·三,Shadow · Resistance · III,1,1,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/CombatGrowth/BuffGrowth/DT_BuffGrowth_ShadowTrial,12810420_1,5E04D09C48BAA2B1BA5BDD88225E2342,2630278890,暗影·魔爪,Shadow · Demon Claw,1,1,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/CombatGrowth/BuffGrowth/DT_BuffGrowth_ShadowTrial,12810510_1,7EBF83504DB43536A9A66EA0662967DA,2001174886,暗影·凶戾·一,Shadow · Ferocity · I,1,1,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/CombatGrowth/BuffGrowth/DT_BuffGrowth_ShadowTrial,12810520_1,71F50B434C56A0EA88FEC6927231AFBE,3502803173,暗影·凶戾·二,Shadow · Ferocity · II,1,1,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/CombatGrowth/BuffGrowth/DT_BuffGrowth_ShadowTrial,12810530_1,0794DFDA440DE3D857C20B82AA289485,173002476,暗影·凶戾·三,Shadow · Ferocity · III,1,1,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/CombatGrowth/BuffGrowth/DT_BuffGrowth_ShadowTrial,12810630_1,E4D5423F47AB2C3DC1908380A8F7AC36,766104906,暗影·扼命,Shadow · Life-Strangler,1,1,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/CombatGrowth/BuffGrowth/DT_BuffGrowth_ShadowTrial,12810730_1,97C6315B4F0AF36ACD8CACA87494CE39,362792883,暗影·潜舞,Shadow · Hidden Dance,1,1,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/CombatGrowth/BuffGrowth/DT_BuffGrowth_ShadowTrial,12820130_1,DDE0FD11406D405C76951ABF5B607707,1235731980,虚空·破碎,Void - Shatter,1,1,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/CombatGrowth/BuffGrowth/DT_BuffGrowth_ShadowTrial,12820210_1,5B2A9D3D4863D8B75509EC9468946835,1292817592,虚空·迫近·一,Void - Approach I,1,1,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/CombatGrowth/BuffGrowth/DT_BuffGrowth_ShadowTrial,12820220_1,F800905B459B4ADA2F33DB8CF6779413,3934379323,虚空·迫近·二,Void - Approach II,1,1,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/CombatGrowth/BuffGrowth/DT_BuffGrowth_ShadowTrial,12820230_1,7A1B68534EAD10B00BF32C877F50340B,805739314,虚空·迫近·三,Void - Approach III,1,1,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/CombatGrowth/BuffGrowth/DT_BuffGrowth_ShadowTrial,12820320_1,7EF2DC824EF8B48A3B77A6AB95470739,2295593568,虚空·热寂,Void - Heat Death,1,1,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/CombatGrowth/BuffGrowth/DT_BuffGrowth_ShadowTrial,12820410_1,9A8B0C704C5C433356C920A478FC3714,199513273,虚空·噬命·一,Void - Life Eater I,1,1,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/CombatGrowth/BuffGrowth/DT_BuffGrowth_ShadowTrial,12820420_1,FF8470DD425F3BBB03062A9C2865455C,2892717370,虚空·噬命·二,Void - Life Eater II,1,1,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/CombatGrowth/BuffGrowth/DT_BuffGrowth_ShadowTrial,12820430_1,5F18F2084F2872A2CE5B5A9E011EB38D,1995184947,虚空·噬命·三,Void - Life Eater III,1,1,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/CombatGrowth/BuffGrowth/DT_BuffGrowth_ShadowTrial,12820510_1,DF5C2EFF4D7F26344DEDD5A5D4FF39DC,2056257512,虚空·震荡·一,Void - Shock I,1,1,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/CombatGrowth/BuffGrowth/DT_BuffGrowth_ShadowTrial,12820520_1,B39AA8814FF95095CF2477A81F5E34BB,3707827819,虚空·震荡·二,Void - Shock II,1,1,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/CombatGrowth/BuffGrowth/DT_BuffGrowth_ShadowTrial,12820530_1,67A9BE704BAF26E37BE2F69D2CEC7157,126333026,虚空·震荡·三,Void - Shock III,1,1,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/CombatGrowth/BuffGrowth/DT_BuffGrowth_ShadowTrial,12820610_1,2AEE1B0C431B5F13FE123BBEC2CE2106,492642424,虚空·窒息·一,Void - Suffocation I,1,1,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/CombatGrowth/BuffGrowth/DT_BuffGrowth_ShadowTrial,12820620_1,381EEE04445B89D83EE1F59667555D99,3134335483,虚空·窒息·二,Void - Suffocation II,1,1,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/CombatGrowth/BuffGrowth/DT_BuffGrowth_ShadowTrial,12820630_1,8492F99F423520C666669291AD9A8E80,1616211954,虚空·窒息·三,Void - Suffocation III,1,1,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/CombatGrowth/BuffGrowth/DT_BuffGrowth_ShadowTrial,12820730_1,27BAECB34D90C3742021AA8FA4E22FA7,3607318047,虚空·连锁反应,Void - Chain Reaction,1,1,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/CombatGrowth/BuffGrowth/DT_BuffGrowth_ShadowTrial,12830130_1,5B1A7E4E4F31AE0B7862459C20E275C7,1922785485,梦魇·梦隙,Nightmare · Dream Rift,2,1,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/CombatGrowth/BuffGrowth/DT_BuffGrowth_ShadowTrial,12830230_1,CAA710C34AD55AAB77C2A382ED8D470D,3902742947,梦魇·蝶袭,Nightmare · Butterfly Raid,1,1,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/CombatGrowth/BuffGrowth/DT_BuffGrowth_ShadowTrial,12830330_1,C8E0FB03406DA483BF921EAA858D811E,1652412487,梦魇·群居,Nightmare · Gregarious,1,1,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/CombatGrowth/BuffGrowth/DT_BuffGrowth_ShadowTrial,12830420_1,A393FDD644FAA81BE43BEC9F05421B84,3132715888,梦魇·噩蝶,Nightmare · Nightmare Butterfly,1,1,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/CombatGrowth/BuffGrowth/DT_BuffGrowth_ShadowTrial,12830510_1,AE3BC75547D9FEB110080C8C74180D34,3792102925,梦魇·初梦,Nightmare · First Dream,1,1,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/CombatGrowth/BuffGrowth/DT_BuffGrowth_ShadowTrial,12830520_1,59BB6CA648258D1FC917CFB3C0C5A435,1750205336,梦魇·深梦,Nightmare · Deep Dream,1,1,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/CombatGrowth/BuffGrowth/DT_BuffGrowth_ShadowTrial,12830610_1,B67AA2754314DC744F220FAC69527EFA,3710348322,梦魇·无觉·一,Nightmare · Unawakened I,1,1,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/CombatGrowth/BuffGrowth/DT_BuffGrowth_ShadowTrial,12830620_1,A9B3C8004B78E0DBD3F2469DA31C90A2,2057856417,梦魇·无觉·二,Nightmare · Unawakened II,1,1,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/CombatGrowth/BuffGrowth/DT_BuffGrowth_ShadowTrial,12830630_1,677A90114BE6042799524BB4DF4D7083,2687443880,梦魇·无觉·三,Nightmare · Unawakened III,1,1,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/CombatGrowth/BuffGrowth/DT_BuffGrowth_ShadowTrial,12830710_1,2DFCF5C6461C3967E1011FB0E42AEE3E,4157778251,梦魇·混沌·一,Nightmare · Chaos I,1,1,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/CombatGrowth/BuffGrowth/DT_BuffGrowth_ShadowTrial,12830720_1,0F293FB644872949E984028415F4E33E,1348313288,梦魇·混沌·二,Nightmare · Chaos II,1,1,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/CombatGrowth/BuffGrowth/DT_BuffGrowth_ShadowTrial,12830730_1,ECF71CE044526473BA5B38962CC4DA39,2329601729,梦魇·混沌·三,Nightmare · Chaos III,1,1,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/CombatGrowth/BuffGrowth/DT_BuffGrowth_ShadowTrial,12840130_1,EBF13DE343B71B2B00EDEBB887E1377B,2548033211,噩兆·微明,Omen: Twilight,2,1,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/CombatGrowth/BuffGrowth/DT_BuffGrowth_ShadowTrial,12840230_1,9C1D1CD64D202B12858CDEADCAED22FE,1397497894,噩兆·访客,Omen: Visitor,1,1,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/CombatGrowth/BuffGrowth/DT_BuffGrowth_ShadowTrial,12840330_1,E3B984BC49321D1D9F9F25AF21051D1A,581339507,噩兆·腐蚀,Omen: Corrosion,1,1,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/CombatGrowth/BuffGrowth/DT_BuffGrowth_ShadowTrial,12840420_1,C9BC61B140CB9420861CEFAC6EA59394,2816199800,噩兆·无明,Omen: Ignorance,1,1,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/CombatGrowth/BuffGrowth/DT_BuffGrowth_ShadowTrial,12840510_1,287486D44D37E22C8D92E9B336C3930C,2934677032,噩兆·异变·一,Omen: Mutation I,1,1,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/CombatGrowth/BuffGrowth/DT_BuffGrowth_ShadowTrial,12840520_1,6ACA310745DFF6C1C5CE6B8E04FB6673,157587371,噩兆·异变·二,Omen: Mutation II,1,1,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/CombatGrowth/BuffGrowth/DT_BuffGrowth_ShadowTrial,12840610_1,16AD40B940B47BEBE73C6AB0F3CBD1F0,2866208621,噩兆·惊魂·一,Omen: Terror I,1,1,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/CombatGrowth/BuffGrowth/DT_BuffGrowth_ShadowTrial,12840620_1,61057586421057DA7F23F093F8615B72,223991534,噩兆·惊魂·二,Omen: Terror II,1,1,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/CombatGrowth/BuffGrowth/DT_BuffGrowth_ShadowTrial,12840630_1,93CC57654D024A15A559349FB36E970E,3621687527,噩兆·惊魂·三,Omen: Terror III,1,1,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/CombatGrowth/BuffGrowth/DT_BuffGrowth_ShadowTrial,12840710_1,D737FB8447D5FEDF7F56C286D757F9EC,835377274,噩兆·撕裂·一,Omen: Rend I,1,1,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/CombatGrowth/BuffGrowth/DT_BuffGrowth_ShadowTrial,12840720_1,7878E5DB4199E851D3DB35A407FC8019,2521158137,噩兆·撕裂·二,Omen: Rend II,1,1,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/CombatGrowth/BuffGrowth/DT_BuffGrowth_ShadowTrial,12840730_1,6FBF9F6C419C9E364794B18C0B982697,1287821296,噩兆·撕裂·三,Omen: Rend III,1,1,additional_entries
+shadow_trial_effect_group,/Game/Data/DataTables/Plateau/Main/ShadowTrial/DT_PlateauShadowTrial_BuffGroup,1,F3E83FDB447A16736AD18BBE26A9D429,476230954,暗影,Shadow,1,2,additional_entries
+shadow_trial_effect_group,/Game/Data/DataTables/Plateau/Main/ShadowTrial/DT_PlateauShadowTrial_BuffGroup,2,226BD4C24C970D98B2A8D78DF53FB8D1,400966353,虚空,Void,1,2,additional_entries
+shadow_trial_effect_group,/Game/Data/DataTables/Plateau/Main/ShadowTrial/DT_PlateauShadowTrial_BuffGroup,3,0734E17444B315DC51697D9949C8C669,1188824181,梦魇,Nightmare,1,2,additional_entries
+shadow_trial_effect_group,/Game/Data/DataTables/Plateau/Main/ShadowTrial/DT_PlateauShadowTrial_BuffGroup,4,ED73C28E42410A453AE169AF8157E57C,964885266,噩兆,Omen,1,2,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/Battle/DT_LogicEffect_ShadowTrial,12810130,3FEAEF3D490460569C7450A272DFD04B,3018102007,反制红光技,Counter Red Light Skill,4,3,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/Battle/DT_LogicEffect_ShadowTrial,12810631,8F88D4444A45AF9C3EA16492D408661D,4065340574,耐力回复禁止,Stamina Recovery Disabled,2,3,additional_entries
+shadow_trial_effect_name,/Game/Data/DataTables/Battle/DT_LogicEffect_ShadowTrial,400501001,10D5AC99419C4145774DB29946EC30A4,55629095,黑暗缠身,Darkness Bound,1,3,additional_entries
+shadow_trial_difficulty,/Game/Data/DataTables/Plateau/Main/ShadowTrial/DT_PlateauDifficulty_ShadowTrial,128010101,0C0DD43649E9F66A4486A18F8D108875,1327607464,精通,Adeptness,1,4,additional_entries
+shadow_trial_difficulty,/Game/Data/DataTables/Plateau/Main/ShadowTrial/DT_PlateauDifficulty_ShadowTrial,128010102,FFA5BDA84EDF1FE90726ACAB299C8C5C,1608626685,资深,Normal,1,4,additional_entries
+shadow_trial_difficulty,/Game/Data/DataTables/Plateau/Main/ShadowTrial/DT_PlateauDifficulty_ShadowTrial,128010103,A19EE8BD4E36DF9B20ADED8D41CF0967,3065763459,菁英,Hard,1,4,additional_entries
+shadow_trial_difficulty,/Game/Data/DataTables/Plateau/Main/ShadowTrial/DT_PlateauDifficulty_ShadowTrial,128010104,59F1332148C4A36CBB3B13AE353616CD,3351185130,卓越,Brutal,1,4,additional_entries
+shadow_trial_difficulty,/Game/Data/DataTables/Plateau/Main/ShadowTrial/DT_PlateauDifficulty_ShadowTrial,128020101,900C1FFE46B6D08D9652269D0809D609,3257136281,宗师,Insane,1,4,additional_entries

@@ -1,6 +1,6 @@
 {
   "format_version": 1,
-  "generated_at_utc": "2026-07-03T14:25:43.074530+00:00",
+  "generated_at_utc": "2026-07-06T09:26:11.131470+00:00",
   "source_language": "zh",
   "target_language": "en",
   "target_language_label": "English",
@@ -28,9 +28,10 @@
   },
   "locres_refresh": null,
   "output_dir": "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\en",
-  "record_count": 165,
+  "record_count": 276709,
   "reason_counts": {
-    "missing_in_en": 165
+    "glossary_monster_name": 682,
+    "unknown": 276027
   },
   "zh_changed_key_backup": {
     "enabled": false,
@@ -346,5 +347,25 @@
     "remaining_missing": [],
     "validated_against": "additional_entries_exact",
     "require_final_pool_coverage": false
+  },
+  "glossary_supplement_sync": {
+    "language": "en",
+    "glossary_sources": [
+      "D:\\Claude\\HoK-World-EngPatch\\docs\\generated\\monster_glossary\\monster_name_glossary.csv",
+      "D:\\Claude\\HoK-World-EngPatch\\docs\\generated\\shadow_trial_effect_glossary\\shadow_trial_effect_glossary.csv"
+    ],
+    "candidate_count": 823,
+    "added_count": 682,
+    "replaced_count": 0,
+    "existing_kept_count": 141,
+    "input_skipped": {
+      "unusable:monster_name": 2
+    },
+    "merge_skipped": {
+      "glossary_monster_name": 25,
+      "glossary_shadow_trial_difficulty": 5,
+      "glossary_shadow_trial_effect_group": 4,
+      "glossary_shadow_trial_effect_name": 107
+    }
   }
 }
