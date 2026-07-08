@@ -1,6 +1,6 @@
 {
   "format_version": 1,
-  "generated_at_utc": "2026-07-06T09:26:11.131470+00:00",
+  "generated_at_utc": "2026-07-08T09:57:43.982556+00:00",
   "source_language": "zh",
   "target_language": "en",
   "target_language_label": "English",
@@ -8,14 +8,16 @@
   "scope_note": "Includes zh records that are absent from English, whose English value is empty/still source text, or that are required by dialogue/cooked coverage inputs and lack usable English coverage. Official usable English records are intentionally excluded.",
   "model": "gemini-3.1-flash-lite",
   "rpm_limit": 15,
-  "input_limit_bytes": 2048,
+  "input_limit_bytes": 20480,
   "source_files": {
     "zh": "D:\\Claude\\HoK-World-EngPatch\\game\\extracted\\zh_game.locres",
     "previous_zh": "",
     "zh_diff_reports": [],
-    "en": "D:\\Claude\\HoK-World-EngPatch\\game\\extracted\\en_game.locres",
+    "en": "D:\\Claude\\HoK-World-EngPatch\\tool\\assets\\en_current.locres",
     "dialogue_route_manifest": "D:\\Claude\\HoK-World-EngPatch\\tool\\assets\\known_cooked_text_dialogue_expand_manifest.json.gz",
-    "dialogue_coverage_reports": [],
+    "dialogue_coverage_reports": [
+      "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\en\\missing_dialogue_coverage_en.json"
+    ],
     "cooked_localtext_coverage_reports": [
       "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\en\\missing_cooked_localtext_coverage_en.json"
     ],
@@ -28,10 +30,10 @@
   },
   "locres_refresh": null,
   "output_dir": "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\en",
-  "record_count": 276709,
+  "record_count": 776,
   "reason_counts": {
-    "glossary_monster_name": 682,
-    "unknown": 276027
+    "cooked_ftext_coverage_missing_in_en": 723,
+    "cooked_localtext_coverage_missing_in_en": 53
   },
   "zh_changed_key_backup": {
     "enabled": false,
@@ -48,30 +50,18 @@
   },
   "zh_changed_key_forced_candidates": {
     "enabled": false,
-    "changed_key_count": 0,
-    "current_record_count": 0,
-    "added_record_count": 0,
-    "duplicate_record_count": 0,
-    "filtered_source_count": 0,
-    "missing_current_key_count": 0
+    "skipped_coverage_only": true
   },
   "dialogue_route_coverage": {
-    "enabled": true,
-    "manifest": "D:\\Claude\\HoK-World-EngPatch\\tool\\assets\\known_cooked_text_dialogue_expand_manifest.json.gz",
-    "required_unique_key_count": 197848,
-    "required_occurrence_count": 197848,
-    "already_covered_key_count": 195111,
-    "already_candidate_key_count": 702,
-    "missing_zh_source_key_count": 1453,
-    "filtered_source_key_count": 582,
-    "added_key_count": 0,
-    "added_record_count": 0,
-    "include_hidden_placeholders": false
+    "enabled": false,
+    "skipped_coverage_only": true
   },
   "dialogue_coverage_report": {
-    "enabled": false,
-    "reports": [],
-    "report_count": 0,
+    "enabled": true,
+    "reports": [
+      "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\en\\missing_dialogue_coverage_en.json"
+    ],
+    "report_count": 1,
     "row_count": 0,
     "selected_language_row_count": 0,
     "added_record_count": 0,
@@ -94,18 +84,18 @@
       "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\en\\missing_cooked_localtext_coverage_en.json"
     ],
     "report_count": 1,
-    "row_count": 2000,
-    "selected_language_row_count": 2000,
-    "added_record_count": 0,
+    "row_count": 14309,
+    "selected_language_row_count": 14309,
+    "added_record_count": 53,
     "duplicate_record_count": 0,
-    "existing_usable_record_count": 2000,
+    "existing_usable_record_count": 14256,
     "filtered_source_count": 0,
     "missing_required_field_count": 0,
     "missing_source_text_count": 0,
     "missing_report_count": 0,
     "skipped_other_language_count": 0,
-    "unresolved_zh_record_count": 2000,
-    "report_supplied_target_count": 2000,
+    "unresolved_zh_record_count": 14305,
+    "report_supplied_target_count": 14274,
     "report_supplied_target_hash_mismatch_count": 0,
     "force": false,
     "prefer_report_identity": false
@@ -116,18 +106,18 @@
       "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\en\\missing_cooked_ftext_coverage_en.json"
     ],
     "report_count": 1,
-    "row_count": 2000,
-    "selected_language_row_count": 2000,
-    "added_record_count": 0,
-    "duplicate_record_count": 0,
-    "existing_usable_record_count": 2000,
-    "filtered_source_count": 0,
+    "row_count": 209474,
+    "selected_language_row_count": 209474,
+    "added_record_count": 723,
+    "duplicate_record_count": 53,
+    "existing_usable_record_count": 208696,
+    "filtered_source_count": 2,
     "missing_required_field_count": 0,
     "missing_source_text_count": 0,
     "missing_report_count": 0,
     "skipped_other_language_count": 0,
-    "unresolved_zh_record_count": 2000,
-    "report_supplied_target_count": 2000,
+    "unresolved_zh_record_count": 208710,
+    "report_supplied_target_count": 199909,
     "report_supplied_target_hash_mismatch_count": 0,
     "force": false,
     "prefer_report_identity": false
@@ -148,50 +138,50 @@
     "missing_source_text_count": 0,
     "missing_report_count": 0,
     "skipped_other_language_count": 0,
-    "unresolved_zh_record_count": 244,
+    "unresolved_zh_record_count": 55,
     "report_supplied_target_count": 0,
     "report_supplied_target_hash_mismatch_count": 0,
     "force": false,
     "prefer_report_identity": true
   },
   "existing_additional_entries": {
-    "loaded_count": 276018,
-    "post_prune_count": 276018,
-    "usable_skipped_candidate_count": 57113,
+    "loaded_count": 295591,
+    "post_prune_count": 295591,
+    "usable_skipped_candidate_count": 0,
     "force": false,
     "stale_prune": {
-      "input_count": 276018,
-      "preserved_count": 276018,
+      "input_count": 295591,
+      "preserved_count": 295591,
       "pruned_hash_mismatch_count": 0,
       "pruned_legacy_locres_pair_count": 0,
       "pruned_forced_zh_change_count": 0,
-      "preserved_report_coverage_count": 4244,
-      "preserved_reviewed_override_count": 38,
+      "preserved_report_coverage_count": 208899,
+      "preserved_reviewed_override_count": 28,
       "enabled": true
     },
     "glossary_reconciliation": {
       "enabled": true,
-      "entry_count": 276018,
-      "glossary_entry_count": 8300,
-      "source_resolved_count": 61394,
-      "canonical_match_count": 2090,
+      "entry_count": 295591,
+      "glossary_entry_count": 9064,
+      "source_resolved_count": 262515,
+      "canonical_match_count": 23752,
       "rewritten_count": 0,
       "deterministic_rewritten_count": 0,
       "target_alias_rewritten_count": 0,
       "flow_term_rewritten_count": 0,
-      "cache_match_count": 47281,
-      "cache_rewritten_count": 0,
-      "stale_format_token_count": 0,
-      "missing_source_format_token_count": 1,
-      "unusable_canonical_count": 0,
-      "report_count": 3
+      "cache_match_count": 97222,
+      "cache_rewritten_count": 173,
+      "stale_format_token_count": 22,
+      "missing_source_format_token_count": 208,
+      "unusable_canonical_count": 8,
+      "report_count": 4
     }
   },
-  "unique_source_count": 119,
+  "unique_source_count": 494,
   "translation_values_glossary": {
     "enabled": true,
     "source": "D:\\Claude\\HoK-World-EngPatch\\tool\\assets\\translation_values_glossary.json",
-    "entry_count": 8300,
+    "entry_count": 9064,
     "conflict_count": 0,
     "seeded_source_count": 0,
     "seeded_record_count": 0
@@ -200,49 +190,49 @@
     "seeded_source_count": 0,
     "seeded_record_count": 0
   },
-  "resolved_without_gemini_count": 0,
+  "resolved_without_gemini_count": 4,
   "report_supplied_target_reused_source_count": 0,
   "report_supplied_target_reused_record_count": 0,
   "report_supplied_target_conflict_source_count": 0,
-  "pending_source_count": 119,
-  "batch_count": 22,
+  "pending_source_count": 490,
+  "batch_count": 9,
   "max_translation_passes": 3,
   "invalid_cached_source_count": 0,
   "normalized_cached_source_count": 0,
   "dry_run": false,
   "github": {
-    "enabled": false,
+    "enabled": true,
     "owner": "Lani27",
     "repo": "hokworld-additional-translations",
     "branch": "main",
     "base_path": "en"
   },
-  "translated_record_count": 276027,
+  "translated_record_count": 295726,
   "passthrough_record_count": 0,
-  "pending_record_count": 156,
+  "pending_record_count": 637,
   "empty_record_count": 0,
-  "invalid_translation_output_count": 354,
+  "invalid_translation_output_count": 1288,
   "skipped_translation_output_count": 0,
-  "translation_request_batch_count": 64,
-  "unresolved_source_count": 118,
+  "translation_request_batch_count": 25,
+  "unresolved_source_count": 413,
   "additional_entries_merge": {
-    "existing_input_count": 276018,
-    "generated_input_count": 165,
-    "existing_preserved_count": 276018,
+    "existing_input_count": 295591,
+    "generated_input_count": 776,
+    "existing_preserved_count": 295587,
     "existing_kept_over_generated_count": 0,
-    "generated_replaced_existing_count": 0,
-    "generated_added_count": 165
+    "generated_replaced_existing_count": 4,
+    "generated_added_count": 772
   },
   "fuzzy_glossary": {
     "enabled": true,
     "repair_enabled": false,
     "dry_run": false,
-    "entry_count": 276183,
-    "checked_count": 276183,
-    "source_resolved_count": 61403,
-    "term_hit_entry_count": 10739,
-    "term_hit_count": 14325,
-    "mismatch_count": 4165,
+    "entry_count": 296363,
+    "checked_count": 296363,
+    "source_resolved_count": 262650,
+    "term_hit_entry_count": 53473,
+    "term_hit_count": 68408,
+    "mismatch_count": 18593,
     "repair_candidate_count": 0,
     "repair_candidate_unique_count": 0,
     "repair_attempted_count": 0,
@@ -256,41 +246,43 @@
         "D:\\Claude\\HoK-World-EngPatch\\docs\\generated\\official_gear_glossary\\official_gear_names.csv",
         "D:\\Claude\\HoK-World-EngPatch\\docs\\generated\\hero_glossary\\hero_name_glossary.csv",
         "D:\\Claude\\HoK-World-EngPatch\\docs\\generated\\hero_glossary\\hero_skill_glossary.csv",
+        "D:\\Claude\\HoK-World-EngPatch\\docs\\generated\\monster_glossary\\monster_name_glossary.csv",
+        "D:\\Claude\\HoK-World-EngPatch\\docs\\generated\\shadow_trial_effect_glossary\\shadow_trial_effect_glossary.csv",
         "D:\\Claude\\HoK-World-EngPatch\\docs\\generated\\location_glossary\\location_glossary.csv",
         "D:\\Claude\\HoK-World-EngPatch\\docs\\generated\\content_glossary\\content_glossary_all.csv",
         "D:\\Claude\\HoK-World-EngPatch\\docs\\generated\\currency_event_glossary\\currency_event_glossary_all.csv",
         "D:\\Claude\\HoK-World-EngPatch\\docs\\generated\\summon_combat_glossary\\summon_combat_glossary.csv",
         "D:\\Claude\\HoK-World-EngPatch\\docs\\generated\\manual_glossary\\manual_glossary.csv"
       ],
-      "raw_pair_count": 2631,
-      "term_count": 1883,
+      "raw_pair_count": 3456,
+      "term_count": 2657,
       "conflict_count": 0,
-      "filtered_count": 538,
+      "filtered_count": 548,
       "target_normalized_count": 10
     }
   },
   "additional_entries_full_validation": {
     "valid": true,
-    "entry_count": 276183,
-    "usable_count": 276027,
-    "skipped_count": 156,
+    "entry_count": 296363,
+    "usable_count": 295726,
+    "skipped_count": 637,
     "errors": []
   },
   "additional_entries_validation": {
     "valid": true,
-    "entry_count": 276027,
-    "usable_count": 276027,
+    "entry_count": 295726,
+    "usable_count": 295726,
     "skipped_count": 0,
     "errors": []
   },
   "additional_entries_runtime_compaction": {
-    "input_entry_count": 276183,
-    "written_entry_count": 276027,
-    "omitted_unusable_count": 156
+    "input_entry_count": 296363,
+    "written_entry_count": 295726,
+    "omitted_unusable_count": 637
   },
   "dialogue_coverage_validation": {
-    "enabled": false,
-    "report_count": 0,
+    "enabled": true,
+    "report_count": 1,
     "row_count": 0,
     "selected_language_row_count": 0,
     "candidate_row_count": 0,
@@ -306,30 +298,282 @@
   "cooked_localtext_coverage_validation": {
     "enabled": true,
     "report_count": 1,
-    "row_count": 2000,
+    "row_count": 14309,
     "selected_language_row_count": 0,
-    "candidate_row_count": 2000,
+    "candidate_row_count": 14309,
     "filtered_source_count": 0,
-    "covered_count": 2000,
-    "additional_entries_covered_count": 2000,
-    "final_pool_covered_count": 2000,
-    "missing_count": 0,
-    "remaining_missing": [],
+    "covered_count": 14243,
+    "additional_entries_covered_count": 14261,
+    "final_pool_covered_count": 14243,
+    "missing_count": 66,
+    "remaining_missing": [
+      {
+        "namespace": "/Game/Data/DataTables/LocalText/DT_LocalizeText_Composite",
+        "guid": "0258BB7E4068AEDBD91FF7A7FD09F7D9",
+        "source_text": "生日：{0}月{1}日"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/LocalText/DT_LocalizeText_Composite",
+        "guid": "03A4003D4EF0981A066D498FA6D9D60E",
+        "source_text": "【被动技能】累计消除36个砂纸元素后随机产生1个巧物箱"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/LocalText/DT_LocalizeText_Composite",
+        "guid": "06BDCD674B4BEF45BD0396864CFA8F6A",
+        "source_text": "1. 购买萝卜卜盲盒可随机从8款萝卜主题时装中获取1款，1次可购买1盒或6盒。\r\n2. 萝卜卜盲盒中的时装包含2款隐藏款与6款基础款。其中萝国王、萝王后为隐藏款，萝半仙儿、萝大盗、萝清新、萝侠客、萝诗书、萝丰收为基础款。\r\n3. 购买盲盒后会自动开启，获得基础款或隐藏款时优先获取其中未拥有的款式。购买盲盒获得全部基础款"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/LocalText/DT_LocalizeText_Composite",
+        "guid": "117BAA9D43C83183FA912492D05796B9",
+        "source_text": "每周一4点社团活跃度排行结算时，每个类型下排名第1-3名、4-10名、11-30名分别获得钻石徽章、火焰会长、金色徽章。\r\n徽章将会显示在社团名片等相关位置，到下次排行结算时重置。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/LocalText/DT_LocalizeText_Composite",
+        "guid": "15ABFA4149346BC501AD1F8957644BE1",
+        "source_text": "获得 <a href=\"GetSystemItem\" color=\"#{0}\" underline=\"/Game/UI/Textures/Libraries/Frames/T_UI_SpriteLine_Splitline.T_UI_SpriteLine_Splitline\" ucolor=\"#{1}\">{2}×{3}"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/LocalText/DT_LocalizeText_Composite",
+        "guid": "15C3107F4C9B0BB957BC748B8A6855B4",
+        "source_text": "【被动技能】每进行25次消除后可增加1点步数"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/LocalText/DT_LocalizeText_Composite",
+        "guid": "219037CD4054AEDE3B51B2B86513589B",
+        "source_text": "每周一4点社团活跃度结算时，每个类型下排名前30的社团，社团的管理人员会获得限时头像框。头像框发放根据排行结算时社团中的社长和管理人员名单，需手动领取，可使用至下周一4点。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/LocalText/DT_LocalizeText_Composite",
+        "guid": "2777FC8B4C5C8838C608CAA845E2F7A1",
+        "source_text": "每天<Gold_Basic>凌晨0点到早上8点</>为休息时间，期间作物不会被他人采撷"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/LocalText/DT_LocalizeText_Composite",
+        "guid": "27E1A4D141136B7B3A1FB48A8AC734D1",
+        "source_text": "竞技玩法将于2024年1月11日~1月17日，晚上20点~22点开放，敬请关注相关官方活动。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/LocalText/DT_LocalizeText_Composite",
+        "guid": "2A0D01B042078F26BE04F3B6E6954FB6",
+        "source_text": "【主动技能】每进行10次消除后可使用，使用后可选择1格基本元素并将其消除"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/LocalText/DT_LocalizeText_Composite",
+        "guid": "2A145FA2428E278329C3C58C6538A616",
+        "source_text": "是否确认解除<span color=\"#FFE398\">{0}</>是你的{1}关系？\r\n解除关系后，双方的亲密关系权益将失效\r\n（重新绑定冷却时间：7天）"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/LocalText/DT_LocalizeText_Composite",
+        "guid": "2CDE2AB745CFBC6F106322AB75CF8D75",
+        "source_text": "每月1号 04:00 结算"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/LocalText/DT_LocalizeText_Composite",
+        "guid": "2E4B38F04A5E2E8827C17DB35D5FE81C",
+        "source_text": "<span color=\"#ffe398\">刷新规则</>\r\n     灾兽共斗排行榜每3周刷新1次，每次刷新排行榜会重置。\r\n     奖励每周一刷新1次，每次刷新后积分奖励会重置。\r\n\r\n<span color=\"#ffe398\">积分规则</>\r\n     灾兽共斗积分获取分为基础积分和额外积分。基础积分每击败一"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/LocalText/DT_LocalizeText_Composite",
+        "guid": "309144BF4484B64911C769AEAC756C49",
+        "source_text": "达成下列任意1组条件解锁"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/LocalText/DT_LocalizeText_Composite",
+        "guid": "31B38EFA433700DC13775DBFCBAB63FA",
+        "source_text": "<span color=\"#ffe398\">开放时间</>\r\n  S1赛季\r\n\r\n<span color=\"#ffe398\">玩法目标</>\r\n  击败全部关卡首领\r\n\r\n<span color=\"#ffe398\">暗影试炼·静默之域</> \r\n   【静默之域】中，玩家每次进入玩法时，将随机一组词条进行挑战。\r\n  "
+      },
+      {
+        "namespace": "/Game/Data/DataTables/LocalText/DT_LocalizeText_Composite",
+        "guid": "323808AE4F098A3CDEB354A9122E6FF1",
+        "source_text": "确认使用{0}晶珀兑换1次签到？[br]<span color=\"90D1FF\">晶珀不足时，自动使用璇晶抵扣</>"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/LocalText/DT_LocalizeText_Composite",
+        "guid": "3374B7E746697411A08F3E8E871A10DF",
+        "source_text": "装备{0}完成万相附流<span color=\"#{1}\">【{2}】</>"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/LocalText/DT_LocalizeText_Composite",
+        "guid": "34FD8C68445A67C691CFEA85788F235F",
+        "source_text": "迷踪获取(波流境界达到2级，完成觉醒任务第三章《星辰觉醒》开放)"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/LocalText/DT_LocalizeText_Composite",
+        "guid": "43917A8B4FA34DE90AFC93B715836C93",
+        "source_text": "每周一4点可重新定位荣耀战区"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/LocalText/DT_LocalizeText_Composite",
+        "guid": "454010C741F00D6EDC622E8DAD8FA604",
+        "source_text": "【艺术家等级说明】[br]1.完成关卡可获得<ffe398>艺术家经验</>，累计经验可提升艺术家等级[br]2.艺术家等级最高可提升至<ffe398>9级</>[br]3.每次艺术家等级提升后可领取1次等级奖励；奖励内容包括<ffe398>精灵搭档</>和<ffe398>精灵技能</>两种[br]4.每次领取奖励时，"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/LocalText/DT_LocalizeText_Composite",
+        "guid": "4E7D886246CDACFF8850A7B7E0B8D8D1",
+        "source_text": "热度值达到1000可获取<img src=\"/Game/UI/Icons/Item/Activity/T_UI_Icon_Item_Activity_Fengyun_Coin.T_UI_Icon_Item_Activity_Fengyun_Coin\"/>100，每日最多可领取3次。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/LocalText/DT_LocalizeText_Composite",
+        "guid": "58D31DC8436D9DB82BF922878695D242",
+        "source_text": "每完成 1 项任务，{0}星级+1。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/LocalText/DT_LocalizeText_Composite",
+        "guid": "593551FD4935E55DCD9DD48928BCE55A",
+        "source_text": "※ 队友阵亡后，可以在商店消耗辉金石进行召回[br]※ 每名队友每场战斗最多可召回1次[br]※ 处于死亡决斗，离线情况下的队友无法被召回"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/LocalText/DT_LocalizeText_Composite",
+        "guid": "5B7448C044792A90350AFDA0E13905C1",
+        "source_text": "完成关卡并将艺术家等级提升至Lv.1解锁"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/LocalText/DT_LocalizeText_Composite",
+        "guid": "5DA7F5F64CF241851A25A3AA422F33FF",
+        "source_text": "<span color=\"#ffe398\">开放时间</>\r\n  S1赛季\r\n\r\n<span color=\"#ffe398\">玩法目标</>\r\n  击败全部关卡首领\r\n\r\n<span color=\"#ffe398\">暗影试炼·静默之域</>\r\n  【静默之域】中，玩家每次进入玩法时，将随机一组词条进行挑战。\r\n  除随"
+      }
+    ],
     "validated_against": "final_merged_pool",
     "require_final_pool_coverage": true
   },
   "cooked_ftext_coverage_validation": {
     "enabled": true,
     "report_count": 1,
-    "row_count": 2000,
+    "row_count": 209474,
     "selected_language_row_count": 0,
-    "candidate_row_count": 2000,
-    "filtered_source_count": 0,
-    "covered_count": 2000,
-    "additional_entries_covered_count": 2000,
-    "final_pool_covered_count": 2000,
-    "missing_count": 0,
-    "remaining_missing": [],
+    "candidate_row_count": 209472,
+    "filtered_source_count": 2,
+    "covered_count": 208708,
+    "additional_entries_covered_count": 208835,
+    "final_pool_covered_count": 208708,
+    "missing_count": 764,
+    "remaining_missing": [
+      {
+        "namespace": "/Game/Data/DataTables/Battle/BattleTerms/DT_BattleTermsExplanation",
+        "guid": "0B092B7D403DE69687CAAEB95BDEBAD6",
+        "source_text": "<#一技能><#FS1002_S_2><#FS1002_D_8>下<#FS1002_D_2>消耗的资源。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Battle/BattleTerms/DT_BattleTermsExplanation",
+        "guid": "3AD66C524290E14B6ADE228D7B27A122",
+        "source_text": "<#FS1002_D_8>下的强化<#普攻>，每次施放会消耗1支<#FS1002_D_5>。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Battle/BattleTerms/DT_BattleTermsExplanation",
+        "guid": "6351851945E6D4A05D41E393EDA0E4C0",
+        "source_text": "<#流脉>星<#光>闪烁激活时，在竞技模式下施放<#流技><#闪避>反击命中敌人后，将触发<#FS1005_D_12>效果，对敌人施加负面效果或获得增益。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Battle/BattleTerms/DT_BattleTermsExplanation",
+        "guid": "66F4D3324A18D6587C993E9B4619C156",
+        "source_text": "<#FS1004_D_3>命中敌人时可获取<#FS1004_D_13>；若要发动<#FS1004_D_4><#二技能><#FS1004_D_2>，需消耗<#FS1004_D_13>。上限为1000点。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Battle/BattleTerms/DT_BattleTermsExplanation",
+        "guid": "BCAE2A384DF43BC3FA23239BCDA140D2",
+        "source_text": "<#FS1008_D_1>造成伤害后获得<#FS1008_D_10>，上限100点。<#FS1008_D_10>满溢后，可以施放<#三技能><#FS1008_S_8>，使<#FS1008_D_1>进入<#FS1008_D_6>。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Battle/BattleTerms/DT_BattleTermsExplanation",
+        "guid": "E331C049496428707FB1A09739801A0E",
+        "source_text": "<#三技能><#FS1003_S_4>成功<#FS1003_D_9>敌人攻击时，可进行反击，造成<#流技><#伤害>。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Battle/BattleTerms/DT_BattleTermsExplanation",
+        "guid": "FD9301DC4506F11EA2F9028C401D27AA",
+        "source_text": "一技能每发射5次雪灵回环，可触发一次冰旋风。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Battle/BattleTerms/DT_BattleTermsExplanation_Composite",
+        "guid": "0B092B7D403DE69687CAAEB95BDEBAD6",
+        "source_text": "<#一技能><#FS1002_S_2><#FS1002_D_8>下<#FS1002_D_2>消耗的资源。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Battle/BattleTerms/DT_BattleTermsExplanation_Composite",
+        "guid": "3AD66C524290E14B6ADE228D7B27A122",
+        "source_text": "<#FS1002_D_8>下的强化<#普攻>，每次施放会消耗1支<#FS1002_D_5>。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Battle/BattleTerms/DT_BattleTermsExplanation_Composite",
+        "guid": "6351851945E6D4A05D41E393EDA0E4C0",
+        "source_text": "<#流脉>星<#光>闪烁激活时，在竞技模式下施放<#流技><#闪避>反击命中敌人后，将触发<#FS1005_D_12>效果，对敌人施加负面效果或获得增益。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Battle/BattleTerms/DT_BattleTermsExplanation_Composite",
+        "guid": "66F4D3324A18D6587C993E9B4619C156",
+        "source_text": "<#FS1004_D_3>命中敌人时可获取<#FS1004_D_13>；若要发动<#FS1004_D_4><#二技能><#FS1004_D_2>，需消耗<#FS1004_D_13>。上限为1000点。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Battle/BattleTerms/DT_BattleTermsExplanation_Composite",
+        "guid": "BCAE2A384DF43BC3FA23239BCDA140D2",
+        "source_text": "<#FS1008_D_1>造成伤害后获得<#FS1008_D_10>，上限100点。<#FS1008_D_10>满溢后，可以施放<#三技能><#FS1008_S_8>，使<#FS1008_D_1>进入<#FS1008_D_6>。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Battle/BattleTerms/DT_BattleTermsExplanation_Composite",
+        "guid": "E331C049496428707FB1A09739801A0E",
+        "source_text": "<#三技能><#FS1003_S_4>成功<#FS1003_D_9>敌人攻击时，可进行反击，造成<#流技><#伤害>。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Battle/BattleTerms/DT_BattleTermsExplanation_Composite",
+        "guid": "FD9301DC4506F11EA2F9028C401D27AA",
+        "source_text": "一技能每发射5次雪灵回环，可触发一次冰旋风。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Battle/DT_LogicEffectComposite",
+        "guid": "19AFAFDD4FA48265F77628B409CCAE53",
+        "source_text": "流技强度+14%"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Battle/DT_LogicEffectComposite",
+        "guid": "1B0F77704D8E4974DBC831BF48CFBD3F",
+        "source_text": "流技强度+14%，攻击力+6%"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Battle/DT_LogicEffectComposite",
+        "guid": "225C50D54A774C5BEF6CECAD3A2D0AA0",
+        "source_text": "每层提升自身4%追击率"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Battle/DT_LogicEffectComposite",
+        "guid": "2C2E8CCE4C4CA21C543C8EB639941A0B",
+        "source_text": "召唤唤灵后12秒内，每次闪避增加自身4%追击率，持续12秒，最高可叠加4层"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Battle/DT_LogicEffectComposite",
+        "guid": "33B757CA4AEA2FA68B1E4AA06DB0CF2F",
+        "source_text": "若触发追击，额外叠加【燎天】效果，最多叠加80层（该效果每0.3秒最多触发1次）；施放绝技将消耗【燎天】，造成一次当前层数x45%攻击力的伤害"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Battle/DT_LogicEffectComposite",
+        "guid": "59DDF38C44FD6770E0285C90512D90D8",
+        "source_text": "流技强度+14%，攻击力+12%"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Battle/DT_LogicEffectComposite",
+        "guid": "5BFC78D44C46626BBDFC94A9FF14294C",
+        "source_text": "流技强度+7%"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Battle/DT_LogicEffectComposite",
+        "guid": "7D5E8A684911F8023382C5A22ABDCD0A",
+        "source_text": "召唤唤灵后12秒内，每次闪避可提升自身4%追击率，持续12秒，最高可叠加4层"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Battle/DT_LogicEffectComposite",
+        "guid": "FB0E382444443057ADD1DFAFF0D268B7",
+        "source_text": "若敌人生命值低于50%，普通攻击额外附带400%攻击力的伤害（该效果每10秒最多触发1次）"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Battle/DT_LogicEffect_Equips",
+        "guid": "33B757CA4AEA2FA68B1E4AA06DB0CF2F",
+        "source_text": "若触发追击，额外叠加【燎天】效果，最多叠加80层（该效果每0.3秒最多触发1次）；施放绝技将消耗【燎天】，造成一次当前层数x45%攻击力的伤害"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/BattleTutorial/DT_BattleTutorial_WZJ",
+        "guid": "93D450E3451FD741EBBF919BE5B9ABCE",
+        "source_text": "打出120000伤害"
+      }
+    ],
     "validated_against": "final_merged_pool",
     "require_final_pool_coverage": true
   },
@@ -342,30 +586,10 @@
     "filtered_source_count": 0,
     "covered_count": 244,
     "additional_entries_covered_count": 244,
-    "final_pool_covered_count": 231,
+    "final_pool_covered_count": 244,
     "missing_count": 0,
     "remaining_missing": [],
     "validated_against": "additional_entries_exact",
     "require_final_pool_coverage": false
-  },
-  "glossary_supplement_sync": {
-    "language": "en",
-    "glossary_sources": [
-      "D:\\Claude\\HoK-World-EngPatch\\docs\\generated\\monster_glossary\\monster_name_glossary.csv",
-      "D:\\Claude\\HoK-World-EngPatch\\docs\\generated\\shadow_trial_effect_glossary\\shadow_trial_effect_glossary.csv"
-    ],
-    "candidate_count": 823,
-    "added_count": 682,
-    "replaced_count": 0,
-    "existing_kept_count": 141,
-    "input_skipped": {
-      "unusable:monster_name": 2
-    },
-    "merge_skipped": {
-      "glossary_monster_name": 25,
-      "glossary_shadow_trial_difficulty": 5,
-      "glossary_shadow_trial_effect_group": 4,
-      "glossary_shadow_trial_effect_name": 107
-    }
   }
 }
