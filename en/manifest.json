@@ -1,6 +1,6 @@
 {
   "format_version": 1,
-  "generated_at_utc": "2026-07-11T11:42:15.191606+00:00",
+  "generated_at_utc": "2026-07-11T13:01:35.873848+00:00",
   "source_language": "zh",
   "target_language": "en",
   "target_language_label": "English",
@@ -140,13 +140,13 @@
     "prefer_report_identity": true
   },
   "existing_additional_entries": {
-    "loaded_count": 298157,
-    "post_prune_count": 298157,
+    "loaded_count": 294924,
+    "post_prune_count": 294924,
     "usable_skipped_candidate_count": 0,
     "force": false,
     "stale_prune": {
-      "input_count": 298157,
-      "preserved_count": 298157,
+      "input_count": 294924,
+      "preserved_count": 294924,
       "pruned_hash_mismatch_count": 0,
       "pruned_legacy_locres_pair_count": 0,
       "pruned_forced_zh_change_count": 0,
@@ -156,7 +156,7 @@
     },
     "glossary_reconciliation": {
       "enabled": true,
-      "entry_count": 298157,
+      "entry_count": 294924,
       "glossary_entry_count": 9064,
       "source_resolved_count": 55829,
       "canonical_match_count": 2948,
@@ -198,13 +198,13 @@
   "dry_run": false,
   "rich_tag_repair_only": true,
   "github": {
-    "enabled": true,
+    "enabled": false,
     "owner": "Lani27",
     "repo": "hokworld-additional-translations",
     "branch": "main",
     "base_path": "en"
   },
-  "translated_record_count": 298157,
+  "translated_record_count": 294924,
   "passthrough_record_count": 0,
   "pending_record_count": 0,
   "empty_record_count": 0,
@@ -213,9 +213,9 @@
   "translation_request_batch_count": 0,
   "unresolved_source_count": 0,
   "additional_entries_merge": {
-    "existing_input_count": 298157,
+    "existing_input_count": 294924,
     "generated_input_count": 0,
-    "existing_preserved_count": 298157,
+    "existing_preserved_count": 294924,
     "existing_kept_over_generated_count": 0,
     "generated_replaced_existing_count": 0,
     "generated_added_count": 0
@@ -224,8 +224,8 @@
     "enabled": true,
     "repair_enabled": false,
     "dry_run": false,
-    "entry_count": 298157,
-    "checked_count": 298157,
+    "entry_count": 294924,
+    "checked_count": 294924,
     "source_resolved_count": 55829,
     "term_hit_entry_count": 14376,
     "term_hit_count": 21457,
@@ -259,30 +259,37 @@
     }
   },
   "rich_locres_policy": {
-    "input_count": 298157,
-    "marked_count": 6005,
-    "forced_count": 6005,
+    "input_count": 294924,
+    "marked_count": 6014,
+    "forced_count": 6014,
     "unsafe_not_forced_count": 0
+  },
+  "runtime_candidate_sanitization": {
+    "input_count": 294924,
+    "output_count": 294924,
+    "pruned_unresolved_pseudo_target_count": 0,
+    "official_metadata_removed_count": 0,
+    "official_rows_sanitized_count": 0
   },
   "additional_entries_full_validation": {
     "valid": true,
-    "entry_count": 298157,
-    "usable_count": 298157,
+    "entry_count": 294924,
+    "usable_count": 294924,
     "skipped_count": 0,
     "errors": []
   },
   "additional_entries_validation": {
     "valid": true,
-    "entry_count": 298157,
-    "usable_count": 298157,
+    "entry_count": 294924,
+    "usable_count": 294924,
     "skipped_count": 0,
     "errors": []
   },
   "additional_entries_runtime_compaction": {
     "enabled": false,
     "reason": "full_feed_required",
-    "input_count": 298157,
-    "output_count": 298157,
+    "input_count": 294924,
+    "output_count": 294924,
     "dropped_count": 0
   },
   "dialogue_coverage_validation": {
