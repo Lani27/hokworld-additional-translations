@@ -1,6 +1,6 @@
 {
   "format_version": 1,
-  "generated_at_utc": "2026-07-12T15:55:45.016244+00:00",
+  "generated_at_utc": "2026-07-12T16:19:06.114091+00:00",
   "source_language": "zh",
   "target_language": "en",
   "target_language_label": "English",
@@ -19,14 +19,14 @@
     "cooked_localtext_coverage_reports": [],
     "cooked_ftext_coverage_reports": [],
     "residual_cjk_coverage_reports": [
-      "D:\\Claude\\HoK-World-EngPatch\\tool\\build\\fixture-cold-dynamic-gear2-20260712-231853\\current-source-integrity-magnitude-final-retry.json"
+      "D:\\Claude\\HoK-World-EngPatch\\tool\\build\\fixture-cold-current-source-safe-20260713-000243\\post-gate-residual-gemini-input.json"
     ]
   },
   "locres_refresh": null,
   "output_dir": "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\en",
-  "record_count": 2,
+  "record_count": 13,
   "reason_counts": {
-    "residual_cjk_coverage_missing_in_en": 2
+    "residual_cjk_coverage_missing_in_en": 13
   },
   "zh_changed_key_backup": {
     "enabled": false,
@@ -119,12 +119,12 @@
   "residual_cjk_coverage_report": {
     "enabled": true,
     "reports": [
-      "D:\\Claude\\HoK-World-EngPatch\\tool\\build\\fixture-cold-dynamic-gear2-20260712-231853\\current-source-integrity-magnitude-final-retry.json"
+      "D:\\Claude\\HoK-World-EngPatch\\tool\\build\\fixture-cold-current-source-safe-20260713-000243\\post-gate-residual-gemini-input.json"
     ],
     "report_count": 1,
-    "row_count": 2,
-    "selected_language_row_count": 2,
-    "added_record_count": 2,
+    "row_count": 13,
+    "selected_language_row_count": 13,
+    "added_record_count": 13,
     "duplicate_record_count": 0,
     "existing_usable_record_count": 0,
     "filtered_source_count": 0,
@@ -151,18 +151,18 @@
       "pruned_source_text_mismatch_count": 0,
       "pruned_legacy_locres_pair_count": 0,
       "pruned_forced_zh_change_count": 0,
-      "preserved_report_coverage_count": 2,
+      "preserved_report_coverage_count": 0,
       "preserved_preferred_runtime_identity_count": 4,
       "preserved_direct_cooked_exact_target_count": 2,
       "preserved_direct_cooked_text_count": 2,
-      "preserved_reviewed_override_count": 35626,
+      "preserved_reviewed_override_count": 35628,
       "enabled": true
     },
     "glossary_reconciliation": {
       "enabled": false
     },
     "current_source_seed": {
-      "pending_source_count": 2,
+      "pending_source_count": 10,
       "input_entry_count": 0,
       "exact_current_candidate_count": 0,
       "prioritized_candidate_count": 0,
@@ -179,7 +179,7 @@
       "seeded_record_count": 0
     }
   },
-  "unique_source_count": 2,
+  "unique_source_count": 10,
   "translation_values_glossary": {
     "enabled": true,
     "source": "D:\\Claude\\HoK-World-EngPatch\\tool\\assets\\translation_values_glossary.json",
@@ -198,9 +198,9 @@
   "report_supplied_target_conflict_source_count": 0,
   "preferred_report_target_source_count": 0,
   "preferred_report_target_record_count": 0,
-  "pending_source_count": 2,
+  "pending_source_count": 10,
   "batch_count": 1,
-  "max_translation_passes": 1,
+  "max_translation_passes": 3,
   "invalid_cached_source_count": 0,
   "normalized_cached_source_count": 0,
   "dry_run": false,
@@ -212,7 +212,7 @@
     "branch": "main",
     "base_path": "en"
   },
-  "translated_record_count": 2,
+  "translated_record_count": 13,
   "passthrough_record_count": 0,
   "pending_record_count": 0,
   "empty_record_count": 0,
@@ -222,17 +222,17 @@
   "unresolved_source_count": 0,
   "additional_entries_merge": {
     "existing_input_count": 323920,
-    "generated_input_count": 2,
-    "existing_preserved_count": 323918,
+    "generated_input_count": 13,
+    "existing_preserved_count": 323920,
     "existing_kept_over_generated_count": 0,
-    "generated_replaced_existing_count": 2,
-    "generated_added_count": 0
+    "generated_replaced_existing_count": 0,
+    "generated_added_count": 13
   },
   "fuzzy_glossary": {
     "enabled": false,
     "repair_enabled": false,
     "dry_run": false,
-    "entry_count": 323920,
+    "entry_count": 323933,
     "checked_count": 0,
     "source_resolved_count": 0,
     "term_hit_entry_count": 0,
@@ -247,43 +247,43 @@
     "repair_skipped_limit_count": 0
   },
   "rich_locres_policy": {
-    "input_count": 323920,
+    "input_count": 323933,
     "marked_count": 7516,
     "forced_count": 7516,
     "unsafe_not_forced_count": 0
   },
   "runtime_candidate_sanitization": {
-    "input_count": 323920,
-    "output_count": 323920,
+    "input_count": 323933,
+    "output_count": 323933,
     "pruned_unresolved_pseudo_target_count": 0,
     "official_metadata_removed_count": 0,
     "official_rows_sanitized_count": 0
   },
   "additional_entries_full_validation": {
     "valid": true,
-    "entry_count": 323920,
-    "usable_count": 323920,
+    "entry_count": 323933,
+    "usable_count": 323933,
     "skipped_count": 0,
     "errors": []
   },
   "additional_entries_validation": {
     "valid": true,
-    "entry_count": 323920,
-    "usable_count": 323920,
+    "entry_count": 323933,
+    "usable_count": 323933,
     "skipped_count": 0,
     "errors": []
   },
   "additional_entries_runtime_compaction": {
     "enabled": false,
     "reason": "full_feed_required",
-    "input_count": 323920,
-    "output_count": 323920,
+    "input_count": 323933,
+    "output_count": 323933,
     "dropped_count": 0,
     "metadata_elision": {
       "enabled": true,
       "field": "status",
       "default_value": "translated",
-      "omitted_count": 2
+      "omitted_count": 13
     }
   },
   "dialogue_coverage_validation": {
@@ -340,13 +340,13 @@
   "residual_cjk_coverage_validation": {
     "enabled": true,
     "report_count": 1,
-    "row_count": 2,
+    "row_count": 13,
     "selected_language_row_count": 0,
-    "candidate_row_count": 2,
+    "candidate_row_count": 13,
     "filtered_source_count": 0,
-    "covered_count": 2,
-    "additional_entries_covered_count": 2,
-    "final_pool_covered_count": 2,
+    "covered_count": 13,
+    "additional_entries_covered_count": 13,
+    "final_pool_covered_count": 7,
     "preferred_runtime_identity_count": 0,
     "direct_cooked_exact_target_count": 0,
     "missing_count": 0,
