@@ -1,0 +1,710 @@
+﻿category,namespace,row,guid,source_hash,zh_text,en_text,source_count,source_priority
+monster_name,/Game/Data/DataTables/RPVP/DT_NPC_Enemy_RPVP,800020,1ABF1CEF4ECF8A3911152ABDE754C0BE,963813038,【暂无】蔚蓝幼兽,[Pending] Azure Cub,1,7
+monster_name,/Game/Data/DataTables/RPVP/DT_NPC_Enemy_RPVP,800030,753FD24A4A504AA1A88AEBA3E481BCFF,346461495,【暂无】蔚蓝幼兽-召唤,[Pending] Summon Azure Cub,1,7
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,299002,4CD0BFE44A05D98BF8BE7C8E769D5651,2361056102,丁午亥,NO. 4GL,11,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,290081,632EDA6142B2BF514F0957849F61353B,2809926664,万枢重锤,Megadrive Hammer,13,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,306101,05D4709640655CEBE01F688A2CFD4334,2533552901,万法铸灵,Manifold Sentinel,4,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200065,DB66468540C4CD0B355DA49409302F43,2399314680,万锻凝刀俑,Superior Icesword Effigy,6,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,404200067,D3ADA55B483E01656FD95AABE4B4EB50,2168023105,万锻刃将,Effigy Prime,1,5
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200063,047A4C164B3D25F704A64DB7E93E5E5D,3299325118,万锻流刀俑,Superior Firesword Effigy,8,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200024,6B989133440CB2437D2207BB450855A8,876665123,万锻雷枪俑,Superior Glintspear Effigy,13,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,202201,0748E0A94D66F4DB143C468D4CEAD142,3323349894,东方曜,Novar,4,1
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200219,ADF9E0174A8DC5DE26FE9392DFBCCD04,3900345327,丰华硕木,Great Arborean,20,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,513201702,7EA058CA4375EF03B1CD4B850AA084B0,4145259405,乐正锡,Le Zhengxi,1,5
+monster_name,/BattleRoyale/Data/DataTables/Character/DT_NPC_Enemy_PVP,10040306,BA4E5473406E83D6BBEE1B914646046D,3261753358,乔木篱,Arbor Saepes,3,6
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,220300088,299027D643D04120A2EE76BB90EF3D8D,1217105748,乘信鳍,Letterbearer Fin,1,4
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,220300087,78FEB5954259F31D1BE7D6917E978262,1268184031,乘愈鳍,Healing Fin,1,9500
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,202621,33CC064D49F5FDC2B2F643BD029357E9,3530086894,乱刃铸灵,Ripper Sentinel,5,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,300004,076AA6D045E7289D1C94A7B0706679BB,2813692012,云不见,Aershroud,1,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,290243,4D500B2C4E1BE367D08AB480CC57670A,4290979334,云丝结晶,Aersilk Crystal,2,1
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200212,955F1FEC472E3DF67C098B85DCB68D62,435577390,云御重篱,Aeroward Macroepes,12,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,200807,B6C4938B45FAA814A61F14B2739CE1FB,1507543185,云根,Aerux,2,1
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200921,0E894B734FDBDB8B8F6B82BDB0B0CA76,2242204665,云水母,Aero Jellyfish,2,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200922,94AB96884F72AD80ED3D46BF43C99118,1057197026,云水镜,Aero Specter,2,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,290021,9596BEE24286C410613983948748A92E,4191324322,云狌,Cloudeater,9,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,300054,80EE8BAE4CF66AED5FA5B8AF6F749EAC,3485905096,云皎,Aerfox,1,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,300053,7981EB6E4D593FED347319B215E442C8,3375353955,云踪狐,Aertint Fox,1,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,310200406,7053C7F04A3E9569BB87049DA30FFD91,1059477495,云飞榭,Yun Feixie,2,4
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_Plateau,284010008,6D9F8F824E848C661BB2CB8573CAC1B7,1203734611,五只灾兽,Five Calamity Beasts,1,2
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,513201821,23820C534D7C4CAE3FE0E68306FE1764,3834147512,亦茜,Yi Qian,1,5
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,504201702,3CB09EAC439174CD85248F97DD65FA62,2752803611,仇骁,Qiu Xiao,1,5
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,39201702,A6161FCE4E9953C35261EE9FA86389BD,90666018,仲翎,Zhong Ling,1,5
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,301201811,51D384064DAD1D16E0AD209D7971B071,1821634406,任霜荔,Ren Shuangli,1,4
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,205001,05D2E3184B4C8FF4E2462980516C037B,3444089028,伏地萝卜,Stealth Radish,5,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,290093,45EE0750472989CB56DB58B7CA0126ED,414735808,伯屠大君,Dreamslayer Overlord,6,1
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201522,E8CCB2F84EA7127D52BD9A91738A6008,361519961,伯影兽,Shadowbeast,11,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201524,FBCCFCF5425AFF720E64049D068DE2AB,2682575812,伯影梦兽,Illusive Shadowbeast,3,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,31201301,9BE8510645F1B88AFA14CC960D47E7B7,3235808291,伽罗,Garo,2,5
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,291201702,89B86458445603E292EA59BD0ED73F4B,1601835554,低年级学院学子,Junior Academy Student,1,3
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,36201721,F80AAD714E90DC8F66B2428129EB8C28,1614561240,傀儡,Puppet,1,5
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201501,77CCB4DA40F601CA4106A9AE6C9F46B6,1416463766,傲火隼,Blazing Falcon,29,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,301201721,B12856364320C21FFAAD3E8BEE363EA6,648016170,元戍道,Xudao,1,4
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,208113,5FC07CD9490FCBF013AAFEB34735AF5D,2683125051,元歌傀儡,Yango's Puppet,11,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,290111,EAD87C6E427A92A550EF9A9BDE900388,559486179,元祖木篱王,Primal Saepes King,2,1
+monster_name,/BattleRoyale/Data/DataTables/Character/DT_NPC_Enemy_PVP,10010009,706750164CD8AEB76785C8A0B8DFFAE3,939146102,内圈木桩怪,Inner Ring Dummy Monster,3,6
+monster_name,/BattleRoyale/Data/DataTables/Character/DT_NPC_Enemy_PVP,10010006,B930CBB84321424BE96612A530042E21,3030507122,内圈木桩怪_左右移动,Inner Ring Dummy Monster_Moving Left and Right,1,6
+monster_name,/BattleRoyale/Data/DataTables/Character/DT_NPC_Enemy_PVP,10010000,5ED5D7A24631DABB59F2169939C6C4E3,525738052,内圈木桩怪（双刀）,Inner Ring Dummy Monster (Dual Blades),1,6
+monster_name,/BattleRoyale/Data/DataTables/Character/DT_NPC_Enemy_PVP,10010001,4B692C2341C41CC38F7921A3394B8E2F,1429884259,内圈木桩怪（长刀）,Inner Ring Dummy Monster (Long Blade),1,6
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201341,09E424BE4E7B741EDD54FE9651533CC9,3021499174,冰刺弈,Ice Tile,6,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200845,EE41688449255C3C5051F6803FE503E0,3909084039,冰墟玄守,Ice Ruins Sentry,6,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,290020,2482001649EA1EA635AABD83771E408B,1161054122,冰柱,Icy Pillar,2,1
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,300201572,F2F28B7E4D5A79941C8D19AD85E0B99D,3477494663,冷峻的织梦者,Cold-Hearted Dreamweaver,1,4
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,326201832,0E5C2A214B10F2BEDA42DBBF996B621B,3079524312,凌一,Ling Yi,1,4
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,501200445,BCC49D664724931950A157828351D7D4,3800566714,凌云卫,Aerwatch,10,5
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,501009056,FE3EC61A45890485D21C23A324FB398E,780267510,凌云卫乙,Aerwatch B,1,5
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,501009015,81EF674A4A96415096D0C0B4D38B70F2,3935868293,凌云卫甲,Aerwatch A,1,5
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,501201722,9A5297E64344A2AE1A648B9C6EB5FE78,1505015949,凌云卫队长-贺临,He Lin (Aerwatch Captain),1,5
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200403,DD8DFAEB4715D4982618F8B9E7094371,1408902958,凌虎,Tigon,3,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201102,AAD0CD7D412278D09A555D85DE1D1B10,1774543720,凛绒,Cryomane,3,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,326200420,D53E733D475465E50545F192F36A8013,2970712496,凝湘君,Xiang Jun,1,4
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200041,C62967BD4E7C020ED1B141B342C6223E,4071214572,凝炮云铠,Icecannon Aeroclad,5,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200122,C629C0B64D501D9F46FFD8A9FE734154,1394607648,凝盾晶铠,Iceshield Nebuclad,4,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201722,41610A6149759245ADD6DFBC7AE4FA1B,1791601363,凝绝双刃,Congealing Twin Blades,16,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,200405,968868DC42384FCD92F62F9E69488EDB,2592248007,凯皇,Armor Emperor,1,1
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,306104,E4340EF44F8E801BA52EBF91223817FB,2172071545,凶星余影,Ominous Star Remnant,6,1
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,208102,190A844D49D00A67F26986BAAFA00362,2939909810,刃手傀儡,Swordhand Puppet,14,0
+monster_name,/BattleRoyale/Data/DataTables/Character/DT_NPC_Enemy_PVP,10040302,3F1FFDD64C285029C96E7EAEA0EBB222,2218770630,刃牙猪,Razorfang Boar,1,6
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200003,085617B14BF06793617345BEC6EA7674,2362914335,利刃云铠,Razor Aeroclad,12,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200101,2444D52D4137055E9BE173A96193F162,4186992028,利刃晶铠,Razor Nebuclad,6,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200802,B95831B842725A868F73D3B11DA238D9,313670778,刺熊,Spike Bear,14,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201031,D7A56A7D426E712267485FB71F9BE7F8,1963248520,刺藤芽,Spike Sprout,2,0
+monster_name,/BattleRoyale/Data/DataTables/Character/DT_NPC_Enemy_PVP,10040212,9BC734B8445C1790B6A5228B4C8281F1,724921758,剑士,Swordsman,1,6
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290202621,7F2433C84190AFC3C57A61BC7217ABF5,3018354937,劫刃铸灵,Doomblade Sentinel,4,3
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290202622,BF20524D4F22CAB7BE5EE788EB9E5B72,2356507205,劫刃铸灵-分身,Doomblade Sentinel Clone,1,3
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200082,B71DC614484F9407B6CB4CA141957EB3,4016202240,千淬凝盾俑,Heavy Iceshield Effigy,5,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200062,F4FF093F4783CAA299C2D79689E8D70E,4082302687,千淬刀俑,Heavy Sword Effigy,5,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200023,ABF63B4449FFBC54BCC6A7B5301A4DE4,847548270,千淬枪俑,Heavy Spear Effigy,11,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200074,97091A614580A76E98B1CB8FCAAAB301,347546580,千淬炮俑,Heavy Cannon Effigy,12,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200083,ACB6B07D4CEF441EF20D229C38198365,284514750,千淬震盾俑,Heavy Quakeshield Effigy,4,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,290231,12BAD9864F1CF7F70779B385C43E618E,3596700750,千驷,Qiansi,2,1
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,290100,F0D58A3547459F0555015EA1DB551F2D,599294931,半朽残躯,The Broken Will,3,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,290245,CA8E7F0546FD893B6F4A7D85BAEB5A5F,2256177396,半生半死人,Half-Dead,1,9500
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,205054,4ACAAEFE479349DF62D0568004BFDA2C,1915881463,华盖凋菇,Frostcap Shroom,5,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,205053,EF1ECD7F4B742F7A24B617861284155E,4117704719,华盖燎菇,Flamecap Shroom,5,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,201205056,09A2EACA42B7BAC1BEE83A89330CCFA6,548243671,华盖菌王,Crown Mushroom King,1,4
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,205056,C029521240A7F91ED66744AB97AC194F,1755440263,华盖蚀菇,Erosion Cap Mushroom,5,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,205055,E56F241845A7361B9E2199A7330CCA1B,1012727712,华盖霆菇,Thunder Cap Mushroom,4,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,260200406,E3C39FA94D40B05B9AAFEF9C64E332CB,1341599247,单一风,Shan Yifeng,2,4
+monster_name,/BattleRoyale/Data/DataTables/Character/DT_NPC_Enemy_PVP,10040400,31035E6B462EF4CDADE63AA784CBE244,2595744313,卜卜,Bobo,1,6
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,203201301,7A328681476FBEA7283A3AB9F2B2A062,1394409418,卢祖德,Lu Zude,1,4
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,326201801,712EE10F41D0D3A4B94ABE8EAEAD09B5,2264988264,卫离山,Lishan,1,4
+monster_name,/Game/Data/DataTables/RPVP/DT_NPC_Enemy_RPVP,800019,2082388C4B072B023F050E908C02690E,4155213115,友方木桩,Allied Training Dummy,1,7
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290306107,A4F9DC3C4023E827E53D329A5D223BF4,493877135,双刀虚影,Dual Blades Shadow,1,3
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290100017,320462314C170610ACAECE84C4D86B32,980323894,双斧投掷,Dual Axe Thrower,1,3
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,36201701,62F6FDBD40BC10F4C6A2368C5D6CF33E,2186764707,叛军丁,Defector D,1,5
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,35201701,D06470474C862F582F25E39A79761749,402267859,叛军丙,Defector C,1,5
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,31201711,485EFA0C454A8313CDC9C3A0F04F3EB2,2364425966,叛军乙,Defector B,1,5
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,34201701,CEDA34B643DD3D6433A80D832B92B60A,1224162461,叛军甲,Defector A,1,5
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201353,AA26B6A44AE63F82C3B9D4A99FE94F20,2633757080,召火焰鸣,Firebringer,9,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,211101,41DADEA74D162FE7448F6BB00FA8F5FC,916301371,叶尾蜥,Leaftail Lizard,5,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,32201701,6A55DFFA4F0A3B19B5E6E69CEDCEBD47,2289910544,叶殊,Yeshu,1,5
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,269201811,7142536D40EBCF5F19066193EA87BF20,1775332197,司空帝,Sikong Di,1,4
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,38201701,21E5C0FF41E38760222662BF210FAE26,1417302244,吴德,Hartles,1,5
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,37201701,0957EACE4DC20C61B5AC218F46CDDD43,4226267168,吴智,Braynles,1,5
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,39201701,A3C9187844E6A009A941E29156DA8816,852191217,吴良,Moroles,1,5
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,108200403,F5FBC53545770DF56B75D79BE83D50E4,4130724448,吴鸣,Wu Ming,1,4
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,520201801,34B6D05C4741B172C56F2BACFCECF8A7,1968815584,周小鱼,Chou Yu,1,4
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,290073,AF3176254774CEC7C7149C968E6536F9,4019007249,噩梦幻影,Nightmare Phantom,1,1
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,290071,29D9940945F8BDC32C1E5D965A6C4F6B,3056248853,噩梦蝶使,Nightmare Envoy,2,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290201578,CDBC9B2F40AB25928C9149BF2CCA0795,3179775294,噩梦魇蝶,Nightmare Moth,1,9500
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,329201503,45A282DA4021FB2EEE7E2F916451789D,1922631174,四十九,Forty-Nine,1,4
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,200407,949E93E145F70791C2B314AF30A15A96,1259179410,圭蝶,Vlinder,4,1
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201002,1899774C446B07B85A19218752175E76,2639810060,地狼,Wolvine,13,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290200984,AD07DCA446360792050454B83E68CB54,4256720103,坚果,Nut,1,3
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200051,1D4CBF8B47F7FD3E089EA6A2771F5017,2778307792,坚盾云铠,Heavyshield Aeroclad,4,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,288200403,B3A6D4D64479E006D92F4FAA8B33872B,2935818401,堂主-凌虎,Head Trainer: Tigon,5,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,300014,EFB368774773390FA58D2C9095889E28,1456254418,堇兔,Violabunny,1,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201572,5E48D6E14FE106D451A5679FE185188D,4051219605,堕梦灵,Corrupted Dreamspirit,6,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201571,C6D0B5CA4F05744A9A30C6A0E5EBEF0A,1279345551,堕梦魔,Corrupted Dreamfiend,7,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200430,55940E1A4D273E4019B7CCBDFECA2136,1439116760,墨炎,Cinder,3,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,326200430,12C3D65F4C5A8433A09A1B9247E955F1,1876943534,夏雨凝,Rainen,1,4
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290200211,039006804A27634D31DC1BA4C816209C,2315352144,大木篱巡逻守卫,Large Saepes Patrol Guard,1,3
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201713,492146AF495BA871AF17E3ADF6042EDE,4246377010,天火锤星,Skyfire Hammerer,12,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290000002,3D725C0B4A78EC97B0F6519462C6AA21,199994532,天煞铸灵,Hellbound Sentinel,5,3
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201505,5C7FDC464BFE5FC95A2E38B45A32B128,707964818,天雷隼,Skyrumble Falcon,15,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,203202201,AB5F1DFB4E2B0D9260DEF89681A1D91D,3094916166,天霖,Tian Lin,1,4
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,504201715,A733EB3D4631B35ED6A882BFA0D0F354,16084381,失心者,The Mindless,1,5
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,300201722,913E9AE74DD1C70F9DE82D91FBA9EC37,2372685637,失控的奇巧大师,Crazed Contraption Master,1,4
+monster_name,/BattleRoyale/Data/DataTables/Character/DT_NPC_Enemy_PVP,10070001,5310D1E540AD23FE50D157BFF6F9821E,3821187102,奇珍商铺,Curio Shop,1,6
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,510090050,EA471BA04312776BE2E3EF8ADD7416D5,3930025548,奚鸢,Galewings,1,5
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,200420,64039A3D4010705C50A402952CB268AF,3798942071,妃寒,Nivie,2,1
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,202305,6F74D80F45DA653FA54FBBA0DA86FB74,3021270846,姜子牙,Ziya,1,1
+monster_name,/BattleRoyale/Data/DataTables/Character/DT_NPC_Enemy_PVP,120019,DDEE9C894A0F51AC76EE6AAE440292F3,3952246207,孙膑,Sun Bin,1,6
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,510201701,47F10F3F4EE9E719586F958E6B3172EC,3638529805,孙饼爪牙,Sun Bean's Follower,1,5
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,510201702,FA3F775C409ABC1A042B2E8B07931251,3229294856,孙饼随从,Sun Bean's Follower,2,5
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290202601,22C6F2C5415C59576D53729D20C3D18A,411824323,孤戟铸灵,Pickaxe Sentinel,4,3
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,205031,1F5430E0486AADD934F80FA5B9777855,1927476981,学士鹅,Scholar Goose,2,1
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,291201311,1335B7E0472DC0768C16B1A493F02540,684150819,学院冰巨兵,Academy Ice Sentry Mechanoid,1,3
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,293201731,9BD3FC7640486B7A428C3E812CC99B14,3647699573,学院助阵学子,Academy Student,1,3
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,291201812,DAAC06E34A7FF4C96F1FCA8721BE92AA,1971901095,学院御凝师,Academy Ice Wielder,1,3
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,291201731,243A38FF4E28C194038C10A0F62E5367,2464536115,学院持盾学子,Student with a Shield,1,3
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,221200005,DF8E125341F9C9B6150FDAB424AD038C,945424092,学院机关人调查队长,Investigation Team Captain,1,4
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,291201312,4899F7FE485A9D95A79F579BB1D3BDD6,1075332112,学院淬火兵,Academy Flamequencher,1,3
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,33202209,D29121F3477BA7DDCE2DDF8E7BD545E1,1190337696,守卫,Guard,1,5
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,400200005,CFBCA26146DF62F31C29018BADCEA468,3648737014,守卫机关人,Guard Mechanoid,1,5
+monster_name,/Game/Data/DataTables/RPVP/DT_NPC_Enemy_RPVP,800003,74E01C7D4B776D83C09CECBE08722678,1020112436,守护中枢,Core of Guarding,1,7
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,300041,735274FA4FF15055FA48F48669719C0D,1439562189,安淳龟,Hunchshell Turtle,1,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,326290061,787E28774B51F1A4BF496BB76725BE30,3031098937,安静的朔椿芽,Quiet Moonelia Sprout,1,4
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,290220,D35989124B4877C0770E31B2C71746A7,1581598490,实验型鲁班五号,Prototype Luban No. 5,3,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,513201711,13B492FA4D2D18FFDC8856BC889EEEE8,1598136321,宫从,Gong Cong,1,5
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200242,6AE6533C4A4582EB95AC4CAD061A157C,4064731633,寂潭重篱,Quietpond Macroepes,6,0
+monster_name,/BattleRoyale/Data/DataTables/Character/DT_NPC_Enemy_PVP,10060002,E6E5C33F47D7226F6F41B9801A94E68E,2417728641,寄云蛛,Hermit Spider,1,6
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,267280051,E39F761948F377A0862F9789BFBB221A,703682248,寒怀香,Wayshan,1,4
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200025,B46CBF5843FA85F22F58299F27A55015,904566928,寒芒枪将,Coldspear Marshal,9,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,33201802,EDC274E74F3779EE8BB65FBD4517AC4C,1815173086,寻汐,Tidon,1,5
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,208111,366C81734B3A0836D97C9D8C2D9BEE51,3597659892,寻衅少年,Unknown Boy,2,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,306105,AF7DFDAF4881AAC3802981927953ED4C,1881751547,封印法阵,Sealing Circle,2,1
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290200325,00C2F2E942DEDF090597CAA07C912518,1411627007,射线装置,Ray Device,5,3
+monster_name,/BattleRoyale/Data/DataTables/Character/DT_NPC_Enemy_PVP,10040307,455E2D904DF03C7C362895B3E639664E,2031741702,小木篱,Little Saepes,8,6
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290200430,BA0D18DF45E8761C8BC95FAFA305B645,1359675501,小机神,Mechahead,2,3
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290200971,7332A49D498C6D04F2A5B39968897B22,1411444098,小甲鼠,Armored Rat,3,3
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290200985,EE4E86074913C8D5B25E7C93B4B51F0A,3050254656,小铠鼠,Armadillo Rat,3,3
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,300022,412B5CF34E7ED3A9250EBAA273C82491,3017670952,尘鹿·雄,Cloud Stag,1,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,300023,619764904499A53DF08820BE977A782E,1986668999,尘鹿·雌,Cloud Doe,1,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,202210,753656134C02EB159B282FBF61507B53,2200663012,岳弧,Yue Hu,2,1
+monster_name,/BattleRoyale/Data/DataTables/Character/DT_NPC_Enemy_PVP,10040200,7364A19043608733594C3E86F9C83927,4253223668,峡谷小兵,Gorge Minion,4,6
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,501201311,0E36DDFA42F72B30013F758A6C69705B,1198878056,巡卫冰炮,Patrol Ice Sentry,1,5
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201311,237AAF59441586E501D08083E4F676B9,3469540640,巡卫巨兵,Sentry Mechanoid,7,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201304,150B5BF84F29DF90F7221788085B38AF,780753447,巡卫枢,Patrol Drone,11,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201312,C323D85840D31FB8F4FDA48F6D585D60,1039241775,巡卫淬火兵,Sentry Flamequencher,6,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,501201312,C758D04A4CAF1490DA7A9CB3BEC64A60,708789447,巡卫淬炮,Patrol Fire Sentry,1,5
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201305,C70A352643542DAC90E18BAF7103D754,2199626074,巡护枢,Patrol Guardian,6,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201306,DD617F9D47EADAFD24892B9A899F4527,1448995496,巡狩枢,Patrol Ranger,8,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,33201801,8E3C811D42B3B22E3A923F95A0F6FEB0,1645572869,工巧家主办方,Craft Society Organizer,1,5
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290100018,DCAF692141FC43798BBB12BA9F9CDA6E,3920970173,巨斧,Great Axe,1,9500
+monster_name,/BattleRoyale/Data/DataTables/Character/DT_NPC_Enemy_PVP,10040501,E6037270465B6460CB783A8913EC3D64,2224742049,巨木篱,Giant Saepes,1,6
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,290191,66C14C3E4D6D62750877AAA0C44F50C4,2393195391,巨神兵,War Colossus,2,1
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,210401,7DED7DE749EE3E79B40D178FEF834DB2,1902007137,帝辛,Xin,4,1
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,2901711,8718BEE241521AE9B757CC8FCD0B9ECA,3697723825,帝辛-残影,Xin's Afterimage,1,1
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,305211,4E20A8D84BDA352C44409CB242434F86,3392645141,帝辛侍仆,Xin's Servant,8,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,305301,53CFA7274E2A13DB54AF9B86988407D1,2197896739,帝辛甲士,Xin's Guard,3,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,305201,9FDF9D034DFBCA0075A4828B21DF63E5,435317891,帝辛轻卒,Xin's Soldier,5,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290201308,CD03E98D41663E5179979ABD32C6D092,765788265,带电池巡护机,Battery-Powered Patrol Guardian,1,3
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,202209,05C8E02D4FF219167DF60A85A99CF216,4140111206,常山,Chang Shan,2,1
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,326201811,E5EA30EB48A978BED61769AD636383DB,2329957392,常据海,Juhai,1,4
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290205006,814DBD6A456F51AEA79DCA9EB4F5B6F8,2346950016,平坑填海莱菔大王,Radish King - Filler of Pits and Sea,5,3
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,300080,92DAB6074CF0C979FB955FBF493688EF,2059766813,幻屏鸟·雄,Dreamveil Peacock,1,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,300081,6475B24C4D9186EBCC7F64B6F7E199C9,3211896050,幻屏鸟·雌,Dreamveil Peahen,1,0
+monster_name,/BattleRoyale/Data/DataTables/Character/DT_NPC_Enemy_PVP,10040301,266D62D44DF329AD6F0A16A1FFE4CAD3,130883371,幼刺熊,Spike Bear Cub,2,6
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,211201,C49CC84A43EB8A42B58C2281DDF326CA,686964950,幼叶蜥,Leaf Lizardling,5,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,201216,40987E3A4FD17A5DDCC968B8C09A1F49,2012835005,幼尾蜥,Tailed Lizardling,1,1
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,300205038,5348477F4D51C6F76B2BC9A5053BE92C,1685855390,幼株,Seedling,1,4
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201213,F6DCD87249134D078F233F916DB70DA4,1646445303,幼火蜥,Scorch Lizardling,4,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200801,B5A1C1B74BEAF669872BCABB39982D05,3584483415,幼芒熊,Spike Bear Cub,9,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201215,6B6F64C844105A4317322AA626463D20,1612445692,幼荧蜥,Glow Lizardling,3,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200227,AC96DE8E47F5E0A767E87BB83C23ADE3,3575087489,幽寂狂木,Stillwood Howler,8,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,300049,2C31AE0945DC1AAA8B892BAA03B712FE,944342342,幽岚鹿·雄,Frost Stag,1,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,300067,9BE8D63049F6CE02BF2BEA8DB3719468,4261260713,幽岚鹿·雌,Frost Doe,1,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,306201811,157C48DB4163CEB7CCD384ADAD232590,940176430,康梅荣,Meirong,1,4
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,510208102,B24016CC473268ADD501F79C69C74F9B,3448125741,异化村民,Mutated Villager,1,5
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,2901732,BF6498384134917CD915A8B6CFFB4D39,1908792858,归墟之影,Shadow of the Void,1,1
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,2901721,3E7A4DF8454227C508175A948A1542E5,2252229859,归墟念球,Void Orb,1,1
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,290172,1E75D69140EB98908DE053B5DB13BDCD,1208795870,归墟核心,Void Core,1,1
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,202611,F81ED7354B7F765543233AAF368AD4A8,804363593,影刃铸灵,Shadow Ripper Sentinel,7,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,510090049,B1435E9B411DA6783CBA84B4F95A3C38,777902795,影豹,Shadowclaw,1,5
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,110200401,7E109B8144AB0E7D85A164BF5FBE3B63,406949458,征雁,Cheng Yen,1,4
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200982,34A01B8A4AC583C9D061B393185F2DC7,3186241607,御铠鼠,Guardian Armadillo Rat,2,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,290023,D9D8079B4292E7B5CB8D5CAD7DDE09AF,3127457821,心猿,Pyrosim,1,1
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,400201701,466D461A4A6DEC6DD43924A008831D1A,4055877895,心魔,Inner Demon,3,5
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200064,65B4C1354448980DC3302F858D1A07C7,509579258,怒炎神刃将,Flamefury Effigy Prime,4,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,31202207,7042835B44278C4148AA4DA7DBE47E8D,2532299828,怪叟,Lu Buqi,1,5
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290202207,C8DFB0A74A9A82FB8B37E4AC8654F089,442066785,怪叟吕不奇,Lu Buqi,2,3
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290302108,3C22B3184FDCF3B254BC6380CBBACEDA,4125002697,恢复藤蔓,Restoration Vine,1,3
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,208104,680E63AC4C62E109CFBD0CB924254CC3,1541265706,惊绽傀儡,Histrionic Puppet,4,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201723,E98E8ADB4495103CA6902FA8B28A4CF0,1461401185,戾天,Wrathwings,4,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290201713,E57E6ECC47962C4C7D87ACA0F59D8BA9,480156123,捣乱的破门生头目,Troublemaker Rebel Leader,1,3
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201001,FB4A196F446CBAFB0B43BC82394301FF,3101438836,掘狼,Burrow Wolvine,13,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200220,E27982FE463686E78A47F9A6D64BEFB6,16266645,撼地狂木,Ground Shaker,13,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,301101,298DD2C44B8133BDF5BBE9B291F4D343,2830758789,撼地狂木·尾,Ground Shaker: Tail,5,1
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200050,6B45686F4A2F0135F1C786A08C117FFC,380160149,擎盾云铠,Shielded Aeroclad,7,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200121,013FB351480FF94750A194B42AED4A01,1676645142,擎盾晶铠,Shielded Nebuclad,4,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,200304,5B1499454377EE547CB96C90ABBF4369,2704667747,攀云塔激光,Cloudreach Tower Laser,3,4
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,200305,CD8E1A664AEA6CF99F2ED28DA5E04510,3075883454,攀云塔炮弹,Cloudreach Tower Shell,1,4
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,200307,04735D08423C2932B3F0DAB3B67536FA,3661147021,攀云塔雷电,Cloudreach Tower Lightning,1,4
+monster_name,/Game/Data/DataTables/RPVP/DT_NPC_Enemy_RPVP,800000,38BC7B1D45062D5BFF4D409D8FECB7F4,3102926233,敌方木桩,Enemy Training Dummy,1,7
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_Plateau,294290005,E373800A4646C1184969D5B3285B852D,2466643908,敌方水晶,Enemy Crystal,1,9500
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,290094,AEE3C5674DF6CF0C900150ADB6291A6E,2741620144,斩梦羽卫,Dreamslasher,4,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,300069,716C8DE74A516FCD983D91BC16E9C257,347954402,旖梦兔,Dreamyhare,1,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,520097061,F237AC8D4641B3CB6422D3A97DC304FC,1498406446,无咎,Wu Jiu,2,5
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,310200403,1E350B9146F3B5AFB376DD9230D55C54,1284759037,无沔,Wu Mian,2,4
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,262201713,8D8C5D3D41D9A160D585E7ABBE23A450,881762468,日磊,Ray,1,4
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290000001,7B92752545BD5F130AE13B87B3C8540F,3281829117,星眼,Star Eye,1,3
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,290161,D638035341D495DE150DBA8FF93E7863,3112968053,星离,Vesper,2,1
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290200981,1644E67A4A92390C0A893BA2D17B0DE7,3091590974,普通老鼠,Armadillo Rat,1,3
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,202211,D2F706D34E682379594EB0BD150220F4,2295966445,暗曜,Dark Novar,3,4
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,400202205,22C9FB4242AE9AF5C10DFCB1C033FA4F,1586797668,暗曜幻形,Dark Novar,1,5
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_Plateau,285202211,D2FACAF94E98DE1DB2C43A9819745ECE,222561651,曜之魇,Dark Novar,4,2
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201533,543098A54CBB3B9773C64C9A2414001C,3712908619,月刃伯屠,Twinblade Dreamslayer,9,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201011,CFC15AA8402A9ACDCBAC7F81F93D9E4E,663375025,月蝠,Moon Bat,5,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,290061,7B1C425F42C771A4D7C03EA75EDCE65E,1112441369,朔椿芽,Moonelia Sprout,5,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,300068,663B1DBB43DB2A4D921FE483F76AA136,1027283617,朦兔,Hazehare,1,0
+monster_name,/BattleRoyale/Data/DataTables/Character/DT_NPC_Enemy_PVP,120014,2665994F49709DEC82571DAA8B75B57D,132198650,木兰,Mulan,1,6
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,31200411,D6E90F0D4AEA24DFDC23D8ACD02262E2,840320570,木栖,Mu Qi,1,5
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,292200201,2EAA4BF64EBF8F92686C14932A110BA4,1074170681,木篱吹箭卫,Saepes Dartblower,1,3
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200202,F2DA1E484DC832E66DBD97BD88742542,4240708539,木篱唤师,Saepes Summoner,10,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290200202,31B9F5BA4240DBEC2943DF8BCBC8234B,869106553,木篱唤师头领,Saepes Summoner Leader,1,3
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200206,8117DE264C6093478D8B1C8A21940352,2910627762,木篱巫祝,Saepes Shaman,14,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,210200229,C1FBC1DE4AA6BDB2355CE983F8060393,1291867377,木篱影子,Saepes Shadow,1,4
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290200254,B886084D43C447A05A3F52A7D59E93FE,1830638715,木篱投弹卫,Saepes Catapultor,1,3
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200218,CBB8825441C74B7E3C89FCBA6D757B5E,3693533591,木篱投愈卫,Saepes Heallobber,11,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200216,1930501944CD4D7ADAFD7C9AEFC0AC5C,1497733107,木篱投腐卫,Saepes Rotlobber,9,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200217,1AE1DF4546FE38A6625AD39500F6AFEA,595192229,木篱投霜卫,Saepes Frostlobber,13,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,200244,1A8C68B141D5CB7CF8BFD1AC937A53EC,2630847140,木篱猎手,Saepes Hunter,1,1
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290200299,35480704401651376C9A8D89FEB43FCD,2907086820,木篱王,Saepes King,3,3
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290200070,4600792644B0C5EF17AA6B844D57C11C,3887188176,木篱王-火弹投掷,Saepes King - Fireball Hurler,1,3
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200213,3D0423A94A24C1446D183DAC264E3250,3020394960,木篱盾卫,Saepes Tallshield,11,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200208,F4B23CCE45998B09AC736FB98A765AC1,279184020,木篱矛兵,Saepes Spearguard,11,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,291200208,64C944FC4C2900FB5AA957826614A476,937574781,木篱矛兵头领,Saepes Spearguard Head,1,3
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200204,79E4DF9046007800D2DDBD85FD84EF49,645781199,木篱矛手,Saepes Spear Grunt,20,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200201,66FA30914EEAB3D90A0AD39F2D4B2A15,1012984101,木篱箭酋,Saepes Scout,26,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,291200201,34395C6B420F7BB0D4CB298509ADDEE1,2723281678,木篱箭酋头领,Saepes Scout Head,1,3
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200207,262DA61041AD5D4B50BC59A04A1C2673,528510688,木篱蛮兵,Saepes Brute,18,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290200207,3980C462448F733BE040E7B9C75B0800,1300441207,木篱蛮兵头领,Saepes Brute Head,1,3
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200203,9C3A2C3F44032D668862429D97588B78,4204214459,木篱蛮锤,Saepes Hammerwaver,22,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,291200203,AD00FFBF4AA1E933701C4C84AB790630,553272731,木篱蛮锤卫,Saepes Hammerwaver,1,3
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290200266,A70BBB734F2F008E2D33949C2EC66B82,1390450938,木篱长矛卫,Saepes Spearguard,2,3
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200211,04FDF10E447C1BDD00FB2EB26BCF7F3D,3651572236,木篱魁卫,Saepes Colossus,12,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200222,D6DF70814E6BD7DB2F65ABB80D7A48FC,3183607533,朴篱唤师,Palisaepes Summoner,6,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200226,C4FBA5D44063A43403A64889748C782D,3967372004,朴篱巫祝,Palisaepes Shaman,4,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200254,B247B9874A1137FE761C39908808DAD6,1592640181,朴篱投弹卫,Palisaepes Catapultor,3,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200257,72D57E1D40F3A08385F9E3864BA12793,4023799641,朴篱投愈卫,Palisaepes Heallobber,3,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200255,637386AA4F50A6BA986FA2B488147607,1790247229,朴篱投腐卫,Palisaepes Rotlobber,4,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200256,E97D79014DB37E546B999F8B5A40E03E,277446507,朴篱投霜卫,Palisaepes Frostlobber,6,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200253,EA3831564F1405A123284DB286DDB839,4110580870,朴篱盾卫,Palisaepes Tallshield,3,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200224,0B0E8E814DDE441783A7EFB399F7CB03,1369567170,朴篱矛兵,Palisaepes Spearguard,5,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200221,997144554A92293715CD2CA3A048C707,2103772275,朴篱箭酋,Palisaepes Scout,4,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200223,BB865E6D48DFAB94A7C90D8BEDF64B60,1585808310,朴篱蛮兵,Palisaepes Brute,7,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200252,17FD4110482DC061B3B52A89F456EA97,4198030953,朴篱铳卫,Palisaepes Timberbolt,3,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200251,873FD2A84C55406871D880AD47D84BBA,2560851802,朴篱魁卫,Palisaepes Colossus,3,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,200414,D89FFD4A4B1D9BCA74171AB082A344A6,734701890,机关,Mechcraft,4,1
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,200007,60E3A75343B8DAF379B2B5A3673D85FE,1007371054,机关人木桩,Mechanoid Log Pile,1,1
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,34201702,DCF676EC4EDBFB3D26113CBCC4B1DAC5,1182364929,机关学子,Mechcraft Student,1,5
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290302110,FD91AE524A08C8178547F4819E26C25D,3857553534,机关学院陷阱,School of Mechcraft Trap,1,9500
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,210303204,6EDAA5A14CE581AABEF1EE9024834EF7,3772235711,机关节点,Mechcraft Node,1,5
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,302201,6F033EA0407367F1145A3AA9CCD7E8AD,1159643215,机关铜鱼,Bronze Fish,7,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,221200001,0033B72C4C05E468EE5E0AAD0730C1C6,2394534257,机关鱼,Mechcraft Fish,1,4
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290010011,FD7E54A648A9B5C040EAE39A55D80715,223792375,机枢分体,Volcanic Drive Attachment,2,3
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,507201823,3879E59B4210425A34C979AB5E5D6BB3,4198384999,杀手首领,Assassin Leader,1,5
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,201931,738171EF4BEF47B0D74BD49D327EA2BF,483684196,李元芬,Fen,1,1
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,201715,6C197871404A15C28D78E79991C14C02,648686890,李寻,Strayn,2,1
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,504200401,CF17255F495E3EA476BAEC8062FE59B3,3205496475,李小苗,Spryn,1,5
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,307201811,67CC8666445C0EA502314F9BC784B278,3320232987,杜巳初,Sichu,1,4
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,300050,D34B55074F4A9D4C5B320FB2A49BFFBA,411720000,枕风鹿·雄,Windrest Stag,1,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,300051,95A33D2149F906B10D30518B717F1C87,3711857071,枕风鹿·雌,Windrest Doe,1,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,300040,3D1FE94642DF567A6F75C2A25797A90E,1345855775,果鹊,Pome Magpie,2,0
+monster_name,/BattleRoyale/Data/DataTables/Character/DT_NPC_Enemy_PVP,10040215,7994B92149913B0E8AC3669CCCBF5884,555827823,枪兵,Lancer,4,6
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200406,63BA0E4D43774A567BA2528F952EAA20,1822552050,枫羽,Maple,2,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,205022,01B8865246929E61BFA8D7B5214B157C,751492744,枯眠兽,Amber Slumberstone,2,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,205011,0B4685B74442AC23AFCE15B8E5AE7DC9,3567166094,栖巢冰蛋,Ice Bird Egg,3,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,205014,E3C6E767406AAE19FB0B5B94BC8136EA,1245970260,栖巢毒蛋,Toxin Bird Egg,2,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,205012,E42D6BB84108A6F9850350B2A7B17C07,3861117676,栖巢火蛋,Flame Bird Egg,4,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,205013,6437A6FA4AAC107B5043D091A4B29872,4269590655,栖巢雷蛋,Thunder Bird Egg,2,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,268200406,9D7F55CE4B47469D400FA6BC200EE915,3408135415,桑雀,Sango,1,4
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,203200405,B15B72BE45F8E4B877F5BA89F72FD3FF,1776997136,桓刀,Huan Dao,1,4
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,290162,FDF2537449F18BDC68D346A383E1D262,1893039153,梦境星离,Dreamscape Vesper,1,1
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,291201563,160CA13E4631B662336E7392A54A3828,879777584,梦境鸟,Dream Bird,1,9500
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201532,376ED1264DE01DEE7AD0A88371300B18,3333995178,梦狩伯屠,Scepter Dreamslayer,8,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,404290172,EEF111EC4DC71F4DA56743B5B83519DE,1188824181,梦魇,Nightmare,1,5
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,290022,10C7228E44FFC04B3B2140A852DF1D61,1533166328,梦魇云狌,Nightmarish Cloudeater,3,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,408290162,F129220B422F0D9F52E9CE9C7EC9799A,456971567,梦魇星离,Nightmare Vesper,1,5
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,380201701,8EE357FB49DEC488EC4BE48C4808F489,1777951763,梦魇破门刀客,Nightmare Rebel Blade Wielder,1,4
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,340201711,7C72063444D81D10FD2D59B7EBC27855,3410888971,梦魇破门大锤,Nightmare Rebel Hammerer,1,4
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,340201801,9A8CBA69421265A5E192F1AED733EA0F,1471035378,梦魇破门术士,Nightmare Rebel Warlock,1,4
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,264200401,CBE45AB749E273720E6053872FBD13A7,1947544336,楚冷杉,Lengshan,5,4
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,263200401,0BDC7AD84D49C5DC3BBE8D9815B2D731,87638193,楚凌息,Chu Lingxi,4,4
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,260200401,25B6599B470307A03C067E8EEE34D454,2549174935,楚大壮,Chu Dachuang,2,4
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,327201703,290EE4124D9A2131A8DDF2BFB2E21EE8,2118439051,步陆陵,Bu Luling,1,9000
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290201701,D37FF4624C1D9CA3DC69DA9FF2853DB7,3434966931,武道低年级学子,Junior Martial Arts Student,1,3
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,33201701,89A0EBCD4E21C205CC2D11A7519F7975,350351105,武道学子,Martial Arts Student,2,5
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,504201711,E0AAE1194FBBF9885F53B2943CF1D311,3671086634,殷墨,Yin Mo,1,5
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200992,61A345E8428FB5FEAA0FFC9E79491E01,1417660009,毒刺豚,Toxin Puffer,3,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201021,51F433014FFE5E0C64660C9FC00E3098,3059885735,毒泡芽,Toxic Bubble Sprout,4,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,200806,DD5C2DB7435C0CF5F4C07D806BDC4C63,4023668742,毒花,Toxin Bloom,1,1
+monster_name,/BattleRoyale/Data/DataTables/Character/DT_NPC_Enemy_PVP,811101,1854AD6D4419D08E055E5C9032609984,678372125,毒蜥王,Poison Lizard,1,6
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201344,661782944279D5A4B4A5D19392E73C63,1128089886,毒鸩弈,Toxic Tile,7,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,302101,1A56D6B84AD0ACEA1FA558B8D9A9CB6D,2349381589,毕方,Bi Fang,12,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,302102,71C2CE7B48C52CBEF4619C8DA511AD8C,382230308,毕浊,Bi Zhuo,2,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_Plateau,294290004,827B81B44204160A0C0C5FAAD1CECE04,1344713846,水晶核心,Crystal Core,1,9500
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200114,FEE44FAF4022CF83073CD1A5E4DCDE67,4012102435,汉雷碎冰铳,Sundering Crushing Cannon,8,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201081,ACD915014215F01CC9415FBA8A318BF3,3010812467,汉雷鸣角,Sundering Horns,16,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_Plateau,285201084,D281A04F4849C7A51E037A9967047E0C,2236732316,汉雷鸣角（犊）,Sundering Horns (Calf),1,9500
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,220200836,E065EF84453BD034814E959F19F67CE6,3253752033,沧原甲,Littoral Armor,1,9000
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,303101,583065B14B48339FF856D0AB5A4FA9D3,800138232,沧浪灵驱,Littoral Spirit Drive,2,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290302103,75A881B94E6F2F3C578AF5BFFCDCEFFE,3597345986,沧源迷踪副本机关鱼头隐形怪,Littoral Abyss Invisible Fish Head,2,3
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,200319,3790AE194AC29F7C6308F7820606C53E,4292834693,沼泽怪,Swampor,3,1
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,290201,505421AB4D748DA6D90B66987FF772EA,1630118826,泉渊,Alata,4,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200131,622FCEBC4535DAFAC52249A8C1C1DB3B,60661838,流火晶刃铠,Lavablade Nebuclad,3,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,200932,A89042E64C6FFDF789510E924C045E90,3490969773,浊流之灵,Lilac River Sprite,1,1
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201542,3B20AF2E405B016EB5002D9503B087AD,1764014518,浮梦枝棘,Dreamtangle,7,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201552,399397BA47460C2CA4DFFE8A4185E73C,2948442142,浮梦笼棘,Dreamcage,8,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,300072,B45CD2454ED4AB901CDB84AAFCA47F54,3396386869,润兔,Rainbunny,1,0
+monster_name,/BattleRoyale/Data/DataTables/Character/DT_NPC_Enemy_PVP,810046,996538E54D4A964CC5A43B91513AD425,504850040,混沌兵王,Chaos Warlord,1,6
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,304201811,0DB2B4A848829F17414EDD94DD99C5DD,4150956893,温梅晴,Wen Meiqing,1,4
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,111201571,89573B9F41F056692526EC8E1CC7920D,3577765994,湛流,Zhan Liu,1,4
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,290012,0FCC92964AA95F6CAEFD3AA760A06C45,682423324,湛蓝灵兽,Azure Feral,5,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,205036,6FA8ABCC4C85C582F77D3EBA11506C1A,1054444600,滚尘果,Spikeroll Fruit,4,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,205039,0B3EFF1E41A09A485D2EA8996C801237,3122703751,滚焰果,Flameroll Fruit,4,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201012,D14413BE41DA16E0DC067988934EB58C,3908019982,满月蝠,Full Moon Bat,3,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,207101,DF1DBD554A97DFDCB1FDB79289FD347F,2443123515,激光装置,Ray Device,2,4
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290210410,3D1923944C867A49AE24AFAF7D0D6AB2,1987636112,火力王,Kingblast,2,3
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,201092,871E7BD5425C3D56035E27A65E400CE1,215714641,火灵,Fire Sprite,1,1
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201202,2BCBC5914FC79237B57164BB58D43486,2735982700,灼尾蜥,Scorchtail Lizard,4,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201101,A470B7554FEEE0D6053B77AA5E7C662F,2693251029,灼绒,Embermane,8,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290010014,80E114894FEF146EF0D72D9A9EBB126F,1112067238,灾兽机关交互物怪,Scourges Interactive Object,1,3
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290010013,AAA902C54644D0E17511C6AB88C055BE,23275230,灾兽机关用隐形怪,Scourges Invisible Monster,1,3
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290010015,FFE41D9140D0761E3D1C2FB1D1879B6A,2531864233,灾兽机关自爆水晶怪,Scourges Crystal Burster,1,3
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290305211,872A851E4245442483B9EEA0AB005550,3301031802,灾厄侍仆,Calamity Servant,1,3
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290305301,4207B7C64683A190ECACB0A6D26F7286,2381785420,灾厄甲士,Calamity Armored Soldier,1,3
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290305201,E24624C245EBF86B3EF19386B8AFC443,386169836,灾厄轻卒,Calamity Light Soldier,1,3
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,201091,18A48D4F4C46A3FF1CB9CCB72A2DA0D7,516866751,炎角牛,Flamehorn Bull,2,1
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200066,662669CB4667A53BD8FBFEAB13B957C7,2034417279,炎雷神刃将,Flamebolt Effigy Prime,5,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290010016,82F459B941DAD4FED085D7BDF793ECA5,3725687986,炮台,Cannon,1,3
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,290205041,A29A1626448C5B0E0E91EA87EF87CE3F,835402382,炮手,Cannoneer,5,4
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_Plateau,294201312,5216489242EF3292E7C6238B1C6751DE,3265859230,炮车,Siege Minion,1,9500
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200005,E51AE1CE4D8B62AFDFC7F4A4BF80E054,1732266226,烈刃云铠,Flamedge Aeroclad,10,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200006,59C7E6B34A44CFB3BA19B886B89D0BC4,3204946107,烈刃灼云铠,Blazing Flamedge Aeroclad,6,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201343,89B7D26242A02164AFF4F09D17488320,973755630,焰鸣弈,Flame Tile,6,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,269201702,73CB7E714CAC3CD239AA24988488F753,3327888859,熊昕,Senn,1,4
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200834,0A88C8214B47005E3A2D9180A49C05E4,2059460775,燃冰极铳,Icefyre Blunderbuss,4,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290010004,857947E44F04303FA543868BF83396CE,2828284284,燃神机枢,Volcanic Drive,2,3
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201204,4C917D614346E8BAE0FF52829C53A8E1,2678842710,燎原巨蜥,Wreckflame Lizard,15,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200991,431E6C74455EF7F12BE198A328F18140,1824437161,燕刺豚,Wallow Puffer,4,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290200401,F68CD68D45875D430396199E4B21AEA7,1685455910,燕山溪,Yan Shanxi,3,3
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,315050026,F77882A84BD96541CB67DDA51ED18884,1890380665,牛小二,Moocart,1,4
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,511201801,EA8B23264F47CD65D8E5FDA4F2260998,897492493,牛昊,Niu Hao,1,5
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200004,B24054D44B94B0740DE1A78C117D5931,997540687,狂刃云铠,Crazed Aeroclad,12,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201531,C47F47EC42C10458F818D693CCE0F805,748420525,狂刃伯屠,Scimitar Dreamslayer,11,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200102,5B03D6AD4E88A4346F0B36B4691BDC43,1311905996,狂刃晶铠,Crazed Nebuclad,4,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,216102,63407ACB4626CC25BA12E6BE9F28FFBD,257362349,狂剑铸灵,Frenzied Sword Sentinel,7,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,404201103,0B79EE7945A78635F1C0C3A793D2A544,3178119257,狂暴灼绒,Raged Embermane,1,5
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,510090051,C2B7E7D1461EB1604E3B098AB8CE2C36,3180546816,狂狼,Feralwolf,1,5
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,290091,A769E2E84A02346B3CD5D9906ECC1F62,1383377695,狩梦羽卫,Dreamhunter,4,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,290001,D574E29A44F222BE705246A9B3CF6BFD,3291518363,猩红神兽,Crimson Beast,14,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200052,5075D121434D25B2CC1D25AF576AE6FA,1957725290,玄冰坠天盾,Rime Comet Shield,14,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_Plateau,284201741,85BE5DDA47BB3B834EB6C38C94CFFFA5,2872048343,玄啸,Xuan Xiao,2,2
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,301205056,05BF15E6476B49579BA09B9BC9921E5D,3352728702,玄柔斋,Rou Zhai,3,4
+monster_name,/Game/Data/DataTables/RPVP/DT_NPC_Enemy_RPVP,800001,42ADB0F64DFC4FC52843848AE66023BD,2997043215,玄武炮塔,Black Tortoise Turret,1,7
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200941,92F15AA844730E4DBB6D81B2D7A9B861,1579976453,玉枢,Jade Core,2,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,601200941,53AA13034580AA7015B480BEA02EB242,2794492919,玉枢·残核,Jade Pivot - Remnant Core,1,9500
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,205037,20333746483FA96F917E3DA91927D430,91437933,玉泪果,Wailing Bud,5,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,31200402,F5E1483C4A6ACD8F1C9ED68F5F2A3335,2620832810,王大锤,Hammer,1,5
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,280051,A0C270754F072C02AF8EECAECA7E6A22,1811440089,王昭君,Princess Frost,2,1
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,200935,BAC1456849B5CCCA4FBADD9147C4E11C,2460576190,珍宝鱼,Treasure Fish,1,1
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290200403,D7BB3CA24C7377D860C2DE844F66ECA4,3718123465,琥山君,Shanjun,1,3
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,33200401,1F99F47345D641463E2E119124BDDFF7,3381166824,琼楼,Qiong Lou,1,5
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,262201714,EA5CB8FB4A7B1CB2226D07910F7BE32F,3332688109,甘勇格,Yongge,1,4
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200971,231932304E7C1A8647D40BA5D3719871,1256662038,甲鼠,Armored Rat,2,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290201341,7FB218144FED0EFCB9FBEA8952A9C531,2870247039,疾射弈,Fastrelease Chesspiece,1,3
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200401,00CE5A714D7BC0DD1EF4CE859B98A8F9,2651212695,白鹤,Bai He,12,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200072,9A61825142B353F76CDFD4AA69157F32,4257515510,百炼凝炮俑,Icecannon Effigy,8,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200061,D32D21734026F883E887BE853B506676,3915098800,百炼刀俑,Sword Effigy,5,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200022,C5B4407F4A6A286480637DB9A0DB6A56,680385281,百炼枪俑,Spear Effigy,9,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200071,AD8D9C014B8E6686F9C11D99CD31B5FE,247363515,百炼炮俑,Cannon Effigy,11,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200081,C989821848490A62795B5DBCA17D01D6,944288071,百炼盾俑,Shield Effigy,6,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200073,819BEA094809A1FE32C0A0BAD9CBA3DC,39042120,百炼震炮俑,Quakecannon Effigy,10,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,510090054,F2E8E6814E2DE72F9A66FAA7F40C96AC,815372534,皎鹰,Moonhawk,1,5
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,205057,D8F97AF74C039BE3BE03029966DAD5CA,1950614743,盖凋菇,Shrivelcap Shroom,4,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,205052,35485E3F4B871BE90D0612AA18616CCD,4078514991,盖燎菇,Sparkcap Shroom,5,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200215,D53BDA8C42E47E8A6AA388A3A0AA4BF8,3499452231,盘荆重篱,Thorned Macroepes,17,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,301201812,589324064CB9E03B3978C48FC3F3568A,1844552354,破梦之徒,Dreambreaker,1,4
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201731,0447645D4BDDE9612402FF8C9311C665,3047012955,破门先锋,Rebel Vanguard,10,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201701,B7B2676E447BBB302C2B338D6B9F68B8,3579810907,破门刀客,Rebel Blade Wielder,10,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201711,ED8CF2034E200EA9D7118CB8E4A637D4,1139774738,破门力士,Rebel Hunk,9,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,100201703,17DD07E74934DFAC12CA4ABF7B9B4C36,2713514197,破门幻鸠刃,Rebel Phantom Blade,1,4
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201821,B18E7DB14BAB40AB528FCDB3A426B175,3180671846,破门御凝使,Rebel Frost Blaster,11,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201812,45A54E154A61CE80BD85C5A4705449A4,1452892676,破门御凝师,Rebel Frost Caster,8,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290201813,E68F43814EAA61A2AB0F85A0E4E9F831,1288224035,破门御法师,Rebel Mana Guard,1,3
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201811,174C17C24358F47A9E7DC59E1CE71AE2,932560287,破门御雷师,Rebel Thunder Caster,11,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,100201711,B5368F364D329E32C49EB19FEC3AF381,1432006368,破门怪力锤,Rebel Mighty Hammer,1,4
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201703,7608C4A245595078D2AB94AA98AA1641,131000446,破门毒锋,Rebel Toxic Stinger,12,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201801,7C4E8EE44FAC4FDD93AD6D9847F94433,3967039213,破门灼影士,Rebel Fire Caster,15,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,100201821,E3E77AF949035607A07A0EA6CDBE1F65,3274543594,破门诡法师,Rebel Hexcaster,1,4
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201702,B30D8D96432EB452F4730CA949A628EA,1776252663,破门隐锋,Rebel Lurker,10,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201721,5D8E44164694BADFF8F4C69FB6608F55,1726970245,破门雳刃,Rebel Thunderblade,12,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201802,E159C1B142B848A1BE1A378DDCD72539,3080889651,破门震影士,Rebel Quake Caster,11,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290200069,8ADFDC4444DD0AA758C6B8BC466F9FAE,4193233096,神刃将雷剑投掷,Effigy Prime Lightning Sword Hurler,1,3
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,200068,82CBA679442E3DA46BD543840B7E823E,767306486,神刃巨剑,Divine Sword,1,1
+monster_name,/Game/Data/DataTables/RPVP/DT_NPC_Enemy_RPVP,800005,D64D038441723EAFE10A8DAFA06D9A89,2261788655,神机炮塔,Divine Engine Turret,1,7
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,221200844,6D64D77B4A3F655D809C9B8C502B04C0,3112034524,神炼玄守,Mystic Sentry,1,4
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,32201722,63BAE24B418EF65D1AEFED8EA42963D4,2402538862,神秘人,Mystery Man,1,5
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,32200401,2DC7410C424BC2958481B9839BFA3D02,2498192345,神秘女子,Mystery Woman,1,5
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,290024,EC8F45C74B60C3E7D34C94B95317B4BC,2913858834,神纹云狌,Divine Imprint Cloudeater,1,1
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,290163,500285A04E7A14C39D3583AAD8602215,731978318,神纹巨人,Imprinted Giant,2,1
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,201205013,0219944844F3B3FB9453E092B4CBA055,4184446772,神纹感染的破门生,Imprinted Rebel,1,5
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,290167,AD2E951D48109C4B7CCA09945F174147,3992150725,神纹星离,Imprinted Vesper,3,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201103,FED0BA734C8B399D0F07DBAA442D227E,4109943397,神纹灼绒,Imprinted Embermane,13,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,230200025,A4E22325487B828062202292535C668A,2236869515,神铸寒芒枪将,Forged Coldspear Marshal,1,4
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,230200063,36C6F0004511B9A6A2C2199024EA4DBF,859778709,神铸炎刀俑,Forged Flame Effigy,1,4
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,230200733,39599E994DCF8141F7CC2C8A4A00F978,1164488920,神铸甲士,Imprinted Captain,1,4
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,230200822,6B61E3974971FF4C91C80A8B12925042,3563314219,神铸裂甲,Forged Sunderer,1,4
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,230200832,CC8535414E0C908F36A97BA5F27ECBCA,350731167,神铸钳甲,Imprinted Fire Thrower,1,4
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,230200065,51F411A24577E51981A4ADB1EBC2E60B,1163721748,神铸雷刀俑,Forged Thunder Effigy,1,4
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,302201811,17F555BF423D093DD6AE068BBA7AEB12,1662104482,禹霜清,Shuangqing,1,4
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,290211,7DE8502E45D3F5695D1F4C9AD944A03F,93998146,秋水,Everspring,6,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,201601,F5CC39A041F22E47F8BB4E9839DA81A3,2729300499,秘禁巡枢,Forbidden Patrol Sentinel,8,1
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,326201821,543E152541FAB7794A2F63ADD5455DF8,4163927821,秦淑良,Shuliang,1,4
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,392201713,4C65843B4F6A8DD929C56CAB9B766BBB,3820391470,穆壮桀,Mu Zhuangjie,1,9000
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,402013716,4FCEC55243B1B06757D7149E7E6B8BCB,1043588633,突破·傲火隼,Ascension: Blazing Falcon,1,5
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,402013723,D74EF9614E7FB595705E859022A53CE8,2347678138,突破·天火锤星,Ascension: Skyfire Hammerer,1,5
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,402013718,7ECFC1374B18F3F167E444A1B9590EDC,1080871965,突破·天雷隼,Ascension: Skyrumble Falcon,1,5
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,402013722,564F31D5455A8C456C866E8B1D72EE19,2881115843,突破·月刃伯屠,Ascension: Twinblade Dreamslayer,1,5
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,402013720,B43FBE1F4F715162A97CB28F9EF7FEF7,3604899627,突破·流火晶刃铠,Ascension: Lavablade Nebuclad,1,5
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,402013721,727F1A194B5A214AFB1A388DDF7E67EB,3915370206,突破·燎原巨蜥,Ascension: Wreckflame Lizard,1,5
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,402013717,FB7DB785451501E52E772DB01D1E86B8,2717074191,突破·玄冰坠天盾,Ascension: Rime Comet Shield,1,5
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,402200215,90FA3FE349E3D043788703AED53E7B56,2791394511,突破·盘荆重篱,Thorned Macroepes,1,5
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,402013719,92D1AA7547C7ED016F4998B21D7B9F86,90471545,突破·芒鬓巨熊,Ascension: Frostmane Spike Bear,1,5
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,402290011,AD011A79438259F804FDBA9A6D978487,1032294538,突破·蔚蓝神兽,Azure Beast,1,5
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,402013725,1E37EC1F47679076CF6FE996DB76844C,201151782,突破·蛮虎,Tigrex,1,5
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,402201205,48F61D0B42AB951A0B0344B8C1553F6D,1303585738,突破·辰雷巨蜥,Thunder Lizard,1,5
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,402013726,677AADF0457A8FFFC25063ADFAF7EDB8,3650200866,突破·遗响悲风,Echoing Lament,1,5
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,402013724,42FAE6DD49C1B6D9FF7BE397DD7903E1,813473928,突破·降霜一刻,Ascension: Frost Moment,1,5
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,402200844,DBED4D364334992F759228B53BD4B629,3973830020,突破·驻墟玄守,Station Ruins Sentry,1,5
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201503,1EAF640E456993F9B1A8399EDE1097A3,3110531322,箭羽隼,Swiftbolt Falcon,8,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,200021,87F76AEC49678930155B0A83C10B68F1,313120983,精英怪木桩,Elite Monster Log Pile,1,1
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,290200734,70ACE2B24513C13954541D8EC4183F1B,2225948182,精英长枪守卫,Elite Spear Guard,1,4
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290010018,D8B9452C4DBE55B37A6A6B9DB4CC57E2,2977022394,红光球,Red Orb,1,3
+monster_name,/BattleRoyale/Data/DataTables/Character/DT_NPC_Enemy_PVP,10040214,EEE932DE4118247C3B31ED9E03B2E5CD,8552647,红兵,Red Minion,1,6
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,202202,00F4982F4A421E9C5BCD8AA30BD110B9,1639533407,约战的破门生,Rebel Challenger,1,1
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,200451,84E953034CBB3DEC04C6ABBFDF478C04,863305840,纪昇,Ji Sheng,2,1
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,269201711,15AE027F493520D2D45FB397D97131D0,2126769220,纵筒,Straight Spindle,1,4
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201576,58842041499C68AE10A920B444A786BA,1095937029,织梦女皇,Dreamweaver Queen,2,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,201577,7A7B8AF34207659810DDAA98CD3F90D5,2331568517,织梦女皇分身,Dreamweaver Queen's Clone,2,1
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,110201571,184D13A64536E257C6937695E4F312D7,1545683580,织梦者世外高人,Dreamweaver Hermit,1,4
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,290173,A60906D84D4378E48C367E8A417A4D58,2809624293,终极梦魇,Ultimate Nightmare,2,1
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,511201701,C81CFD7B42DCC173C9F26FB5790AC6EE,208526911,绑架犯,Kidnapper,3,5
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290201576,FDC4C2494F4FECA638F41CABE001D90C,2001852480,绮影梦魔,Surreal Dream Fiend,6,3
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,265200406,0CF728364E1866A0F2F9C7BC9520337D,4182609121,绰,Chuo,1,4
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201554,C6E6FF694748621A53E3D58D7A32A761,3412947834,缚梦困棘,Nightmare Dreamcage,2,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201541,6AA58AED4303B1E5AC1DEBA544591372,2392287478,缚梦枝棘,Eerie Dreamtangle,7,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201551,CAC6AA404EE9A98DC7337FADD0560084,1208908126,缚梦笼棘,Eerie Dreamcage,6,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201544,D2283D964236FD3C55641E82D98FDC61,2538961193,缚梦缠棘,Nightmare Dreamtangle,7,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,290092,3A58819D4D422078B3CA8889C76C8058,69808908,缚梦羽卫,Dreambinder,3,1
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,263200404,D2C3D3E64F0D2F39325164BFA6808775,749832082,缭,Liao,2,4
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,393201722,D91110D14751500F722C8885E09CFABA,3289024427,羌无终,Qiang Wuzhong,1,4
+monster_name,/BattleRoyale/Data/DataTables/Character/DT_NPC_Enemy_PVP,10010105,D53F67144DFC59E952211BBD8DEA48E6,2149202447,老家塔,Base Tower,1,6
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,203200401,477E6AE14BEA8D8434612E987C8719DE,408034036,肖剑,Xiao Jian,1,4
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,200412,5B029B7F4B269F02F9389BB6519D7739,29308979,胡万里,Hu Wanli,1,1
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,407200732,CD9840CC4611AD0FF5FBEBB893F2658E,380571491,能量护盾,Energy Shield,1,5
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,329201563,A42111E141F9E188BD2823A5BB604D55,974576459,腐化的七七,Corrupted Gigi,1,4
+monster_name,/BattleRoyale/Data/DataTables/Character/DT_NPC_Enemy_PVP,10040000,A98E868140F4D422E6CD34B82047B017,2905680687,腥红神兽,Crimson Beast,1,6
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,205035,B9254B32486565C30974E693CC13A1E7,4170588003,膨葫果,Inflated Gourd,4,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_Plateau,294010003,D25A6F9845A4EABA1318E597AC9B5FCE,3810466581,自爆兵,Self-Destruct Soldier,1,9500
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290010007,1ABEB63B4908C826807517BFA8E77722,1265396732,自爆怪召唤用隐形怪,Exploding Creature Summon - Invisible Creature,1,3
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,292200208,F9CCE6774885345F8AD8C0A314C8E2C0,3242658160,自爆木篱,Saepes Burster,1,3
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,35201801,4405A0BA4102732102C680902E6F5C23,3303405537,艾尔特,Arter,1,5
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200803,4D1B6685477A5F3FD7E1439FF5D6DC2E,1938839537,芒鬓巨熊,Frostmane Spike Bear,19,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,200200419,1EBB8B9742BB17DB5DEDF6BED540CF13,3847075070,芝任,Zhiren,2,4
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200299,DB292E794364AAC23983CA9E8D30B794,3213165367,芦篱唤师,Reedepes Summoner,2,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200243,AA6944B348C7411FA46FA6B5404003C8,4148592988,芦篱盾卫,Reedepes Shieldguard,3,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200233,DF8F30424BA9599F0237E39D2EA3E3CC,1407521304,芦篱矛兵,Reedepes Spearguard,13,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200230,544AD5DC462DE05A94FAD88F317D1FB7,2132933033,芦篱箭酋,Reedepes Scout,6,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200232,A5722F414F807911412DADAD5A9ACFF6,1556184684,芦篱蛮兵,Reedepes Brute,12,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200241,F7611CEB4C6BA12CDA636181DE81508D,2598863488,芦篱魁卫,Reedepes Colossus,3,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,200541,6E4A43804A7B34338DC6FD96CF18EFE0,3654332457,花木兰,Mulan,2,1
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,201200122,DAA638C84341F84CE4DD26A099C59F03,3206770013,苍蓝巨擎,Azure Juggernaut,1,4
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,200934,2D22930042669FFE432A12BB5452F82A,574485325,苔附灵,Mossling,1,1
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,201032,822451A042A2B2832501C7A48CDA76D3,713077091,荆棘芽,Nettle Sprout,3,1
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,290064,9BB76B7A43533001E98042A854D4D6BB,2580211662,荆棘藤,Nettle Vine,1,1
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201203,4BA09C4E4188DD5431F5C1B101A85CD8,3468198131,荧尾蜥,Glowtail Lizard,4,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290302107,C8587E194514EF95F8123F9F4259BA63,3286886424,莱菔卫,Radish Guard,1,3
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,205006,ABBCCAFE42DE35B39A31DB8EC4884F64,769388480,莱菔王,Radish King,8,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290302105,AD96A88D4B4F16EF2188A28A425952DD,3542255149,莱菔王藤蔓,Radish King Vines,1,3
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,205002,8F521B7D4451DC89F10A67A179F2E45D,300160385,萝卜,Radish,2,1
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,200450,9F5EB4024DCF56AF4FAEF186C508CFB8,2446955563,蒙犽,Meng Ya,2,1
+monster_name,/BattleRoyale/Data/DataTables/Character/DT_NPC_Enemy_PVP,10040213,65DE87C747DA06891D8480B833CB0E6C,3053217388,蓝兵,Blue Minion,1,6
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,200931,49B902C14DBF945D68DD79B08987EC4A,3002861485,蓬云,Fluffycloud,1,1
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,34201721,96C1955247070FD6C0CBE6857CE0616C,3771520704,蓬矢,Peng Shi,1,5
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,290011,8204AC634F26442696EEE09CFE6530B1,1265875714,蔚蓝神兽,Azure Beast,20,0
+monster_name,/Game/Data/DataTables/RPVP/DT_NPC_Enemy_RPVP,800031,508BA6DB44A76610360C8192F885952B,2936459094,蔚蓝神兽-召唤,Summon Azure Beast,1,7
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290302109,4960F6A344C850772794089B2C480E8D,499388605,藤蔓,Vine,1,3
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290210401,198634B643E12EBDA7AA0DB7CF3FFC02,2933369527,虎头,Tigerhead,1,3
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,203201711,846A47A84C362A41447B50B7994EC3BC,4092204739,虎头医师,Dr. Bighead,1,4
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,301205055,FB2ABEBB4A5ED3DD85EF7585247A4E00,3524497445,虎彦锋,Yanfeng,1,4
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,200228,999B88B04FC102FCC61AA59B1D863E13,3729681270,虚影结晶,Shadow Crystal,2,1
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290010019,38A717D14549D7BA4BF09CBF9CE3072C,702456479,虚无球,Void Orb,1,3
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,290095,AF24201D49D88C3F9224BCA883FA8EA1,1961453362,蚀梦羽卫,Dreamcorrupter,3,1
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201714,AD1A504648BA60458F813E9ED3FB3843,2261614542,蛮虎,Tigrex,12,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200601,B5E52C414E905833C7536D9B7EE14324,1474954136,蛮角牛,Brutalhorn Bull,3,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200402,816B18324CB30C1D763A3D94ADD7519E,3372408164,蛮角犊,Brutalhorn Calf,4,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,290078,DCD00EB846CCF19CE0E071B4850D205A,2621088092,蝶茧,Butterfly Cocoon,2,1
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,400201812,AE6AD748442F1A976D982D8E9A50133C,3499629489,行迹可疑的女子,Suspicious Woman,1,5
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,400201721,0211D0334F704DDA75F1ED8988ADE462,1968342094,行迹可疑的男子,Suspicious Man,1,5
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201502,0DFCF3B3401B567918D70891E7913957,1180248672,衔火隼,Flamebearer Falcon,7,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,203216102,6F40B7E94E13F9E88FF1DE913889B02C,40085055,袁戟,Yuan Ji,1,4
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,2901002,BE3EA487417E397C7E9E2D9A111C98AB,1550427761,被侵蚀的云根,Corrupted Aerux,1,9500
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,2901001,34FBA47D421EB222D2BBA79554C1FD1B,960817375,被侵蚀的人,Corrupted Human,1,9500
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,231200732,C269078D4E9ED31EECE2B5930962F550,180712957,被侵蚀的神铸甲士,Eroded Mechanoid,2,4
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,231200734,F1017707486C7E2AF2A1938979352EFE,1711507963,被侵蚀的神铸百将,Eroded Commander,1,4
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,208126,BE13426D4A7587FE99C1B4BC038ECFEE,2899864824,西施,Shye,2,1
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,300077,BC4657D2435A389E17BF7B9B22B8BA5F,1201797078,见青衣,Greenrobe,1,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290201580,F646A48440B8A8B8E35DA692A01EFE8A,2860068161,解梦水晶,Dream-Interpreting Crystal,1,3
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,200200418,5018D63840F254730ACE6D9A836DB88A,413237228,言凌,Yan Ling,4,4
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,33201812,F316970D47F865C3627103A4823B45C0,4189836850,詹北望,Zhan Beiwang,1,5
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,200320,D3589D554B55978A76D88DBE7B020791,3511063372,训练木桩,Training Dummy,5,1
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,305201811,214CA3A94D8AA25DA8FC8FBAB204C8BC,1075807426,诸葛梅芬,Meifen,1,4
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290200982,0F48B1534D0D46C32ACB258068F326F1,1536222161,调皮老鼠,Sly Rat,2,3
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,202206,0301FD604088D54D254AE994057AE5D2,2764778187,谢宁,Ning,2,1
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,31202208,7B7DFDEF4B16F1851BD13A85644E9414,3660450994,谷拓,Gu Tuo,2,5
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290010017,2016C7F74E7A18ABF3A017B8F524C7CF,477837724,贡品,Tribute,1,3
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,501099055,9B3E266C4E4DC7C2476CFCA72711C76A,2644759762,贺临,He Lin,1,5
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,266200406,CD2447E04D0CDF351506A6A1FF1B3A16,3456986799,贺诗,He Shi,2,4
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,400201801,8EEC978B4F4F4A3F1D7278931538F599,2309718275,赏金首领,Bounty Leader,1,5
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201013,7F4600144FA68FD287239CB829198CC4,2925296216,赤月蝠,Crimson Moon Bat,4,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,290002,78CAAB66487427C2E157AEA59578A01F,1999120521,赤红灵兽,Crimson Feral,5,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,201200074,B3A8293748FC20F06EDA07BDD94632EA,2889389122,赤色凶星,Crimson Bane,1,9000
+monster_name,/Game/Data/DataTables/RPVP/DT_NPC_Enemy_RPVP,800010,53D1CE194EC68E678BF3738A90133CDB,3579849598,车,Vehicle,1,7
+monster_name,/Game/Data/DataTables/RPVP/DT_NPC_Enemy_RPVP,800041,B71EF74F45F943321FA1678A857B3678,1817941672,车-驻墟玄守,Vehicle - Station Ruins Sentry,1,7
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,205005,D71BC4F546D848864A3531BE87B5BAE2,1070736629,轰弹萝卜,Blast Radish,4,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,299007,481182764D2819C32CB060AE7744C675,3906181545,辛午未,NO. 8GH,5,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,303201811,7ADD418D45CE734D939D63991D92DCC4,796888403,辛霜明,Shuangming,1,4
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201205,CCDB09DE4E13F7EC35FFEFBDB82DE612,994510914,辰雷巨蜥,Thunder Lizard,16,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201321,ED549C7046762E6F5CEA5495A083F60C,2389446519,近卫巧兵,Nimble Vanguard,14,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201322,33A098A7449C8F04425A8E94F6C8DC61,2230025619,近卫强兵,Veteran Vanguard,6,0
+monster_name,/BattleRoyale/Data/DataTables/Character/DT_NPC_Enemy_PVP,10040219,30D55AB840AD6244F19F1DBA214C289B,526882470,近卫机兵,Mech Vanguard,3,6
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,300076,671EE59F4DEDFCC75793098073B45FC9,1143850740,远山黛,Farpeak,1,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,34201801,E2AB4DEF4155590FD641EE9B9EBE6AB6,1091529148,连韵,Lian Yun,1,5
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,33200403,25938FA445D8191C1A26F7B6BA7348C5,4051754492,迟泽,Chi Ze,1,9500
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,300043,6B4DDE9443E7EAB937396D8655EE300D,1956938710,迷离兔,Phantom Rabbit,1,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,300055,ED6084CE498E58389294EFA209E6AF07,948115872,迷鼻鼠,Mini-nose Bilby,1,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,208103,10A0CE4D42751DCEC77A8D858BA78237,1375790426,追袭傀儡,Pursuer Puppet,8,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,401208136,63415E094C1F9996CE3EE2ABAB8CF3EB,4242546289,追袭傀儡自爆,Pursuer Puppet Burster,1,4
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,2901731,FE573F8C478A0FDD53D2C3BE23C8B974,1016630143,逆时之流,Power of Time,1,1
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201005,D6F062F84F99A11FDCE017A336F40957,4095245831,遁狼,Hardscale Wolvine,6,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290200834,4136020146DD9A30C33B4F81334A77CA,4245996445,遗冰火卫,Lost Ice & Fire Guard,3,3
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,205038,5B75923543722D602E5569A8559F51D4,2942668458,遗响悲风,Echoing Lament,11,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200821,0F4FE7CE4E993C22FC34C1A63A585681,3370738267,遗落冰裂甲,Lost Ice Sunderer,7,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200833,4C32B23F40B09E05902683B4562B7BEF,2297586253,遗落凝枪甲,Lost Ice Thrower,6,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,200765,D07E7A5A486A84638A44C793E9C038E1,4265666094,遗落撼斧,Lost Dual-Axe Warrior,1,1
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200731,D3523EFA439CC62AFDDE66B0ECAA8BAE,3827481512,遗落枪卒,Lost Pikeman,9,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200823,4DAE20ED4776A572313F7EAF9A6A68C4,2731910062,遗落火裂甲,Lost Flame Sunderer,12,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200832,0938772F46B8E78DEDA4C9BBA5461203,749980205,遗落灼枪甲,Lost Fire Thrower,5,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200843,80273E9F4788F85A8C6EB2AF028358D7,534873522,遗落炮机,Lost Turret,10,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200842,BB9DA182468055F9492D30AB3256313C,3321354819,遗落炮甲,Lost Gunner,8,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200841,122AD9A045188A637116EB8DBE6F51B4,3702881108,遗落玄守,Lost Sentry,7,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200732,71434C6245879AF5999377AB4D7664BE,2217310202,遗落甲士,Lost Captain,14,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200733,67ABB449450817EA0F94BA856AEC7300,3908013052,遗落百将,Lost Commander,10,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200734,BC41A051410F1144EC81569BE72D1465,3889273155,遗落神将,Lost Marshal,10,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,200735,39332EE74780401E3CBF5B8FE26C2A5E,3787163743,遗落筑甲,Lost Constructor,3,1
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200831,DAC6B07A4E14215C0043119AD5E4AFBF,3584457917,遗落钳甲,Lost Mender,7,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200835,784138E44E1CADFF2EEAB498CC3C5339,4025393539,遗落雷甲,Lost Thunder Bringer,6,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200822,C6C7783E493603805BDABAAFCBC22C03,75498967,遗落雷裂甲,Lost Thunder Sunderer,5,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,221200725,B0C16F6B434AF5D5E98F51B29BF3DF03,797092372,遗迹守护者,Ruins Guardian,8,4
+monster_name,/BattleRoyale/Data/DataTables/Character/DT_NPC_Enemy_PVP,10050003,1D6B3897455002FEB2F3F99BCE4EA220,3456896000,遗迹藩篱,Ruins Saepes,1,6
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,304290173,9FD54C0E491EA2F5A4E09387C86A4714,1211028959,重临噩神,The Returned Doom,3,4
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200042,822F9F4F4E0007F2B4A5D7A833BDED99,2431809716,重炮云铠,Artillery Aeroclad,7,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200111,D39E0E5142804F6CEDC836B5CE97348C,3853853495,重炮晶铠,Artillery Nebuclad,7,0
+monster_name,/BattleRoyale/Data/DataTables/Character/DT_NPC_Enemy_PVP,810047,61C73F0141EB0CEB1C6BF3A4FB43DB03,2605270125,野生蜥蜴,Wild Lizard,2,6
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,33201707,43CB0C374BFBD4F20C7EB8A50F30D158,2796675178,金石武,Shiwu,1,5
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,300073,B50619BF4DA98DA02F8EF3ADB5925067,1860136219,金舆龟,Goldshell Turtle,1,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,201200,D4F5276841EE5200C8F03288833AA3C9,3830238929,金蝉,Golden Cicada,1,1
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290200451,5B56B59D44B619EDED5BC7841A753C57,1952398865,金龙炮,Dragonbomb,1,3
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,300052,89816C5F42A63CB6D7B44BA6F780A84C,767345398,鎏纹狐,Gilded Fox,1,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290210408,E38B0578493DF12F2B5EF0ABFAEB12B1,2330583952,钢腕,Steelhand,2,3
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290200406,8592708543AFD16F59DDE5840B738E51,1464656601,铜骨,Bronzebone,1,3
+monster_name,/BattleRoyale/Data/DataTables/Character/DT_NPC_Enemy_PVP,120003,C1C789F0427A0DFB37771B90B00D4843,220302856,铠,Kaizer,1,6
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200981,5C6F6FD84B2780AB43721BBB95C10F67,2869491924,铠鼠,Armadillo Rat,3,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290200983,714B6F8C4BF97EE4798E70AAA9F23BE2,1917968323,铠鼠大王,Armadillo Rat King,4,3
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200726,F9C606B24772C7D766CD46977549640E,2745524498,铸铜冰裂甲,Bronze Ice Sunderer,9,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,301200706,AC8DF8774DBE196149A7C2A68EBF93CA,55909597,铸铜戍运甲,Bronze Guardian Armor,1,9500
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200728,EFE345144A93439E3AAEC0AFAE6BC390,3382288615,铸铜火裂甲,Bronze Flame Sunderer,11,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200712,94AE26E2426CACA0FCA387A69DC0DE7C,762550830,铸铜炮机,Bronze Turret,12,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200714,88908C1E4FAB2EE48218E7B9AA971EBA,4150642143,铸铜炮甲,Bronze Gunner,4,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200711,0111160C43CFF3CB51A991A2E3401503,3995559112,铸铜玄守,Bronze Sentry,14,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200701,019B5619487A186E84ECBDA5CB12CC69,314013630,铸铜甲,Bronze Constructor,24,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200721,13D37E3B492C3B74371163A1AFDA800F,665846933,铸铜裂甲,Bronze Sunderer,11,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200727,2E31111C423D719CA0426A83341C8C2D,1875642014,铸铜雷裂甲,Bronze Thunder Sunderer,7,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,200738,A1EB187844A820B7C84D4BB0DD6F2305,2679493659,锈离战尊,Rust Warlord,1,1
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,202320,170563CC459CE0ED9055C18E9F48094B,315725296,锈篱哨兵,Rusty Sentry,1,1
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,202310,E17570654FD659373E50F08F958576C0,637983094,锈篱战轮,Rust Spiky Wheel,1,1
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,202300,0F0A64224EF60E09E426A1B272A72CC8,1233653894,锈篱核心,Rust Core,1,1
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,202303,25FD63A247380BD1D1DB779FC935D980,2935403780,锈篱盾枪,Rust Spear Guard,1,1
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,202302,A1150E1848361529DFAD1BBC747D211C,1945240997,锈篱连弩,Rust Repeating Crossbows,1,1
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,202301,025863494FE3813EC1DDE0A2A553CFE2,3056063742,锈篱重弩,Rust Heavy Crossbow,1,1
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,200340,031EA7024FD1D242A546C68CD6B95B99,3393778438,锈蚀地刺,Rusted Ground Spike,1,1
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,300017,B428CF814BEAE592AC9A72A4F8F137F3,2531977348,锦狐,Silkfox,1,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,411202205,40AE84FE42AB3BBB4E9C5CAB24A6CEB6,2832747387,镜影东方曜,Mirror Image Novar,1,9500
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,401200450,E239E3E04EA72B07278F3ABCD7DC77A5,451948221,镜影蒙犽,Mirror Image Meng Ya,1,9500
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,401280091,611906E244103E9A910E6186314F3D42,670160494,镜影西施,Mirror Image Shye,1,9500
+monster_name,/BattleRoyale/Data/DataTables/Character/DT_NPC_Enemy_PVP,10010008,9CC706A7484A77ACA45F348F1F9ACBB7,2320385969,长宁猪猪妹,Changning Piglet,1,6
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,326201831,7DB6146641CF4E951A9E7493BE4B09FB,591737455,长戈,Polearm,1,4
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290306106,F38C477E4C45BA971AA98B9A55E55D03,295864764,长戈虚影,Polearm Shadow,1,3
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,201911,26E286EE4235F556254E9D81417C83C6,3052958240,长戈铸灵,Halberd Sentinel,2,1
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,326201834,4B3F21B34206FC3562904D8447C446A6,222905731,长矛,Spear,1,4
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200104,178199E5404249B3359BB394A6BBA4C4,3181790908,闪刃晶铠,Glint Nebuclad,8,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201342,19FC6B7143FCC932B794FCAAD38D51DB,3009199275,闪射弈,Thunder Tile,5,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201504,60D4DF9D41030D5D60CA46B1EF3BBBA4,2852237399,闪翎隼,Bluegale Falcon,5,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,510201711,1BFA502C456A62328B55189407DCA171,2621011239,闻声晓,Hearsay,1,5
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200431,D8CC2FCD40CAF84D8E0CDCB28B8D59A7,1141730675,阁主-墨炎,Cinder,11,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,301201731,0AF4B58D486FA7FD6F6752BB5C5FA9F4,521547772,陆酉劫,Youjie,1,9000
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201351,24A69A2140E8CA95E1D25A93F8CCFAC4,3187798822,降雷一刻,Moment of Thunder,4,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201352,9C0AAE9E4B2EBC9C17D76390BBDBAC36,1183353600,降霜一刻,Frost Triplet,9,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,32200404,AC162A314A45954B44195AB8BE9E5665,2775290287,隐士,Stranger,2,5
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,200318,A35D6F524D52082C3EE3F9845990E0F9,3594059237,隐形击退盒子（代）,Invisible Knockback Box (Temp),1,4
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290000000,BECBE48A4079535A5AE0C2970F686209,3869492614,隐形怪,Invisible Monster,1,3
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,205004,56AD3D774150AE8D6567CC8E406CAA45,566462717,隐袭萝卜,Ambushing Radish,3,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290010010,6A769F1B49BA306A5468F69D5F6F54E8,2399048043,隐身怪,Invisible Monster,4,3
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,200848,5E06684943DE6A4AE087B6A7A8676DE0,3127364260,雪球,Snowball,1,1
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,300018,24EB50864094B58930150393997263E2,1637599553,雪绒狐,Frostfox,1,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200106,6DC4AFF94E228A8EA3671C8744FD9605,4144203312,雳刀牵云铠,Thunderlash Aeroclad,4,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,290302111,2453B29646B52A763F3213AA18FE7E36,3992455440,雷区,Minefield,1,9500
+monster_name,/BattleRoyale/Data/DataTables/Character/DT_NPC_Enemy_PVP,800200,D227A8EC4FCDD583619D8BA2E6E29366,2304451348,雷电,Lightning,1,6
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,201207,15F561C54D1C80BB89F52D88C9B60906,1213347604,雷电球,Lightning Ball,1,1
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,200330,708D41C94100B9D83460A0BED63D70CE,1503506266,雷电精灵,Lightning Elf,2,1
+monster_name,/BattleRoyale/Data/DataTables/Character/DT_NPC_Enemy_PVP,10040303,154381444738FAC33F9378B8D4A207E9,675145250,雾山牛,Misthill Bull,1,6
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,39201703,C9F230BF449EF83D70C3ADA1CB8346C5,2338061375,霄雪,Xiao Xue,1,5
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200040,4E90350C46E16AE0A5A41296C617D586,876088676,震炮云铠,Quakecannon Aeroclad,5,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200123,813D013A48D556AE245393ABCBFA2A44,2511455912,震盾晶铠,Quakeshield Nebuclad,4,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200804,1DCAA0DE4C96E3401E44CB9E3BBA1BB9,626112381,霜鬃狂熊,Frost Kodiak,5,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,501200444,388C2EB6492524FF9E5DEABCF237343B,4011177332,青岚,Cyan,2,5
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,205021,8C289EC84B3C9520C5148E916F363D5F,2133546526,青眠兽,Leafy Slumberstone,4,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,40101813,34AF0D6B4C58CEB5B08F4CBEFAC2C673,540047413,青貉,Qing He,1,4
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200761,D8ECEE6943B993720A804EBE447EF051,2994020407,青钺铸将,Dual-Axe General,15,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,208137,EBF4ABA1425264729464DCBA223F72FF,1175841983,面具,Mask,1,1
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,108200401,5C8CFA9E4D8869C96201EBAA4FC1FDCD,753733145,韩家九,Jiajiu,1,4
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,202111,3C2F8C3A4318D15ED01CD1B2A372C4C2,866592264,风唤铃,Windring Bell,4,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,202101,706260B4424D9D0672489D97B6D910D6,546885353,风玲珑,Wind Delicacy,5,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,202151,B7D1799B4E7D8864AD4EC2B9E04F57F4,3118901437,风舞牙猊,Frenetic Fanglion,10,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,202121,FFC495994FCBB925C5442CB65542DA8C,1598984672,风越鱼,Winddriving Fish,4,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,202131,31BEB10C4BF6E06150DA75BDED710DBB,2983009720,风铃鸟,Windbell Bird,4,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,202141,AFEBB2DB4C28BC54D683D29361A66923,17448949,风锐狮,Windling Lion,4,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,269201801,4BB1AD7F465518B8C06FF0B2FA6BD40B,4078152056,飞崧,Fei Song,1,4
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,205051,2318E18649AC026771BB4C9863EFB013,3937392992,飞盖菇,Flysol Shroom,4,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,208105,C847FE614B9AF2067E221F9FDE08E33F,527705491,飞羽傀儡,Razor Feather Puppet,7,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,205041,A45D2D48461FBDC0119AF98460218B4F,1848962400,飞雷果,Streaking Thundrana,3,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201111,B7D46F824B7365DE475E44AAB3E60972,2771220091,食梦花,Dream Devourer,2,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,302201740,AA41AC7A44E997D0B30736895E31EF7C,3608038692,食铁恶汉,Iron-Devouring Brute,1,4
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,201740,7792B57B4C4785A9C5FAD08CF4918873,710545581,食铁游侠,Iron-Devouring Ranger,1,1
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,288200406,B95BE0AD40DDDEA3E771C8A8C70539E3,3024215848,馆主-枫羽,Head Trainer: Maple,5,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,288200401,1E53082B42F29154AEFFC2898525B3B4,1189509965,馆主-白鹤,Head Trainer: Bai He,9,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,511201702,489E72524697D608529515A6B65759ED,2210175188,马在途,Ma Zaitu,1,5
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,202631,101FC2D245121498B4622FA670CD2694,278050116,驭法铸灵,Caster Sentinel,6,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200844,1BBF89EC46103E9C6C7D31BBA093538D,2586836492,驻墟玄守,Station Ruins Sentry,13,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,300019,BB06340648D946B0F91122B7430F8515,1687111193,骨叶狐,Boneleaf Fox,1,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_FuBen,291201711,716D5B70413C8B25D2C71B9AC0817479,4132135699,高年级学院学子,Senior Academy Student,1,3
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,201003,40E0ECBE4D64C6CCB53823A393A7C447,1093358222,魂体,Phantasm,2,4
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201561,10C732284C1D646BB170AC99C3AFC277,2995260691,魇刺熊,Nightmare Spike Bear,8,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201565,F103519D4751CBAD73E767ACA186F36C,3267133061,魇尾蜥,Nightmare Lizard,6,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,300078,C926C29A4E670298D7E5D888943EDF5B,3126522650,魇屏鸟·雄,Nightmare Peacock,1,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,300079,86A5B56E40575E50C1C032993EF95595,2146360309,魇屏鸟·雌,Nightmare Peahen,1,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201563,634D24094B1153DDF5E44AB1E291CEAD,3729118000,魇影隼,Nightshadow Falcon,4,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201564,1041B6A447863B3E4884FBA3600852FF,2815417410,魇影雏,Nightshadow Fledgling,5,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,300065,18E1346844B38563D06AE9A536F89CCD,2633759383,魇斑鹿·雄,Nightshade Stag,1,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,300066,B189290540F0223031BD209CEB71E379,1498403448,魇斑鹿·雌,Nightshade Doe,1,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201562,C556DB5045E2583D489998982F178226,1411534702,魇遁狼,Nightmare Wolvine,6,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,200200403,BC6916D0413657BED6B08C9F0401506B,1950031472,魏莽,Wemmon,1,4
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,503200440,574007664EFC88760858319D6EAA07B1,2314343591,魔绯,Demonic Fay,1,5
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,33201813,4C4549E64840E50DA24F6981F4FE3CFC,713205142,魔道学子,Sorcery Student,1,5
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201331,97BE629944222E072B84069E613F9D71,1287180082,魔道巧兵,Adept Sorcerer,11,0
+monster_name,/BattleRoyale/Data/DataTables/Character/DT_NPC_Enemy_PVP,10040220,A7929ED84E8C60A3346E2AB78E217AF7,3719517923,魔道机兵,Mech Sorcerer,3,6
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,203200941,18AA7DBF4CECB46F36359C8D3AEBE497,4189015248,魔道水晶,Sorcery Crystal,1,4
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,201332,687697024721D0BBC598D6BB1FF2CAAB,509603486,魔道翠兵,Eminent Sorcerer,6,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,200440,712439FC44FC959E9E55B0A2AD17BFAB,1977897351,魔铠,Demonic Armor,2,1
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,501201701,E6B68F05428C2799DAB7E6BCBF61C3DE,858404570,魔铠幻影,Demonic Armor Phantom,1,5
+monster_name,/BattleRoyale/Data/DataTables/Character/DT_NPC_Enemy_PVP,10010301,A85CEB9E4F9332A787E1828CB9558464,712101132,鲁班五号,Luban No. 5,1,6
+monster_name,/BattleRoyale/Data/DataTables/Character/DT_NPC_Enemy_PVP,120018,45222F0E421345A83B4D7EA963745454,111946666,鲁班大师,Luban,1,6
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy,290222,1093A1924341E7220ADF8996DDC557CB,3877754633,鲁班造物,Luban's Creation,1,1
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,200067,03C821D4432A1EB904C80EA9476417FD,3690920975,鸣雷神刃将,Thunderclap Effigy Prime,7,0
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,202601,CEF3D18D462F1E825FBA978E940BB2C8,21004388,龙枪铸灵,Dragonpike Sentinel,4,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_EnemyQuest,501200443,C2F3AFFA46DBEDAD36ADC39B941BA644,2904394352,龙牙,Minka,1,5
+monster_name,/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuide_Auto,290099,FA1B0F1447CE04686E0F999BA2479AD6,648820741,龙骑铸灵,Dragon Sentinel,7,0
+monster_name,/Game/Data/DataTables/NPCTable/DT_NPC_Enemy_LD,301201801,18C6975D4DDFEA9A6E9855A27E400139,2319445412,龚未成,Weichan,1,4

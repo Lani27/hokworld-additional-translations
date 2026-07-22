@@ -1,0 +1,205 @@
+{
+  "format_version": 1,
+  "generated_at_utc": "2026-05-28T14:49:57+00:00",
+  "source_language": "zh",
+  "target_language": "ja",
+  "target_language_label": "Japanese",
+  "matching_mode": "strict_schema_a_namespace_guid_source_hash_records_plus_cooked_coverage",
+  "scope_note": "Includes zh records that are absent from Japanese, whose Japanese value is empty/still source text, or that are required by dialogue/cooked coverage inputs and lack usable Japanese coverage. Official usable Japanese records are intentionally excluded.",
+  "model": "gemini-3.1-flash-lite-preview",
+  "rpm_limit": 15,
+  "input_limit_bytes": 20480,
+  "source_files": {
+    "zh": "D:\\Claude\\HoK-World-EngPatch\\game\\extracted\\zh_game.locres",
+    "ja": "D:\\Claude\\HoK-World-EngPatch\\game\\extracted\\ja_game.locres",
+    "dialogue_route_manifest": "D:\\Claude\\HoK-World-EngPatch\\tool\\assets\\known_cooked_text_dialogue_expand_manifest.json.gz",
+    "dialogue_coverage_reports": [
+      "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\ja\\missing_dialogue_coverage_ja.json"
+    ],
+    "cooked_localtext_coverage_reports": [
+      "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\ja\\missing_cooked_localtext_coverage_ja.json"
+    ],
+    "cooked_ftext_coverage_reports": [
+      "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\ja\\missing_cooked_ftext_coverage_ja.json"
+    ]
+  },
+  "locres_refresh": null,
+  "output_dir": "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\ja",
+  "record_count": 170,
+  "reason_counts": {
+    "missing_in_ja": 170
+  },
+  "dialogue_route_coverage": {
+    "enabled": true,
+    "manifest": "D:\\Claude\\HoK-World-EngPatch\\tool\\assets\\known_cooked_text_dialogue_expand_manifest.json.gz",
+    "required_unique_key_count": 197442,
+    "required_occurrence_count": 197442,
+    "already_covered_key_count": 194682,
+    "already_candidate_key_count": 2179,
+    "missing_zh_source_key_count": 0,
+    "filtered_source_key_count": 581,
+    "added_key_count": 0,
+    "added_record_count": 0,
+    "include_hidden_placeholders": false
+  },
+  "dialogue_coverage_report": {
+    "enabled": true,
+    "reports": [
+      "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\ja\\missing_dialogue_coverage_ja.json"
+    ],
+    "report_count": 1,
+    "row_count": 722,
+    "selected_language_row_count": 722,
+    "added_record_count": 0,
+    "duplicate_record_count": 0,
+    "existing_usable_record_count": 722,
+    "filtered_source_count": 0,
+    "missing_required_field_count": 0,
+    "missing_source_text_count": 0,
+    "missing_report_count": 0,
+    "skipped_other_language_count": 0,
+    "unresolved_zh_record_count": 0,
+    "report_supplied_target_count": 0,
+    "force": false
+  },
+  "cooked_localtext_coverage_report": {
+    "enabled": true,
+    "reports": [
+      "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\ja\\missing_cooked_localtext_coverage_ja.json"
+    ],
+    "report_count": 1,
+    "row_count": 12762,
+    "selected_language_row_count": 12762,
+    "added_record_count": 0,
+    "duplicate_record_count": 0,
+    "existing_usable_record_count": 12762,
+    "filtered_source_count": 0,
+    "missing_required_field_count": 0,
+    "missing_source_text_count": 0,
+    "missing_report_count": 0,
+    "skipped_other_language_count": 0,
+    "unresolved_zh_record_count": 12761,
+    "report_supplied_target_count": 12405,
+    "force": false
+  },
+  "cooked_ftext_coverage_report": {
+    "enabled": true,
+    "reports": [
+      "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\ja\\missing_cooked_ftext_coverage_ja.json"
+    ],
+    "report_count": 1,
+    "row_count": 70100,
+    "selected_language_row_count": 70100,
+    "added_record_count": 0,
+    "duplicate_record_count": 0,
+    "existing_usable_record_count": 70100,
+    "filtered_source_count": 0,
+    "missing_required_field_count": 0,
+    "missing_source_text_count": 0,
+    "missing_report_count": 0,
+    "skipped_other_language_count": 0,
+    "unresolved_zh_record_count": 70100,
+    "report_supplied_target_count": 67028,
+    "force": false
+  },
+  "existing_additional_entries": {
+    "loaded_count": 109561,
+    "usable_skipped_candidate_count": 12875,
+    "force": false
+  },
+  "unique_source_count": 139,
+  "resolved_without_gemini_count": 133,
+  "report_supplied_target_reused_source_count": 0,
+  "report_supplied_target_reused_record_count": 0,
+  "report_supplied_target_conflict_source_count": 0,
+  "pending_source_count": 6,
+  "batch_count": 1,
+  "max_translation_passes": 3,
+  "invalid_cached_source_count": 0,
+  "dry_run": false,
+  "github": {
+    "enabled": false,
+    "owner": "Lani27",
+    "repo": "hokworld-additional-translations",
+    "branch": "main",
+    "base_path": "ja"
+  },
+  "translated_record_count": 109731,
+  "passthrough_record_count": 0,
+  "pending_record_count": 0,
+  "empty_record_count": 0,
+  "invalid_translation_output_count": 0,
+  "skipped_translation_output_count": 0,
+  "translation_request_batch_count": 1,
+  "unresolved_source_count": 0,
+  "additional_entries_merge": {
+    "existing_input_count": 109561,
+    "generated_input_count": 170,
+    "existing_preserved_count": 109561,
+    "existing_kept_over_generated_count": 0,
+    "generated_replaced_existing_count": 0,
+    "generated_added_count": 170
+  },
+  "additional_entries_validation": {
+    "valid": true,
+    "entry_count": 155081,
+    "usable_count": 155081,
+    "skipped_count": 0,
+    "errors": []
+  },
+  "dialogue_coverage_validation": {
+    "enabled": true,
+    "report_count": 1,
+    "row_count": 722,
+    "selected_language_row_count": 0,
+    "candidate_row_count": 722,
+    "filtered_source_count": 0,
+    "covered_count": 722,
+    "additional_entries_covered_count": 722,
+    "final_pool_covered_count": 722,
+    "missing_count": 0,
+    "remaining_missing": [],
+    "validated_against": "final_merged_pool"
+  },
+  "cooked_localtext_coverage_validation": {
+    "enabled": true,
+    "report_count": 1,
+    "row_count": 12762,
+    "selected_language_row_count": 0,
+    "candidate_row_count": 12762,
+    "filtered_source_count": 0,
+    "covered_count": 12762,
+    "additional_entries_covered_count": 12762,
+    "final_pool_covered_count": 12762,
+    "missing_count": 0,
+    "remaining_missing": [],
+    "validated_against": "final_merged_pool"
+  },
+  "cooked_ftext_coverage_validation": {
+    "enabled": true,
+    "report_count": 1,
+    "row_count": 70100,
+    "selected_language_row_count": 0,
+    "candidate_row_count": 70100,
+    "filtered_source_count": 0,
+    "covered_count": 70100,
+    "additional_entries_covered_count": 70100,
+    "final_pool_covered_count": 70100,
+    "missing_count": 0,
+    "remaining_missing": [],
+    "validated_against": "final_merged_pool"
+  },
+  "season1_predownload_merge": {
+    "merged_at_utc": "2026-05-28T14:49:57+00:00",
+    "source_artifact": "D:\\Claude\\HoK-World-EngPatch\\artifacts\\season1_predownload_translation_prep\\ja\\additional_entries_translated_only.json",
+    "source_generated_at_utc": "2026-05-27T08:05:40+00:00",
+    "source_scope": "predownload_new_or_changed_zh_records_only",
+    "translated_record_count": 45350,
+    "pending_record_count": 0,
+    "added_entry_count": 45350,
+    "replaced_entry_count": 0,
+    "duplicate_source_entry_count": 0,
+    "base_entry_count": 109731,
+    "merged_entry_count": 155081
+  }
+}

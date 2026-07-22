@@ -1,0 +1,329 @@
+{
+  "format_version": 1,
+  "generated_at_utc": "2026-05-28T14:49:57+00:00",
+  "source_language": "zh",
+  "target_language": "ko",
+  "target_language_label": "Korean",
+  "matching_mode": "strict_schema_a_namespace_guid_source_hash_records_plus_cooked_coverage",
+  "scope_note": "Includes zh records that are absent from Korean, whose Korean value is empty/still source text, or that are required by dialogue/cooked coverage inputs and lack usable Korean coverage. Official usable Korean records are intentionally excluded.",
+  "model": "gemini-3.1-flash-lite-preview",
+  "rpm_limit": 15,
+  "input_limit_bytes": 20480,
+  "source_files": {
+    "zh": "D:\\Claude\\HoK-World-EngPatch\\game\\extracted\\zh_game.locres",
+    "ko": "D:\\Claude\\HoK-World-EngPatch\\game\\extracted\\ko_game.locres",
+    "dialogue_route_manifest": "D:\\Claude\\HoK-World-EngPatch\\tool\\assets\\known_cooked_text_dialogue_expand_manifest.json.gz",
+    "dialogue_coverage_reports": [
+      "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\ko\\missing_dialogue_coverage_ko.json"
+    ],
+    "cooked_localtext_coverage_reports": [
+      "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\ko\\missing_cooked_localtext_coverage_ko.json"
+    ],
+    "cooked_ftext_coverage_reports": [
+      "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\ko\\missing_cooked_ftext_coverage_ko.json"
+    ]
+  },
+  "locres_refresh": null,
+  "output_dir": "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\ko",
+  "record_count": 198,
+  "reason_counts": {
+    "cooked_ftext_coverage_missing_in_ko": 19,
+    "ko_still_source": 6,
+    "missing_in_ko": 173
+  },
+  "dialogue_route_coverage": {
+    "enabled": true,
+    "manifest": "D:\\Claude\\HoK-World-EngPatch\\tool\\assets\\known_cooked_text_dialogue_expand_manifest.json.gz",
+    "required_unique_key_count": 197442,
+    "required_occurrence_count": 197442,
+    "already_covered_key_count": 195545,
+    "already_candidate_key_count": 1316,
+    "missing_zh_source_key_count": 0,
+    "filtered_source_key_count": 581,
+    "added_key_count": 0,
+    "added_record_count": 0,
+    "include_hidden_placeholders": false
+  },
+  "dialogue_coverage_report": {
+    "enabled": true,
+    "reports": [
+      "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\ko\\missing_dialogue_coverage_ko.json"
+    ],
+    "report_count": 1,
+    "row_count": 4,
+    "selected_language_row_count": 4,
+    "added_record_count": 0,
+    "duplicate_record_count": 4,
+    "existing_usable_record_count": 0,
+    "filtered_source_count": 0,
+    "missing_required_field_count": 0,
+    "missing_source_text_count": 0,
+    "missing_report_count": 0,
+    "skipped_other_language_count": 0,
+    "unresolved_zh_record_count": 0,
+    "report_supplied_target_count": 0,
+    "force": false
+  },
+  "cooked_localtext_coverage_report": {
+    "enabled": true,
+    "reports": [
+      "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\ko\\missing_cooked_localtext_coverage_ko.json"
+    ],
+    "report_count": 1,
+    "row_count": 12762,
+    "selected_language_row_count": 12762,
+    "added_record_count": 0,
+    "duplicate_record_count": 0,
+    "existing_usable_record_count": 12762,
+    "filtered_source_count": 0,
+    "missing_required_field_count": 0,
+    "missing_source_text_count": 0,
+    "missing_report_count": 0,
+    "skipped_other_language_count": 0,
+    "unresolved_zh_record_count": 12761,
+    "report_supplied_target_count": 12760,
+    "force": false
+  },
+  "cooked_ftext_coverage_report": {
+    "enabled": true,
+    "reports": [
+      "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\ko\\missing_cooked_ftext_coverage_ko.json"
+    ],
+    "report_count": 1,
+    "row_count": 70107,
+    "selected_language_row_count": 70107,
+    "added_record_count": 19,
+    "duplicate_record_count": 2,
+    "existing_usable_record_count": 70086,
+    "filtered_source_count": 0,
+    "missing_required_field_count": 0,
+    "missing_source_text_count": 0,
+    "missing_report_count": 0,
+    "skipped_other_language_count": 0,
+    "unresolved_zh_record_count": 70100,
+    "report_supplied_target_count": 69855,
+    "force": false
+  },
+  "existing_additional_entries": {
+    "loaded_count": 92176,
+    "usable_skipped_candidate_count": 2647,
+    "force": false
+  },
+  "unique_source_count": 148,
+  "resolved_without_gemini_count": 4,
+  "report_supplied_target_reused_source_count": 0,
+  "report_supplied_target_reused_record_count": 0,
+  "report_supplied_target_conflict_source_count": 1,
+  "pending_source_count": 144,
+  "batch_count": 2,
+  "max_translation_passes": 3,
+  "invalid_cached_source_count": 0,
+  "dry_run": false,
+  "github": {
+    "enabled": false,
+    "owner": "Lani27",
+    "repo": "hokworld-additional-translations",
+    "branch": "main",
+    "base_path": "ko"
+  },
+  "translated_record_count": 92228,
+  "passthrough_record_count": 0,
+  "pending_record_count": 118,
+  "empty_record_count": 0,
+  "invalid_translation_output_count": 121,
+  "skipped_translation_output_count": 0,
+  "translation_request_batch_count": 4,
+  "unresolved_source_count": 39,
+  "additional_entries_merge": {
+    "existing_input_count": 92176,
+    "generated_input_count": 198,
+    "existing_preserved_count": 92148,
+    "existing_kept_over_generated_count": 0,
+    "generated_replaced_existing_count": 28,
+    "generated_added_count": 170
+  },
+  "additional_entries_validation": {
+    "valid": true,
+    "entry_count": 137696,
+    "usable_count": 137578,
+    "skipped_count": 118,
+    "errors": []
+  },
+  "dialogue_coverage_validation": {
+    "enabled": true,
+    "report_count": 1,
+    "row_count": 4,
+    "selected_language_row_count": 0,
+    "candidate_row_count": 4,
+    "filtered_source_count": 0,
+    "covered_count": 0,
+    "additional_entries_covered_count": 0,
+    "final_pool_covered_count": 0,
+    "missing_count": 4,
+    "remaining_missing": [
+      {
+        "namespace": "/Game/Data/ExportDialogues/BigWorldBl01L1/BigWorldBl01L1_SSR/ShuoShuChangZhuTest/DT_DialogueInfo_BigWorldBl01L1_SSR_ShuoShuChangZhuTest",
+        "guid": "BigWorldBl01L1_SSR_ShuoShuChangZhuTest_11_ShuoShuRenAnYu_DialogueText",
+        "source_text": "嗬，墙上字画虽粗陋，题着“快意恩仇”四字，笔力遒劲，倒也不俗。"
+      },
+      {
+        "namespace": "/Game/Data/ExportDialogues/CQu/CQu_C171/FuJieXunLiu/DT_DialogueInfo_CQu_C171_FuJieXunLiu",
+        "guid": "CQu_C171_FuJieXunLiu_05_ZhuGeLiang_DialogueText",
+        "source_text": "我们应该将其流向玄雍之事告知给汪某，让他无法辩驳，动摇他内心防御底线。"
+      },
+      {
+        "namespace": "/Game/Data/ExportDialogues/S7Test/S7Test_DJZCSTC/HuiHe/DT_DialogueInfo_S7Test_DJZCSTC_HuiHe",
+        "guid": "S7Test_DJZCSTC_HuiHe_13_PlayerF_DialogueText",
+        "source_text": "庄周老师说在我身上看到一个圆。"
+      },
+      {
+        "namespace": "/Game/Data/ExportDialogues/XuanShang/XuanShang_583002/JieQuDuiHua/DT_DialogueInfo_XuanShang_583002_JieQuDuiHua",
+        "guid": "XuanShang_583002_JieQuDuiHua_05_FanYi1_DialogueText",
+        "source_text": "至于如何观察……云丝传像能帮助我们观察到活物的骨骼、经络、肌肉构造等。"
+      }
+    ],
+    "validated_against": "final_merged_pool"
+  },
+  "cooked_localtext_coverage_validation": {
+    "enabled": true,
+    "report_count": 1,
+    "row_count": 12762,
+    "selected_language_row_count": 0,
+    "candidate_row_count": 12762,
+    "filtered_source_count": 0,
+    "covered_count": 12762,
+    "additional_entries_covered_count": 12762,
+    "final_pool_covered_count": 12762,
+    "missing_count": 0,
+    "remaining_missing": [],
+    "validated_against": "final_merged_pool"
+  },
+  "cooked_ftext_coverage_validation": {
+    "enabled": true,
+    "report_count": 1,
+    "row_count": 70107,
+    "selected_language_row_count": 0,
+    "candidate_row_count": 70107,
+    "filtered_source_count": 0,
+    "covered_count": 70087,
+    "additional_entries_covered_count": 70087,
+    "final_pool_covered_count": 70089,
+    "missing_count": 20,
+    "remaining_missing": [
+      {
+        "namespace": "/Game/Data/DataTables/FieldGuide/DT_FieldGuideExtraInfo_Composite",
+        "guid": "7CEDA23B4F3EE809B39BB0B309911E22",
+        "source_text": "梦境中的冷峻猎手。\r\n体态飘然，翼色瑰丽，尾至末梢展作屏。\r\n手握长柄羽扇，善施法发射索敌的魔力弹丸，也会牵引虚空裂缝中的能量，化为光束进行大范围横扫。\r\n\r\n传说这些持扇的伯屠曾是痴心魔道的学者，为了追求极致，窥探呓境，不慎走火入魔，在这烂柯之梦中，所召出的虚幻也不过是莫须有的泡影。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/FieldGuide/DT_FieldGuideExtraInfo_Composite",
+        "guid": "90775B8649B6550F0AB4239A3528101C",
+        "source_text": "梦境中的冷峻猎手。\r\n体态飘然，翼色瑰丽，尾至末梢展作屏。\r\n手握长柄羽扇，善施法发射索敌的魔力弹丸，也会牵引虚空裂缝中的能量，化为光束进行大范围横扫。\r\n\r\n传说这些持扇的伯屠曾是痴心魔道的学者，为了追求极致，窥探呓境，不慎走火入魔，在这烂柯之梦中，所召出的虚幻也不过是莫须有的泡影。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/FieldGuide/FieldGuideBoxInfo/DT_FieldGuideStoryBox_Notputin",
+        "guid": "81AB97874CD1BA935932D0ABE56B4CB4",
+        "source_text": "梦境中的冷峻猎手。\r\n体态飘然，翼色瑰丽，尾至末梢展作屏。\r\n手握长柄羽扇，善施法发射索敌的魔力弹丸，也会牵引虚空裂缝中的能量，化为光束进行大范围横扫。\r\n\r\n传说这些持扇的伯屠曾是痴心魔道的学者，为了追求极致，窥探呓境，不慎走火入魔，在这烂柯之梦中，所召出的虚幻也不过是莫须有的泡影。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/FieldGuide/FieldGuideExtraInfo/DT_FieldGuideEnemyInfo",
+        "guid": "7CEDA23B4F3EE809B39BB0B309911E22",
+        "source_text": "梦境中的冷峻猎手。\r\n体态飘然，翼色瑰丽，尾至末梢展作屏。\r\n手握长柄羽扇，善施法发射索敌的魔力弹丸，也会牵引虚空裂缝中的能量，化为光束进行大范围横扫。\r\n\r\n传说这些持扇的伯屠曾是痴心魔道的学者，为了追求极致，窥探呓境，不慎走火入魔，在这烂柯之梦中，所召出的虚幻也不过是莫须有的泡影。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Item/DT_ItemBaseData",
+        "guid": "184128CC45511886BFB2EBA89F45C972",
+        "source_text": "药效：即刻恢复<Gold_Basic>2500</>点生命值，并降低<Gold_Basic>60%</>受到的灼元素伤害，持续<Gold_Basic>30</>秒。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Item/DT_ItemBaseData",
+        "guid": "3CED4A5F469A2EEC4D20BAAF6487BDCE",
+        "source_text": "药效：在<Gold_Basic>15</>秒内，持续恢复<Gold_Basic>50%</>生命值，并降低<Gold_Basic>80%</>受到的疾元素伤害，持续<Gold_Basic>10</>秒。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Item/DT_ItemBaseData",
+        "guid": "5EB87CDD430F4982437490BDD2B7C06B",
+        "source_text": "药效：在<Gold_Basic>15</>秒内，持续恢复<Gold_Basic>50%</>生命值，并降低<Gold_Basic>80%</>受到的念元素伤害，持续<Gold_Basic>10</>秒。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Item/DT_ItemBaseData",
+        "guid": "743DB0FD4C94EFE888B0C79ABC0906E0",
+        "source_text": "药效：在<Gold_Basic>15</>秒内，持续恢复<Gold_Basic>40%</>生命值，并降低<Gold_Basic>80%</>受到的凝元素伤害，持续<Gold_Basic>8</>秒。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Item/DT_ItemBaseData",
+        "guid": "8AED89534F003EF7B2112E8E8F0370B4",
+        "source_text": "药效：在<Gold_Basic>15</>秒内，持续恢复<Gold_Basic>40%</>生命值，并降低<Gold_Basic>80%</>受到的念元素伤害，持续<Gold_Basic>8</>秒。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Item/DT_ItemBaseData",
+        "guid": "8C16A58F42BB744D4F5F57A1B18B64EF",
+        "source_text": "药效：在<Gold_Basic>15</>秒内，持续恢复<Gold_Basic>40%</>生命值，并降低<Gold_Basic>80%</>受到的贯元素伤害，持续<Gold_Basic>8</>秒。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Item/DT_ItemBaseData",
+        "guid": "A518AEC8425C0C12F874919F82516860",
+        "source_text": "药效：在<Gold_Basic>15</>秒内，持续恢复<Gold_Basic>50%</>生命值，并降低<Gold_Basic>80%</>受到的灼元素伤害，持续<Gold_Basic>10</>秒。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Item/DT_ItemBaseData",
+        "guid": "D2D6A6834374FC2E81DE4FB0B8320A48",
+        "source_text": "药效：在<Gold_Basic>15</>秒内，持续恢复<Gold_Basic>50%</>生命值，并降低<Gold_Basic>80%</>受到的凝元素伤害，持续<Gold_Basic>10</>秒。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Item/DT_ItemBaseData",
+        "guid": "D33CD2894B2834FA8F556C8820E0A887",
+        "source_text": "药效：在<Gold_Basic>15</>秒内，持续恢复<Gold_Basic>50%</>生命值，并降低<Gold_Basic>80%</>受到的贯元素伤害，持续<Gold_Basic>10</>秒。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Item/DT_ItemBaseData",
+        "guid": "D3C753B44E690C18A0F4FCBBAA27CADD",
+        "source_text": "药效：在<Gold_Basic>15</>秒内，持续恢复<Gold_Basic>40%</>生命值，并降低<Gold_Basic>80%</>受到的灼元素伤害，持续<Gold_Basic>8</>秒。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Item/DT_ItemBaseData",
+        "guid": "E61051FE4C90E69B1966A3BD6ACFBFBD",
+        "source_text": "药效：在<Gold_Basic>15</>秒内，持续恢复<Gold_Basic>50%</>生命值，并降低<Gold_Basic>80%</>受到的震元素伤害，持续<Gold_Basic>10</>秒。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Item/DT_ItemBaseData",
+        "guid": "E6A2E92B4E7D018D98BE858A2320BF54",
+        "source_text": "药效：在<Gold_Basic>15</>秒内，持续恢复<Gold_Basic>40%</>生命值，并降低<Gold_Basic>80%</>受到的疾元素伤害，持续<Gold_Basic>8</>秒。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/Item/DT_ItemBaseData",
+        "guid": "F540FE43480B153ED607B5994FB11017",
+        "source_text": "药效：在<Gold_Basic>15</>秒内，持续恢复<Gold_Basic>40%</>生命值，并降低<Gold_Basic>80%</>受到的震元素伤害，持续<Gold_Basic>8</>秒。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/SceneItem/StoryCrumbs/DT_StoryCrumbs_Content_Composite",
+        "guid": "2888D55A4F6897BEE7F0E48B28F72AAA",
+        "source_text": "在野外陌生的环境下，如果缺少司南等指示方向的工具，很容易迷失方向。不过不必担心，我们有很多方法可以帮助你重新找回方向。不过要注意，在寻找方向的过程中请用石子、树枝等物品做好路标，防止原地打转。\r\n\r\n方法一：观察天体。白天可以通过观察太阳的位置来辨别方位，太阳在东方升起在西方落下，根据季节的变化可能会有轻微偏移。夜晚则"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/SceneItem/StoryCrumbs/DT_StoryCrumbs_Content_Composite",
+        "guid": "54B05ADC4378B7E9C8EFD7B37541FCCE",
+        "source_text": "本作的第二单元，接下来聊聊生长于天空的奇迹游猎家——隼与蝙蝠。\r\n\r\n曾有人捡到一根绮丽华美的靛蓝羽毛，将其视作珍宝，四处求问是出自哪种神奇生物，携着行至悬崖边，却遭到鹰隼的接连围攻，仓皇逃离后羽毛从此不知所踪。实际上，这种羽毛出自闪翎隼的扇状羽冠，它通身靛蓝，向前飞掠时，如同凌寒剑光割裂天空，顷刻间登临而至。\r\n\r\n"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/SceneItem/StoryCrumbs/StroyCrumbs_Avatar/DT_StoryCrumbs_Content_CoverPlot_EastWorld_C",
+        "guid": "2888D55A4F6897BEE7F0E48B28F72AAA",
+        "source_text": "在野外陌生的环境下，如果缺少司南等指示方向的工具，很容易迷失方向。不过不必担心，我们有很多方法可以帮助你重新找回方向。不过要注意，在寻找方向的过程中请用石子、树枝等物品做好路标，防止原地打转。\r\n\r\n方法一：观察天体。白天可以通过观察太阳的位置来辨别方位，太阳在东方升起在西方落下，根据季节的变化可能会有轻微偏移。夜晚则"
+      }
+    ],
+    "validated_against": "final_merged_pool"
+  },
+  "season1_predownload_merge": {
+    "merged_at_utc": "2026-05-28T14:49:57+00:00",
+    "source_artifact": "D:\\Claude\\HoK-World-EngPatch\\artifacts\\season1_predownload_translation_prep\\ko\\additional_entries_translated_only.json",
+    "source_generated_at_utc": "2026-05-28T14:49:09+00:00",
+    "source_scope": "predownload_new_or_changed_zh_records_only",
+    "translated_record_count": 45350,
+    "pending_record_count": 0,
+    "added_entry_count": 45350,
+    "replaced_entry_count": 0,
+    "duplicate_source_entry_count": 0,
+    "base_entry_count": 92346,
+    "merged_entry_count": 137696
+  }
+}
