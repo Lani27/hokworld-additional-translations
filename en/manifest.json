@@ -1,12 +1,12 @@
 {
   "format_version": 1,
-  "generated_at_utc": "2026-07-12T16:19:06.114091+00:00",
+  "generated_at_utc": "2026-07-22T13:51:54.766586+00:00",
   "source_language": "zh",
   "target_language": "en",
   "target_language_label": "English",
   "matching_mode": "strict_schema_a_namespace_guid_source_hash_records_plus_cooked_coverage",
   "scope_note": "Includes zh records that are absent from English, whose English value is empty/still source text, or that are required by dialogue/cooked coverage inputs and lack usable English coverage. Official usable English records are intentionally excluded.",
-  "model": "gemini-3.1-flash-lite",
+  "model": "gemini-3.5-flash-lite",
   "rpm_limit": 15,
   "input_limit_bytes": 20480,
   "source_files": {
@@ -24,7 +24,7 @@
   },
   "locres_refresh": null,
   "output_dir": "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\en",
-  "record_count": 13,
+  "record_count": 1007,
   "reason_counts": {
     "residual_cjk_coverage_missing_in_en": 13
   },
@@ -206,13 +206,13 @@
   "dry_run": false,
   "rich_tag_repair_only": false,
   "github": {
-    "enabled": false,
+    "enabled": true,
     "owner": "Lani27",
     "repo": "hokworld-additional-translations",
     "branch": "main",
     "base_path": "en"
   },
-  "translated_record_count": 13,
+  "translated_record_count": 1007,
   "passthrough_record_count": 0,
   "pending_record_count": 0,
   "empty_record_count": 0,
@@ -221,12 +221,12 @@
   "translation_request_batch_count": 1,
   "unresolved_source_count": 0,
   "additional_entries_merge": {
-    "existing_input_count": 323920,
-    "generated_input_count": 13,
-    "existing_preserved_count": 323920,
+    "existing_input_count": 323933,
+    "generated_input_count": 1007,
+    "existing_preserved_count": 323434,
     "existing_kept_over_generated_count": 0,
-    "generated_replaced_existing_count": 0,
-    "generated_added_count": 13
+    "generated_replaced_existing_count": 499,
+    "generated_added_count": 508
   },
   "fuzzy_glossary": {
     "enabled": false,
@@ -268,23 +268,17 @@
   },
   "additional_entries_validation": {
     "valid": true,
-    "entry_count": 323933,
-    "usable_count": 323933,
+    "entry_count": 324441,
+    "usable_count": 324441,
     "skipped_count": 0,
     "errors": []
   },
   "additional_entries_runtime_compaction": {
     "enabled": false,
-    "reason": "full_feed_required",
-    "input_count": 323933,
-    "output_count": 323933,
-    "dropped_count": 0,
-    "metadata_elision": {
-      "enabled": true,
-      "field": "status",
-      "default_value": "translated",
-      "omitted_count": 13
-    }
+    "reason": "incremental_remote_feed_merge",
+    "input_count": 324441,
+    "output_count": 324441,
+    "dropped_count": 0
   },
   "dialogue_coverage_validation": {
     "enabled": false,
@@ -353,5 +347,14 @@
     "remaining_missing": [],
     "validated_against": "additional_entries_exact",
     "require_final_pool_coverage": false
+  },
+  "incremental_update": {
+    "source_generated_at_utc": "2026-07-22T13:51:54.766586+00:00",
+    "requested_identity_count": 1007,
+    "added_identity_count": 508,
+    "updated_identity_count": 499,
+    "already_current_identity_count": 0,
+    "intentionally_omitted_removed_identity_count": 45,
+    "scope": "new_and_changed_entries_from_gemini_update_20260722"
   }
 }
