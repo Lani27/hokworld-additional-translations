@@ -1,40 +1,45 @@
 {
   "format_version": 1,
-  "generated_at_utc": "2026-07-30T10:06:40.796120+00:00",
+  "generated_at_utc": "2026-08-06T08:34:01.959676+00:00",
   "source_language": "zh",
   "target_language": "en",
   "target_language_label": "English",
   "matching_mode": "strict_schema_a_namespace_guid_source_hash_records_plus_cooked_coverage",
-  "model": "gemini-3.5-flash-lite+gemini-3.1-flash-lite+reviewed-manual",
-  "record_count": 355,
-  "translated_record_count": 355,
-  "unique_source_count": 123,
-  "pending_source_count": 484,
+  "model": "gemini-3.1-flash-lite",
+  "record_count": 922,
+  "translated_record_count": 922,
+  "unique_source_count": 152,
+  "pending_source_count": 358,
   "translation_origin_counts": {
-    "cooked_ftext": 121,
-    "cooked_localtext": 8,
-    "locres": 111
+    "cooked_ftext": 145,
+    "cooked_localtext": 54,
+    "locres": 121
+  },
+  "translation_change_counts": {
+    "added": 145,
+    "updated": 7
   },
   "feed_change_counts": {
-    "added": 355,
-    "removed": 47
+    "added": 381,
+    "removed": 6,
+    "updated": 541
   },
   "additional_entries_validation": {
     "valid": true,
-    "entry_count": 324633,
-    "usable_count": 324633,
+    "entry_count": 325008,
+    "usable_count": 325008,
     "skipped_count": 0,
     "errors": []
   },
   "publication": {
     "mode": "audited_patch_delta_over_public_feed",
-    "base_commit": "e0bc18b0b15b016ea1a4bb1ae0b921a9b9ceb6bf",
-    "base_entry_count": 324441,
-    "added_identity_count": 355,
-    "added_identity_already_present_count": 138,
-    "removed_identity_count": 47,
-    "removed_identity_applied_count": 25,
-    "published_entry_count": 324633,
+    "base_commit": "582aa8c8fbd8f321ee4533e45f1515dada971a66",
+    "base_entry_count": 324633,
+    "upsert_identity_count": 922,
+    "upsert_identity_already_present_count": 542,
+    "removed_identity_count": 6,
+    "removed_identity_applied_count": 5,
+    "published_entry_count": 325008,
     "excluded_unpublished_local_staging_entry_count": 162732
   }
 }
