@@ -1,62 +1,44 @@
 {
   "format_version": 1,
-  "generated_at_utc": "2026-08-06T11:20:44.532773+00:00",
+  "generated_at_utc": "2026-08-13T07:26:11.108610+00:00",
   "source_language": "zh",
   "target_language": "en",
   "target_language_label": "English",
   "matching_mode": "strict_schema_a_namespace_guid_source_hash_records_plus_cooked_coverage",
-  "model": "gemini-3.1-flash-lite",
-  "record_count": 922,
-  "translated_record_count": 922,
-  "unique_source_count": 152,
-  "pending_source_count": 358,
+  "model": "gemini-3.5-flash-lite",
+  "record_count": 692,
+  "translated_record_count": 692,
+  "unique_source_count": 173,
+  "pending_source_count": 354,
   "translation_origin_counts": {
-    "cooked_ftext": 145,
-    "cooked_localtext": 54,
-    "locres": 121
+    "cooked_ftext": 129,
+    "cooked_localtext": 35,
+    "locres": 142
   },
   "translation_change_counts": {
-    "added": 145,
-    "updated": 7
+    "added": 173
   },
   "feed_change_counts": {
-    "added": 381,
-    "removed": 6,
-    "updated": 541
+    "added": 540,
+    "removed": 19,
+    "updated": 152
   },
   "additional_entries_validation": {
     "valid": true,
-    "entry_count": 325009,
-    "usable_count": 325009,
+    "entry_count": 325504,
+    "usable_count": 325504,
     "skipped_count": 0,
     "errors": []
   },
   "publication": {
     "mode": "audited_patch_delta_over_public_feed",
-    "base_commit": "582aa8c8fbd8f321ee4533e45f1515dada971a66",
-    "base_entry_count": 324633,
-    "upsert_identity_count": 922,
-    "upsert_identity_already_present_count": 542,
-    "removed_identity_count": 6,
-    "removed_identity_applied_count": 5,
-    "published_entry_count": 325009,
-    "excluded_unpublished_local_staging_entry_count": 162732
-  },
-  "github_publication": {
-    "enabled": true,
-    "mode": "reviewed_hotfix_delta_over_current_public_feed",
-    "changed_identity_count": 5,
-    "removed_identity_count": 0,
-    "public_new_identity_count": 1,
-    "public_updated_identity_count": 4,
-    "public_removed_identity_count": 0,
-    "public_release_entry_count": 325009,
-    "validation": {
-      "valid": true,
-      "entry_count": 325009,
-      "usable_count": 325009,
-      "skipped_count": 0,
-      "errors": []
-    }
+    "base_commit": "39b5fe36f59d85026ee6c9d6a812031eb75743fc",
+    "base_entry_count": 325009,
+    "upsert_identity_count": 692,
+    "upsert_identity_already_present_count": 178,
+    "removed_identity_count": 19,
+    "removed_identity_applied_count": 19,
+    "published_entry_count": 325504,
+    "excluded_unpublished_local_staging_entry_count": 162757
   }
 }
