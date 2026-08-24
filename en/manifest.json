@@ -1,44 +1,719 @@
 {
   "format_version": 1,
-  "generated_at_utc": "2026-08-13T07:26:11.108610+00:00",
+  "generated_at_utc": "2026-08-24T05:36:03.144231+00:00",
   "source_language": "zh",
   "target_language": "en",
   "target_language_label": "English",
   "matching_mode": "strict_schema_a_namespace_guid_source_hash_records_plus_cooked_coverage",
-  "model": "gemini-3.5-flash-lite",
-  "record_count": 692,
-  "translated_record_count": 692,
-  "unique_source_count": 173,
-  "pending_source_count": 332,
-  "translation_origin_counts": {
-    "cooked_ftext": 129,
-    "cooked_localtext": 35,
-    "locres": 142
+  "scope_note": "Includes zh records that are absent from English, whose English value is empty/still source text, or that are required by dialogue/cooked coverage inputs and lack usable English coverage. Official usable English records are intentionally excluded.",
+  "model": "gemini-3.1-flash-lite",
+  "rpm_limit": 15,
+  "input_limit_bytes": 20480,
+  "source_files": {
+    "zh": "D:\\Claude\\HoK-World-EngPatch\\game\\extracted\\zh_game.locres",
+    "previous_zh": "D:\\Claude\\HoK-World-EngPatch\\_tmp\\gemini-update-20260824-111100\\baseline\\game_extracted\\zh_game.locres",
+    "zh_diff_reports": [],
+    "en": "D:\\Claude\\HoK-World-EngPatch\\game\\extracted\\en_game.locres",
+    "dialogue_route_manifest": "D:\\Claude\\HoK-World-EngPatch\\tool\\assets\\known_cooked_text_dialogue_expand_manifest.json.gz",
+    "dialogue_coverage_reports": [
+      "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\en\\missing_dialogue_coverage_en.json"
+    ],
+    "cooked_localtext_coverage_reports": [
+      "D:\\Claude\\HoK-World-EngPatch\\_tmp\\gemini-update-20260824-111100\\cooked-scan-fast\\missing_cooked_localtext_coverage_en.json"
+    ],
+    "cooked_ftext_coverage_reports": [
+      "D:\\Claude\\HoK-World-EngPatch\\_tmp\\gemini-update-20260824-111100\\cooked-scan-fast\\missing_cooked_ftext_coverage_en.json"
+    ],
+    "residual_cjk_coverage_reports": [
+      "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\en\\missing_residual_cjk_coverage_en.json"
+    ]
   },
-  "translation_change_counts": {
-    "added": 173
+  "locres_refresh": null,
+  "output_dir": "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\en",
+  "record_count": 1448,
+  "reason_counts": {
+    "cooked_ftext_coverage_missing_in_en": 1372,
+    "cooked_localtext_coverage_missing_in_en": 26,
+    "missing_in_en": 39,
+    "residual_cjk_coverage_missing_in_en": 11
   },
-  "feed_change_counts": {
-    "added": 540,
-    "removed": 19,
-    "updated": 152
+  "zh_changed_key_backup": {
+    "enabled": true,
+    "previous_zh": {
+      "enabled": true,
+      "path": "D:\\Claude\\HoK-World-EngPatch\\_tmp\\gemini-update-20260824-111100\\baseline\\game_extracted\\zh_game.locres",
+      "status": "ok",
+      "changed_key_count": 12,
+      "previous_record_count": 447550,
+      "current_record_count": 447477
+    },
+    "diff_reports": [],
+    "changed_key_count": 12,
+    "current_key_count": 12,
+    "missing_current_key_count": 0
+  },
+  "zh_changed_key_forced_candidates": {
+    "enabled": true,
+    "changed_key_count": 12,
+    "current_record_count": 12,
+    "added_record_count": 0,
+    "duplicate_record_count": 12,
+    "filtered_source_count": 0,
+    "missing_current_key_count": 0
+  },
+  "rich_locres_tag_repair": {
+    "current_rich_record_count": 12579,
+    "already_safe_target_count": 6055,
+    "already_safe_additional_count": 6374,
+    "added_record_count": 0,
+    "duplicate_record_count": 0,
+    "filtered_source_count": 150,
+    "enabled": true
+  },
+  "dialogue_route_coverage": {
+    "enabled": true,
+    "manifest": "D:\\Claude\\HoK-World-EngPatch\\tool\\assets\\known_cooked_text_dialogue_expand_manifest.json.gz",
+    "required_unique_key_count": 197848,
+    "required_occurrence_count": 197848,
+    "already_covered_key_count": 195067,
+    "already_candidate_key_count": 702,
+    "missing_zh_source_key_count": 1497,
+    "filtered_source_key_count": 582,
+    "added_key_count": 0,
+    "added_record_count": 0,
+    "include_hidden_placeholders": false
+  },
+  "dialogue_coverage_report": {
+    "enabled": true,
+    "reports": [
+      "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\en\\missing_dialogue_coverage_en.json"
+    ],
+    "report_count": 1,
+    "row_count": 0,
+    "selected_language_row_count": 0,
+    "added_record_count": 0,
+    "duplicate_record_count": 0,
+    "existing_usable_record_count": 0,
+    "filtered_source_count": 0,
+    "missing_required_field_count": 0,
+    "missing_source_text_count": 0,
+    "missing_report_count": 0,
+    "skipped_other_language_count": 0,
+    "skipped_target_status_count": 0,
+    "unresolved_zh_record_count": 0,
+    "report_supplied_target_count": 0,
+    "report_supplied_target_hash_mismatch_count": 0,
+    "official_exact_target_count": 0,
+    "official_exact_target_override_count": 0,
+    "force": false,
+    "prefer_report_identity": false,
+    "prefer_runtime_source_identity": false,
+    "direct_cooked_exact_target": false,
+    "prefer_report_targets": false,
+    "existing_runtime_route_upgraded_count": 0
+  },
+  "cooked_localtext_coverage_report": {
+    "enabled": true,
+    "reports": [
+      "D:\\Claude\\HoK-World-EngPatch\\_tmp\\gemini-update-20260824-111100\\cooked-scan-fast\\missing_cooked_localtext_coverage_en.json"
+    ],
+    "report_count": 1,
+    "row_count": 14495,
+    "selected_language_row_count": 14495,
+    "added_record_count": 26,
+    "duplicate_record_count": 0,
+    "existing_usable_record_count": 14469,
+    "filtered_source_count": 0,
+    "missing_required_field_count": 0,
+    "missing_source_text_count": 0,
+    "missing_report_count": 0,
+    "skipped_other_language_count": 0,
+    "skipped_target_status_count": 0,
+    "unresolved_zh_record_count": 14445,
+    "report_supplied_target_count": 14305,
+    "report_supplied_target_hash_mismatch_count": 0,
+    "official_exact_target_count": 0,
+    "official_exact_target_override_count": 0,
+    "force": false,
+    "prefer_report_identity": true,
+    "prefer_runtime_source_identity": true,
+    "direct_cooked_exact_target": false,
+    "prefer_report_targets": true,
+    "existing_runtime_route_upgraded_count": 3
+  },
+  "cooked_ftext_coverage_report": {
+    "enabled": true,
+    "reports": [
+      "D:\\Claude\\HoK-World-EngPatch\\_tmp\\gemini-update-20260824-111100\\cooked-scan-fast\\missing_cooked_ftext_coverage_en.json"
+    ],
+    "report_count": 1,
+    "row_count": 216094,
+    "selected_language_row_count": 216094,
+    "added_record_count": 1372,
+    "duplicate_record_count": 38,
+    "existing_usable_record_count": 210210,
+    "filtered_source_count": 4474,
+    "missing_required_field_count": 0,
+    "missing_source_text_count": 0,
+    "missing_report_count": 0,
+    "skipped_other_language_count": 0,
+    "skipped_target_status_count": 0,
+    "unresolved_zh_record_count": 215629,
+    "report_supplied_target_count": 205722,
+    "report_supplied_target_hash_mismatch_count": 0,
+    "official_exact_target_count": 1,
+    "official_exact_target_override_count": 0,
+    "force": false,
+    "prefer_report_identity": true,
+    "prefer_runtime_source_identity": false,
+    "direct_cooked_exact_target": true,
+    "prefer_report_targets": true,
+    "existing_runtime_route_upgraded_count": 73
+  },
+  "residual_cjk_coverage_report": {
+    "enabled": true,
+    "reports": [
+      "D:\\Claude\\HoK-World-EngPatch\\tool\\remote_translation\\en\\missing_residual_cjk_coverage_en.json"
+    ],
+    "report_count": 1,
+    "row_count": 244,
+    "selected_language_row_count": 244,
+    "added_record_count": 11,
+    "duplicate_record_count": 0,
+    "existing_usable_record_count": 233,
+    "filtered_source_count": 0,
+    "missing_required_field_count": 0,
+    "missing_source_text_count": 0,
+    "missing_report_count": 0,
+    "skipped_other_language_count": 0,
+    "skipped_target_status_count": 0,
+    "unresolved_zh_record_count": 11,
+    "report_supplied_target_count": 0,
+    "report_supplied_target_hash_mismatch_count": 0,
+    "official_exact_target_count": 0,
+    "official_exact_target_override_count": 0,
+    "force": false,
+    "prefer_report_identity": true,
+    "prefer_runtime_source_identity": false,
+    "direct_cooked_exact_target": false,
+    "prefer_report_targets": false,
+    "existing_runtime_route_upgraded_count": 0
+  },
+  "existing_additional_entries": {
+    "loaded_count": 488261,
+    "post_prune_count": 488260,
+    "usable_skipped_candidate_count": 58644,
+    "force": false,
+    "stale_prune": {
+      "input_count": 488261,
+      "preserved_count": 488260,
+      "pruned_hash_mismatch_count": 0,
+      "pruned_source_text_mismatch_count": 0,
+      "pruned_legacy_locres_pair_count": 0,
+      "pruned_forced_zh_change_count": 1,
+      "preserved_report_coverage_count": 211804,
+      "preserved_preferred_runtime_identity_count": 61,
+      "preserved_direct_cooked_exact_target_count": 180768,
+      "preserved_direct_cooked_text_count": 2,
+      "preserved_reviewed_override_count": 34999,
+      "enabled": true
+    },
+    "glossary_reconciliation": {
+      "enabled": true,
+      "entry_count": 488260,
+      "glossary_entry_count": 10916,
+      "source_resolved_count": 465919,
+      "canonical_match_count": 46,
+      "rewritten_count": 0,
+      "deterministic_rewritten_count": 0,
+      "target_alias_rewritten_count": 0,
+      "flow_term_rewritten_count": 0,
+      "cache_match_count": 3718,
+      "cache_rewritten_count": 0,
+      "stale_format_token_count": 3,
+      "missing_source_format_token_count": 73,
+      "unusable_canonical_count": 46,
+      "reviewed_preserved_count": 2098,
+      "authoritative_exact_rewritten_count": 0,
+      "authoritative_source_text_rewritten_count": 12,
+      "authoritative_source_text_target_count": 200707,
+      "authoritative_source_text_conflict_count": 7075,
+      "embedded_glossary_rewritten_count": 13,
+      "report_count": 4
+    },
+    "current_source_seed": {
+      "pending_source_count": 387,
+      "input_entry_count": 488260,
+      "exact_current_candidate_count": 257,
+      "prioritized_candidate_count": 15,
+      "ordinary_candidate_count": 242,
+      "unresolved_exact_identity_count": 235045,
+      "source_text_mismatch_count": 0,
+      "unsafe_target_count": 1,
+      "conflicting_source_count": 1,
+      "conflicting_prioritized_source_count": 1,
+      "seeded_source_count": 30,
+      "prioritized_seeded_source_count": 1,
+      "ordinary_seeded_source_count": 29,
+      "seeded_record_count": 58
+    }
+  },
+  "unique_source_count": 756,
+  "translation_values_glossary": {
+    "enabled": true,
+    "source": "D:\\Claude\\HoK-World-EngPatch\\tool\\assets\\translation_values_glossary.json",
+    "entry_count": 10916,
+    "conflict_count": 3,
+    "seeded_source_count": 3,
+    "seeded_record_count": 29
+  },
+  "deterministic_patterns": {
+    "seeded_source_count": 0,
+    "seeded_record_count": 0
+  },
+  "resolved_without_gemini_count": 417,
+  "report_supplied_target_reused_source_count": 5,
+  "report_supplied_target_reused_record_count": 14,
+  "report_supplied_target_conflict_source_count": 0,
+  "preferred_report_target_source_count": 361,
+  "preferred_report_target_record_count": 375,
+  "pending_source_count": 339,
+  "batch_count": 6,
+  "max_translation_passes": 3,
+  "invalid_cached_source_count": 0,
+  "normalized_cached_source_count": 0,
+  "dry_run": false,
+  "rich_tag_repair_only": false,
+  "github": {
+    "enabled": false,
+    "owner": "Lani27",
+    "repo": "hokworld-additional-translations",
+    "branch": "main",
+    "base_path": "en"
+  },
+  "translated_record_count": 556,
+  "passthrough_record_count": 0,
+  "pending_record_count": 917,
+  "empty_record_count": 0,
+  "invalid_translation_output_count": 950,
+  "skipped_translation_output_count": 1,
+  "translation_request_batch_count": 16,
+  "unresolved_source_count": 317,
+  "additional_entries_merge": {
+    "existing_input_count": 488260,
+    "generated_input_count": 1448,
+    "existing_preserved_count": 488260,
+    "existing_kept_over_generated_count": 0,
+    "generated_replaced_existing_count": 0,
+    "generated_added_count": 1448,
+    "replacement_runtime_policy_row_count": 0,
+    "replacement_runtime_policy_field_count": 0
+  },
+  "reviewed_story_carrier_policy": {
+    "enabled": true,
+    "configured_identity_count": 1,
+    "matched_identity_count": 1,
+    "updated_identity_count": 0,
+    "missing_identity_count": 0
+  },
+  "direct_cooked_revision_migration": {
+    "input_count": 489708,
+    "candidate_current_revision_count": 0,
+    "migrated_count": 0,
+    "incompatible_count": 0
+  },
+  "fuzzy_glossary": {
+    "enabled": true,
+    "repair_enabled": false,
+    "dry_run": false,
+    "entry_count": 489708,
+    "checked_count": 489708,
+    "source_resolved_count": 466450,
+    "term_hit_entry_count": 87568,
+    "term_hit_count": 113404,
+    "mismatch_count": 27464,
+    "repair_candidate_count": 0,
+    "repair_candidate_unique_count": 0,
+    "repair_attempted_count": 0,
+    "repair_rewritten_count": 0,
+    "repair_failed_count": 0,
+    "repair_skipped_dry_run_count": 0,
+    "repair_skipped_limit_count": 0,
+    "term_glossary": {
+      "enabled": true,
+      "source_files": [
+        "D:\\Claude\\HoK-World-EngPatch\\docs\\generated\\official_gear_glossary\\official_gear_names.csv",
+        "D:\\Claude\\HoK-World-EngPatch\\docs\\generated\\hero_glossary\\hero_name_glossary.csv",
+        "D:\\Claude\\HoK-World-EngPatch\\docs\\generated\\hero_glossary\\hero_skill_glossary.csv",
+        "D:\\Claude\\HoK-World-EngPatch\\docs\\generated\\monster_glossary\\monster_name_glossary.csv",
+        "D:\\Claude\\HoK-World-EngPatch\\docs\\generated\\shadow_trial_effect_glossary\\shadow_trial_effect_glossary.csv",
+        "D:\\Claude\\HoK-World-EngPatch\\docs\\generated\\location_glossary\\location_glossary.csv",
+        "D:\\Claude\\HoK-World-EngPatch\\docs\\generated\\content_glossary\\content_glossary_all.csv",
+        "D:\\Claude\\HoK-World-EngPatch\\docs\\generated\\currency_event_glossary\\currency_event_glossary_all.csv",
+        "D:\\Claude\\HoK-World-EngPatch\\docs\\generated\\summon_combat_glossary\\summon_combat_glossary.csv",
+        "D:\\Claude\\HoK-World-EngPatch\\docs\\generated\\manual_glossary\\manual_glossary.csv"
+      ],
+      "raw_pair_count": 3484,
+      "term_count": 2659,
+      "conflict_count": 0,
+      "filtered_count": 574,
+      "target_normalized_count": 8
+    }
+  },
+  "rich_locres_policy": {
+    "input_count": 489708,
+    "marked_count": 9531,
+    "forced_count": 9531,
+    "unsafe_not_forced_count": 0
+  },
+  "runtime_candidate_sanitization": {
+    "input_count": 489708,
+    "output_count": 489708,
+    "pruned_unresolved_pseudo_target_count": 0,
+    "official_metadata_removed_count": 1710,
+    "official_rows_sanitized_count": 855
+  },
+  "additional_entries_full_validation": {
+    "valid": true,
+    "entry_count": 489708,
+    "usable_count": 488791,
+    "skipped_count": 917,
+    "errors": []
   },
   "additional_entries_validation": {
     "valid": true,
-    "entry_count": 325504,
-    "usable_count": 325504,
+    "entry_count": 326059,
+    "usable_count": 326059,
     "skipped_count": 0,
     "errors": []
   },
-  "publication": {
-    "mode": "audited_patch_delta_over_public_feed",
-    "base_commit": "39b5fe36f59d85026ee6c9d6a812031eb75743fc",
-    "base_entry_count": 325009,
-    "upsert_identity_count": 692,
-    "upsert_identity_already_present_count": 178,
-    "removed_identity_count": 19,
-    "removed_identity_applied_count": 19,
-    "published_entry_count": 325504,
-    "excluded_unpublished_local_staging_entry_count": 162757
+  "additional_entries_runtime_compaction": {
+    "enabled": true,
+    "reason": "omit_non_runtime_pending_rows",
+    "input_count": 489708,
+    "output_count": 488791,
+    "dropped_count": 917,
+    "metadata_elision": {
+      "enabled": true,
+      "field": "status",
+      "default_value": "translated",
+      "omitted_count": 556
+    }
+  },
+  "dialogue_coverage_validation": {
+    "enabled": true,
+    "report_count": 1,
+    "row_count": 0,
+    "selected_language_row_count": 0,
+    "candidate_row_count": 0,
+    "filtered_source_count": 0,
+    "covered_count": 0,
+    "additional_entries_covered_count": 0,
+    "final_pool_covered_count": 0,
+    "preferred_runtime_identity_count": 0,
+    "direct_cooked_exact_target_count": 0,
+    "missing_count": 0,
+    "remaining_missing": [],
+    "validated_against": "final_merged_pool",
+    "require_final_pool_coverage": true
+  },
+  "cooked_localtext_coverage_validation": {
+    "enabled": true,
+    "report_count": 1,
+    "row_count": 14495,
+    "selected_language_row_count": 0,
+    "candidate_row_count": 14495,
+    "filtered_source_count": 0,
+    "covered_count": 14475,
+    "additional_entries_covered_count": 14475,
+    "final_pool_covered_count": 14475,
+    "preferred_runtime_identity_count": 14495,
+    "direct_cooked_exact_target_count": 0,
+    "missing_count": 20,
+    "remaining_missing": [
+      {
+        "namespace": "/Game/Data/DataTables/LocalText/DT_LocalizeText_Composite",
+        "guid": "042C107F46CC9309517E62A10EC064A7",
+        "source_text": "{0}万"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/LocalText/DT_LocalizeText_Composite",
+        "guid": "2A753CD449CBF40FDF0BD1A0143AC948",
+        "source_text": "线索③- {0}"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/LocalText/DT_LocalizeText_Composite",
+        "guid": "2E0035C74D18425BD75736B9744A0F42",
+        "source_text": "六百六十六斤"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/LocalText/DT_LocalizeText_Composite",
+        "guid": "40D0E64C4A2357AA5ECBF79D2B206DBC",
+        "source_text": "{0}千万"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/LocalText/DT_LocalizeText_Composite",
+        "guid": "46F674344988976E5B61B9A0BFB34571",
+        "source_text": "{0}亿"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/LocalText/DT_LocalizeText_Composite",
+        "guid": "479AE7864BC5AA03F694CABCA76EBB72",
+        "source_text": "{0}亿"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/LocalText/DT_LocalizeText_Composite",
+        "guid": "50EACC0943E633C9461E4F94BA5D61CB",
+        "source_text": "挑战阶段一可能获得的奖励（本周领取次数{0}/{1}）"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/LocalText/DT_LocalizeText_Composite",
+        "guid": "5DF8ED044F0B6F97B26EC588AE99FE67",
+        "source_text": "{0}十"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/LocalText/DT_LocalizeText_Composite",
+        "guid": "66E78B7C41CC3A98766357ADDAF7704E",
+        "source_text": "{0}万"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/LocalText/DT_LocalizeText_Composite",
+        "guid": "759ADC584D47B19EC4FB9ABA587AF1C7",
+        "source_text": "丢弃一组"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/LocalText/DT_LocalizeText_Composite",
+        "guid": "7BCEE86E4F07D10AF8EB29AFC470C280",
+        "source_text": "{0}·阶段二可能获得的奖励 （本周领取次数{1}/{2}）"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/LocalText/DT_LocalizeText_Composite",
+        "guid": "90869D4241A6FEA6B7A62BB29F0854F1",
+        "source_text": "亿"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/LocalText/DT_LocalizeText_Composite",
+        "guid": "93F2B10C4CE12161CBCF57918BD10C79",
+        "source_text": "新任务将在周六晚18：00解锁"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/LocalText/DT_LocalizeText_Composite",
+        "guid": "AC069B074A4DE62ABD92348BE02FA5C3",
+        "source_text": "{0}年{1}月{2}日 {3}时"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/LocalText/DT_LocalizeText_Composite",
+        "guid": "C0D6429947D84069F472AE92BFDAA92B",
+        "source_text": "{0}千亿"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/LocalText/DT_LocalizeText_Composite",
+        "guid": "D42CC09C43B6DCE214998A9121165199",
+        "source_text": "{0}·阶段一可能获得的奖励 （本周领取次数{1}/{2}）"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/LocalText/DT_LocalizeText_Composite",
+        "guid": "DC9179C444357488A2CA04A206267E6C",
+        "source_text": "{0}十万"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/LocalText/DT_LocalizeText_Composite",
+        "guid": "E030A406463618E7FAC83DAA2F1F610D",
+        "source_text": "丢弃一组"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/LocalText/DT_LocalizeText_Composite",
+        "guid": "F2E949244687144C3900DC822DA83C9B",
+        "source_text": "亿"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/LocalText/DT_LocalizeText_Composite",
+        "guid": "F4391F994F9741A0708D4B95A5086186",
+        "source_text": "{0}月{1}日 {2}时"
+      }
+    ],
+    "validated_against": "additional_entries_exact",
+    "require_final_pool_coverage": false
+  },
+  "cooked_ftext_coverage_validation": {
+    "enabled": true,
+    "report_count": 1,
+    "row_count": 216094,
+    "selected_language_row_count": 0,
+    "candidate_row_count": 211620,
+    "filtered_source_count": 4474,
+    "covered_count": 210724,
+    "additional_entries_covered_count": 210724,
+    "final_pool_covered_count": 210724,
+    "preferred_runtime_identity_count": 0,
+    "direct_cooked_exact_target_count": 211620,
+    "missing_count": 896,
+    "remaining_missing": [
+      {
+        "namespace": "/Game/Data/DataTables/Battle/FightStyleText/DT_FSSkillText",
+        "guid": "91F06C234E195C9B965976ABBF13A0A0",
+        "source_text": "空裂击前两段"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/CommonCondition/DT_CommonConditionGroup_Composite",
+        "guid": "53F0768D4350481E3618F7AA02770527",
+        "source_text": "完成居所建设·肆"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/CommonCondition/DT_CommonCondition_Composite",
+        "guid": "36E6D6EE44BD1412C8C5E09FD71B51CD",
+        "source_text": "稷下山区藏宝图一"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/CommonCondition/DT_CommonCondition_Composite",
+        "guid": "9F912AC943DB4635ED46F4B80DCD6C65",
+        "source_text": "完成居所建设·四"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/CommonCondition/DT_CommonCondition_Composite",
+        "guid": "B83966A04BE50E1DBA6F979751637A7D",
+        "source_text": "摆放碎石路面·五"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/CommonCondition/DT_CommonCondition_Composite",
+        "guid": "C3140BBB40D6576A0F9FCB9F7B074D9D",
+        "source_text": "稷下山区藏宝图二"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/CommonCondition/DT_CommonCondition_Composite",
+        "guid": "CB23E7174E61B0FBE7965691454162C3",
+        "source_text": "稷下学院藏宝图二"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/CommonShowText/DT_CommonShowText_Composite",
+        "guid": "1481860C48087191ACCBADA7C0740AB1",
+        "source_text": "学事委档案·陆幺叁：\r\n\r\n经核实，庄周院长所搭救的那位司马姓新生，出身自███的魔道世家，虽其于入校途中遭到██军队追杀的原因尚不明朗，但据悉其家人均因██的预言，惨遭████毒手。学院有义务保障其在校时的人身安全，并对其心理状况保持密切观察，若有异样即使干预。\r\n\r\n学事委档案·陆幺叁（附）：\r\n\r\n司马学子入学已"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/CommonShowText/DT_CommonShowText_Composite",
+        "guid": "16723EBD41993DD958F81E815C67D3EE",
+        "source_text": "米面六十袋，干肉五袋。 果蔬六袋。 便携式烹饪机关两副。 碑文拓片十张，青铜零件样本二十个。"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/CommonShowText/DT_CommonShowText_Composite",
+        "guid": "4B893AFA444B2DE5F200DDA7289052F9",
+        "source_text": "题一：\r\n假设你手里有五千环金，而你需要进两种货，一种是三百环金一把的折扇，一种是四百环金一盒的云丝笔，到手的十五个盒子都长得一样，在没有打开盒子的情况下，能否知晓其中折扇、云丝笔各有多少？\r\n\r\n题二：\r\n假设经营一家商铺，本金三万环金，每日售卖商品赚得一万环金，每日运营费用及成本三千环金。若想资金达到十万环金，至少"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/CommonShowText/DT_CommonShowText_Composite",
+        "guid": "599ABAB941CB0A722B3FD1A93D7E3AD1",
+        "source_text": "日期：九月十日\r\n时间：下午两点三十分至五点三十分\r\n地点：安虞野与梦语湖交界营地\r\n天气：晴，无云\r\n目标：木篱\r\n观测概要：营地东北侧出现了木篱异常聚集现象，连续七日，呈环绕型移动轨迹，原因尚不明朗。该行为不符合木篱已知迁徙或觅食规律，可能存在未被记载的群体智慧行为。更耐人寻味的是，每当观测员进行设备调试时，目标群"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/CommonShowText/DT_CommonShowText_Composite",
+        "guid": "638DBA43427FDC0D8DCF45A12ED4A49B",
+        "source_text": "观星铭志·四"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/CommonShowText/DT_CommonShowText_Composite",
+        "guid": "7E3E2EED4360BB7BA40D29B1263E5D3A",
+        "source_text": "观星铭志·二"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/CommonShowText/DT_CommonShowText_Composite",
+        "guid": "828198E349D24A1F5D5AF0852DA05FBD",
+        "source_text": "日期：八月二十日\r\n时间：晚上七点至十一点\r\n地点：安虞野东\r\n天气：晴，无云\r\n目标：锦狐（一只成年个体）\r\n观测概要：观测对象身背锈红，尾腹月白。它是出色的潜行专家，成功以伏击方式捕猎野兔一只。对绿果鹊表现出非捕食性追逐，动机待查。建议增设追踪机关，持续跟进观测。\r\n观测者：成观"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/CommonShowText/DT_CommonShowText_Composite",
+        "guid": "A3B312DE402CAE3055CE4DAEEBF3FC32",
+        "source_text": "七月初五\r\n昨夜在屋顶擦箭筒，被松油味刺得眼睛发酸，心里却久违的感到了些慰藉——那味道和他当初信里说的一模一样，如今我也……我也有所感受了。\r\n\r\n七月初七\r\n今天在树上找到两枚鸟蛋，他以前常会烤给我吃。\r\n我将那两枚蛋烤来吃了，没有烤熟，腥气冲得人喉头发紧，但吃下去时却感觉与他近了一分。\r\n\r\n七月初九\r\n夜里给弓弦"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/CommonShowText/DT_CommonShowText_Composite",
+        "guid": "C097C47C49F26DE26AE6C7A665FE035E",
+        "source_text": "学事委档案·陆幺叁"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/CommonShowText/DT_CommonShowText_Composite",
+        "guid": "E25617B6450230C0B08579AAEBD738F2",
+        "source_text": "观星铭志·三"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/CommonShowText/DT_CommonShowText_Composite",
+        "guid": "E743D5444131378C7B2264BAD5EDF93F",
+        "source_text": "观星铭志·一"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/CommonShowText/DT_CommonShowText_Composite",
+        "guid": "ECE709E34130AA246BCC30BFFB9F86B0",
+        "source_text": "从学院探险队营地收缴的物资如下： \r\n米面六十袋、干肉五袋。 果蔬六袋（已经不能吃了）。 便携式烹饪机关两副。 碑文拓片十张、青铜零件样本二十个。 先暂存五日，随后分批运往地面，运气好的话下月月初能出手。\r\n注：水果蔬菜拿了就吃掉，放不久的，别再往这儿送了！ 全都烂了，一股味儿，我人都熏臭了，这里没地方洗衣服！"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/InteractiveActor/Template/DT_IAComposite",
+        "guid": "01E588B948AD213E1ACF17986EAFFD2B",
+        "source_text": "秘禁癸戌亥"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/InteractiveActor/Template/DT_IAComposite",
+        "guid": "025E89944FFE59E525260EBE10835783",
+        "source_text": "纵横家笔记其二"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/InteractiveActor/Template/DT_IAComposite",
+        "guid": "03A35E414CDC6FF42D469ABC22274176",
+        "source_text": "荒野求味一"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/InteractiveActor/Template/DT_IAComposite",
+        "guid": "03D35026436B050EE5CE61B65BA848FA",
+        "source_text": "能量棒线索之一"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/InteractiveActor/Template/DT_IAComposite",
+        "guid": "03E6D0F145CE398076F7EEBD2D632229",
+        "source_text": "三叉立柱路牌"
+      },
+      {
+        "namespace": "/Game/Data/DataTables/InteractiveActor/Template/DT_IAComposite",
+        "guid": "0622D58F402C8844321273B8AC428EF6",
+        "source_text": "风物手记之一"
+      }
+    ],
+    "validated_against": "additional_entries_exact",
+    "require_final_pool_coverage": false
+  },
+  "residual_cjk_coverage_validation": {
+    "enabled": true,
+    "report_count": 1,
+    "row_count": 244,
+    "selected_language_row_count": 0,
+    "candidate_row_count": 244,
+    "filtered_source_count": 0,
+    "covered_count": 244,
+    "additional_entries_covered_count": 244,
+    "final_pool_covered_count": 244,
+    "preferred_runtime_identity_count": 0,
+    "direct_cooked_exact_target_count": 0,
+    "missing_count": 0,
+    "remaining_missing": [],
+    "validated_against": "additional_entries_exact",
+    "require_final_pool_coverage": false
+  },
+  "github_publication": {
+    "enabled": true,
+    "mode": "current_run_delta_over_public_feed",
+    "local_baseline_entry_count": 488261,
+    "local_release_entry_count": 488791,
+    "public_base_entry_count": 325504,
+    "changed_identity_count": 629,
+    "removed_identity_count": 1,
+    "public_new_identity_count": 556,
+    "public_updated_identity_count": 73,
+    "public_already_current_identity_count": 0,
+    "public_removed_identity_count": 1,
+    "public_release_entry_count": 326059,
+    "validation": {
+      "valid": true,
+      "entry_count": 326059,
+      "usable_count": 326059,
+      "skipped_count": 0,
+      "errors": []
+    }
   }
 }
