@@ -726,5 +726,39 @@
       "lossless_for_runtime_lookup": true,
       "note": "Removed only the redundant hexadecimal mirror; every entry retains its required integer source_hash and all other fields."
     }
+  },
+  "game_source_validation": {
+    "checked_at_utc": "2026-10-12T18:33:33.606791+00:00",
+    "resource_version": "1.1.6.156",
+    "compared_with_snapshot_date": "2026-09-24",
+    "current_snapshot_date": "2026-10-13",
+    "zh_locres_sha256": "b13a0bf6f8d514851041cc0674cde0410bfeb80054884018bb39e78540ec1aa1",
+    "zh_locres_identical_to_baseline": true,
+    "unchanged_qtsvfs_package_count": 166,
+    "new_or_changed_locres_records": 0,
+    "hotfixes": [
+      {
+        "iteration": 105,
+        "resource_version": "1.1.6.155",
+        "extracted_file_count": 13
+      },
+      {
+        "iteration": 106,
+        "resource_version": "1.1.6.156",
+        "extracted_file_count": 5
+      }
+    ],
+    "hotfix_archive_index_and_extraction_checks": "passed",
+    "hotfix_cooked_asset_revisions_checked": 4,
+    "hotfix_lua_revisions_fully_parsed": 8,
+    "new_or_changed_hotfix_chinese_sources": 0,
+    "translation_delta_entry_count": 0,
+    "gemini_translation_batches": 0,
+    "existing_feed_entry_count": 333831,
+    "existing_feed_sha256": "5d1d5deee29aa6a1e5dd4711b6812b9a7ac429655c506ee9209152bd135bac76",
+    "existing_feed_validation": "passed",
+    "publication_scope": "source_validation_metadata_only",
+    "runtime_game_acceptance_tested": false,
+    "note": "No new or changed translation sources were found. Translation payloads and their generation timestamp remain unchanged."
   }
 }
