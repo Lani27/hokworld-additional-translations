@@ -4,117 +4,188 @@
   "target_language": "en",
   "target_language_label": "English",
   "matching_mode": "namespace_guid_source_hash",
-  "model": "gemini-3.1-flash-lite",
-  "generated_at_utc": "2026-10-15T06:26:00.076136+00:00",
-  "scope": "current_run_missing_public_identities_and_validated_corrections",
-  "scope_note": "Current-run additions and source-validation corrections over the existing public English feed; all unrelated entries preserved.",
+  "model": "gemini-3.1-flash-lite + gemini-3.5-flash-lite",
+  "generated_at_utc": "2026-10-22T08:52:27.381567+00:00",
+  "scope": "current_kinglauncher_locres_and_new_cooked_delta",
+  "scope_note": "Current audited additions and repairs; existing reviewed targets and runtime policies preserved.",
   "new_changed_generation": {
-    "generated_at_utc": "2026-10-15T06:12:00+00:00",
-    "target_language": "en",
-    "target_language_label": "English",
-    "predownload_scope": "new_or_changed_zh_records_only",
-    "limited_by_unique_source_count": false,
-    "translate_enabled": true,
-    "model": "gemini-3.1-flash-lite",
-    "needed_record_count": 1635,
-    "unique_source_count": 1145,
-    "translated_record_count": 1635,
-    "passthrough_record_count": 0,
-    "pending_record_count": 0,
-    "empty_record_count": 0,
-    "pending_unique_source_count": 0,
-    "translated_only_record_count": 1635,
-    "target_stats": {
-      "missing_target_key": 1634,
-      "existing_target_key_but_unusable": 1,
-      "existing_target_key_usable": 11415
+    "locres_generated_records": 3380,
+    "cooked_generated_records": 1302,
+    "cooked_audit": {
+      "localtext": {
+        "baseline_rows": 14487,
+        "current_missing_rows": 15493,
+        "unchanged_previous_gap": 14468,
+        "already_public": 923,
+        "new_or_changed_rows": 102,
+        "unique_sources": 94
+      },
+      "ftext": {
+        "baseline_rows": 226589,
+        "current_missing_rows": 223748,
+        "unchanged_previous_gap": 213929,
+        "already_public": 8714,
+        "covered_by_current_locres_delta": 43,
+        "hotfix_additional_identity": 245,
+        "hotfix_shared_with_package_delta": 22,
+        "new_or_changed_rows": 1307,
+        "unique_sources": 901
+      }
     },
-    "reuse_stats": {
-      "cache_usable_unique": 18,
-      "additional_entries_usable_unique": 80,
-      "cache_invalid_unique": 0,
-      "additional_entries_invalid_unique": 0
-    },
-    "translation_stats": {
-      "translation_request_batch_count": 13,
-      "translation_output_count": 1047,
-      "invalid_translation_output_count": 0,
-      "skipped_translation_output_count": 0
-    },
-    "validation": {
-      "valid": true,
-      "entry_count": 1635,
-      "usable_count": 1635,
-      "skipped_count": 0,
-      "errors": []
-    },
-    "translated_only_validation": {
-      "valid": true,
-      "entry_count": 1635,
-      "usable_count": 1635,
-      "skipped_count": 0,
-      "errors": []
+    "cooked_completeness": {
+      "audited_unique_translatable_identities": 1302,
+      "filtered_non_display_or_placeholder_identities": 5,
+      "generated_unique_identities": 1302,
+      "pending_identities": 0
     }
   },
   "candidate_stats": {
     "current_structured_record_count": 421099,
-    "predownload_structured_record_count": 399304,
-    "new_or_changed_raw_record_count": 13091,
-    "new_or_changed_translatable_record_count": 13050,
-    "brand_new_namespace_guid_record_count": 13043,
-    "changed_existing_namespace_guid_record_count": 7
+    "predownload_structured_record_count": 452737,
+    "new_or_changed_raw_record_count": 31651,
+    "new_or_changed_translatable_record_count": 31529,
+    "brand_new_namespace_guid_record_count": 31519,
+    "changed_existing_namespace_guid_record_count": 10
   },
-  "record_count": 330,
+  "record_count": 335489,
   "additional_entries_validation": {
     "valid": true,
-    "entry_count": 334156,
-    "usable_count": 334156,
+    "entry_count": 335489,
+    "usable_count": 335489,
     "skipped_count": 0,
     "errors": []
   },
   "github_publication": {
     "enabled": true,
     "mode": "current_run_delta_over_public_feed",
-    "local_baseline_entry_count": 0,
-    "local_release_entry_count": 330,
-    "public_base_entry_count": 333831,
-    "changed_identity_count": 330,
+    "local_baseline_entry_count": 334156,
+    "local_release_entry_count": 335489,
+    "public_base_entry_count": 334156,
+    "changed_identity_count": 1359,
     "removed_identity_count": 0,
-    "public_new_identity_count": 325,
-    "public_updated_identity_count": 5,
+    "public_new_identity_count": 1333,
+    "public_updated_identity_count": 26,
     "public_already_current_identity_count": 0,
     "public_removed_identity_count": 0,
-    "public_release_entry_count": 334156,
+    "public_release_entry_count": 335489,
     "validation": {
       "valid": true,
-      "entry_count": 334156,
-      "usable_count": 334156,
+      "entry_count": 335489,
+      "usable_count": 335489,
       "skipped_count": 0,
       "errors": []
     }
   },
   "game_source_validation": {
-    "checked_at_utc": "2026-10-15T06:26:00.076136+00:00",
-    "resource_version": "1.1.6.162",
-    "baseline_snapshot_date": "2026-10-13",
-    "current_snapshot_date": "2026-10-15",
-    "hotfix_iteration": 108,
-    "hotfix_extracted_file_count": 20,
-    "hotfix_content_hashes_verified": true,
-    "new_or_changed_translatable_records": 13050,
-    "generated_english_entries": 1635,
-    "already_public_valid_targets_preserved": 1307,
-    "existing_target_corrections": 5,
-    "hotfix_source_revision_aliases": 2,
-    "gemini_translation_request_batches": 13,
-    "pending_records": 0,
-    "structured_parser_skipped_namespaces": 6243,
-    "feed_sha256": "56dea7d48387d0b6e3900455d3bd31eaf513eaa4eb1a1a0fa68ea42010090939",
-    "feed_bytes": 104705101,
-    "json_indent": null,
-    "all_public_fields_preserved_except_audited_entry_corrections": true,
-    "hotfix_native_source_alias_fixture_tested": true,
-    "runtime_game_acceptance_tested": false,
-    "scope_note": "Validated current-run additions/corrections plus native FText aliases for hotfix 108. Plain-string and texture UI coverage is separate."
+    "client": "KingLauncher",
+    "source_language": "zh",
+    "reference_kind": "retained repaired native locres",
+    "reference_locres_size": 65572741,
+    "reference_locres_sha256": "74b65b8492ccefe3beb7dc848fd6d17b18c7d9057039f491be63004d07055d53",
+    "current_install_scan": "read_only",
+    "cooked_scan": {
+      "localtext": {
+        "summary": {
+          "target_exact_count": 461823,
+          "target_lookup_count": 1114107,
+          "package_count": 3,
+          "candidate_asset_count": 124,
+          "scanned_asset_count": 124,
+          "physically_scanned_asset_count": 0,
+          "reused_asset_count": 124,
+          "source_pair_count": 23863,
+          "missing_row_count": 15493,
+          "status_counts": {
+            "already_exact_translated": 8370,
+            "extract_error": 0,
+            "missing_exact_alias_with_guid_target": 15283,
+            "missing_exact_translation": 210
+          },
+          "cache": {
+            "enabled": true,
+            "cache_dir": "D:\\Claude\\HoK-World-EngPatch\\tool\\reports\\cooked_source_scan_cache",
+            "status_counts": {
+              "hit": 167
+            },
+            "partial_package_count": 0
+          },
+          "seconds": 12.898
+        },
+        "package_count": 3,
+        "package_errors": []
+      },
+      "ftext": {
+        "summary": {
+          "target_exact_count": 461823,
+          "target_lookup_count": 1114107,
+          "package_count": 118,
+          "candidate_asset_count": 301769,
+          "scanned_asset_count": 301769,
+          "physically_scanned_asset_count": 0,
+          "reused_asset_count": 301769,
+          "source_pair_count": 606447,
+          "missing_row_count": 223748,
+          "namespace_prefixes": [
+            "/Game/Data/DataTables",
+            "/Game/Data/ExportDialogues",
+            "/Game/UI"
+          ],
+          "status_counts": {
+            "already_exact_translated": 339648,
+            "extract_error": 0,
+            "missing_exact_alias_with_key_target": 208879,
+            "missing_exact_translation": 14869
+          },
+          "cache": {
+            "enabled": true,
+            "cache_dir": "D:\\Claude\\HoK-World-EngPatch\\tool\\reports\\cooked_source_scan_cache",
+            "status_counts": {
+              "hit": 167
+            },
+            "partial_package_count": 0
+          },
+          "seconds": 14.614
+        },
+        "package_count": 118,
+        "package_errors": []
+      }
+    },
+    "hotfix_version": "1.1.6.164",
+    "hotfix_archive_hashes_verified": true,
+    "runtime_game_acceptance_tested": false
+  },
+  "publication_representation": {
+    "before_bytes": 105598498,
+    "published_bytes": 102751363,
+    "redundant_fields_elided": {
+      "zh_text": 45102,
+      "source_hash_hex": 1689,
+      "status": 390
+    },
+    "runtime_proof": {
+      "required": true,
+      "equal_production_lookup_maps": [
+        "authoritative_override_exact",
+        "authoritative_override_legacy",
+        "exact",
+        "exact_by_namespace",
+        "force_exact",
+        "force_legacy",
+        "identity",
+        "identity_conflicts",
+        "keys",
+        "legacy",
+        "locres_authoritative_override_exact",
+        "locres_authoritative_override_legacy",
+        "locres_exact",
+        "locres_exact_by_namespace",
+        "locres_force_exact",
+        "locres_force_legacy",
+        "locres_identity",
+        "locres_identity_conflicts",
+        "locres_legacy"
+      ],
+      "all_entry_semantics_equal": true
+    }
   }
 }
