@@ -5,7 +5,7 @@
   "target_language_label": "English",
   "matching_mode": "namespace_guid_source_hash",
   "model": "gemini-3.1-flash-lite + gemini-3.5-flash-lite",
-  "generated_at_utc": "2026-10-22T08:52:27.381567+00:00",
+  "generated_at_utc": "2026-10-22T09:58:01.896661+00:00",
   "scope": "current_kinglauncher_locres_and_new_cooked_delta",
   "scope_note": "Current audited additions and repairs; existing reviewed targets and runtime policies preserved.",
   "new_changed_generation": {
@@ -187,5 +187,12 @@
       ],
       "all_entry_semantics_equal": true
     }
+  },
+  "runtime_routing_correction": {
+    "base_commit": "3bd5f97489af1ebad3dfa921c5b765b98358e6be",
+    "corrected_locres_only_rows": 1302,
+    "translation_texts_preserved": true,
+    "all_corrected_identities_in_production_locres_lookup": true,
+    "reason": "Clear contradictory direct-only flags from this update; native cooked files remain untouched."
   }
 }
