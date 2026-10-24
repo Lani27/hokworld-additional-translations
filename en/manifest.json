@@ -4,74 +4,72 @@
   "target_language": "en",
   "target_language_label": "English",
   "matching_mode": "namespace_guid_source_hash",
-  "model": "gemini-3.1-flash-lite + gemini-3.5-flash-lite",
-  "generated_at_utc": "2026-10-22T09:58:01.896661+00:00",
+  "model": "gemini-3.1-flash-lite; validated existing translations reused",
+  "generated_at_utc": "2026-10-24T06:56:36.734939+00:00",
   "scope": "current_kinglauncher_locres_and_new_cooked_delta",
-  "scope_note": "Current audited additions and repairs; existing reviewed targets and runtime policies preserved.",
+  "scope_note": "Audited October 24 additions; existing reviewed targets and runtime policies preserved.",
   "new_changed_generation": {
-    "locres_generated_records": 3380,
-    "cooked_generated_records": 1302,
+    "locres_generated_records": 164,
+    "cooked_generated_records": 97,
     "cooked_audit": {
       "localtext": {
-        "baseline_rows": 14487,
-        "current_missing_rows": 15493,
-        "unchanged_previous_gap": 14468,
-        "already_public": 923,
-        "new_or_changed_rows": 102,
-        "unique_sources": 94
+        "previous_missing_rows": 15493,
+        "current_missing_rows": 15525,
+        "unchanged_previous_gap": 15492,
+        "already_public": 1,
+        "current_locres_delta": 11,
+        "new_or_changed_rows": 21,
+        "unique_sources": 21
       },
       "ftext": {
-        "baseline_rows": 226589,
-        "current_missing_rows": 223748,
-        "unchanged_previous_gap": 213929,
-        "already_public": 8714,
-        "covered_by_current_locres_delta": 43,
-        "hotfix_additional_identity": 245,
-        "hotfix_shared_with_package_delta": 22,
-        "new_or_changed_rows": 1307,
-        "unique_sources": 901
+        "previous_missing_rows": 223748,
+        "current_missing_rows": 220694,
+        "unchanged_previous_gap": 219207,
+        "already_public": 1255,
+        "current_locres_delta": 121,
+        "filtered_non_display_placeholder": 14,
+        "new_or_changed_rows": 97,
+        "unique_sources": 80
       }
     },
     "cooked_completeness": {
-      "audited_unique_translatable_identities": 1302,
-      "filtered_non_display_or_placeholder_identities": 5,
-      "generated_unique_identities": 1302,
+      "audited_unique_translatable_identities": 97,
       "pending_identities": 0
     }
   },
   "candidate_stats": {
-    "current_structured_record_count": 421099,
-    "predownload_structured_record_count": 452737,
-    "new_or_changed_raw_record_count": 31651,
-    "new_or_changed_translatable_record_count": 31529,
-    "brand_new_namespace_guid_record_count": 31519,
-    "changed_existing_namespace_guid_record_count": 10
+    "current_structured_record_count": 452737,
+    "predownload_structured_record_count": 452870,
+    "new_or_changed_raw_record_count": 164,
+    "new_or_changed_translatable_record_count": 164,
+    "brand_new_namespace_guid_record_count": 133,
+    "changed_existing_namespace_guid_record_count": 31
   },
-  "record_count": 335489,
+  "record_count": 335738,
   "additional_entries_validation": {
     "valid": true,
-    "entry_count": 335489,
-    "usable_count": 335489,
+    "entry_count": 335738,
+    "usable_count": 335738,
     "skipped_count": 0,
     "errors": []
   },
   "github_publication": {
     "enabled": true,
     "mode": "current_run_delta_over_public_feed",
-    "local_baseline_entry_count": 334156,
-    "local_release_entry_count": 335489,
-    "public_base_entry_count": 334156,
-    "changed_identity_count": 1359,
+    "local_baseline_entry_count": 335489,
+    "local_release_entry_count": 335738,
+    "public_base_entry_count": 335489,
+    "changed_identity_count": 249,
     "removed_identity_count": 0,
-    "public_new_identity_count": 1333,
-    "public_updated_identity_count": 26,
+    "public_new_identity_count": 249,
+    "public_updated_identity_count": 0,
     "public_already_current_identity_count": 0,
     "public_removed_identity_count": 0,
-    "public_release_entry_count": 335489,
+    "public_release_entry_count": 335738,
     "validation": {
       "valid": true,
-      "entry_count": 335489,
-      "usable_count": 335489,
+      "entry_count": 335738,
+      "usable_count": 335738,
       "skipped_count": 0,
       "errors": []
     }
@@ -79,114 +77,134 @@
   "game_source_validation": {
     "client": "KingLauncher",
     "source_language": "zh",
-    "reference_kind": "retained repaired native locres",
-    "reference_locres_size": 65572741,
-    "reference_locres_sha256": "74b65b8492ccefe3beb7dc848fd6d17b18c7d9057039f491be63004d07055d53",
+    "reference_kind": "fresh read-only installed native locres",
+    "reference_locres_size": 65584775,
+    "reference_locres_sha256": "e4943fbe472306a435d3d98f3346bd50445b7fa480ba35dd98105acb1a7b5f11",
     "current_install_scan": "read_only",
     "cooked_scan": {
       "localtext": {
         "summary": {
-          "target_exact_count": 461823,
-          "target_lookup_count": 1114107,
+          "target_exact_count": 466361,
+          "target_lookup_count": 1119510,
           "package_count": 3,
           "candidate_asset_count": 124,
           "scanned_asset_count": 124,
-          "physically_scanned_asset_count": 0,
-          "reused_asset_count": 124,
-          "source_pair_count": 23863,
-          "missing_row_count": 15493,
+          "physically_scanned_asset_count": 124,
+          "reused_asset_count": 0,
+          "source_pair_count": 23937,
+          "missing_row_count": 15525,
           "status_counts": {
-            "already_exact_translated": 8370,
+            "already_exact_translated": 8412,
             "extract_error": 0,
-            "missing_exact_alias_with_guid_target": 15283,
-            "missing_exact_translation": 210
+            "missing_exact_alias_with_guid_target": 15309,
+            "missing_exact_translation": 216
           },
           "cache": {
             "enabled": true,
-            "cache_dir": "D:\\Claude\\HoK-World-EngPatch\\tool\\reports\\cooked_source_scan_cache",
+            "cache_dir": "D:\\Claude\\HoK-World-EngPatch\\_tmp\\update-20261024\\verified-cooked-cache",
             "status_counts": {
-              "hit": 167
+              "hit": 16,
+              "miss_not_found": 152
             },
             "partial_package_count": 0
           },
-          "seconds": 12.898
+          "seconds": 394.967
         },
+        "inspected_package_count": 168,
         "package_count": 3,
         "package_errors": []
       },
       "ftext": {
         "summary": {
-          "target_exact_count": 461823,
-          "target_lookup_count": 1114107,
+          "target_exact_count": 466361,
+          "target_lookup_count": 1119510,
           "package_count": 118,
-          "candidate_asset_count": 301769,
-          "scanned_asset_count": 301769,
-          "physically_scanned_asset_count": 0,
-          "reused_asset_count": 301769,
-          "source_pair_count": 606447,
-          "missing_row_count": 223748,
+          "candidate_asset_count": 301823,
+          "scanned_asset_count": 301823,
+          "physically_scanned_asset_count": 246292,
+          "reused_asset_count": 55531,
+          "source_pair_count": 607934,
+          "missing_row_count": 220694,
           "namespace_prefixes": [
             "/Game/Data/DataTables",
             "/Game/Data/ExportDialogues",
             "/Game/UI"
           ],
           "status_counts": {
-            "already_exact_translated": 339648,
+            "already_exact_translated": 383955,
             "extract_error": 0,
-            "missing_exact_alias_with_key_target": 208879,
-            "missing_exact_translation": 14869
+            "missing_exact_alias_with_key_target": 207665,
+            "missing_exact_translation": 13029
           },
           "cache": {
             "enabled": true,
-            "cache_dir": "D:\\Claude\\HoK-World-EngPatch\\tool\\reports\\cooked_source_scan_cache",
+            "cache_dir": "D:\\Claude\\HoK-World-EngPatch\\_tmp\\update-20261024\\verified-cooked-cache",
             "status_counts": {
-              "hit": 167
+              "hit": 139,
+              "miss_not_found": 29
             },
             "partial_package_count": 0
           },
-          "seconds": 14.614
+          "seconds": 1187.883
         },
+        "inspected_package_count": 168,
         "package_count": 118,
         "package_errors": []
       }
     },
-    "hotfix_version": "1.1.6.164",
-    "hotfix_archive_hashes_verified": true,
+    "decoder_validation": {
+      "cache_schema_version": 2,
+      "complete_dotnet_decoder_runtime": true,
+      "files": {
+        "Oodle.NET.dll": {
+          "size": 9728,
+          "sha256": "2ba82c252e49b4aaa0fab85449bcbd8646866e2a9d76dabbab94ef04c165321a"
+        },
+        "oodle_net_helper.deps.json": {
+          "size": 823,
+          "sha256": "6efbad1843d8a84f8896389792345318fcd28f82fc78a9b2de9c62da96a0dad1"
+        },
+        "oodle_net_helper.dll": {
+          "size": 9728,
+          "sha256": "c6bd1d1d88c334020c1a57938109f9b6bc76e9d2d066ff83596ad74ab29426cf"
+        },
+        "oodle_net_helper.exe": {
+          "size": 156160,
+          "sha256": "fe24b99d8e8e45078f4575b484859aa3ffa547458cb2eac55a41ac2b5f246fda"
+        },
+        "oodle_net_helper.runtimeconfig.json": {
+          "size": 340,
+          "sha256": "3c0bf772b95c93363a0a14e5df78e4ec408c90f04cb7103205af97b2d276fab0"
+        }
+      },
+      "read_only_sample": {
+        "extracted_asset_bytes": [
+          20194091,
+          15803002
+        ],
+        "errors": 0,
+        "extraction_seconds": 1.672,
+        "old_incomplete_runtime_returned_empty_bytes": true
+      },
+      "regression_tests": {
+        "resilient_errors": 3,
+        "helper_resolution": 3,
+        "cache": 4
+      }
+    },
+    "hotfix": {
+      "pakcache_exists": false,
+      "pak_list_exists": false,
+      "local_file_list_exists": false,
+      "pak_files": []
+    },
     "runtime_game_acceptance_tested": false
   },
   "publication_representation": {
-    "before_bytes": 105598498,
-    "published_bytes": 102751363,
-    "redundant_fields_elided": {
-      "zh_text": 45102,
-      "source_hash_hex": 1689,
-      "status": 390
-    },
-    "runtime_proof": {
-      "required": true,
-      "equal_production_lookup_maps": [
-        "authoritative_override_exact",
-        "authoritative_override_legacy",
-        "exact",
-        "exact_by_namespace",
-        "force_exact",
-        "force_legacy",
-        "identity",
-        "identity_conflicts",
-        "keys",
-        "legacy",
-        "locres_authoritative_override_exact",
-        "locres_authoritative_override_legacy",
-        "locres_exact",
-        "locres_exact_by_namespace",
-        "locres_force_exact",
-        "locres_force_legacy",
-        "locres_identity",
-        "locres_identity_conflicts",
-        "locres_legacy"
-      ],
-      "all_entry_semantics_equal": true
-    }
+    "before_bytes": 102898005,
+    "published_bytes": 102898005,
+    "redundant_fields_elided": {},
+    "existing_rows_preserved": true
   },
   "runtime_routing_correction": {
     "base_commit": "3bd5f97489af1ebad3dfa921c5b765b98358e6be",
