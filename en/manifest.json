@@ -1,216 +1,193 @@
 {
   "format_version": 1,
+  "generated_at_utc": "2026-10-29T09:26:03.426298+00:00",
   "source_language": "zh",
   "target_language": "en",
-  "target_language_label": "English",
-  "matching_mode": "namespace_guid_source_hash",
-  "model": "gemini-3.1-flash-lite; validated existing translations reused",
-  "generated_at_utc": "2026-10-24T06:56:36.734939+00:00",
-  "scope": "current_kinglauncher_locres_and_new_cooked_delta",
-  "scope_note": "Audited October 24 additions; existing reviewed targets and runtime policies preserved.",
-  "new_changed_generation": {
-    "locres_generated_records": 164,
-    "cooked_generated_records": 97,
-    "cooked_audit": {
-      "localtext": {
-        "previous_missing_rows": 15493,
-        "current_missing_rows": 15525,
-        "unchanged_previous_gap": 15492,
-        "already_public": 1,
-        "current_locres_delta": 11,
-        "new_or_changed_rows": 21,
-        "unique_sources": 21
-      },
-      "ftext": {
-        "previous_missing_rows": 223748,
-        "current_missing_rows": 220694,
-        "unchanged_previous_gap": 219207,
-        "already_public": 1255,
-        "current_locres_delta": 121,
-        "filtered_non_display_placeholder": 14,
-        "new_or_changed_rows": 97,
-        "unique_sources": 80
-      }
-    },
-    "cooked_completeness": {
-      "audited_unique_translatable_identities": 97,
-      "pending_identities": 0
-    }
-  },
-  "candidate_stats": {
-    "current_structured_record_count": 452737,
-    "predownload_structured_record_count": 452870,
-    "new_or_changed_raw_record_count": 164,
-    "new_or_changed_translatable_record_count": 164,
-    "brand_new_namespace_guid_record_count": 133,
-    "changed_existing_namespace_guid_record_count": 31
-  },
-  "record_count": 335738,
+  "model": "gemini-3.1-flash-lite",
+  "record_count": 335763,
+  "scope": "october_29_locres_and_cooked_source_delta",
+  "scope_note": "Audited new source identities from resource version 1.1.6.174; existing translations and policies preserved.",
   "additional_entries_validation": {
     "valid": true,
-    "entry_count": 335738,
-    "usable_count": 335738,
+    "entry_count": 335763,
+    "usable_count": 335763,
     "skipped_count": 0,
     "errors": []
   },
   "github_publication": {
-    "enabled": true,
-    "mode": "current_run_delta_over_public_feed",
-    "local_baseline_entry_count": 335489,
-    "local_release_entry_count": 335738,
-    "public_base_entry_count": 335489,
-    "changed_identity_count": 249,
-    "removed_identity_count": 0,
-    "public_new_identity_count": 249,
+    "base_commit": "06ad3f77c77395b3d92ba33238d0c90e95e6c33b",
+    "public_new_identity_count": 25,
     "public_updated_identity_count": 0,
-    "public_already_current_identity_count": 0,
     "public_removed_identity_count": 0,
-    "public_release_entry_count": 335738,
-    "validation": {
-      "valid": true,
-      "entry_count": 335738,
-      "usable_count": 335738,
-      "skipped_count": 0,
-      "errors": []
-    }
+    "public_already_current_identity_count": 2,
+    "public_release_entry_count": 335763
   },
-  "game_source_validation": {
-    "client": "KingLauncher",
-    "source_language": "zh",
-    "reference_kind": "fresh read-only installed native locres",
-    "reference_locres_size": 65584775,
-    "reference_locres_sha256": "e4943fbe472306a435d3d98f3346bd50445b7fa480ba35dd98105acb1a7b5f11",
-    "current_install_scan": "read_only",
-    "cooked_scan": {
-      "localtext": {
-        "summary": {
-          "target_exact_count": 466361,
-          "target_lookup_count": 1119510,
-          "package_count": 3,
-          "candidate_asset_count": 124,
-          "scanned_asset_count": 124,
-          "physically_scanned_asset_count": 124,
-          "reused_asset_count": 0,
-          "source_pair_count": 23937,
-          "missing_row_count": 15525,
-          "status_counts": {
-            "already_exact_translated": 8412,
-            "extract_error": 0,
-            "missing_exact_alias_with_guid_target": 15309,
-            "missing_exact_translation": 216
-          },
-          "cache": {
-            "enabled": true,
-            "cache_dir": "D:\\Claude\\HoK-World-EngPatch\\_tmp\\update-20261024\\verified-cooked-cache",
-            "status_counts": {
-              "hit": 16,
-              "miss_not_found": 152
-            },
-            "partial_package_count": 0
-          },
-          "seconds": 394.967
-        },
-        "inspected_package_count": 168,
-        "package_count": 3,
-        "package_errors": []
+  "new_changed_generation": {
+    "locres_identities": 15,
+    "cooked_identities": 12,
+    "audited_unique_identities": 27,
+    "pending_identities": 0,
+    "integrity_errors": 0,
+    "glossary_context_review": [
+      {
+        "identity": [
+          "/Game/Data/DataTables/Item/DT_ItemPersonalization_Title",
+          "581BCABF428DF6A9F7658BA08AE32E2B",
+          4238852436
+        ],
+        "source": "玩家称号，可用于个性展示。",
+        "before": "A player title used for personalization.",
+        "after": "Showcase the Title in Customization.",
+        "reason": "Preserve the independently read-back canonical runtime label."
       },
-      "ftext": {
-        "summary": {
-          "target_exact_count": 466361,
-          "target_lookup_count": 1119510,
-          "package_count": 118,
-          "candidate_asset_count": 301823,
-          "scanned_asset_count": 301823,
-          "physically_scanned_asset_count": 246292,
-          "reused_asset_count": 55531,
-          "source_pair_count": 607934,
-          "missing_row_count": 220694,
-          "namespace_prefixes": [
-            "/Game/Data/DataTables",
-            "/Game/Data/ExportDialogues",
-            "/Game/UI"
-          ],
-          "status_counts": {
-            "already_exact_translated": 383955,
-            "extract_error": 0,
-            "missing_exact_alias_with_key_target": 207665,
-            "missing_exact_translation": 13029
-          },
-          "cache": {
-            "enabled": true,
-            "cache_dir": "D:\\Claude\\HoK-World-EngPatch\\_tmp\\update-20261024\\verified-cooked-cache",
-            "status_counts": {
-              "hit": 139,
-              "miss_not_found": 29
-            },
-            "partial_package_count": 0
-          },
-          "seconds": 1187.883
-        },
-        "inspected_package_count": 168,
-        "package_count": 118,
-        "package_errors": []
-      }
-    },
-    "decoder_validation": {
-      "cache_schema_version": 2,
-      "complete_dotnet_decoder_runtime": true,
-      "files": {
-        "Oodle.NET.dll": {
-          "size": 9728,
-          "sha256": "2ba82c252e49b4aaa0fab85449bcbd8646866e2a9d76dabbab94ef04c165321a"
-        },
-        "oodle_net_helper.deps.json": {
-          "size": 823,
-          "sha256": "6efbad1843d8a84f8896389792345318fcd28f82fc78a9b2de9c62da96a0dad1"
-        },
-        "oodle_net_helper.dll": {
-          "size": 9728,
-          "sha256": "c6bd1d1d88c334020c1a57938109f9b6bc76e9d2d066ff83596ad74ab29426cf"
-        },
-        "oodle_net_helper.exe": {
-          "size": 156160,
-          "sha256": "fe24b99d8e8e45078f4575b484859aa3ffa547458cb2eac55a41ac2b5f246fda"
-        },
-        "oodle_net_helper.runtimeconfig.json": {
-          "size": 340,
-          "sha256": "3c0bf772b95c93363a0a14e5df78e4ec408c90f04cb7103205af97b2d276fab0"
+      {
+        "identity": [
+          "/Game/Data/DataTables/Item/DT_ItemPersonalization_Title",
+          "679F730441865D5DD1D7E18AB0B66491",
+          4238852436
+        ],
+        "source": "玩家称号，可用于个性展示。",
+        "before": "A player title used for personalization.",
+        "after": "Showcase the Title in Customization.",
+        "reason": "Preserve the independently read-back canonical runtime label."
+      },
+      {
+        "identity": [
+          "/Game/Data/DataTables/Item/DT_ItemBaseData",
+          "581BCABF428DF6A9F7658BA08AE32E2B",
+          4238852436
+        ],
+        "source": "玩家称号，可用于个性展示。",
+        "before": "A player title used for personalization.",
+        "after": "Showcase the Title in Customization.",
+        "reason": "Preserve the independently read-back canonical runtime label."
+      },
+      {
+        "identity": [
+          "/Game/Data/DataTables/Item/DT_ItemBaseData",
+          "679F730441865D5DD1D7E18AB0B66491",
+          4238852436
+        ],
+        "source": "玩家称号，可用于个性展示。",
+        "before": "A player title used for personalization.",
+        "after": "Showcase the Title in Customization.",
+        "reason": "Preserve the independently read-back canonical runtime label."
+      },
+      {
+        "identity": [
+          "/Game/Data/DataTables/InteractiveActor/Template/DT_IAComposite",
+          "F91C562745DD9FC835C43AB96DAC82E3",
+          1428428657
+        ],
+        "source": "附流启明",
+        "before": "Flow-Attuned Qiming",
+        "after": "Flowing Dawn",
+        "reason": "Preserve the already published exact-source item name.",
+        "evidence": {
+          "source": "附流启明",
+          "text": "Flowing Dawn",
+          "namespace": "/Game/Data/DataTables/Item/DT_ItemShow",
+          "guid": "8F245DEE411BD5E3FD20E5B541DAA5AA",
+          "source_hash": 1428428657,
+          "origin": "public"
         }
       },
-      "read_only_sample": {
-        "extracted_asset_bytes": [
-          20194091,
-          15803002
+      {
+        "identity": [
+          "/Game/Data/DataTables/SceneItem/DT_StoryCrumbs_Content_IBW",
+          "7631820E4BB5D7028504D0B95653784F",
+          2020761065
         ],
-        "errors": 0,
-        "extraction_seconds": 1.672,
-        "old_incomplete_runtime_returned_empty_bytes": true
+        "source": "风物手记之二",
+        "before": "Scenery Notes II",
+        "after": "Seeker Notes Vol. 2",
+        "reason": "Preserve the independently read-back canonical runtime label."
       },
-      "regression_tests": {
-        "resilient_errors": 3,
-        "helper_resolution": 3,
-        "cache": 4
+      {
+        "identity": [
+          "/Game/Data/DataTables/SceneItem/DT_StoryCrumbs_Content_IBW",
+          "CF6FD18E416B6D7383693B8463EABF7F",
+          1016961082
+        ],
+        "source": "风物手记之四",
+        "before": "Scenery Notes IV",
+        "after": "Seeker Notes Vol. 4",
+        "reason": "Preserve the independently read-back canonical runtime label."
+      },
+      {
+        "identity": [
+          "/Game/Data/DataTables/SceneItem/DT_StoryCrumbs_Content_IBW",
+          "ECBF3E65478DB01235D59DB1762D5E74",
+          2733972448
+        ],
+        "source": "风物手记之三",
+        "before": "Scenery Notes III",
+        "after": "Seeker Notes Vol. 3",
+        "reason": "Preserve the independently read-back canonical runtime label."
+      },
+      {
+        "identity": [
+          "/Game/Data/DataTables/SceneItem/DT_StoryCrumbs_Content_IBW",
+          "F08296C140082B771EFC61A9841FF6FF",
+          3757921386
+        ],
+        "source": "风物手记之一",
+        "before": "Scenery Notes I",
+        "after": "Seeker Notes Vol. 1",
+        "reason": "Preserve the independently read-back canonical runtime label."
+      }
+    ],
+    "existing_semantic_variants_preserved": [
+      {
+        "identity": [
+          "/Game/Data/DataTables/InteractiveActor/Template/DT_IAComposite",
+          "83E49EB14DE2A458791A9292262E940E",
+          2578691613
+        ],
+        "source": "三叉立柱路牌",
+        "existing_target": "3-Way Road Sign",
+        "review": "Chinese three-pronged signpost and 3-Way Road Sign preserve the same quantity; retain the already published translation."
+      }
+    ]
+  },
+  "game_source_validation": {
+    "client": "WeGame",
+    "resource_version": "1.1.6.174",
+    "source_locres_sha256": "520fd0333a7e0dcbe949604396afba90444815a143ccd0d1a345f0774d6e0c65",
+    "source_locres_bytes": 65586087,
+    "source_locres_records": 509016,
+    "unstructured_namespaces": 0,
+    "cooked_source_fact_audit": {
+      "localtext": {
+        "packages": 166,
+        "scanned_assets": 124,
+        "source_occurrences": 23925,
+        "source_facts": 23925,
+        "unchanged_source_facts": 23923,
+        "new_source_facts": 2,
+        "locres_delta_covered": 1,
+        "new_translatable_identities": 1,
+        "unique_sources": 1,
+        "expected_packages": 166,
+        "pending_packages": 0
+      },
+      "ftext": {
+        "packages": 166,
+        "scanned_assets": 302560,
+        "source_occurrences": 607900,
+        "source_facts": 553684,
+        "unchanged_source_facts": 552650,
+        "new_source_facts": 1034,
+        "locres_delta_covered": 10,
+        "public_covered": 786,
+        "official_covered": 226,
+        "new_translatable_identities": 12,
+        "unique_sources": 12,
+        "expected_packages": 166,
+        "pending_packages": 0
       }
     },
-    "hotfix": {
-      "pakcache_exists": false,
-      "pak_list_exists": false,
-      "local_file_list_exists": false,
-      "pak_files": []
-    },
+    "source_install_read_only": true,
     "runtime_game_acceptance_tested": false
-  },
-  "publication_representation": {
-    "before_bytes": 102898005,
-    "published_bytes": 102898005,
-    "redundant_fields_elided": {},
-    "existing_rows_preserved": true
-  },
-  "runtime_routing_correction": {
-    "base_commit": "3bd5f97489af1ebad3dfa921c5b765b98358e6be",
-    "corrected_locres_only_rows": 1302,
-    "translation_texts_preserved": true,
-    "all_corrected_identities_in_production_locres_lookup": true,
-    "reason": "Clear contradictory direct-only flags from this update; native cooked files remain untouched."
   }
 }
