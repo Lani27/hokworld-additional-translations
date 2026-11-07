@@ -1,189 +1,80 @@
 {
   "format_version": 1,
-  "generated_at_utc": "2026-10-29T09:26:03.426298+00:00",
+  "generated_at_utc": "2026-11-07T03:15:53.370712+00:00",
   "source_language": "zh",
   "target_language": "en",
   "model": "gemini-3.1-flash-lite",
-  "record_count": 335763,
-  "scope": "october_29_locres_and_cooked_source_delta",
-  "scope_note": "Audited new source identities from resource version 1.1.6.174; existing translations and policies preserved.",
+  "record_count": 335765,
+  "scope": "november_7_locres_and_cooked_source_delta",
+  "scope_note": "Audited new and changed source identities from resource version 1.1.6.179; unrelated translations and policies preserved.",
   "additional_entries_validation": {
     "valid": true,
-    "entry_count": 335763,
-    "usable_count": 335763,
+    "entry_count": 335765,
+    "usable_count": 335765,
     "skipped_count": 0,
     "errors": []
   },
   "github_publication": {
-    "base_commit": "06ad3f77c77395b3d92ba33238d0c90e95e6c33b",
-    "public_new_identity_count": 25,
+    "base_commit": "2a4e9e26dd5d6c63b74b319d00dd8376b2f1f7ee",
+    "public_new_identity_count": 3,
     "public_updated_identity_count": 0,
-    "public_removed_identity_count": 0,
-    "public_already_current_identity_count": 2,
-    "public_release_entry_count": 335763
+    "public_removed_identity_count": 1,
+    "public_already_current_identity_count": 0,
+    "public_release_entry_count": 335765
   },
   "new_changed_generation": {
-    "locres_identities": 15,
-    "cooked_identities": 12,
-    "audited_unique_identities": 27,
+    "locres_identities": 1,
+    "cooked_identities": 2,
+    "audited_unique_identities": 3,
     "pending_identities": 0,
     "integrity_errors": 0,
-    "glossary_context_review": [
+    "superseded_locres_review": [
       {
         "identity": [
-          "/Game/Data/DataTables/Item/DT_ItemPersonalization_Title",
-          "581BCABF428DF6A9F7658BA08AE32E2B",
-          4238852436
+          "/Game/Data/DataTables/Map/DT_MapActivityInfos",
+          "40CBB4B24F98DA2AC5325FBA5FF9DDAA",
+          12167970
         ],
-        "source": "玩家称号，可用于个性展示。",
-        "before": "A player title used for personalization.",
-        "after": "Showcase the Title in Customization.",
-        "reason": "Preserve the independently read-back canonical runtime label."
-      },
-      {
-        "identity": [
-          "/Game/Data/DataTables/Item/DT_ItemPersonalization_Title",
-          "679F730441865D5DD1D7E18AB0B66491",
-          4238852436
-        ],
-        "source": "玩家称号，可用于个性展示。",
-        "before": "A player title used for personalization.",
-        "after": "Showcase the Title in Customization.",
-        "reason": "Preserve the independently read-back canonical runtime label."
-      },
-      {
-        "identity": [
-          "/Game/Data/DataTables/Item/DT_ItemBaseData",
-          "581BCABF428DF6A9F7658BA08AE32E2B",
-          4238852436
-        ],
-        "source": "玩家称号，可用于个性展示。",
-        "before": "A player title used for personalization.",
-        "after": "Showcase the Title in Customization.",
-        "reason": "Preserve the independently read-back canonical runtime label."
-      },
-      {
-        "identity": [
-          "/Game/Data/DataTables/Item/DT_ItemBaseData",
-          "679F730441865D5DD1D7E18AB0B66491",
-          4238852436
-        ],
-        "source": "玩家称号，可用于个性展示。",
-        "before": "A player title used for personalization.",
-        "after": "Showcase the Title in Customization.",
-        "reason": "Preserve the independently read-back canonical runtime label."
-      },
-      {
-        "identity": [
-          "/Game/Data/DataTables/InteractiveActor/Template/DT_IAComposite",
-          "F91C562745DD9FC835C43AB96DAC82E3",
-          1428428657
-        ],
-        "source": "附流启明",
-        "before": "Flow-Attuned Qiming",
-        "after": "Flowing Dawn",
-        "reason": "Preserve the already published exact-source item name.",
-        "evidence": {
-          "source": "附流启明",
-          "text": "Flowing Dawn",
-          "namespace": "/Game/Data/DataTables/Item/DT_ItemShow",
-          "guid": "8F245DEE411BD5E3FD20E5B541DAA5AA",
-          "source_hash": 1428428657,
-          "origin": "public"
-        }
-      },
-      {
-        "identity": [
-          "/Game/Data/DataTables/SceneItem/DT_StoryCrumbs_Content_IBW",
-          "7631820E4BB5D7028504D0B95653784F",
-          2020761065
-        ],
-        "source": "风物手记之二",
-        "before": "Scenery Notes II",
-        "after": "Seeker Notes Vol. 2",
-        "reason": "Preserve the independently read-back canonical runtime label."
-      },
-      {
-        "identity": [
-          "/Game/Data/DataTables/SceneItem/DT_StoryCrumbs_Content_IBW",
-          "CF6FD18E416B6D7383693B8463EABF7F",
-          1016961082
-        ],
-        "source": "风物手记之四",
-        "before": "Scenery Notes IV",
-        "after": "Seeker Notes Vol. 4",
-        "reason": "Preserve the independently read-back canonical runtime label."
-      },
-      {
-        "identity": [
-          "/Game/Data/DataTables/SceneItem/DT_StoryCrumbs_Content_IBW",
-          "ECBF3E65478DB01235D59DB1762D5E74",
-          2733972448
-        ],
-        "source": "风物手记之三",
-        "before": "Scenery Notes III",
-        "after": "Seeker Notes Vol. 3",
-        "reason": "Preserve the independently read-back canonical runtime label."
-      },
-      {
-        "identity": [
-          "/Game/Data/DataTables/SceneItem/DT_StoryCrumbs_Content_IBW",
-          "F08296C140082B771EFC61A9841FF6FF",
-          3757921386
-        ],
-        "source": "风物手记之一",
-        "before": "Scenery Notes I",
-        "after": "Seeker Notes Vol. 1",
-        "reason": "Preserve the independently read-back canonical runtime label."
-      }
-    ],
-    "existing_semantic_variants_preserved": [
-      {
-        "identity": [
-          "/Game/Data/DataTables/InteractiveActor/Template/DT_IAComposite",
-          "83E49EB14DE2A458791A9292262E940E",
-          2578691613
-        ],
-        "source": "三叉立柱路牌",
-        "existing_target": "3-Way Road Sign",
-        "review": "Chinese three-pronged signpost and 3-Way Road Sign preserve the same quantity; retain the already published translation."
+        "source_text": "铭记墨子老师英姿的巨像，记录着过往，守望着未来",
+        "still_present_in_current_cooked_sources": false,
+        "present_in_public_feed": true
       }
     ]
   },
   "game_source_validation": {
-    "client": "WeGame",
-    "resource_version": "1.1.6.174",
-    "source_locres_sha256": "520fd0333a7e0dcbe949604396afba90444815a143ccd0d1a345f0774d6e0c65",
-    "source_locres_bytes": 65586087,
+    "client": "KingLauncher",
+    "resource_version": "1.1.6.179",
+    "source_locres_sha256": "e7f5d8f521822cb17c0a7300f9ae9d457167b68da0c8b4e147dbdc08eaef616d",
+    "source_locres_bytes": 65586079,
     "source_locres_records": 509016,
     "unstructured_namespaces": 0,
     "cooked_source_fact_audit": {
       "localtext": {
-        "packages": 166,
+        "packages": 168,
         "scanned_assets": 124,
-        "source_occurrences": 23925,
-        "source_facts": 23925,
-        "unchanged_source_facts": 23923,
-        "new_source_facts": 2,
-        "locres_delta_covered": 1,
-        "new_translatable_identities": 1,
-        "unique_sources": 1,
-        "expected_packages": 166,
+        "source_occurrences": 23939,
+        "source_facts": 23939,
+        "unchanged_source_facts": 23925,
+        "new_source_facts": 14,
+        "public_covered": 12,
+        "new_translatable_identities": 2,
+        "unique_sources": 2,
+        "expected_packages": 168,
         "pending_packages": 0
       },
       "ftext": {
-        "packages": 166,
-        "scanned_assets": 302560,
-        "source_occurrences": 607900,
-        "source_facts": 553684,
-        "unchanged_source_facts": 552650,
-        "new_source_facts": 1034,
-        "locres_delta_covered": 10,
-        "public_covered": 786,
-        "official_covered": 226,
-        "new_translatable_identities": 12,
-        "unique_sources": 12,
-        "expected_packages": 166,
+        "packages": 168,
+        "scanned_assets": 301830,
+        "source_occurrences": 607953,
+        "source_facts": 553750,
+        "unchanged_source_facts": 552664,
+        "new_source_facts": 1086,
+        "public_covered": 992,
+        "official_covered": 91,
+        "locres_delta_covered": 1,
+        "new_translatable_identities": 2,
+        "unique_sources": 2,
+        "expected_packages": 168,
         "pending_packages": 0
       }
     },
