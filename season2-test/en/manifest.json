@@ -1,0 +1,25 @@
+{
+  "format_version": 1,
+  "client_variant": "season2-test",
+  "target_language": "en",
+  "resource_version": "1.102.4.2",
+  "model": "gemini-3.1-flash-lite",
+  "generated_at_utc": "2026-11-09T15:29:37.863583+00:00",
+  "entry_count": 96282,
+  "matching_mode": "namespace_guid_source_hash",
+  "native_locres_sha256": "f9b7d0d5130db4adb6de15543564ffaa00bf97cf997f6cc9dabe72c021a19e23",
+  "additional_entries_sha256": "5a71b0c2da0b78fae5f1d68cb144de20d555e6221c0f9b5e33e8643446a14432",
+  "additional_entries_bytes": 29252968,
+  "coverage": {
+    "namespaces": 46937,
+    "records": 575720,
+    "source_cjk": 565149,
+    "translated": 564155,
+    "remaining_cjk": 994,
+    "unsafe_candidates_skipped": 2351
+  },
+  "hidden_placeholder_rows": 994,
+  "translation_validation_passed": true,
+  "copied_package_validation": "passed",
+  "non_localization_slots_preserved": 36857
+}
