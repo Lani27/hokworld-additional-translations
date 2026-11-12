@@ -1,0 +1,14 @@
+{
+  "client_variant": "season2-test",
+  "target_language": "en",
+  "resource_version": "1.102.4.3",
+  "file": "cooked_asset_entries.json.gz",
+  "entries": 51683,
+  "compressed_sha256": "7878604a74d52eb531c1a5c1795dc71d8e65b5bde45dcbbfa088720ec23ee0c3",
+  "uncompressed_sha256": "441320896b95114ca0334710cd93615750af0b416527665e0a365b9cf2f5481b",
+  "compressed_bytes": 5491095,
+  "uncompressed_bytes": 23339519,
+  "routing": "direct_cooked_exact_target",
+  "gameplay_verified": false,
+  "complete_game_coverage": false
+}
